@@ -1,0 +1,127 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, Ursula von der Leyen hat ihre Vorstellungen für eine neue EU-Kommission vorgestellt, die das Parlament noch bestätigen muss.
+1	Liebe	lieb	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\s\s
+4	Ursula	Ursula	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Leyen	Leyen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+9	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	10	det:poss	_	_
+10	Vorstellungen	Vorstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+11	für	für	ADP	APPR	_	14	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	neue	neu	ADJ	ADJA	_	14	amod	_	_
+14	EU	EU	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	flat	_	_
+17	vorgestellt	vorstellen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	_
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	23	nsubj	_	_
+20	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Parlament	Parlament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+22	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	23	advmod	_	_
+23	bestätigen	bestätig	ADJ	VVINF	VerbForm=Inf	17	acl	_	_
+24	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 2
+# text = Mein Kollege Max hat dankenswerterweise eine Übersicht dazu verfasst.
+1	Mein	mein	PROPN	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	2	nmod	_	_
+2	Kollege	Kollege	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Max	Max	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	dankenswerterweise	dankenswerterweise	ADV	ADV	_	4	advmod	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Übersicht	Übersicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+8	dazu	dazu	ADV	PAV	_	4	advmod	_	_
+9	verfasst	verfassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Schade, dass das kein ganz großes Medienthema ist, gefühlt bekommt fast jede Aufstellung der Männerfußball-Nationalmannschaft mehr Aufmerksamkeit.
+1	Schade	schade	ADJ	ADJD	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	8	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+5	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	_
+6	ganz	ganz	ADJ	ADV	_	7	advmod	_	_
+7	großes	groß	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	Medienthema	Medienthema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	_
+11	gefühlt	fühlen	VERB	VVPP	VerbForm=Part	12	aux	_	_
+12	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	fast	fast	ADV	ADV	_	15	advmod	_	_
+14	jede	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	Aufstellung	Aufstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	Männerfußball	Männerfußball	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+19	Nationalmannschaft	Nationalmannschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+20	mehr	mehr	PRON	ADV	_	21	det	_	_
+21	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Dabei stehen in der nächsten Kommissions- und Parlamentsperiode jede Menge wichtige Dinge an.
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	_
+2	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Kommissions	Kommission	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	9	punct	_	_
+8	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	9	cc	_	_
+9	Parlamentsperiode	Parlamentsperiode	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	_
+10	jede	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	Menge	Menge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+12	wichtige	wichtig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	13	amod	_	_
+13	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	_
+14	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Zum Beispiel das ewige Trauerspiel der Chatkontrolle, auch da gibt es mal wieder was Neues – die Sperrminorität bei den Mitgliedstaaten wackelt.
+1-2	Zum	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	ewige	ewig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	Trauerspiel	Trauerspiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	auch	auch	ADV	ADV	_	12	advmod	_	_
+11	da	da	ADV	ADV	_	12	advmod	_	_
+12	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+14	mal	mal	ADV	ADV	_	12	advmod	_	_
+15	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	12	advmod	_	_
+16	was	was	PRON	NE	Foreign=Yes	24	nsubj	_	_
+17	Neues	neu	PROPN	XY	_	24	nsubj	_	_
+18	–	–	PUNCT	$.	_	20	punct	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Sperrminorität	Sperrminorität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	obj	_	_
+21	bei	bei	ADP	APPR	_	23	case	_	_
+22	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Mitgliedstaaten	Mitgliedstaat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	nmod	_	_
+24	wackelt	wackeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Bleibt aufmerksam.
+1	Bleibt	bleeben	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	nsubj	_	_
+2	aufmerksam	aufmerksommen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = *anna*
+1	*anna	*anna	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	*	*	X	$(	_	1	dep	_	SpacesAfter=\n
+
+

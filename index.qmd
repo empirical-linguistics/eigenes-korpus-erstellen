@@ -1,0 +1,11 @@
+```{r}
+#| include: false
+library(tidyverse)
+library(exams2forms)
+```
+
+# Einleitung
+
+In der Korpuslinguistik gibt es eine ganze Reihe von Ressourcen, mit denen wir arbeiten können, wenn wir Fragestellungen korpuslinguistisch angehen wollen. So gibt es für viele gut untersuchte Sprachen Referenzkorpora, und es gibt auch einige frei verfügbare Spezialkorpora zum Sprachgebrauch in bestimmten Kontexten. In vielen Fällen müssen wir aber doch eigene Datensätze zusammenstellen, um unsere Forschungsfragen zu beantworten. Deshalb zeigt dieses Tutorial, wie man möglichst effizient und doch systematisch ein eigenes Korpus zusammenstellen und für die weitere Analyse aufbereiten kann. Dabei orientieren wir uns an einem konkreten Beispiel, um nicht nur die handwerklichen Aspekte zu beleuchten, sondern auch aufzuzeigen, wofür die hier vorgestellten Methoden denn letztlich angewendet werden.
+
+Ich werde im folgenden zwei Wege aufzeigen. Der erste – "Quick & dirty" – funktioniert ohne größere Hilfsmittel; man braucht lediglich einen Texteditor wie [Notepad++](https://notepad-plus-plus.org/) für Windows oder [BBEdit](https://www.barebones.com/products/bbedit/index.html) für Mac (Ersteres ist kostenlos und open source; bei Letzterem genügt die – etwas versteckte – kostenlose Variante völlig). Der zweite – "Advanced" – greift auf fortgeschrittenere Tools zurück, insbesondere auf [Trafilatura](https://trafilatura.readthedocs.io/en/latest/#). Im entsprechenden [Abschnitt](#technik) werden die technischen Voraussetzungen kurz erklärt.

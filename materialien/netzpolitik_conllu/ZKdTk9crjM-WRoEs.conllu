@@ -1,0 +1,113 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, Chatkontrolle 1.0, Chatkontrolle 2.0, temporär, freiwillig, mit und ohne Verschlüsselung.
+1	Liebe	lieb	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\s\s
+4	Chatkontrolle	Chatkontrolle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	1.0	1.0	PROPN	CARD	NumType=Card	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Chatkontrolle	Chatkontrolle	PROPN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	2.0	2.0	PROPN	CARD	NumType=Card	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	temporär	temporär	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	freiwillig	freiwillig	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	mit	mit	ADP	ADJA	Case=Nom|Number=Plur	2	conj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	17	cc	_	_
+16	ohne	ohne	ADP	FM	Foreign=Yes	17	case	_	_
+17	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ständig gibt es eine neue Abstimmung oder neue Verhandlungen, einige davon scheitern.
+1	Ständig	ständig	ADJ	ADJD	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Abstimmung	Abstimmung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	_
+7	oder	oder	CCONJ	XY	_	9	cc	_	_
+8	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	Verhandlungen	Verhandlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	einige	einige	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	13	obj	_	_
+12	davon	davon	ADV	PAV	_	13	advmod	_	_
+13	scheitern	scheitern	VERB	VVINF	VerbForm=Inf	9	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Da den Überblick zu behalten, fällt nicht leicht.
+1	Da	da	SCONJ	KOUS	_	5	mark	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Überblick	Überblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+4	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	mark	_	_
+5	behalten	behalten	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	fällt	fallen|fällen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+9	leicht	leicht	ADJ	PTKVZ	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Gut, dass meine Kolleg:innen alles genau im Blick haben.
+1	Gut	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	11	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+4	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	5	det:poss	_	_
+5	Kolleg:innen	Kolleg:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+6	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
+7	genau	genau	ADJ	ADJD	_	11	advmod	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Warum nun diese Woche die Chatkontrolle 1.0 vorerst gescheitert ist und was das mit Chatkontrolle 2.0 zu tun hat, erklärt euch Markus.
+1	Warum	warum	ADV	PWAV	PronType=Int	9	advmod	_	_
+2	nun	nun	ADV	ADV	_	4	advmod	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	1.0	1.0	NUM	CARD	NumType=Card	6	appos	_	_
+8	vorerst	vorerst	ADV	FM	Foreign=Yes	9	advmod	_	_
+9	gescheitert	scheitern	ADJ	VVPP	VerbForm=Part	21	advcl	_	_
+10	ist	sein	AUX	ADJD	_	9	cop	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	19	cc	_	_
+12	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+14	mit	mit	ADP	CARD	NumType=Card	15	case	_	_
+15	Chatkontrolle	Chatkontrolle	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
+16	2.0	2.0	NUM	CARD	NumType=Card	15	appos	_	_
+17	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	18	mark	_	_
+18	tun	tun	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
+19	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	9	punct	_	_
+21	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	21	nsubj	_	_
+23	Markus	Marken	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Guten Durchblick und frohes Wochenende wünscht euch *anna* ## Schreibe eine Ergänzung!
+1	Guten	gut	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Durchblick	Durchblick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	und	und	CCONJ	NE	Foreign=Yes	5	cc	_	_
+4	frohes	froh	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+5	Wochenende	Wochenende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+6	wünscht	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	nmod	_	SpacesAfter=\s\s
+8	*anna*	*anna*	X	$(	_	7	dep	_	SpacesAfter=\s\s
+9	##	##	PUNCT	$.	_	8	punct	_	_
+10	Schreibe	Schreibe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Ergänzung	Ergänzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+13	!	!	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+

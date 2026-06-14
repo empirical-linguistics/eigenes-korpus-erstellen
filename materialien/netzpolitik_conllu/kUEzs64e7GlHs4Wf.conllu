@@ -1,0 +1,702 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Die Forscher*innen untersuchen unter anderem das Ausmaß der DNA-Sammlung.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Forscher*	Forscher*	NOUN	$(	_	4	nsubj	_	SpaceAfter=No
+3	innen	innen	ADV	ADV	_	4	advmod	_	_
+4	untersuchen	untersuchen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
+5	unter	unter	ADP	ADJD	_	6	case	_	_
+6	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Ausmaß	Ausmaß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Sammlung	Sammlung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sie schätzen, dass die chinesischen Behörden über die genetischen Fingerabdrücke von bis zu 32 Prozent der tibetischen Bevölkerung verfügen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	schätzen	schätzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	20	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	chinesischen	chinesisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	_
+7	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+8	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	genetischen	genetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+11	Fingerabdrücke	Fingerabdruck	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+12	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	16	case	_	_
+13	bis	bis	ADP	APPR	_	16	case	_	_
+14	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	case	_	_
+15	32	32	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	20	obl	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	tibetischen	tibetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+19	Bevölkerung	Bevölkerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	verfügen	verfügen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Für die Studie werteten die Forscher*innen 100 öffentlich zugängliche Quellen aus dem Zeitraum von 2016 bis 2022 aus.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Studie	Studie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	werteten	werten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	6	det	_	_
+6	Forscher*	Forscher*	NOUN	$(	_	4	nsubj	_	SpaceAfter=No
+7	innen	innen	ADV	ADV	_	8	advmod	_	_
+8	100	100	NUM	CARD	NumType=Card	11	nummod	_	_
+9	öffentlich	öffentlich	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	10	advmod	_	_
+10	zugängliche	zugänglich	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
+11	Quellen	Quelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+12	aus	aus	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Zeitraum	Zeitraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+15	von	von	ADP	FM	Foreign=Yes	16	case	_	_
+16	2016	2016	NUM	CARD	NumType=Card	14	nmod	_	_
+17	bis	bis	ADP	KON	_	18	case	_	_
+18	2022	2022	NUM	CARD	NumType=Card	16	nmod	_	_
+19	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Demnach erstellen die Behörden nicht nur DNA-Profile von Personen, die einer Straftat verdächtigt werden, sondern vielmehr von einem Querschnitt der tibetischen Gesellschaft.
+1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
+2	erstellen	erstellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advmod	_	_
+6	nur	nur	ADV	CARD	NumType=Card	2	advmod	_	_
+7	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Profile	Profil	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+10	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	11	case	_	_
+11	Personen	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj:pass	_	_
+14	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Straftat	Straftat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	_
+16	verdächtigt	verdächtigen	VERB	VVPP	VerbForm=Part	11	acl	_	_
+17	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	16	aux:pass	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	_
+19	sondern	sondern	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	23	cc	_	_
+20	vielmehr	vielmehr	ADV	CARD	NumType=Card	23	advmod	_	_
+21	von	von	ADP	FM	Foreign=Yes	23	case	_	_
+22	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Querschnitt	Querschnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	conj	_	_
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	tibetischen	tibetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	26	amod	_	_
+26	Gesellschaft	Gesellschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Die Maßnahmen sind eine neue Form der sozialen Überwachung und Repression, die sich gegen die Unabhängigkeitsbestrebungen der tibetischen Bevölkerung richtet.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	6	cop	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Form	Form	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sozialen	sozial	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	Überwachung	Überwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	Repression	Repression	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	21	punct	_	_
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	21	nsubj	_	_
+14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+15	gegen	gegen	ADP	APPR	_	17	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Unabhängigkeitsbestrebungen	Unabhängigkeitsbestrebung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obl	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	tibetischen	tibetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	_
+20	Bevölkerung	Bevölkerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+21	richtet	richten	VERB	VVPP	VerbForm=Part	9	acl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Seit der chinesischen Annexion Tibets im Jahr 1951 hat die dortige Bevölkerung Repressionen erlebt – sie wird überwacht, in ihrer Religionsfreiheit eingeschränkt und ist der Willkür von Polizei und Behörden ausgeliefert.
+1	Seit	seit	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	chinesischen	chinesisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Annexion	Annexion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+5	Tibets	Tibet	PROPN	NN	Case=Dat|Number=Plur	4	appos	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+9	1951	1951	NUM	CARD	NumType=Card	8	nmod	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	dortige	dortig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	Bevölkerung	Bevölkerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	Repressionen	Repression	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+15	erlebt	erleben	VERB	VVPP	VerbForm=Part	0	root	_	_
+16	–	–	PUNCT	$.	_	19	punct	_	_
+17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+18	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	aux:pass	_	_
+19	überwacht	überwachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	23	det:poss	_	_
+23	Religionsfreiheit	Religionsfreiheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+24	eingeschränkt	einschränken	VERB	VVFIN	VerbForm=Part	19	conj	_	_
+25	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	33	cc	_	_
+26	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Willkür	Willkür	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	iobj	_	_
+29	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	30	case	_	_
+30	Polizei	Polizei	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
+31	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	32	cc	_	_
+32	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	30	conj	_	_
+33	ausgeliefert	ausliefern	VERB	VVPP	VerbForm=Part	15	conj	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Die Erhebung der Daten begründen die chinesischen Behörden unterschiedlich.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Erhebung	Erhebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_
+5	begründen	begründen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	chinesischen	chinesisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	_
+8	Behörden	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+9	unterschiedlich	unterschiedlich	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	5	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = So nutzt die Polizei die DNA-Profile nach eigenen Angaben dazu, um Kriminalität und Terrorismus zu bekämpfen.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
+2	nutzt	nutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	DNA	DNA	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Profile	Profil	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+9	nach	nach	ADP	ADJA	_	11	case	_	_
+10	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	11	amod	_	_
+11	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
+12	dazu	dazu	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	um	um	ADP	KOUI	_	19	mark	_	_
+15	Kriminalität	Kriminalität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	17	cc	_	_
+17	Terrorismus	Terrorismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	_
+18	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	19	mark	_	_
+19	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = „In anderen Fällen hat die Polizei gesagt, dass die DNA-Sammlung dabei helfen wird, den Menschenhandel zu bekämpfen und verschollene Menschen wiederzufinden“, so die Forscher*innen.
+1	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+2	In	in	ADP	APPR	_	4	case	_	_
+3	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	4	amod	_	_
+4	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	gesagt	sagen	ADJ	ADJA	VerbForm=Part	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	DNA	DNA	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	Sammlung	Sammlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	dabei	dabei	ADV	PAV	_	16	advmod	_	_
+16	helfen	helfen	VERB	VVINF	VerbForm=Inf	5	ccomp	_	_
+17	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Menschenhandel	Menschenhandel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+21	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	22	mark	_	_
+22	bekämpfen	bekämpfen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	26	cc	_	_
+24	verschollene	verschollen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	25	amod	_	_
+25	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	_
+26	wiederzufinden	wiederzufinden	VERB	VVINF	VerbForm=Inf	22	conj	_	SpaceAfter=No
+27	“	“	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	32	punct	_	_
+29	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	32	advmod	_	_
+30	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	31	det	_	_
+31	Forscher*	Forscher*	NOUN	$(	_	32	obj	_	SpaceAfter=No
+32	innen	innen	ADV	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Die Argumentation erinnert an jene westlicher Sicherheitsdiskurse: Mit Bezug auf mehr Sicherheit rechtfertigen auch hiesige Regierungen weitreichende Überwachungsmaßnahmen wie etwa die Vorratsdatenspeicherung, die Chatkontrolle oder auch die Videoüberwachung.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Argumentation	Argumentation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	an	an	ADP	APPR	_	7	case	_	_
+5	jene	jen	PRON	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+6	westlicher	westlich	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	7	amod	_	_
+7	Sicherheitsdiskurse	Sicherheitsdiskurs	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	14	punct	_	_
+9	Mit	mit	ADP	APPR	_	10	case	_	_
+10	Bezug	Bezug	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+11	auf	auf	ADP	APPR	_	13	case	_	_
+12	mehr	mehr	DET	PIAT	Definite=Ind|PronType=Ind	13	det	_	_
+13	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	rechtfertigen	rechtfertigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+15	auch	auch	ADV	ADV	_	17	advmod	_	_
+16	hiesige	hiesig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	17	amod	_	_
+17	Regierungen	Regierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	_
+18	weitreichende	weitreichend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	_
+19	Überwachungsmaßnahmen	Überwachungsmaßnahmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+20	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	23	case	_	_
+21	etwa	etwa	ADV	ADV	_	23	advmod	_	_
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	26	punct	_	_
+25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	conj	_	_
+27	oder	oder	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	30	cc	_	_
+28	auch	auch	ADV	ADV	_	30	advmod	_	_
+29	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Videoüberwachung	Videoüberwachung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = ## DNA-Sammlung als Teil der Repressionsstrategie Die DNA-Daten bilden indes nur einen Baustein der chinesischen Repressionspolitik.
+1	##	##	PUNCT	$.	_	4	punct	_	_
+2	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Sammlung	Sammlung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Repressionsstrategie	Repressionsstrategie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\s\s
+9	Die	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	nmod	_	_
+10	DNA	DNA	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	10	flat	_	_
+13	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	indes	indes	ADV	ADV	_	13	advmod	_	_
+15	nur	nur	ADV	CARD	NumType=Card	13	advmod	_	_
+16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Baustein	Baustein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obj	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	chinesischen	chinesisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	20	amod	_	_
+20	Repressionspolitik	Repressionspolitik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 12
+# text = Neben der DNA erfassen die chinesischen Behörden auch weitere (biometrische) Daten: Sie nehmen Fingerabdrücke, scannen Gesichter und Iris und zeichnen Stimmen auf.
+1	Neben	neben	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	erfassen	erfassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	chinesischen	chinesisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	_
+7	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+8	auch	auch	ADV	ADV	_	4	advmod	_	_
+9	weitere	weiter	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	amod	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	biometrische	biometrisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+12	)	)	PUNCT	$(	_	11	punct	_	_
+13	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No
+14	:	:	PUNCT	$.	_	15	punct	_	_
+15	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+16	nehmen	nehm	ADJ	CARD	NumType=Card	17	amod	_	_
+17	Fingerabdrücke	Fingerabdruck	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	25	punct	_	_
+19	scannen	scannen	ADV	VVINF	VerbForm=Inf	25	advmod	_	_
+20	Gesichter	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	obj	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+22	Iris	Iris	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	20	conj	_	_
+23	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	24	cc	_	_
+24	zeichnen	zeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+25	Stimmen	Stimme|Stimmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	appos	_	_
+26	auf	auf	ADP	PTKVZ	_	13	case	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Die Daten fließen in eine zentrale Datenbank und werden dort von den Behörden miteinander verknüpft.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	fließen	fließen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	zentrale	zentral	ADJ	ADV	_	7	amod	_	_
+7	Datenbank	Datenbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+8	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	15	cc	_	_
+9	werden	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Sing	15	aux:pass	_	_
+10	dort	dort	ADV	ADV	_	15	advmod	_	_
+11	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	13	case	_	_
+12	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+14	miteinander	miteinander	ADV	ADV	_	15	advmod	_	_
+15	verknüpft	verknüpfen	VERB	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Unter all den gesammelten Daten ist die Erfassung der DNA besonders problematisch.
+1	Unter	unter	ADP	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
+2	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	5	det	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	gesammelten	sammelten	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	nmod	_	_
+6	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Erfassung	Erfassung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	besonders	besonders	ADV	ADV	_	12	advmod	_	_
+12	problematisch	problematisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 15
+# text = Sie gibt nicht nur Auskunft über einen einzelnen Menschen, sondern die Behörden können mit ihrer Hilfe auch die genetischen Verwandten und Nachkommen einer Person bestimmen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
+4	nur	nur	ADV	CARD	NumType=Card	5	advmod	_	_
+5	Auskunft	Auskunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	über	über	ADP	FM	Foreign=Yes	9	case	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	einzelnen	einzeln	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	9	amod	_	_
+9	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	26	punct	_	_
+11	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	26	cc	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+15	mit	mit	ADP	CARD	NumType=Card	17	case	_	_
+16	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+18	auch	auch	ADV	ADV	_	21	advmod	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	genetischen	genetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Gen|Number=Plur	17	nmod	_	_
+22	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	23	cc	_	_
+23	Nachkommen	Nachkomme|Nachkommen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_
+24	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+26	bestimmen	bestimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Die chinesischen Überwachungsmaßnahmen umfassen darüber hinaus Kameraüberwachung mit Gesichtserkennung.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	chinesischen	chinesisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
+3	Überwachungsmaßnahmen	Überwachungsmaßnahmen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	umfassen	umfassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	darüber	darüber	ADV	PAV	_	4	advmod	_	_
+6	hinaus	hinaus	ADV	ADV	_	4	advmod	_	_
+7	Kameraüberwachung	Kameraüberwachung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	_
+8	mit	mit	ADP	$(	_	9	case	_	_
+9	Gesichtserkennung	Gesichtserkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Teilweise sind die Kameras auch mit Mikrofonen zur Stimmerkennung ausgestattet.
+1	Teilweise	teilweise	ADV	ADV	_	5	advmod	_	_
+2	sind	sein	AUX	ADJD	_	5	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Kameras	Kamera	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	auch	auch	ADV	ADV	_	11	advmod	_	_
+6	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	case	_	_
+7	Mikrofonen	Mikrofon	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	obl	_	_
+8-9	zur	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Stimmerkennung	Stimmerkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	ausgestattet	ausstatten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 18
+# text = Außerdem durchleuchten die Behörden die Internetaktivitäten der Bürger*innen.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	durchleuchten	durchleuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Internetaktivitäten	Internetaktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Bürger*	Bürger*	NOUN	$(	_	6	nmod	_	SpaceAfter=No
+9	innen	innen	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = ## Sammeln der DNA-Daten wird auf ganz China ausgeweitet Die umfassende Datensammlung beschränkt sich allerdings nicht auf Tibet, wo die chinesische Regierung im Jahr 2014 mit der systematischen Erfassung der DNA begonnen hat.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Sammeln	Schimmel|sammeln	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+6	Daten	Datum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	ganz	ganz	ADV	ADJA	Case=Dat|Gender=Neut|Number=Sing	10	advmod	_	_
+10	China	China	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+11	ausgeweitet	ausweiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s
+12	Die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	umfassende	umfassend	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
+14	Datensammlung	Datensammlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	beschränkt	beschränken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
+17	allerdings	allerdings	ADV	ADV	_	15	advmod	_	_
+18	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advmod	_	_
+19	auf	auf	ADP	APPR	_	20	case	_	_
+20	Tibet	Tibet	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	36	punct	_	_
+22	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	36	advmod	_	_
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	chinesische	chinesisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	25	amod	_	_
+25	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+26-27	im	_	_	_	_	_	_	_	_
+26	in	in	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+28	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	36	obl	_	_
+29	2014	2014	NUM	CARD	NumType=Card	28	nmod	_	_
+30	mit	mit	ADP	$(	_	33	case	_	_
+31	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+32	systematischen	systematisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	33	amod	_	_
+33	Erfassung	Erfassung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	_
+34	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+36	begonnen	beginnen	VERB	VVPP	VerbForm=Part	20	acl	_	_
+37	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 20
+# text = Seit 2016 wenden sie diese Repressionen auch in der Region Xinjiang an, in der die muslimische Minderheit der Uiguren lebt.
+1	Seit	seit	ADP	APPR	_	2	case	_	_
+2	2016	2016	NUM	CARD	NumType=Card	3	obl	_	_
+3	wenden	wenden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+5	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	Repressionen	Repression	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
+7	auch	auch	ADV	ADV	_	3	advmod	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Region	Region	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+11	Xinjiang	Xinjiang	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	appos	_	_
+12	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	der	der	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	_
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	muslimische	muslimische	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	amod	_	_
+18	Minderheit	Minderheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	Uiguren	Uigur	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	lebt	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 21
+# text = So müssen die Bewohner*innen in Xinjiang etwa DNA-Proben einreichen, wenn sie Reisedokumente beantragen . Mithilfe unterschiedlicher staatlicher Maßnahmen wie dem Programm „Ärztliche Untersuchung für alle“ oder dem „System zur Untersuchung männlicher Vorfahren“ weiten die Behörden das Sammeln von DNA-Daten zudem mehr und mehr auf das ganze Land aus.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	4	det	_	_
+4	Bewohner*	Bewohner*	NOUN	$(	_	5	nsubj	_	SpaceAfter=No
+5	innen	innen	VERB	ADV	_	0	root	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Xinjiang	Xinjiang	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+8	etwa	etwa	ADV	ADV	_	11	advmod	_	_
+9	DNA	DNA	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Proben	Probe	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+12	einreichen	einreichen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	wenn	wenn	SCONJ	VVFIN	_	17	mark	_	_
+15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+16	Reisedokumente	Reisedokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	17	obj	_	_
+17	beantragen	beantragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+18	.	.	PUNCT	$.	_	42	punct	_	SpacesAfter=\s\s
+19	Mithilfe	Mithilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	42	iobj	_	_
+20	unterschiedlicher	unterschiedlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	22	amod	_	_
+21	staatlicher	staatlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	22	amod	_	_
+22	Maßnahmen	Maßnahme	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	42	nsubj	_	_
+23	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	25	case	_	_
+24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Programm	Programm	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	42	obl	_	_
+26	„	„	PUNCT	$.	_	42	punct	_	SpaceAfter=No
+27	Ärztliche	ärztlich	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	42	nsubj	_	_
+28	Untersuchung	Untersuchung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	obj	_	_
+29	für	für	ADP	APPR	_	42	case	_	_
+30	alle	alle	PRON	PIS	Case=Acc|Definite=Ind|Number=Plur|PronType=Ind	42	det	_	SpaceAfter=No
+31	“	“	PUNCT	$.	_	42	punct	_	_
+32	oder	oder	CCONJ	XY	_	42	cc	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	35	det	_	_
+34	„	„	PUNCT	$.	_	35	punct	_	SpaceAfter=No
+35	System	System	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	42	iobj	_	_
+36-37	zur	_	_	_	_	_	_	_	_
+36	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	38	case	_	_
+37	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Untersuchung	Untersuchung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	35	nmod	_	_
+39	männlicher	männlich	DET	ADJA	Case=Gen|Gender=Masc|Number=Plur	40	det	_	_
+40	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	“	“	PUNCT	$.	_	40	punct	_	_
+42	weiten	weiten	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	acl	_	_
+43	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	Behörden	Behörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	42	nsubj	_	_
+45	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	46	det	_	_
+46	Sammeln	Schimmel|sammeln	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	42	obj	_	_
+47	von	von	ADP	FM	Foreign=Yes	50	case	_	_
+48	DNA	DNA	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	50	compound	_	SpaceAfter=No
+49	-	-	PUNCT	$(	_	48	punct	_	SpaceAfter=No
+50	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	46	nmod	_	_
+51	zudem	zudem	ADV	PAV	_	58	advmod	_	_
+52	mehr	mehr	ADV	ADV	_	51	advmod	_	_
+53	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	54	cc	_	_
+54	mehr	mehr	ADV	ADV	_	52	conj	_	_
+55	auf	auf	ADP	APPR	_	58	case	_	_
+56	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	58	det	_	_
+57	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	58	amod	_	_
+58	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	50	nmod	_	_
+59	aus	aus	ADP	PTKVZ	_	58	compound:prt	_	SpaceAfter=No
+60	.	.	PUNCT	$.	_	58	punct	_	_
+
+# sent_id = 22
+# text = Dies zielt allerdings laut der Forscher*innen nicht darauf ab, Proben von der Gesamtbevölkerung zu erhalten.
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	zielt	zielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	allerdings	allerdings	ADV	ADV	_	2	advmod	_	_
+4	laut	laut	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Forscher*	Forscher*	NOUN	$(	_	2	obl	_	SpaceAfter=No
+7	innen	innen	ADV	ADV	_	9	advmod	_	_
+8	nicht	nicht	PART	CARD	NumType=Card	9	advmod	_	_
+9	darauf	darauf	PRON	PAV	_	2	obl	_	_
+10	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	Proben	Probe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	obj	_	_
+13	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Gesamtbevölkerung	Gesamtbevölkerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+16	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	17	mark	_	_
+17	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 23
+# text = Vielmehr will Peking auf diese Weise eine repräsentative Stichprobe der chinesischen Gesamtbevölkerung erhalten.
+1	Vielmehr	vielmehr	ADV	ADV	_	13	advmod	_	_
+2	will	wollen	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	13	aux	_	_
+3	Peking	Peking	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	repräsentative	repräsentativ	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	Stichprobe	Stichprobe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	chinesischen	chinesisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
+12	Gesamtbevölkerung	Gesamtbevölkerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+13	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Es ist offenbar zu aufwändig, DNA-Profile von der Gesamtbevölkerung zu erstellen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	offenbar	offenbar	ADJ	CARD	NumType=Card	0	root	_	_
+4	zu	zu	ADP	NN	Case=Acc|Gender=Fem|Number=Plur	9	case	_	_
+5	aufwändig	aufwendig	ADJ	ADJD	_	9	amod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	DNA	DNA	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Profile	Profile	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	_
+10	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Gesamtbevölkerung	Gesamtbevölkerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	_
+13	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	14	mark	_	_
+14	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 25
+# text = Die chinesische Regierung versucht daher Rückschlüsse aus den den gesammelten Stichproben zu ziehen – was durchaus möglich sei: „Zum Beispiel kann Chinas ‚männliches Abstammungsuntersuchungssystem’ DNA-Proben von 35 bis 70 Millionen Männern enthalten“, so die Forscher*innen, was etwa 5 bis 10 Prozent der männlichen Bevölkerung Chinas entspreche.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	chinesische	chinesisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	versucht	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	daher	daher	ADV	PAV	_	4	advmod	_	_
+6	Rückschlüsse	Rückschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+7	aus	aus	ADP	APPR	_	11	case	_	_
+8	den	der	DET	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	11	det	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	gesammelten	sammelten	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	Stichproben	Stichprobe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	obl	_	_
+12	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	mark	_	_
+13	ziehen	ziehen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+14	–	–	PUNCT	$.	_	17	punct	_	_
+15	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	durchaus	durchaus	ADV	ADV	_	17	advmod	_	_
+17	möglich	möglich	ADJ	ADJD	_	4	acl	_	_
+18	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
+19	:	:	PUNCT	$.	_	39	punct	_	_
+20	„	„	PUNCT	$.	_	39	punct	_	SpaceAfter=No
+21-22	Zum	_	_	_	_	_	_	_	_
+21	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	39	obl	_	_
+24	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+25	Chinas	China	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	39	nsubj	_	_
+26	‚	‚	PUNCT	$.	_	25	punct	_	SpaceAfter=No
+27	männliches	männlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	_
+28	Abstammungsuntersuchungssystem	Abstammungsuntersuchungssystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	39	nsubj	_	SpaceAfter=No
+29	’	’	PUNCT	$.	_	32	punct	_	_
+30	DNA	DNA	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	$(	_	30	punct	_	SpaceAfter=No
+32	Proben	Probe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	39	obj	_	_
+33	von	von	ADP	FM	Foreign=Yes	38	case	_	_
+34	35	35	NUM	CARD	NumType=Card	37	nummod	_	_
+35	bis	bis	ADP	APPR	_	36	case	_	_
+36	70	70	NUM	CARD	NumType=Card	34	nmod	_	_
+37	Millionen	Million	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	38	nmod	_	_
+38	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	39	obl	_	_
+39	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+40	“	“	PUNCT	$.	_	39	punct	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	44	punct	_	_
+42	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	44	advmod	_	_
+43	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	44	det	_	_
+44	Forscher*	Forscher*	NOUN	$(	_	39	obl	_	SpaceAfter=No
+45	innen	innen	ADV	ADV	_	44	advmod	_	SpaceAfter=No
+46	,	,	PUNCT	$,	_	57	punct	_	_
+47	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	57	obj	_	_
+48	etwa	etwa	ADV	ADV	_	49	advmod	_	_
+49	5	5	NUM	CARD	NumType=Card	52	nummod	_	_
+50	bis	bis	ADP	KON	_	51	case	_	_
+51	10	10	NUM	CARD	NumType=Card	52	nmod	_	_
+52	Prozent	Prozent	NOUN	NN	Gender=Neut	57	nmod	_	_
+53	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
+54	männlichen	männlich	ADJ	NN	Case=Dat|Gender=Masc|Number=Plur	55	amod	_	_
+55	Bevölkerung	Bevölkerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	52	nmod	_	_
+56	Chinas	China	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	57	nsubj	_	_
+57	entspreche	entsprechen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl	_	SpaceAfter=No
+58	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 26
+# text = In Kombination mit den „generationsübergreifenden Stammbäumen“ kann die Polizei die männliche Gesamtbevölkerung Chinas erfassen, die rund 700 Millionen Bürger umfasst.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Kombination	Kombination	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+3	mit	mit	ADP	$(	_	7	case	_	_
+4	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	7	det	_	_
+5	„	„	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+6	generationsübergreifenden	generationsübergreifend	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	7	amod	_	_
+7	Stammbäumen	Stammbäumen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	7	punct	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	männliche	männlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	Gesamtbevölkerung	Gesamtbevölkerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	Chinas	China	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	erfassen	erfassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	23	punct	_	_
+18	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	23	nsubj	_	_
+19	rund	rund	ADV	ADV	_	20	advmod	_	_
+20	700	700	NUM	CARD	NumType=Card	21	nummod	_	_
+21	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	nmod	_	_
+22	Bürger	Bürger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	obj	_	_
+23	umfasst	umfassen	VERB	VVPP	VerbForm=Part	16	acl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+

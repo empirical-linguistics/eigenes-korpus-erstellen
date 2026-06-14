@@ -1,0 +1,101 @@
+---
+title: Chatkontrolle ist der falsche Weg
+author: Constanze
+url: https://netzpolitik.org/2023/wissenschaftler-warnen-chatkontrolle-ist-der-falsche-weg/
+hostname: netzpolitik.org
+description: Die Idee einer anlasslosen Chatkontrolle stößt auf Widerstand in der Wissenschaft: Dreihundert Unterzeichner eines internationalen offenen Briefes melden „ernsthafte Vorbehalte“ gegen den Vorschlag an. Namhafte Forscher und Wissenschaftler aus mehr als dreißig Ländern wenden sich mit technischen Argumenten gegen die geplante systematische Überwachung.
+sitename: netzpolitik.org
+date: 2023-07-04
+license: CC BY-NC-SA 4.0
+---
+Gute Argumente im politischen Kampf um die Chatkontrolle liefert heute ein internationaler offener Brief aus der Welt der Wissenschaft. Mehr als dreihundert Unterzeichner aus über dreißig Ländern richten sich damit an die Europa-Parlamentarier und alle Mitgliedsländer des Rates der Europäischen Union. Wer den Brief liest, wird sich unweigerlich fragen, wie es möglich sein kann, dass die EU-Kommission ihren Plan angesichts der offenkundigen technischen Unsinnigkeit weiterverfolgt.
+
+Die hierzulande oft nur kurz Chatkontrolle genannte Verordnungsidee ist international unter dem Begriff Child Sexual Abuse Regulation bekannt und soll dem Kampf gegen sexuelle Missbrauchsdarstellungen dienen. Die geplante EU-Gesetzgebung soll Internet-Dienstleister verpflichten, nach illegalen Inhalten zu suchen, die Gewalt und Missbrauch von Kindern zeigen, und diese an ein EU-Zentrum zu senden. Dafür sollen nach einer behördlichen Anordnung massenhaft Nachrichten, Bilder, E‑Mails oder Sprachnachrichten von Nutzern gescannt werden. Für den Fall von Ende-zu-Ende-verschlüsselten Diensten muss diese Rasterung auf den Geräten der Nutzer selbst vollzogen werden. Der technische Begriff dafür ist Client-Side-Scanning (CSS).
+
+Zu den Unterzeichnern des offenen Briefes zählen namhafte internationale Wissenschaftler der Informatik und angrenzender Fachgebiete und profilierte Verschlüsselungsforscher. Darunter sind auch einige renommierte Wissenschaftler wie der Brite Ross Anderson, die Australierin Vanessa Teague, die Schweizerin Carmela Troncoso und preisgekrönte US-Forscher wie Ron Rivest, Bruce Schneier, Susan Landau oder Matt Blaze, die bereits im Jahr 2021 eindringlich und mit technischem Blick vor den Risiken des Client-Side-Scannings (pdf) gewarnt hatten.
+
+Sie betonen nun in dem offenen Brief nochmals, dass CSS eine gefährliche Technologie sei und weder sicher noch effektiv, um solch verbotenes Material zu finden. Es gäbe schlicht keine Software, die eine sinnvolle technische Lösung wäre. Auch „in den nächsten zehn bis zwanzig Jahren“ sei eine derartige Technologie nicht zu erwarten. Zudem entstünden substantielle Gefahren sowohl für die Privatsphäre als auch für die Sicherheit von Menschen.
+
+## Lauter fälschliche Verdachtsfälle
+
+Schon die Sinnhaftigkeit der technischen Umsetzung der Regulierungsidee bezweifeln die Wissenschaftler: Sie melden „ernsthafte Vorbehalte“ an, ob die Technologien wirksam sein können für den Zweck der Verordnung. Denn jeder, der das möchte, könnte Scanning-Software umgehen oder auf andere Technologien setzen, um verbotenes Material zu tauschen.
+
+Die Wissenschaftler verweisen auf das lange bekannte und bewiesene Problem, dass Scanning-Technologien, die auf Hash-Funktionen beruhen, leicht getäuscht werden können. Nimmt man beispielsweise auch nur kleine Änderungen an einem Bild vor, errechnet sich ein anderer Hash-Wert, weswegen die Scanning-Software daran scheitert, das Bild als ein bereits bekanntes zu erkennen.
+
+Zu erwarten sei zudem eine sehr große Zahl an fälschlich als Verdachtsfälle gemeldeten Dateien, die zugleich nennenswerte Ressourcen binde, die dann dem tatsächlichen Kampf gegen die Gewaltdarstellungen fehlen würden. Außerdem würde für jeden Einzelnen ständig die Gefahr drohen, fälschlich unter Verdacht zu geraten, verbotenes Material zu tauschen. Solche Falschmeldungen seien bei Einsatz von Verfahren der Künstlichen Intelligenz „eine statistische Gewissheit“ und auch nicht vermeidbar.
+
+Dass eine solche anlasslose Überwachung von individueller Kommunikation den europäischen Grundrechten entspricht, wird schon länger erheblich bezweifelt. Chatkontrolle sei aber auch technisch gesehen der falsche Weg, resümieren nun die Wissenschaftler.
+
+Was man tun sollte, um Kinder besser vor Gewalt zu schützen: auf die Communitys setzen. Durch existierende Regelungen wie das Plattformgesetz DSA seien Anbieter bereits verpflichtet, es den Nutzern bei Beschwerden und Anzeigen gegen verbotenes Material leichter zu machen. Das würde ganz praktisch und im Gegensatz zu maschinellen Verfahren nämlich tatsächlich sinnvolle Hinweise auf verbotene Gewaltdarstellungen bringen.
+
+Hier der offene Brief von Wissenschaftlern und Forschern zur geplanten EU-Verordnung im Wortlaut.
+
+**Date:** 4 July 2023
+
+## Joint statement of scientists and researchers on EU’s proposed Child Sexual Abuse Regulation
+
+Dear Members of the European Parliament,
+
+Dear Member States of the Council of the European Union,
+
+The signatories of this statement are scientists and researchers from across the globe.
+
+First and foremost, we acknowledge that child sexual abuse and exploitation is a very serious crime which can cause lifelong harm to survivors. It is the responsibility of government authorities, with the support of companies and communities, to undertake effective interventions which prevent this crime and react to it quickly when it does happen.
+
+The European Commission has proposed a law with the stated aim of stopping the spread of child sexual abuse material online and of grooming of children online. To do so, the law allows authorities to compel providers of any apps or other online services to scan the messages, pictures, emails, voice mails and other activities of their users. In the case of end-to-end encrypted apps, the claim is that this scanning can be done on users’ devices – so-called ‘Client-Side Scanning’ (CSS).
+
+The effectiveness of the law (at its stated aims) relies on the existence of effective scanning technologies. Unfortunately, the scanning technologies that currently exist and that are on the horizon are deeply flawed. These flaws, which we describe in detail below, means that scanning is doomed to be ineffective. Moreover, integrating scanning at large scale on apps running in user devices, and particularly in a global context, creates side-effects that can be extremely harmful for everyone online, and which could make the Internet and the digital society less safe for everybody.
+
+As the problems we describe speak to measures that are at the core of the EU’s legislative proposal, it is our professional recommendation as scientists that such a proposal be not taken forward. It is not feasible or tenable to require private companies to use technologies in ways that we already know cannot be done safely – or even at all. Given the horrific nature of child sexual abuse, it is understandable, and indeed tempting, to hope that there is a technological intervention that can eradicate it. Yet, looking at the issue holistically, we cannot escape the conclusion that the current proposal is not such an intervention.
+
+Passing this legislation undermines the thoughtful and incisive work that European researchers have provided in cybersecurity and privacy, including contributions to the development of global encryption standards. Such undermining will weaken the environment for security and privacy work in Europe, lowering our ability to build a secure digital society.
+
+The proposed regulation would also set a global precedent for filtering the Internet, controlling who can access it, and taking away some of the few tools available for people to protect their right to a private life in the digital space. This will have a chilling effect on society and is likely to negatively affect democracies across the globe.
+
+We therefore strongly warn against pursuing these or similar measures as their success is not possible given current and foreseeable technology, while their potential for harm is substantial.
+
+## 1. Detection technologies are deeply flawed and vulnerable to attacks
+
+Tools used for scanning for known Child Sexual Abuse Material (CSAM) must not contain CSAM material itself as this would bring major risks. Thus, the only scalable technology to address this problem is by transforming the known content with a so-called perceptual hash function and by using a list of the resulting hash values to compare to potential CSAM material. A perceptual hash function needs to achieve two goals: (i) it should be easy to compute yet hard to invert and (ii) small changes to an image should result in small changes to the hash output, which means that even after image manipulation the known image can still be detected. While this sounds easy, after more than two decades of research there has been no substantial progress in designing functions that meet these properties.
+
+Research has shown that for all known perceptual hash functions, it is virtually always possible to make small changes to an image that result in a large change of the hash value which allows evasion of detection (false negative). Moreover, it is also possible to create a legitimate picture that will be falsely detected as illegal material as it has the same hash as a picture that is in the database (false positive). This can be achieved even without knowing the hash database. Such an attack could be used to frame innocent users and to flood Law Enforcement Agencies with false positives – diverting resources away from real investigations into child sexual abuse.
+
+These attacks are not theoretical: for concrete designs such as Photo DNA, Facebook’s PDQ hash function and Apple’s NeuralHash function, efficient attacks have been described in the literature. The only way to avoid such attacks for the time being is by keeping the description of the perceptual hash function secret. This “security by obscurity” not only goes against basic security engineering principles but, in practice, is only feasible if the perceptual hash function is known only to the service provider. In the case of end-to-end encryption, the hashing operation needs to take place on the client device. Thus, keeping the design secret is an illusion.
+
+As scientists, we do not expect that it will be feasible in the next 10–20 years to develop a scalable solution that can run on users’ devices without leaking illegal information and that can detect known content (or content derived from or related to known content) in a reliable way, that is, with an acceptable number of false positives and negatives.
+
+The proposal of the European Commission goes beyond the detection of known content. It also requires that newly generated images or videos with CSAM need to be detected based on “artificial intelligence” tools. In addition, the proposal requires that grooming in communication services including both text and audio should be detected using similar techniques. While some commercial players claim that they have made progress, the designs remain secret and no open and objective evaluation has taken place that demonstrates their effectiveness. Moreover, the state of the art in machine learning suggests that this is way beyond what is feasible today. In fact, any time that client-side designs have been evaluated (as in the case of prototypes funded by the UK Home office) they have been found to be neither effective nor compliant with privacy and human-rights law.
+
+AI tools can be trained to identify certain patterns with high levels of precision. However, they routinely make errors, including mistakes that to a human seem very basic. That is because AI systems lack context and common sense. There are some tasks to which AI systems are well-suited, but searching for a very nuanced, sensitive crime — which is what grooming behaviour is — is not one of these tasks.
+
+At the scale at which private communications are exchanged online, even scanning the messages exchanged in the EU on just one app provider would mean generating millions of errors every day. That means that when scanning billions of images, videos, texts and audio messages per day, the number of false positives will be in the hundreds of millions. It further seems likely that many of these false positives will themselves be deeply private, likely intimate, and entirely legal imagery sent between consenting adults.
+
+This cannot be improved through innovation: ‘false positives’ (content that is wrongly flagged as being unlawful material) are a statistical certainty when it comes to AI. False positives are also an inevitability when it comes to the use of detection technologies – even for known CSAM material. The only way to reduce this to an acceptable margin of error would be to only scan in narrow and genuinely targeted circumstances where there is prior suspicion, as well as sufficient human resources to deal with the false positives – otherwise cost may be prohibitive given the large number of people who will be needed to review millions of texts and images. This is not what is envisioned by the European Commission’s proposal.
+
+The reporting system put forward in the draft CSAM proposal is likely to encourage novel attacks on detection technologies. This is because right now, providers have the discretion to sift out obvious false alerts. Under the new system, however, they would be required to report even content that seems unlikely to be CSAM. Besides the attacks we mention, many more are starting to appear in specialized academic venues, and we expect many more are being prepared by those motivated to share illicit material.
+
+Finally, it has been claimed that detecting CSAM should be feasible as scanning for computer viruses is a widely deployed technology. While superficially both seem similar, there are essential differences. First, when a computer virus is detected, the user is warned and the virus can be removed. Second, a virus can be recognized based on a small unique substring, which is not the case for a picture or video: it would be very easy to modify or remove a unique substring with small changes that do not change the appearance; doing this for a virus would make the code inoperable. Finally, machine learning techniques can sometimes identify viral behaviour, but only when such behaviour can be precisely defined (e.g. code that copies itself) and thus detected. This is in opposition to defining CSAM for which clear boundaries cannot easily be established.
+
+## 2. Technical Implications of weakening End-to-End Encryption
+
+End-to-end encryption is designed so that only the sender and recipient can view the content of a message or other communication. Encryption is the only tool we have to protect our data in the digital realm; all other tools have been proven to be compromised. The use of link encryption (from user to service provider and from service provider to user) with decryption in the middle as used in the mobile telephone system is not an acceptable solution in the current threat environment. It is obvious that end-to-end encryption makes it impossible to implement scanning for known or new content and detection of grooming at the service provider.
+
+In order to remedy this, a set of techniques called “Client-Side Scanning” (CSS) has been suggested as a way to access encrypted communications without breaking the encryption. Such tools would reportedly work by scanning content on the user’s device before it has been encrypted or after it has been decrypted, then reporting whenever illicit material is found. One may equate this to adding video cameras in our homes to listen to every conversation and send reports when we talk about illicit topics.
+
+The only deployment of CSS in the free world was by Apple in 2021, which they claimed was state-of-the-art technology. This effort was withdrawn after less than two weeks due to privacy concerns and the fact that the system had already been hijacked and manipulated.
+
+When deployed on a person’s device, CSS acts like spyware, allowing adversaries to gain easy access to that device. Any law which would mandate CSS, or any other technology designed to access, analyse or share the content of communications will, without a doubt, undermine encryption, and make everyone’s communications less safe as a result. The laudable aim of protecting children does not change this technical reality.
+
+Even if such a CSS system could be conceived, there is an extremely high risk that it will be abused. We expect that there will be substantial pressure on policymakers to extend the scope, first to detect terrorist recruitment, then other criminal activity, then dissident speech. For instance, it would be sufficient for less democratic governments to extend the database of hash values that typically correspond to known CSAM content (as explained above) with hash values of content critical of the regime. As the hash values give no information on the content itself, it would be impossible for outsiders to detect this abuse. The CSS infrastructure could then be used to report all users with this content immediately to these governments.
+
+If such a mechanism would be implemented, it would need to be in part through security by obscurity as otherwise it would be easy for users to bypass the detection mechanisms, for example by emptying the database of hash values or bypassing some verifications. This means that transparency of the application will be harmed, which may be used by some actors as a veil to collect more personal user data.
+
+## 3. Effectiveness
+
+We have serious reservations whether the technologies imposed by the regulation would be effective: perpetrators would be aware of such technologies and would move to new techniques, services and platforms to exchange CSAM information while evading detection.
+
+The proposed regulation will harm the freedom of children to express themselves as their conversations could also be triggering alarms. National criminal law enforcement on-the-ground typically deals in a nuanced way with intimate messages between teenagers both around the age of consent. These technologies change the relationship between individuals and their devices, and it will be difficult to reintroduce such nuance. For other users, we have major concerns of the chilling effects created by the presence of these detection mechanisms.
+
+Finally, the huge number of false positives that can be expected will require a substantial amount of resources while creating serious risks for all users to be identified incorrectly. These resources would be better spent on other approaches to protect children from sexual abuse. While most child protection work must be local, one way in which community legislation might help is by using existing powers (DMA/DSA) to require social network services to make it easier for users to complain about abuse, as it is user complaints rather than AI that in practice lead to the detection of new abuse material.
+
+List of signatures to this open letter.

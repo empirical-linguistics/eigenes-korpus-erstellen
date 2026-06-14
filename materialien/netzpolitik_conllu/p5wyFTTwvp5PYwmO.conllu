@@ -1,0 +1,580 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, es kam nicht plötzlich und auch nicht überraschend.
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\s\s
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+6	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	_
+7	plötzlich	plötzlich	ADJ	ADJD	_	5	xcomp	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	nicht	nicht	PART	CARD	NumType=Card	11	advmod	_	_
+11	überraschend	überraschend	ADJ	ADJD	_	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Seit Monaten haben wir über die Chatkontrolle berichtet, ohne genau zu wissen, was uns erwartet.
+1	Seit	seit	ADP	APPR	_	2	case	_	_
+2	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+5	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	ohne	ohne	ADP	FM	Foreign=Yes	13	mark	_	_
+11	genau	genau	ADJ	ADV	_	13	advmod	_	_
+12	zu	zu	PART	NN	Case=Nom|Number=Plur	13	mark	_	_
+13	wissen	wissen	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	17	punct	_	_
+15	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	17	nsubj	_	_
+16	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	17	obj	_	_
+17	erwartet	erwarten	VERB	VVPP	VerbForm=Part	13	acl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Immer wieder wurde die Präsentation der „größten europäischen Datenüberwachung aller Zeiten“ verschoben.
+1	Immer	immer	ADV	ADV	_	2	advmod	_	_
+2	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	14	advmod	_	_
+3	wurde	werden	AUX	KON	_	14	aux:pass	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Präsentation	Präsentation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+7	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+8	größten	groß	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+9	europäischen	europäisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+10	Datenüberwachung	Datenüberwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+11	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	Zeiten	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	10	punct	_	_
+14	verschoben	verschieben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 4
+# text = Jetzt ist der Vorschlag der EU-Kommission da, und auch wir in der Redaktion waren von der Vehemenz der vernichtenden Kritik erstaunt.
+1	Jetzt	jetzt	ADV	ADV	_	4	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Vorschlag	Vorschlag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	EU	EU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Kommission	Kommission	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	_
+9	da	da	ADV	PTKVZ	_	4	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	24	punct	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	24	cc	_	_
+12	auch	auch	ADV	ADV	_	24	advmod	_	_
+13	wir	wir	PRON	ADJD	_	24	nsubj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+17	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+18	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Vehemenz	Vehemenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	vernichtenden	vernichtend	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
+23	Kritik	Kritik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	24	iobj	_	_
+24	erstaunt	erstaunen	VERB	ADJD	_	4	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Bei netzpolitik.org sehen wir uns ja als Frühwarnsystem, das schon über Vorgänge in der EU berichtet, wenn andere es noch nicht tun.
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	netzpolitik.org	netzpolitik.org	ADJ	NN	Case=Dat|Gender=Fem|Number=Sing	3	advmod	_	_
+3	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+6	ja	ja	ADV	ADV	_	3	advmod	_	_
+7	als	als	ADP	KOKOM	_	8	case	_	_
+8	Frühwarnsystem	Frühwarnsystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	17	punct	_	_
+10	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj	_	_
+11	schon	schon	ADV	ADV	_	17	advmod	_	_
+12	über	über	ADP	NN	Foreign=Yes	13	case	_	_
+13	Vorgänge	Vorgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+17	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	24	punct	_	_
+19	wenn	wenn	SCONJ	VVFIN	_	24	mark	_	_
+20	andere	ander	PRON	ADJA	Case=Acc|Gender=Neut|Number=Plur	24	nsubj	_	_
+21	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+22	noch	noch	ADV	CARD	NumType=Card	23	advmod	_	_
+23	nicht	nicht	PART	CARD	NumType=Card	24	advmod	_	_
+24	tun	tun	VERB	ADJD	_	17	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Und im Verlauf dieser Berichterstattung habe ich mich immer wieder gefragt: „Warum entsteht hier nicht mehr Protest?“.
+1	Und	und	CCONJ	ADJD	_	12	cc	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Verlauf	Verlauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+5	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Berichterstattung	Berichterstattung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	_
+10	immer	immer	ADV	ADV	_	11	advmod	_	_
+11	wieder	wieder	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	12	advmod	_	_
+12	gefragt	fragen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	16	punct	_	_
+14	„	„	PUNCT	$.	_	16	punct	_	SpaceAfter=No
+15	Warum	warum	NOUN	PWAV	PronType=Int	16	nsubj	_	_
+16	entsteht	entstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+17	hier	hier	ADV	ADV	_	16	advmod	_	_
+18	nicht	nicht	PART	CARD	NumType=Card	16	advmod	_	_
+19	mehr	mehr	ADV	ADV	_	18	advmod	_	_
+20	Protest	Protest	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+21	?	?	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+22	“	“	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 7
+# text = Denn die Chatkontrolle ist ein autoritärer Überwachungsalptraum:
+1	Denn	denn	SCONJ	KON	_	7	mark	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	autoritärer	autoritär	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	Überwachungsalptraum	Überwachungsalptraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Der Staat soll Anbieter zwingen dürfen, Inhalte entweder auf dem Gerät der Bürger:innen zu durchsuchen – oder deren verschlüsselte Kommunikation zu brechen, um das zu tun.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Staat	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	5	aux	_	_
+4	Anbieter	Anbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obj	_	_
+5	zwingen	zwingen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	_
+9	entweder	entweder	CCONJ	KON	_	16	cc	_	_
+10	auf	auf	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Gerät	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	Bürger:innen	Bürger:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	16	mark	_	_
+16	durchsuchen	durchsuchen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	17	acl	_	_
+17	–	–	PUNCT	$.	_	23	punct	_	_
+18	oder	oder	CCONJ	XY	_	21	cc	_	_
+19	deren	der	DET	PDAT	Case=Gen|Number=Plur|PronType=Dem	21	nmod:poss	_	_
+20	verschlüsselte	verschlüsselt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+21	Kommunikation	Kommunikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+22	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	23	mark	_	_
+23	brechen	brechen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	28	punct	_	_
+25	um	um	ADP	KOUI	_	28	mark	_	_
+26	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	28	obj	_	_
+27	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	28	mark	_	_
+28	tun	tun	VERB	VVINF	VerbForm=Inf	23	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Wenn dieses Projekt durchkommt, gibt es keine vertrauliche Kommunikation mehr.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Projekt	Projekt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	durchkommt	durchkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+8	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	10	nmod	_	_
+9	vertrauliche	vertraulich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Kommunikation	Kommunikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	_
+11	mehr	mehr	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Es wäre eine vollkommen neue Dimension der Überwachung.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	wäre	sein	AUX	NN	Foreign=Yes	6	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	vollkommen	vollkommen	ADV	ADV	_	5	advmod	_	_
+5	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Dimension	Dimension	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Überwachung	Überwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Vergleiche mit China und Russland, die sonst auch mal vorschnell gezogen werden, sind hier angebracht.
+1	Vergleiche	Vergleich	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+2	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	3	case	_	_
+3	China	China	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	Russland	Rußland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	nsubj:pass	_	_
+8	sonst	sonst	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	12	advmod	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	mal	mal	ADV	ADV	_	12	advmod	_	_
+11	vorschnell	vorschnell	ADJ	ADJD	_	12	advmod	_	_
+12	gezogen	ziehen	VERB	VVPP	VerbForm=Part	1	acl	_	_
+13	werden	werden	AUX	NE	Case=Acc|Number=Plur	12	aux:pass	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	1	punct	_	_
+15	sind	sein	AUX	ADJD	_	17	cop	_	_
+16	hier	hier	ADV	ADV	_	17	advmod	_	_
+17	angebracht	anbringen	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Nun mögen Befürworter:innen sagen: „Hey, es geht doch nur darum, Bilder und Videos von sexueller Gewalt gegen Kinder zu finden.
+1	Nun	nun	ADV	ADV	_	4	advmod	_	_
+2	mögen	mög	ADJ	NN	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
+3	Befürworter:innen	Befürworter:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	10	punct	_	_
+6	„	„	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+7	Hey	Hey	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+10	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	doch	doch	ADV	ADV	_	10	advmod	_	_
+12	nur	nur	ADV	CARD	NumType=Card	10	advmod	_	_
+13	darum	darum	ADV	PAV	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Bilder	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	conj	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+17	Videos	Video	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	conj	_	_
+18	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	20	case	_	_
+19	sexueller	sexuell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
+20	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	obl	_	_
+21	gegen	gegen	ADP	APPR	_	22	case	_	_
+22	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	obl	_	_
+23	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	mark	_	_
+24	finden	finden	VERB	VVINF	VerbForm=Inf	17	acl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Wer nichts zu verbergen hat, der hat doch nichts zu befürchten.“
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+2	nichts	nichts	PRON	CARD	NumType=Card	4	obj	_	_
+3	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	4	mark	_	_
+4	verbergen	verbergen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+8	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	doch	doch	ADV	ADV	_	12	advmod	_	_
+10	nichts	nichts	PRON	CARD	NumType=Card	12	obj	_	_
+11	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	12	mark	_	_
+12	befürchten	befürchen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	4	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+14	“	“	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Wir alle wollen, dass sexuelle Gewalt gegen Kinder hart bekämpft wird, dass Handlungsoptionen ausgeschöpft werden.
+1	Wir	wir	PRON	ADJD	_	3	nsubj	_	_
+2	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	1	nmod	_	_
+3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+6	sexuelle	sexuell	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	gegen	gegen	ADP	APPR	_	9	case	_	_
+9	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	_
+10	hart	hart	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	_
+11	bekämpft	bekämpfen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+15	Handlungsoptionen	Handlungsoption	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+16	ausgeschöpft	ausgeschöpfen	VERB	VVPP	VerbForm=Part	11	ccomp	_	_
+17	werden	werden	AUX	NE	Case=Acc|Number=Plur	16	aux:pass	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Doch das Instrument der Chatkontrolle ist falsch.
+1	Doch	doch	ADV	KON	_	7	advmod	_	_
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Instrument	Instrument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	ist	sein	AUX	ADJD	_	7	cop	_	_
+7	falsch	falsch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 16
+# text = Wenn dieses Gesetzespaket durchkommt, dann ist die Vertraulichkeit dahin, dann gibt es diese mächtige Überwachungsinfrastruktur, dann ist es zu spät.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Gesetzespaket	Gesetzespaket	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	durchkommt	durchkommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dann	dann	ADV	ADV	_	10	advmod	_	_
+7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Vertraulichkeit	Vertraulichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	dahin	dahin	ADV	PAV	_	13	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	dann	dann	ADV	ADV	_	13	advmod	_	_
+13	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+15	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+16	mächtige	mächtig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
+17	Überwachungsinfrastruktur	Überwachungsinfrastruktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	dann	dann	ADV	ADV	_	20	advmod	_	_
+20	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+22	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
+23	spät	spaten	VERB	FM	Foreign=Yes	20	acl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Noch ist es aber nicht zu spät.
+1	Noch	noch	ADV	ADV	_	7	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	aber	aber	ADV	ADV	_	7	advmod	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+6	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	mark	_	_
+7	spät	spaten	VERB	FM	Foreign=Yes	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 18
+# text = Denn das Gesetzespaket kann immer noch komplett abgelehnt oder zumindest abgeschwächt werden.
+1	Denn	denn	SCONJ	KON	_	8	mark	_	_
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gesetzespaket	Gesetzespaket	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	immer	immer	ADV	ADV	_	8	advmod	_	_
+6	noch	noch	ADV	CARD	NumType=Card	8	advmod	_	_
+7	komplett	komplett	ADJ	ADJD	_	8	advmod	_	_
+8	abgelehnt	abgelehnen	ADJ	VVPP	VerbForm=Part	0	root	_	_
+9	oder	oder	CCONJ	XY	_	11	cc	_	_
+10	zumindest	zumindest	ADJ	ADV	_	11	advmod	_	_
+11	abgeschwächt	abgeschwächen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+12	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 19
+# text = Dafür braucht es jetzt öffentlichen Druck: von der Online-Petition über Anrufe bei Politiker:innen bis hin zum tausendfachen Protest auf der Straße.
+1	Dafür	dafür	ADV	PAV	_	2	advmod	_	_
+2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+5	öffentlichen	öffentlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	6	amod	_	_
+6	Druck	Druck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	12	punct	_	_
+8	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	Online	Online	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Petition	Petition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+13	über	über	ADP	FM	Foreign=Yes	14	case	_	_
+14	Anrufe	Anruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nmod	_	_
+15	bei	bei	ADP	APPR	_	16	case	_	_
+16	Politiker:innen	Politiker:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
+17	bis	bis	ADP	APPR	_	18	case	_	_
+18	hin	hin	ADV	ADV	_	12	nmod	_	_
+19-20	zum	_	_	_	_	_	_	_	_
+19	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	tausendfachen	tausendfach	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	22	amod	_	_
+22	Protest	Protest	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
+23	auf	auf	ADP	APPR	_	25	case	_	_
+24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Die Erfahrungen mit der Urheberrechtsreform und den Uploadfilter-Protesten von 2019 zeigen: Es reicht nicht, Menschen nur in Deutschland auf die Straße zu bekommen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+3	mit	mit	ADP	$(	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Urheberrechtsreform	Urheberrechtsreform	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	10	cc	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	Uploadfilter	Uploadfilter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Protesten	Protest	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	conj	_	_
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	2019	2019	NUM	CARD	NumType=Card	2	nmod	_	_
+13	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	:	:	PUNCT	$.	_	16	punct	_	_
+15	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	reicht	reichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+17	nicht	nicht	PART	CARD	NumType=Card	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	27	punct	_	_
+19	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+20	nur	nur	ADV	CARD	_	22	advmod	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	_
+23	auf	auf	ADP	APPR	_	25	case	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
+26	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	27	mark	_	_
+27	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 21
+# text = Proteste gegen eine EU-Gesetzgebung müssen so international sein wie die EU selbst, damit sie wirklich gehört werden.
+1	Proteste	Protest	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	gegen	gegen	ADP	APPR	_	4	case	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	EU	EU	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Gesetzgebung	Gesetzgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	flat	_	_
+7	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	so	so	ADV	NE	Case=Dat|Number=Plur	9	advmod	_	_
+9	international	international	ADJ	ADJD	_	0	root	_	_
+10	sein	sein	AUX	VAINF	VerbForm=Inf	9	cop	_	_
+11	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	13	case	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	EU	EU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	nmod	_	_
+14	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	damit	damit	SCONJ	KOUS	_	19	mark	_	_
+17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+18	wirklich	wirklich	ADJ	ADV	_	19	advmod	_	_
+19	gehört	gehören	VERB	VVPP	VerbForm=Part	9	advcl	_	_
+20	werden	werden	AUX	NE	Case=Acc|Number=Plur	19	aux:pass	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = In diesem Sinne:
+1	In	in	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 23
+# text = Klärt eure Freund:innen, Familien und Arbeitskolleg:innen auf, was sie bei der Chatkontrolle erwartet.
+1	Klärt	Klärt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Freund:innen	Freund:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Familien	Familie	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+6	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	7	cc	_	_
+7	Arbeitskolleg:innen	Arbeitskolleg:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	15	obj	_	_
+11	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+15	erwartet	erwarten	VERB	VVPP	VerbForm=Part	1	acl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 24
+# text = Werdet aktiv, verbündet Euch über Grenzen hinweg und tragt Euren kleinen oder großen Teil zum Protest bei.
+1	Werdet	Werdet	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	nsubj	_	_
+2	aktiv	aktiv	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	verbündet	verbünden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+6	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
+7	Grenzen	Grenze	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+8	hinweg	hinweg	ADP	ADV	_	4	compound:prt	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	10	cc	_	_
+10	tragt	tragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	Euren	Eur	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+12	kleinen	klein	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	_
+13	oder	oder	CCONJ	XY	_	14	cc	_	_
+14	großen	groß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	_
+15	Teil	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+16-17	zum	_	_	_	_	_	_	_	_
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Protest	Protest	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+19	bei	bei	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 25
+# text = Demokratie bedeutet, dass wir etwas verändern können.
+1	Demokratie	Demokratie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+5	wir	wir	PRON	ADJD	_	7	nsubj	_	_
+6	etwas	etwas	ADV	ADV	_	7	advmod	_	_
+7	verändern	verändern	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Unsere Aufgabe hier bei netzpolitik.org wird sein, dass wir in den kommenden Monaten über alle Aspekte der Chatkontrolle journalistisch berichten, Analysen, Expertise und Einblicke liefern, und im besten Sinne zur Aufklärung und Information der Öffentlichkeit beitragen.
+1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Aufgabe	Aufgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	hier	hier	ADV	ADV	_	2	advmod	_	_
+4	bei	bei	ADP	APPR	_	5	case	_	_
+5	netzpolitik.org	netzpolitik.org	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+6	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	21	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+10	wir	wir	PRON	ADJD	_	21	nsubj	_	_
+11	in	in	ADP	APPR	_	14	case	_	_
+12	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	kommenden	kommend	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	_
+14	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+15	über	über	ADP	FM	Foreign=Yes	17	case	_	_
+16	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	Aspekte	Aspekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	journalistisch	journalistisch	ADJ	ADJD	_	21	advmod	_	_
+21	berichten	berichten	VERB	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	Analysen	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	25	punct	_	_
+25	Expertise	Expertise	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	conj	_	_
+26	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	28	cc	_	_
+27	Einblicke	Einblick	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	28	nsubj	_	_
+28	liefern	liefern	VERB	KOUS	_	21	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	42	punct	_	_
+30	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	42	cc	_	_
+31-32	im	_	_	_	_	_	_	_	_
+31	in	in	ADP	APPR	_	34	case	_	_
+32	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	besten	gut	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	34	amod	_	_
+34	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	42	obl	_	_
+35-36	zur	_	_	_	_	_	_	_	_
+35	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	case	_	_
+36	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Aufklärung	Aufklärung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	nmod	_	_
+38	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	39	cc	_	_
+39	Information	Information	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	37	conj	_	_
+40	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Öffentlichkeit	Öffentlichkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+42	beitragen	beitragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	SpaceAfter=No
+43	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 27
+# text = Natürlich aus Perspektive der Grund- und Freiheitsrechte.
+1	Natürlich	natürlich	ADJ	ADJD	_	0	root	_	_
+2	aus	aus	ADP	APPR	_	3	case	_	_
+3	Perspektive	Perspektive	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Grund	Grund	NOUN	TRUNC	_	3	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	8	punct	_	_
+7	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	cc	_	_
+8	Freiheitsrechte	Freiheitsrechte	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Bleibt stark und mutig *Markus Reuter*
+1	Bleibt	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	stark	stark	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+3	und	und	CCONJ	NE	Foreign=Yes	4	cc	_	_
+4	mutig	mutig	ADJ	ADJD	_	2	conj	_	SpacesAfter=\s\s
+5	*	*	NOUN	$(	_	1	nsubj	_	SpaceAfter=No
+6	Markus	Markus	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	Reuter	Reuter	PROPN	NE	Case=Gen|Number=Plur	6	flat	_	SpaceAfter=No
+8	*	*	X	$(	_	1	dep	_	SpacesAfter=\n
+
+

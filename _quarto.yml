@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Mini-Tutorial: Ein eigenes Korpus erstellen und annotieren"
+  subtitle: "Per Hand oder mit einfachen Tools"
+  author: "Stefan Hartmann"
+  date: "6/14/2026"
+  chapters:
+    - index.qmd
+    - vorueberlegungen.qmd
+    - voraussetzungen.qmd
+    - konzeption.qmd
+    - quick_and_dirty.qmd
+    - advanced.qmd
+    - lemmatisierung_tagging.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: webex.css
+    include-after-body: webex.js
+    code-annotations: hover
+    code-overflow: wrap
+    toc: true
+
+knitr:
+  opts_chunk: 
+    collapse: false
+
+editor: visual
+
+execute:
+  warning: false
+  error: false
+filters:
+  - quizdown
+  
+license: "CC BY-NC-SA"
+

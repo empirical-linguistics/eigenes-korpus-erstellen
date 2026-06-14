@@ -1,0 +1,106 @@
+---
+title: Der Teufel im Detail
+author: Stefanie Talaska; Tina Schieber
+url: https://netzpolitik.org/2022/transparenzbericht-juni-2022-der-teufel-im-detail/
+hostname: netzpolitik.org
+description: Vor einem halben Jahrzehnt hatten wir kaum Aktenordner, keinen eigenen Drucker, keine eigene Buchführung. Es wurde gebloggt. Heute ist vieles anders. Im Juni haben wir einen enormen Schritt unternommen, um einen weiteren Bereich voranzubringen. Doch plötzlich waren 17.000 Euro unauffindbar. Was war passiert?
+sitename: netzpolitik.org
+date: 2022-08-19
+tags: ['Thema Netzpolitik', 'Thema netzpolitik.org']
+license: CC BY-NC-ND 4.0
+---
+Schon einmal vorweg. Es wird auf spezielle Weise etwas nerdig in diesem Text.
+
+Wie zu jeder Monatsmitte füllt sich unser Konto eigentlich, weil die SEPA-Lastschriften eingezogen werden. Aber es war nichts da. Einen Tag später nicht und auch eine Woche später nicht. Kurze darauf waren fünf Menschen aus drei Unternehmen involviert, um zu klären, wo zur Hölle dieses Geld festhängt.
+
+Aber zunächst gehen wir ein paar Schritte zurück. Zum ersten Mal schreibe ich nicht nur über unsere Finanzfachfrau Tina, sondern sie kommt selbst zu Wort mit einem Kurzabriss vom Ellenbogenpolster zu unserer neuen Buchführungssoftware, die Auslöser für das Verschwinden von 17.000 Euro war.
+
+## Ellenbogenpolster und Schuhkartons
+
+*Auszug aus Tinas Anfängen im Zahlenparadies*
+
+Zu den ältesten schriftlichen Überresten der Menschheit gehören Aufzeichnungen von Zahlungen und Inventuren. Es gab mal eine Zeit, in welcher Buchführung und Aufzeichnungen tatsächlich in großen gebundenen Büchern stattfanden. Sogenannte T‑Konten wogen SOLL gegen HABEN auf – übrigens im Deutschen eine Fehlbenennung: die Worte SOLL und HABEN wurden aus dem Italienischen falsch abgekürzt von „deve avere“ („soll haben“) und „deve dare“ („soll geben“). Noch heute quälen sich Auszubildende der kaufmännischen Berufe mit den Folgen dieser unglücklichen Verkürzung, aber das ist eine andere Geschichte.
+
+Das Journal nahm häufig eine ganze Tischbreite ein und führte Zeile um Zeile jede einzelne Geldbewegung auf, ordnete diese Kategorien zu und saldierte. Die Nebenbücher fassten die Bewegungen der jeweiligen Kategorien auf und man bekam eine bessere Idee über die Vorgänge einer Unternehmung.
+
+Fehler wurden sauber durchgestrichen, sodass sie weiterhin lesbar waren und dann wurde die Zeile neu geschrieben. Die heute nur noch als Fashionstatement getragenen Ellenbogenpolster erfüllten damals eine wichtige Schutzfunktion für die Buchhalter.
+
+Als ich meine Zeit im Steuerrecht begann, war das bei den meisten Steuerberatern glücklicherweise längst Geschichte. In der Industrie sowieso. Computer sind die idealen Unterstützer für das Rechnungswesen und doch wurde lange Zeit noch relativ wenig automatisiert. Bankbewegungen wurden während meiner Ausbildung häufig noch komplett per Hand von einem ausgedruckten und per Post zugestellten Kontoauszug abgetippt und die Buchungskontonummern mit rotem Stift auf dem Auszug notiert. Ganz klassisch gab es dann den müffelnden Schuhkarton aus der verrauchten Taxibude mit den geknüllten und vor Flecken triefenden Kassenbons. „Erhöht die Authentizität,“ höre ich meinen alten Chef sagen. Wenn man Glück hatte, waren die Belege sogar weitestgehend vollständig.
+
+Mittlerweile sind wir weit gekommen und nehmen tatsächlich eher selten noch Papier in die Hand.
+
+Der Juni brachte für unseren administrativen Bereich bei netzpolitik.org eine große Bereicherung: Ab sofort setzen wir Software von DATEV ein, um unsere Aufzeichnungen nach allen Regeln der Kunst zu verarbeiten, Rechnungen zu bearbeiten, Dokumente zu verwalten. Doch zuerst musste alles eingerichtet und angepasst werden. DATEV ist tatsächlich ein sehr mächtiges Tool in diesem Bereich, doch das bringt mit sich, dass es für jeden Vorgang Dutzende kleine Stellschrauben gibt, die zu berücksichtigen sind.
+
+*Ende des Auszugs aus Tinas Anfängen im Zahlenparadies*
+
+## Stellschrauben ins Glück
+
+Eine der Stellschrauben unserer neuen Software war der Bankimport aller Buchungen von der GLS Bank zu DATEV. Aus Überzeugung entschieden wir uns gegen die übliche und bequemste Schnittstelle für den Bankimport via finAPI, da diese Schnittstelle von der finAPI GmbH bereitgestellt wird.
+
+An diesem Unternehmen hielt die SCHUFA Holding GmbH kürzlich noch 75 Prozent. Seit Mai 2022 ist bekannt, dass diese Anteile von finAPI Gmbh an das britische Start-Up Yapily verkauft werden. Dass unsere Spender:innendaten in irgendeine Nähe dieser Unternehmen kommen, wollten wir nicht. Die Alternative wäre, CSV-Dateien erst aus dem Bankaccount herunterzuladen, um sie dann wieder bei DATEV hochzuladen. Das will kein Mensch.
+
+Wir brauchten also irgendeine andere Möglichkeit, damit DATEV mit der GLS Bank kommunizieren kann. Wir entschieden uns für EBICS (Electronic Banking Internet Communication Standard) als Schnittstelle. Und hier steckt der Teufel im Detail.
+
+## Protokoll eines Krisenfalls
+
+Die erste E‑Mail erreicht unseren Zahlungsdienstleister Twingle mit der Frage, ob es eine Idee gäbe, wo die Buchungen hängengeblieben sind, denn es sei nichts auf unserem Konto eingegangen. Zunächst wird vermutet, dass der Einzug von der GLS Bank abgelehnt wird, weil bei einer Spende von einem Schweizer Konto keine Anschrift hinterlegt wurde. Ok. Das ist einfach. Entweder Buchung entfernen oder Anschrift ermitteln. Ich ermittele die Anschrift und reiche sie nach.
+
+Die Buchungsdaten werden von Twingle erneut an die GLS Bank gesendet, damit diese die Lastschriften einziehen kann. Es vergeht ein Tag, zwei Tage, drei Tage. Keine Buchungen. Wir stellen fest, dass sämtliche Buchungen, die von Twingle im Juni hätten kommen müssen, ausgeblieben sind. Jetzt wird es langsam sehr merkwürdig. Telefonat mit der GLS Bank. Sie können keinen Fehler in ihrem System sehen. Twingle auch nicht. Zudem sind wir die einzigen mit dem Problem. Das deutet alles darauf hin, dass der Fehler bei uns liegen muss. Es folgen Telefonate und E‑Mails. Wir informieren alle Beteiligten, dass wir nun DATEV als Software nutzen, da das die einzige Änderung auf unserer Seite war. Am Anfang konnte sich niemand richtig vorstellen, was das damit zu tun haben soll. Aber dann endlich am 01. Juli 2022 kommt die erlösende Antwort vom Zahlungsverkehrsberater der GLS Bank.
+
+
+EBICS-Aufträge benötigen bei entsprechenden Aufträgen (X‑Aufträge, also Buchungen eines Rechenzentrums ohne Unterschrift) die jeweilige Freigabe am EBICS-Server. Alle durch ein Rechenzentrum (wie twingle, windata, DATEV, etc.) eingereichten Buchungen erfordern ja eine Unterschrift, diese müsste aktuell vor der Bearbeitung ins eigentliche Banksystem erfolgen. […] Am EBICS-Server liegen die Buchungen aktuell zur Freigabe vor, sie warten auf die elektronische Unterschrift. Solange die Unterschrift nicht erfolgt, erreichen Rechenzentrums-Aufträge das Banksystem nicht und niemand außerhalb unserer Abteilung kann diese finden.
+
+Was für eine Schnitzeljagd! Wir haben bei der Einrichtung von EBICS die Sicherheitsstandards nicht nach unten reguliert, damit eine zusätzliche Freigabe per Unterschrift unnötig wird und somit diesen Rattenschwanz erzeugt. Wir informieren sofort den Teil unserer Spender:innen, den es betrifft. Ganz ohne eine Ahnung wollten wir nicht kommunizieren, warum die Lastschriften noch nicht eingezogen sind. Nun wissen wir, was los ist.
+
+Aufatmen. Aber nur kurz. Denn wir erfahren etwas Unerfreuliches.
+
+
+Nach der Freigabe müssen wir noch prüfen, ob die Buchungen noch verarbeitet werden können, die Fälligkeit muss einzeln manuell angepasst werden.
+
+Nach sechs Jahren netzpolitik.org kann mich nicht mehr so viel aus der Ruhe bringen, weil in der Regel jedes Problem lösbar ist, aber wenn diese 17.000 Euro jetzt nicht mehr eingezogen werden können… Etwas Anderes hab ich auch gelernt in den vergangenen Jahren. Sich um ein Problem erst das Hirn zu zermartern, wenn es wirklich da ist. Vor allem, wenn man nichts mehr machen kann. Entweder es ist jetzt so oder nicht. Das gilt nicht für jedes Problem. Bei einigen ist es natürlich sinnvoll, vorher über Szenarien nachzudenken und Schritte zu unternehmen.
+
+Den Ar*** für unsere Spendeneinnahmen im Juni hat uns dann eine sehr große Einzelspende (15.000 Euro) gerettet. Dadurch konnte ausgeglichen werden, dass viele Spenden aus dem Juni erst im Juli ankamen. Im gesamten Jahr macht es natürlich keinen Unterschied, aber uns motiviert die monatliche Spendenbilanz und ermöglicht uns, auf Tendenzen in der Entwicklung der Spenden schneller zu reagieren.
+
+Am Ende ist nun alles gut und wir haben viel gelernt. Und darum geht es, wenn etwas nicht funktioniert. Neulich sagte ich zu einem Kollegen, dass ich es mittlerweile ein bisschen liebe, wenn etwas schief geht. Denn jedes Mal, wenn man es trotzdem schafft – und das ist meistens so – wird man ruhiger und krisenerprobter. Das ist in jedem Fall etwas Gutes! Und wer alle Fehler verhindern will, macht am besten gar nichts.
+
+## Die harten Zahlen
+
+Heute gibt es keine Grafik. denn Ole, unsere Grafiker ist nicht da. Und das wird der letzte Monat sein, in dem ich die Einnahmen und Ausgaben mit meiner geliebten Software Jameica/Hibiscus erfasse, denn eine Sache kann dieses Programm nicht: Sammelüberweisungen auflösen, wodurch eine Zuordnung zu einer bestimmten Kategorie für die einzelnen Buchungen der Sammelüberweisungen verunmöglicht wird. Um Zeit zu sparen, finden diese jedoch immer häufiger statt. Das bedeutet, dass ich die Auswertung der monatlichen Einnahmen und Ausgaben nicht mehr darüber machen kann, sondern jetzt auf DATEV anpassen muss. Das will ich aber lieber mit Tina gemeinsam machen und warte sehnsüchtig auf das Ende ihres Urlaubs. Da Zahlen ohne Grafik vor allem Textwüste sind, anbei nun also die wichtigsten Zahlen für euch zum Überblick.
+
+Obwohl die 17.000 Euro Spenden erst im Juli eingezogen wurden, haben wir Spenden in Höhe von 45.214 Euro erhalten. Zugute kam uns eine Einzelspende in Höhe von 15.000 Euro. So oder so wären wir ohne die Einzelspende nicht über 50.000 Euro gekommen. Dabei wollten wir schon weiter sein, aber mittlerweile wirken sich die verschiedenen Krisen auch auf unsere Spender:innen und somit auf uns aus. Als wir Pläne für die Zukunft machten, war an Pandemie, Krieg, Inflation noch nicht zu denken.
+
+Insgesamt erhielten wir 17 Prozent weniger Spenden als noch im Vorjahresjuni. Und wir müssen etwas tun, denn dieser Trend darf sich nicht fortsetzen.
+
+Im ersten Schritt wollen wir deutlicher machen, dass wir von Spenden abhängen, denn ein Großteil unserer Leserschaft spendet uns nicht. Viele wissen gar nicht, dass wir fast ausschließlich spendenfinanziert sind. Mittelfristig soll ein durchschnittliches monatliches Spendenvolumen von 60.000 Euro erzielt werden.
+
+Die Ausgaben beliefen sich im Juni auf 73.427 Euro. Hier war nichts Ungewöhnliches dabei. Die Miete (2.054 Euro) war geringer, weil wir Nebenkosten zurückbekamen und es wurden letzte Übergabearbeiten von unserem Finanzbuchhalter erledigt. Hier fallen in Zukunft Kosten weg, weil nun alles von uns intern erledigt wird. Die Personalkosten (62.625 Euro) waren zusammengerechnet niedriger als sonst, da wir krankheitsbedingte Ausfälle hatten und somit von den Krankenkassen Erstattungen erhielten.
+
+In Summe ergab sich eine Differenz zwischen Einnahmen und Ausgaben in Höhe von ‑27.350 Euro. Wenn es so weitergeht, müssen wir im Dezember richtig ranklotzen. Das wollten wir eigentlich vermeiden. Wir wollen uns nicht immer wieder in den letzten vier Wochen des Jahres derart selbst verausgaben. Und das ging auch alles nur, weil es quasi keinen krankheitsbedingten Ausfall gab. Wenn das noch dazukommt, wird es enorm schwierig. Genau das wollten wir vermeiden: Dass wir krankeitsbedingte Ausfälle vielleicht nicht wuppen können oder zumindest zu viel liegenbleibt. Aber die Welt um uns herum, macht uns einen Strich durch die Rechnung. Der selbst konservativ geschätzte Anstieg der Spenden durch eine Erweiterung unserer Leserschaft bleibt aus.
+
+Daher wird es in diesem Jahr auch noch eine Umfrage von uns geben. Wir wollen wissen, wer uns warum liest, wer uns warum spendet, wie wir netzpolitik.org besser machen können. Denn ohne Veränderung auf unserer Seite wird es auch keine positive Veränderung auf der Spendenseite geben. In diesem Sinne: Danke an euch alle, die uns jetzt schon so stabil unterstützen!
+
+## Wir bei anderen im Juni 2022
+
+- Tagesschau.de und das NDR-Medienmagazin ZAPP veröffentlichten im Juni gemeinsam mit uns eine Recherche über den European Newsroom. Hierbei geht es um einen Zusammenschluss verschiedener europäischer Nachrichtenagenturen in einem gemeinsamen Büro in Brüssel – gefördert von der EU-Kommission. In Zusammenarbeit konnten wir aufzeigen, dass die Wahl der Partner anzweifeln lässt, ob Unabhängigkeit und journalistische Qualität gewährleistet werden können.
+- Mit einem Fragenkatalog zur Chatkontrolle brachte die Bundesregierung die EU-Kommission in Zugzwang. Wir veröffentlichten den gesamten Fragenkatalog, über den die Kolleg:innen von Golem daraufhin berichteten.
+- netzpolitik.org versucht schon lange, Einsicht in die Chats über Impfstoffe zwischen Ursula von der Leyen und dem Pfizer-Chef zu erhalten. Und es geht um viel mehr: Ob Nachrichten über SMS oder Messenger überhaupt als Dokumente gewertet werden und damit unter das Transparenzgesetz fallen. Diese Debatte griff Politico mit Bezug auf unsere IFG-Anfrage auf, denn auch die EU-Ombudsfrau Emily O’Reilly sieht das anders. Es wird spannend bleiben, ob diese Nachrichten jemals das Licht der Welt erblicken. Interesse ist in jedem Fall da.
+
+## Danke für Eure Unterstützung!
+
+Wenn ihr uns unterstützen wollt, findet ihr hier alle Möglichkeiten. Am besten ist ein Dauerauftrag. Er ermöglicht uns, langfristig zu planen:
+
+Inhaber: netzpolitik.org e. V.
+
+IBAN: DE62430609671149278400
+
+BIC: GENODEM1GLS
+
+Zweck: Spende netzpolitik.org
+
+Wir freuen uns auch über Spenden via Paypal.
+
+Wir sind glücklich, die besten Unterstützerinnen und Unterstützer zu haben.
+
+Unseren Transparenzbericht aus dem Mai findet ihr hier.
+
+Vielen Dank an euch alle!

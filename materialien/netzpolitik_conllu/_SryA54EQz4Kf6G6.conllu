@@ -1,0 +1,1704 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Laut Apple ist es technisch unmöglich, Bilder in der iCloud zu scannen, ohne dabei die Privatsphäre und Sicherheit der eigenen Nutzer*innen zu gefährden.
+1	Laut	laut	ADP	APPR	_	2	case	_	_
+2	Apple	Apple	PROPN	NE	Case=Nom|Number=Plur	6	nmod	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	technisch	technisch	ADJ	ADJD	_	6	advmod	_	_
+6	unmöglich	unmöglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	Bilder	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	obj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	iCloud	iCloud	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
+12	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	13	mark	_	_
+13	scannen	scannen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	26	punct	_	_
+15	ohne	ohne	SCONJ	FM	Foreign=Yes	26	mark	_	_
+16	dabei	dabei	ADV	PAV	_	26	advmod	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Privatsphäre	Privatsphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	20	cc	_	_
+20	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	eigenen	eigen	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
+23	Nutzer*	Nutzer*	NOUN	$(	_	18	nmod	_	SpaceAfter=No
+24	innen	innen	ADV	ADV	_	26	advmod	_	_
+25	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	mark	_	_
+26	gefährden	gefährden	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Das geht aus einer Antwort des Unternehmens an eine Kinderschutzorganisation hervor, über die *Wired* berichtet.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	5	case	_	_
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Antwort	Antwort	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Unternehmens	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Kinderschutzorganisation	Kinderschutzorganisation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+11	hervor	hervor	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	15	case	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	*	*	NOUN	$(	_	2	nmod	_	SpaceAfter=No
+16	Wired	Wired	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	15	flat	_	SpaceAfter=No
+17	*	*	X	$(	_	15	dep	_	_
+18	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Im Dezember des vergangenen Jahres hatte Apple sich schon von dem eigenen Plan distanziert, iCloud-Fotos automatisch auf bekannte Darstellungen von Kindesmissbrauch (Englisch: Child Sexual Abuse Material, CSAM) zu scannen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	vergangenen	vergangen	ADJ	NE	Case=Dat|Number=Plur	6	amod	_	_
+6	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+10	schon	schon	ADV	ADV	_	14	advmod	_	_
+11	von	von	ADP	FM	Foreign=Yes	14	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	_
+14	Plan	Plan	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+15	distanziert	distanzieren	ADV	VVPP	VerbForm=Part	7	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	iCloud	iCloud	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	Fotos	Foto	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	flat	_	_
+20	automatisch	automatisch	ADJ	ADJD	_	37	advmod	_	_
+21	auf	auf	ADP	APPR	_	23	case	_	_
+22	bekannte	bekannt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	_
+23	Darstellungen	Darstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	37	obl	_	_
+24	von	von	ADP	FM	Foreign=Yes	25	case	_	_
+25	Kindesmissbrauch	Kindesmissbrauch	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+26	(	(	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Englisch	Englisch	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	25	appos	_	SpaceAfter=No
+28	:	:	PUNCT	$.	_	29	punct	_	_
+29	Child	Child	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	27	appos	_	_
+30	Sexual	Sexual	PROPN	NE	Foreign=Yes	29	flat	_	_
+31	Abuse	Abuse	PROPN	NN	Foreign=Yes	29	flat	_	_
+32	Material	Material	PROPN	NE	Foreign=Yes	29	flat	_	SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	_
+34	CSAM	CSAM	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	29	conj	_	SpaceAfter=No
+35	)	)	PUNCT	$(	_	27	punct	_	_
+36	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	mark	_	_
+37	scannen	scannen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Der Brief enthält nun eine ausführlichere Begründung für den Schritt.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brief	Brief	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nun	nun	ADV	ADV	_	3	advmod	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	ausführlichere	ausführlich	ADJ	NE	Foreign=Yes	7	amod	_	_
+7	Begründung	Begründung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = ## Tür zur Massenüberwachung Man habe sich intensiv mit Expert*innen aus den Bereichen Kinderschutz, Menschenrechte, Privatsphäre und Sicherheit ausgetauscht und Scan-Technologien „aus jedem Winkel betrachtet“, schreibt Erik Neuenschwander, Direktor für Privatsphäre und Kinderschutz bei Apple.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Tür	Tür	NOUN	APPR	_	6	dep	_	_
+3-4	zur	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Massenüberwachung	Massenüberwachung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+6	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	12	nsubj	_	_
+7	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+9	intensiv	intensiv	ADV	ADJD	_	12	advmod	_	_
+10	mit	mit	ADP	ADJA	Case=Nom|Number=Plur	11	case	_	_
+11	Expert*	Expert*	NOUN	$(	_	12	obl	_	SpaceAfter=No
+12	innen	innen	VERB	ADV	_	0	root	_	_
+13	aus	aus	ADP	APPR	_	15	case	_	_
+14	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Bereichen	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
+16	Kinderschutz	Kinderschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Menschenrechte	Menschenrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	Privatsphäre	Privatsphäre	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	conj	_	_
+21	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	22	cc	_	_
+22	Sicherheit	Sicherheit	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	16	conj	_	_
+23	ausgetauscht	ausgetauschen	VERB	VVPP	VerbForm=Part	12	conj	_	_
+24	und	und	CCONJ	NE	Foreign=Yes	32	cc	_	_
+25	Scan	Scan	PROPN	NN	Foreign=Yes	32	nsubj:pass	_	SpaceAfter=No
+26	-	-	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Technologien	Technologie	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	25	flat	_	_
+28	„	„	PUNCT	$.	_	32	punct	_	SpaceAfter=No
+29	aus	aus	ADP	APPR	_	31	case	_	_
+30	jedem	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	31	det	_	_
+31	Winkel	Winkel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	32	obl	_	_
+32	betrachtet	betrachten	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+33	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+34	,	,	PUNCT	$,	_	35	punct	_	_
+35	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
+36	Erik	Erik	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	_
+37	Neuenschwander	Neuenschwander	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	36	flat	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	39	punct	_	_
+39	Direktor	Direktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obj	_	_
+40	für	für	ADP	APPR	_	41	case	_	_
+41	Privatsphäre	Privatsphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	nmod	_	_
+42	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	43	cc	_	_
+43	Kinderschutz	Kinderschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	41	conj	_	_
+44	bei	bei	ADP	APPR	_	45	case	_	_
+45	Apple	Apple	PROPN	NE	Case=Dat|Number=Sing	35	obl	_	SpaceAfter=No
+46	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 6
+# text = „Das Scannen der privaten iCloud-Inhalte aller Nutzer*innen würde aus unserer Sicht schwerwiegende unbeabsichtigte Folgen haben.“
+1	„	„	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Scannen	Scannen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	privaten	privat	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	iCloud	iCloud	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	flat	_	_
+9	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	Nutzer*	Nutzer*	NOUN	$(	_	6	nmod	_	SpaceAfter=No
+11	innen	innen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+12	würde	werden	AUX	NE	Case=Nom|Number=Sing	19	aux	_	_
+13	aus	aus	ADP	APPR	_	15	case	_	_
+14	unserer	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
+15	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+16	schwerwiegende	schwerwiegend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	amod	_	_
+17	unbeabsichtigte	unbeabsichtigt	ADJ	ADJA	Case=Nom|Number=Plur	18	amod	_	_
+18	Folgen	Folge	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+19	haben	haben	VERB	VAINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Neuenschwander schreibt, Apples ursprünglicher Plan öffne die Tür zur Massenüberwachung, auch für andere Inhalte und andere Systeme: „Wie können Nutzer*innen sicher sein, dass ein Werkzeug für eine Art der Überwachung nicht umgewandelt wurde, um andere Inhalte zu überwachen, wie politische Aktivitäten oder religiöse Verfolgung?“
+1	Neuenschwander	Neuenschwander	PROPN	ADV	_	2	nsubj	_	_
+2	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	Apples	Apple	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	ursprünglicher	ursprünglich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Plan	Plan	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	55	conj	_	_
+7	öffne	öffne	ADV	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	advmod	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10-11	zur	_	_	_	_	_	_	_	_
+10	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Massenüberwachung	Massenüberwachung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	auch	auch	ADV	ADV	_	17	advmod	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	andere	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	17	amod	_	_
+17	Inhalte	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	appos	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
+19	andere	ander	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	_
+20	Systeme	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	conj	_	SpaceAfter=No
+21	:	:	PUNCT	$.	_	27	punct	_	_
+22	„	„	PUNCT	$.	_	27	punct	_	SpaceAfter=No
+23	Wie	wie	ADV	NN	Case=Nom|Gender=Masc|Number=Plur	27	advmod	_	_
+24	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+25	Nutzer*	Nutzer*	X	$(	_	27	nsubj	_	SpaceAfter=No
+26	innen	innen	ADV	ADV	_	27	advmod	_	_
+27	sicher	sicher	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+28	sein	sein	AUX	VAINF	VerbForm=Inf	27	cop	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	39	punct	_	_
+30	dass	dass	SCONJ	KOUS	_	39	mark	_	_
+31	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+32	Werkzeug	Werkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	39	nsubj:pass	_	_
+33	für	für	ADP	APPR	_	35	case	_	_
+34	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	_
+36	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Überwachung	Überwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+38	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	advmod	_	_
+39	umgewandelt	umwandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+40	wurde	werden	AUX	ADV	_	39	aux:pass	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	46	punct	_	_
+42	um	um	ADP	KOUI	_	46	mark	_	_
+43	andere	ander	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	44	amod	_	_
+44	Inhalte	Inhalt	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Plur	46	obj	_	_
+45	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	46	mark	_	_
+46	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	39	advcl	_	SpaceAfter=No
+47	,	,	PUNCT	$,	_	50	punct	_	_
+48	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	50	case	_	_
+49	politische	politisch	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	50	amod	_	_
+50	Aktivitäten	Aktivität	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	46	obl	_	_
+51	oder	oder	CCONJ	XY	_	53	cc	_	_
+52	religiöse	religiös	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	53	amod	_	_
+53	Verfolgung	Verfolgung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	50	conj	_	SpaceAfter=No
+54	?	?	PUNCT	$.	_	27	punct	_	SpaceAfter=No
+55	“	“	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Apple hatte die Technologien im August 2021 angekündigt.
+1	Apple	Apple	PROPN	NE	Case=Nom|Number=Plur	2	nsubj	_	_
+2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Technologien	Technologie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	August	August	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+8	2021	2021	NUM	CARD	NumType=Card	7	nmod	_	_
+9	angekündigt	ankündigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Nach öffentlichen Protesten pausierte das Unternehmen seine Pläne für den Client-Side-Scan der iCloud einen Monat später.
+1	Nach	nach	ADP	APPR	_	3	case	_	_
+2	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	3	amod	_	_
+3	Protesten	Protest	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	pausierte	pausieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Pläne	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Client	Client	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Side	Side	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	11	flat	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Scan	Scan	PROPN	NN	Foreign=Yes	11	flat	_	_
+16	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	iCloud	iCloud	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Monat	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+20	später	spät	ADJ	ADJD	_	4	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Zum Schutz von Kindern setzt Apple dagegen verstärkt auf das unternehmenseigene „Communication Safety“-Werkzeug.
+1-2	Zum	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Schutz	Schutz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+4	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+5	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
+6	setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	Apple	Apple	PROPN	NE	Case=Dat|Number=Sing	6	nsubj	_	_
+8	dagegen	dagegen	ADV	PAV	_	9	advmod	_	_
+9	verstärkt	verstärkt	ADJ	ADJD	_	6	advmod	_	_
+10	auf	auf	ADP	APPR	_	14	case	_	_
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+12	unternehmenseigene	unternehmenseigen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
+13	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+14	Communication	Communicatien	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+15	Safety	Safety	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+16	“	“	PUNCT	$.	_	18	punct	_	SpaceAfter=No
+17	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	Werkzeug	Werkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Dabei werden Bilder und Videos, die über Apple-Dienste an Kinderaccounts versendet werden, auf Nacktheit gescannt und dementsprechend unscharf angezeigt.
+1	Dabei	dabei	ADV	PAV	_	19	advmod	_	_
+2	werden	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	19	aux:pass	_	_
+3	Bilder	Bild	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+4	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	5	cc	_	_
+5	Videos	Video	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	14	punct	_	_
+7	die	der	PRON	ART	Case=Nom|Number=Plur|PronType=Rel	14	nsubj:pass	_	_
+8	über	über	ADP	FM	Foreign=Yes	9	case	_	_
+9	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Dienste	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	flat	_	_
+12	an	an	ADP	APPR	_	13	case	_	_
+13	Kinderaccounts	Kinderaccounts	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	_
+14	versendet	versenden	VERB	VVPP	VerbForm=Part	19	acl	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	14	punct	_	_
+17	auf	auf	ADP	APPR	_	18	case	_	_
+18	Nacktheit	Nacktheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	gescannt	scannen	VERB	VVPP	VerbForm=Part	0	root	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	23	cc	_	_
+21	dementsprechend	dementsprechend	DET	ADJD	_	22	amod	_	_
+22	unscharf	unscharf	NOUN	ADJD	_	23	obj	_	_
+23	angezeigt	anzeigen	VERB	VVPP	VerbForm=Part	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 12
+# text = Außerdem bekommen die Kinder Hinweise zu dem Thema und können eine Vertrauensperson kontaktieren.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+4	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+5	Hinweise	Hinweise	ADV	NN	Case=Acc|Gender=Masc|Number=Plur	2	advmod	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+9	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	13	cc	_	_
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vertrauensperson	Vertrauensperson	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	kontaktieren	kontaktieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Im Unterschied zum CSAM-Scan in der Cloud passieren alle Scans auf dem Endgerät (Client-Side-Scanning).
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Unterschied	Unterschied	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	CSAM	CSAM	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Scan	Scan	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Cloud	Cloud	NOUN	NE	Foreign=Yes	6	nmod	_	_
+12	passieren	passieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	14	det	_	_
+14	Scans	Scan	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	12	nsubj	_	_
+15	auf	auf	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Endgerät	Endgerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+18	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	Client	Client	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+20	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	Side	Side	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	19	flat	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Scanning	Scanning	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	19	flat	_	SpaceAfter=No
+24	)	)	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 14
+# text = Die Verschlüsselung wird dabei laut der FAQ von Apple nicht umgangen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	_
+4	dabei	dabei	ADV	PAV	_	11	advmod	_	_
+5	laut	laut	ADP	VVPP	_	7	case	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	FAQ	FAQ	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	Apple	Apple	PROPN	NE	Case=Dat|Number=Sing	11	nmod	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	umgangen	umgangen	VERB	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = ## Kinderschutzorganisation hatte Apple kritisiert Neuenschwanders Antwort ist eine Reaktion auf einen Brief von Sarah Gardner, Gründerin der Heat Initiative, einer neuen Kinderschutzorganisation, welche sich für digitale Lösungen im Kampf gegen die sexuelle Gewalt an Kindern einsetzt.
+1	##	##	PUNCT	$.	_	5	punct	_	_
+2	Kinderschutzorganisation	Kinderschutzorganisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+3	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	kritisiert	kritisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	nsubj	_	SpacesAfter=\s\s
+6	Neuenschwanders	Neuenschwanders	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	Antwort	Antwort	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Reaktion	Reaktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+11	auf	auf	ADP	APPR	_	13	case	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+14	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	15	case	_	_
+15	Sarah	Sarah	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	Gardner	Gardner	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Gründerin	Gründerin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Heat	Heat	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	Initiative	initiativ	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	neuen	neu	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	_
+25	Kinderschutzorganisation	Kinderschutzorganisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	41	punct	_	_
+27	welche	welch	PRON	NN	Case=Acc|Gender=Neut|Number=Sing	41	nsubj	_	_
+28	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	41	obj	_	_
+29	für	für	ADP	APPR	_	31	case	_	_
+30	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	31	amod	_	_
+31	Lösungen	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	41	obl	_	_
+32-33	im	_	_	_	_	_	_	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Kampf	Kampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	_
+35	gegen	gegen	ADP	APPR	_	38	case	_	_
+36	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	sexuelle	sexuell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	38	amod	_	_
+38	Gewalt	Gewalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	_
+39	an	an	ADP	APPR	_	40	case	_	_
+40	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	38	nmod	_	_
+41	einsetzt	einsetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 16
+# text = Gardner beschwert sich darin, dass Apple den Plan des CSAM-Scans verworfen hat, und kündigt eine Kampagne an gegen Apples „kontinuierliche Verschleppung der Implementierung von kritischer Technologie, die Bilder und Videos von Kindesmissbrauch auf iCloud erkennen kann“.
+1	Gardner	Gardner	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	beschwert	beschweren	VERB	VVPP	VerbForm=Part	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	darin	darin	PRON	PAV	_	2	dep	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	14	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+7	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	14	nsubj	_	_
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Plan	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	CSAM	CSAM	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Scans	Scans	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	11	flat	_	_
+14	verworfen	verwerfen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	und	und	CCONJ	NE	Foreign=Yes	18	cc	_	_
+18	kündigt	kündigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Kampagne	Kampagne	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	an	an	ADP	APPR	_	26	case	_	_
+22	gegen	gegen	ADP	APPR	_	23	case	_	_
+23	Apples	Apple	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+24	„	„	PUNCT	$.	_	23	punct	_	SpaceAfter=No
+25	kontinuierliche	kontinuierlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	26	amod	_	_
+26	Verschleppung	Verschleppung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	41	obl	_	_
+27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Implementierung	Implementierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	41	iobj	_	_
+29	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	31	case	_	_
+30	kritischer	kritisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	31	amod	_	_
+31	Technologie	Technologie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	34	punct	_	_
+33	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	34	det	_	_
+34	Bilder	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	41	obj	_	_
+35	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	36	cc	_	_
+36	Videos	Video	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	34	conj	_	_
+37	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	38	case	_	_
+38	Kindesmissbrauch	Kindesmissbrauch	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_
+39	auf	auf	ADP	APPR	_	40	case	_	_
+40	iCloud	iCloud	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	38	nmod	_	_
+41	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
+42	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	SpaceAfter=No
+43	“	“	PUNCT	$.	_	41	punct	_	SpaceAfter=No
+44	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Gardner ist keine Unbekannte, sondern arbeitete für mindestens zehn Jahre bei Thorn, einer Organisation des Schauspielers Ashton Kutcher.
+1	Gardner	Gardner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	4	nmod	_	_
+4	Unbekannte	unbekannt	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	7	cc	_	_
+7	arbeitete	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	für	für	ADP	APPR	_	11	case	_	_
+9	mindestens	mindestens	ADV	ADV	_	10	advmod	_	_
+10	zehn	zehn	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	nummod	_	_
+11	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	_
+12	bei	bei	ADP	APPR	_	13	case	_	_
+13	Thorn	Thorn	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Organisation	Organisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	appos	_	_
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Schauspielers	Schauspieler	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Ashton	Ashton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+20	Kutcher	Kutcher	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Diese lobbyiert in der EU stark für die Chatkontrolle.
+1	Diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	lobbyiert	lobbyieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+6	stark	stark	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Außerdem bietet Thorn selbst Technologien zum Aufspüren von CSAM an.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Thorn	Thorn	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advmod	_	_
+5	Technologien	Technologie	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obj	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Aufspüren	aufspüren	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+9	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+10	CSAM	CSAM	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+11	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Apples Reaktion auf Gardners Brief wird damit auch hinsichtlich der europäischen Debatte um die Chatkontrolle und um Client-Side-Scanning relevant.
+1	Apples	Apples	PRON	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	dep	_	_
+2	Reaktion	Reaktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	Gardners	Gardner	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+5	Brief	Brief	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	damit	damit	ADV	PAV	_	23	advmod	_	_
+8	auch	auch	ADV	ADV	_	12	advmod	_	_
+9	hinsichtlich	hinsichtlich	ADP	APPR	_	12	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	europäischen	europäisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	_
+12	Debatte	Debatte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
+13	um	um	ADP	APPR	_	15	case	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Chatkontrolle	Chatkontrolle	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	20	cc	_	_
+17	um	um	ADP	APPR	_	20	case	_	_
+18	Client	Client	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+20	Side	Side	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+21	-	-	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+22	Scanning	Scanning	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	20	flat	_	_
+23	relevant	relevant	ADJ	ADJD	_	6	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 21
+# text = Apple reiht sich damit in die Stimmen ein, die durch solche Verfahren Privatsphäre und Sicherheit stark gefährdet sehen.
+1	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	reiht	reihen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	damit	damit	ADV	PAV	_	2	advmod	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Stimmen	Stimme|Stimmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+8	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	19	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	19	nsubj	_	_
+11	durch	durch	ADP	APPR	_	13	case	_	_
+12	solche	solch	PRON	NE	Case=Acc|Gender=Neut|Number=Sing	13	det	_	_
+13	Verfahren	Verfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+14	Privatsphäre	Privatsphäre	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	conj	_	_
+15	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	16	cc	_	_
+16	Sicherheit	Sicherheit	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	_
+17	stark	stark	ADJ	NE	Case=Dat|Gender=Masc|Number=Sing	18	advmod	_	_
+18	gefährdet	gefährden	ADJ	ADJD	_	19	advmod	_	_
+19	sehen	sehen	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = *Hier der Brief aus dem PDF befreit:* **Date:**August 31, 2023**From:**Erik Neuenschwander, Apple**To:**Ms.
+1	*	*	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Hier	hier	ADV	ADV	_	8	advmod	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Brief	Brief	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+5	aus	aus	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	PDF	PDF	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_
+8	befreit	befreien	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	:*	:*	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+10	**	**	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+11	Date	Date	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	:*	:*	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+13	*	*	X	$(	_	14	dep	_	SpaceAfter=No
+14	August	August	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+15	31	31	NUM	CARD	NumType=Card	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	2023**	2023**	X	$(	_	18	dep	_	SpaceAfter=No
+18	From	From	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	:**	:**	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+20	Erik	Erik	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	_
+21	Neuenschwander	Neuenschwander	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	Apple**	Apple**	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+24	To:**Ms	To:**Ms	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 23
+# text = Sarah Gardner, Heat Initiative Dear Ms. Gardner, Thank you for your recent letter inquiring about the ways Apple helps keep children safe.
+1	Sarah	Sarah	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+2	Gardner	Gardner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Heat	Heat	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	Initiative	initiativ	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	4	flat	_	SpacesAfter=\s\s
+6	Dear	Dear	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+7	Ms.	Ms.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+8	Gardner	Gardner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	SpacesAfter=\s\s
+10	Thank	Thank	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+11	you	you	PROPN	NE	Foreign=Yes	10	flat	_	_
+12	for	for	PROPN	NE	Foreign=Yes	10	flat	_	_
+13	your	your	ADV	NE	Foreign=Yes	10	flat	_	_
+14	recent	recent	ADJ	NE	Foreign=Yes	10	flat	_	_
+15	letter	lett	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	inquiring	inquiring	NOUN	FM	Foreign=Yes	24	obj	_	_
+17	about	about	ADV	FM	Foreign=Yes	24	advmod	_	_
+18	the	th	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	amod	_	_
+19	ways	ways	ADJ	NE	Foreign=Yes	20	amod	_	_
+20	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	24	nsubj	_	_
+21	helps	helps	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	24	advmod	_	_
+22	keep	keep	ADV	FM	Foreign=Yes	24	advmod	_	_
+23	children	childr	ADJ	NE	Foreign=Yes	24	advmod	_	_
+24	safe	safen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 24
+# text = We’re grateful for the tireless efforts of the child safety community and believe that there is much good that we can do by working together.
+1	We’re	We’re	PROPN	NE	Foreign=Yes	24	nsubj	_	_
+2	grateful	grateful	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	for	for	PROPN	NE	Foreign=Yes	1	flat	_	_
+4	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	1	flat	_	_
+5	tireless	tireless	PROPN	NE	Foreign=Yes	1	flat	_	_
+6	efforts	effort	PROPN	NE	Foreign=Yes	1	flat	_	_
+7	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+8	the	the	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
+9	child	child	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
+10	safety	safety	PROPN	FM	Foreign=Yes	1	flat	_	_
+11	community	community	PROPN	FM	Foreign=Yes	1	flat	_	_
+12	and	and	CCONJ	FM	Foreign=Yes	13	cc	_	_
+13	believe	believ	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+14	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+15	there	ther	ADJ	NE	Foreign=Yes	24	advmod	_	_
+16	is	sein	AUX	VAFIN	Foreign=Yes	24	aux:pass	_	_
+17	much	much	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	24	advmod	_	_
+18	good	good	ADJ	FM	Foreign=Yes	24	advmod	_	_
+19	that	thaben	AUX	FM	Foreign=Yes	24	aux:pass	_	_
+20	we	w	ADJ	FM	Foreign=Yes	24	advmod	_	_
+21	can	can	ADP	NE	Foreign=Yes	22	case	_	_
+22	do	Do	PROPN	NE	Foreign=Yes	24	obl	_	_
+23	by	by	PROPN	ART	Foreign=Yes	22	flat	_	_
+24	working	workehen	VERB	NE	Foreign=Yes	0	root	_	_
+25	together	together	ADV	NE	Case=Nom|Number=Sing	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 25
+# text = Child sexual abuse material is abhorrent and we are committed to breaking the chain of coercion and influence that makes children susceptible to it.
+1	Child	Child	SCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	19	mark	_	_
+2	sexual	sexual	ADV	FM	Foreign=Yes	19	advmod	_	_
+3	abuse	abuse	ADV	NN	Foreign=Yes	4	advmod	_	_
+4	material	material	ADJ	NE	Foreign=Yes	19	advmod	_	_
+5	is	sein	AUX	VAFIN	Foreign=Yes	19	aux	_	_
+6	abhorrent	abhorrent	ADJ	ADJD	_	5	advmod	_	_
+7	and	and	CCONJ	FM	Foreign=Yes	8	cc	_	_
+8	we	w	ADJ	FM	Foreign=Yes	6	conj	_	_
+9	are	ar	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	committed	committed	PROPN	FM	Foreign=Yes	19	nsubj	_	_
+11	to	To	PROPN	NN	Foreign=Yes	10	flat	_	_
+12	breaking	breaking	PROPN	FM	Foreign=Yes	10	flat	_	_
+13	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	10	flat	_	_
+14	chain	chain	PROPN	NN	Case=Gen|Number=Sing	10	flat	_	_
+15	of	of	PROPN	NE	Foreign=Yes	10	flat	_	_
+16	coercion	coercion	PROPN	NE	Foreign=Yes	10	flat	_	_
+17	and	and	CCONJ	FM	Foreign=Yes	18	cc	_	_
+18	influence	influence	PROPN	FM	Foreign=Yes	16	conj	_	_
+19	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	makes	mak	ADJ	FM	Foreign=Yes	21	advmod	_	_
+21	children	childr	ADJ	NE	Foreign=Yes	19	amod	_	_
+22	susceptible	susceptibel	ADJ	NE	Foreign=Yes	21	flat	_	_
+23	to	to	X	NN	Foreign=Yes	22	flat	_	_
+24	it	it	X	FM	Foreign=Yes	22	dep	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 26
+# text = We’re proud of the contributions we have made so far and intend to continue working collaboratively with child safety organizations, technologists, and governments on enduring solutions that help protect the most vulnerable members of our society.
+1	We’re	We’re	PROPN	NE	Foreign=Yes	7	nsubj	_	_
+2	proud	proud	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+4	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	1	flat	_	_
+5	contributions	contributions	PROPN	FM	Foreign=Yes	1	flat	_	_
+6	we	w	ADJ	FM	Foreign=Yes	1	flat	_	_
+7	have	have	ADJ	FM	Foreign=Yes	13	flat	_	_
+8	made	made	ADJ	NE	Foreign=Yes	13	amod	_	_
+9	so	so	ADV	NE	Case=Dat|Number=Plur	10	advmod	_	_
+10	far	far	ADJ	ADJD	_	8	advmod	_	_
+11	and	and	CCONJ	FM	Foreign=Yes	12	cc	_	_
+12	intend	intend	ADJ	ADJD	_	10	conj	_	_
+13	to	To	PROPN	NN	Foreign=Yes	17	nsubj	_	_
+14	continue	continue	PROPN	FM	Foreign=Yes	13	flat	_	_
+15	working	working	PROPN	FM	Foreign=Yes	13	flat	_	_
+16	collaboratively	collaboratively	PROPN	NE	Foreign=Yes	13	flat	_	_
+17	with	with	ADJ	NE	Foreign=Yes	0	root	_	_
+18	child	child	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+19	safety	safety	CCONJ	FM	Foreign=Yes	20	cc	_	_
+20	organizations	organizations	ADJ	FM	Foreign=Yes	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	technologists	technologists	VERB	FM	Foreign=Yes	17	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	25	punct	_	_
+24	and	and	CCONJ	FM	Foreign=Yes	25	cc	_	_
+25	governments	governments	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	22	conj	_	_
+26	on	on	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	27	advmod	_	_
+27	enduring	endurehen	VERB	FM	Foreign=Yes	17	conj	_	_
+28	solutions	solutions	ADV	FM	Foreign=Yes	27	advmod	_	_
+29	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	_
+30	help	help	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	38	advmod	_	_
+31	protect	protect	ADJ	FM	Foreign=Yes	35	amod	_	_
+32	the	the	X	NN	Case=Acc|Gender=Neut|Number=Plur	34	nmod	_	_
+33	most	most	ADV	FM	Foreign=Yes	34	advmod	_	_
+34	vulnerable	vulnerabel	ADJ	NE	Foreign=Yes	35	amod	_	_
+35	members	member	PRON	NN	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+36	of	of	ADV	NE	Foreign=Yes	38	cc	_	_
+37	our	our	ADV	NE	Foreign=Yes	38	advmod	_	_
+38	society	society	CCONJ	NE	Foreign=Yes	29	cc	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Our goal has been and always will be to create technology that empowers and enriches people’s lives, while helping them stay safe.
+1	Our	Our	ADV	NE	Foreign=Yes	4	advmod	_	_
+2	goal	goal	ADJ	NE	Foreign=Yes	4	advmod	_	_
+3	has	has	ADV	NE	Mood=Imp|Number=Sing|VerbForm=Fin	4	advmod	_	_
+4	been	be	ADJ	NE	Foreign=Yes	23	advmod	_	_
+5	and	and	CCONJ	NE	Foreign=Yes	6	cc	_	_
+6	always	always	ADV	NE	Foreign=Yes	4	conj	_	_
+7	will	wollen	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	23	aux	_	_
+8	be	be	ADP	TRUNC	_	9	case	_	_
+9	to	To	PROPN	NN	Foreign=Yes	23	obl	_	_
+10	create	create	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+11	technology	technology	PROPN	FM	Foreign=Yes	9	flat	_	_
+12	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+13	empowers	empower	PRON	NN	Case=Gen|Gender=Masc|Number=Sing	23	nsubj	_	_
+14	and	and	CCONJ	NE	Case=Gen|Gender=Fem|Number=Sing	15	cc	_	_
+15	enriches	enrich	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+16	people’s	people’s	ADJ	NE	Case=Gen|Gender=Masc|Number=Sing	23	advmod	_	_
+17	lives	liv	ADJ	NE	Foreign=Yes	23	amod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	while	while	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	20	advmod	_	_
+20	helping	helpehen	VERB	FM	Foreign=Yes	23	conj	_	_
+21	them	th	PRON	PWAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	23	nsubj	_	_
+22	stay	stay	ADJ	FM	Foreign=Yes	23	advmod	_	_
+23	safe	safen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 28
+# text = With respect to helping kids stay safe, we have made meaningful contributions toward this goal by developing a number of innovative technologies.
+1	With	with	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	respect	respect	PROPN	FM	Foreign=Yes	1	flat	_	_
+3	to	To	PROPN	NN	Foreign=Yes	1	flat	_	_
+4	helping	helpehen	VERB	FM	Foreign=Yes	0	root	_	_
+5	kids	kids	ADV	FM	Case=Nom|Gender=Neut|Number=Plur	4	advmod	_	_
+6	stay	stay	ADJ	FM	Foreign=Yes	7	advmod	_	_
+7	safe	safen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	_
+9	we	we	X	FM	Foreign=Yes	18	dep	_	_
+10	have	have	X	FM	Foreign=Yes	18	cc	_	_
+11	made	made	ADV	NE	Foreign=Yes	18	advmod	_	_
+12	meaningful	meaningful	PRON	NE	Foreign=Yes	18	nsubj	_	_
+13	contributions	contributions	PROPN	NE	Foreign=Yes	12	appos	_	_
+14	toward	toward	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	this	this	PROPN	FM	Foreign=Yes	13	flat	_	_
+16	goal	goal	PROPN	NE	Foreign=Yes	13	flat	_	_
+17	by	by	PROPN	ART	Foreign=Yes	13	flat	_	_
+18	developing	developehen	VERB	NE	Foreign=Yes	23	conj	_	_
+19	a	a	ADV	NE	Foreign=Yes	18	flat	_	_
+20	number	number	ADV	NN	_	18	advmod	_	_
+21	of	of	ADV	NE	Foreign=Yes	23	nsubj	_	_
+22	innovative	innovativ	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	23	advmod	_	_
+23	technologies	technologeisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 29
+# text = We have deepened our commitment to the Communication Safety feature that we first made available in December 2021.
+1	We	we	X	NE	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	_
+2	have	have	X	NE	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	_
+3	deepened	deepened	X	NE	Foreign=Yes	10	dep	_	_
+4	our	our	ADV	NE	Foreign=Yes	10	advmod	_	_
+5	commitment	commitment	PROPN	NE	Foreign=Yes	10	nsubj	_	_
+6	to	To	PROPN	NN	Foreign=Yes	5	flat	_	_
+7	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	5	flat	_	_
+8	Communication	Communicatien	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	5	flat	_	_
+9	Safety	Safety	PROPN	NE	Foreign=Yes	5	flat	_	_
+10	feature	featuern	VERB	NE	Foreign=Yes	0	root	_	_
+11	that	thaben	AUX	FM	Foreign=Yes	10	flat	_	_
+12	we	we	X	FM	Foreign=Yes	11	dep	_	_
+13	first	first	ADV	ADV	_	15	advmod	_	_
+14	made	made	ADV	NE	Foreign=Yes	15	advmod	_	_
+15	available	availabel	ADJ	NE	Foreign=Yes	12	amod	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	December	December	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+18	2021	2021	NUM	CARD	NumType=Card	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 30
+# text = Communication Safety is designed to intervene and offer helpful resources to children when they receive or attempt to send messages that contain nudity.
+1	Communication	Communicatien	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Safety	Safety	PROPN	FM	Foreign=Yes	1	flat	_	_
+3	is	sein	AUX	FM	Foreign=Yes	5	cop	_	_
+4	designed	designed	ADV	FM	Foreign=Yes	5	advmod	_	_
+5	to	to	ADV	VVINF	VerbForm=Inf	0	root	_	_
+6	intervene	interven	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	_
+7	and	and	CCONJ	NE	Foreign=Yes	8	cc	_	_
+8	offer	offer	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+9	helpful	helpful	ADJ	FM	Foreign=Yes	10	advmod	_	_
+10	resources	resourc	ADJ	FM	Foreign=Yes	5	amod	_	_
+11	to	to	CCONJ	NN	Foreign=Yes	12	cc	_	_
+12	children	childr	ADJ	NE	Foreign=Yes	10	conj	_	_
+13	when	wh	ADJ	VVINF	VerbForm=Inf	12	conj	_	_
+14	they	they	CCONJ	NE	Foreign=Yes	15	cc	_	_
+15	receive	receiv	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+16	or	or	CCONJ	NN	Case=Nom|Gender=Neut	17	cc	_	_
+17	attempt	attempt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	to	to	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
+19	send	send	ADJ	ADJD	_	20	advmod	_	_
+20	messages	messag	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	13	conj	_	_
+21	that	that	X	FM	Foreign=Yes	23	dep	_	_
+22	contain	contain	X	FM	Foreign=Yes	23	dep	_	_
+23	nudity	nudity	X	FM	Foreign=Yes	10	flat	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 31
+# text = The goal is to disrupt grooming of children by making it harder for predators to normalize this behavior.
+1	The	The	PROPN	FM	Foreign=Yes	3	nmod	_	_
+2	goal	goal	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	is	sein	AUX	FM	Foreign=Yes	18	aux	_	_
+4	to	to	ADV	VVINF	VerbForm=Inf	3	advmod	_	_
+5	disrupt	disrupt	ADV	ADV	_	3	advmod	_	_
+6	grooming	grooming	PROPN	NE	Foreign=Yes	18	nsubj	_	_
+7	of	of	PROPN	NE	Foreign=Yes	6	flat	_	_
+8	children	children	PROPN	NE	Foreign=Yes	6	flat	_	_
+9	by	by	PROPN	ART	Foreign=Yes	6	flat	_	_
+10	making	making	PROPN	FM	Foreign=Yes	6	flat	_	_
+11	it	it	PROPN	FM	Foreign=Yes	6	flat	_	_
+12	harder	harder	PROPN	FM	Foreign=Yes	6	flat	_	_
+13	for	for	PROPN	NE	Foreign=Yes	6	flat	_	_
+14	predators	predator	PROPN	NE	Foreign=Yes	6	flat	_	_
+15	to	To	PROPN	NN	Foreign=Yes	6	flat	_	_
+16	normalize	normaliz	ADJ	FM	Foreign=Yes	6	flat	_	_
+17	this	this	NOUN	FM	Foreign=Yes	6	flat	_	_
+18	behavior	behaviören	VERB	NE	Foreign=Yes	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = In our latest releases, we’ve expanded the feature to more easily and more broadly protect children.
+1	In	in	ADP	APPR	_	4	case	_	_
+2	our	our	ADV	FM	Foreign=Yes	4	advmod	_	_
+3	latest	lat	ADJ	ADJD	_	4	advmod	_	_
+4	releases	releas	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	we’ve	we’v	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
+7	expanded	expanded	ADJ	FM	Foreign=Yes	4	conj	_	_
+8	the	the	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	_
+9	feature	featuer	ADJ	NE	Foreign=Yes	7	amod	_	_
+10	to	to	CCONJ	NN	Foreign=Yes	17	cc	_	_
+11	more	mor	ADJ	FM	Foreign=Yes	17	advmod	_	_
+12	easily	easily	ADJ	FM	Foreign=Yes	17	conj	_	_
+13	and	and	CCONJ	FM	Foreign=Yes	14	cc	_	_
+14	more	mor	ADJ	FM	Foreign=Yes	12	conj	_	_
+15	broadly	broadly	CCONJ	NE	Foreign=Yes	16	cc	_	_
+16	protect	protect	ADJ	FM	Foreign=Yes	12	conj	_	_
+17	children	children	VERB	NE	Foreign=Yes	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 33
+# text = First, the feature is on by default for all child accounts.
+1	First	First	PROPN	ADV	_	7	amod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	the	the	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	_
+4	feature	feature	PROPN	NE	_	6	flat	_	_
+5	is	is	PROPN	VAFIN	Foreign=Yes	4	flat	_	_
+6	on	on	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	1	flat	_	_
+7	by	by	PROPN	ART	Foreign=Yes	8	flat	_	_
+8	default	default	PROPN	NE	Case=Acc|Number=Sing	12	nsubj	_	_
+9	for	for	PROPN	NE	Foreign=Yes	8	flat	_	_
+10	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	11	det	_	_
+11	child	child	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+12	accounts	accounts	VERB	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 34
+# text = Second, it is expanded to also cover video content in addition to still images.
+1	Second	Second	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	it	it	X	FM	Foreign=Yes	1	dep	_	_
+4	is	is	X	FM	Foreign=Yes	1	flat	_	_
+5	expanded	expanded	X	FM	Foreign=Yes	1	flat	_	_
+6	to	to	X	NN	Foreign=Yes	1	flat	_	_
+7	also	also	ADV	NE	Foreign=Yes	10	advmod	_	_
+8	cover	cov	ADJ	NE	Foreign=Yes	10	advmod	_	_
+9	video	video	ADV	NE	Foreign=Yes	10	advmod	_	_
+10	content	content	ADJ	NE	Foreign=Yes	0	root	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	addition	addition	PROPN	NE	Foreign=Yes	15	nmod	_	_
+13	to	to	PROPN	NN	Foreign=Yes	12	flat	_	_
+14	still	still	ADJ	NE	Case=Gen|Gender=Neut|Number=Sing	12	flat	_	_
+15	images	imag	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 35
+# text = And we have expanded these protections in more areas across the system including AirDrop, the Photo picker, FaceTime messages, and Contact Posters in the Phone app.
+1	And	and	CCONJ	FM	Foreign=Yes	3	cc	_	_
+2	we	we	X	FM	Foreign=Yes	1	flat	_	_
+3	have	have	X	FM	Foreign=Yes	4	conj	_	_
+4	expanded	expanded	X	FM	Foreign=Yes	0	root	_	_
+5	these	thes	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	29	nsubj	_	_
+6	protections	protections	ADJ	FM	Foreign=Yes	29	advmod	_	_
+7	in	in	ADP	APPR	_	12	case	_	_
+8	more	mor	ADJ	NE	Foreign=Yes	12	amod	_	_
+9	areas	areas	ADV	NE	Foreign=Yes	10	advmod	_	_
+10	across	acroß	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	12	amod	_	_
+11	the	the	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	_
+12	system	system	NOUN	FM	Foreign=Yes	18	nmod	_	_
+13	including	including	PROPN	NE	Foreign=Yes	12	appos	_	_
+14	AirDrop	AirDrop	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	the	the	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	17	nmod	_	_
+17	Photo	Photo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+18	picker	picker	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	FaceTime	FaceTim	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+21	messages	messag	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	24	punct	_	_
+23	and	and	CCONJ	NE	Case=Gen|Gender=Neut|Number=Sing	24	cc	_	_
+24	Contact	Contact	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
+25	Posters	Posters	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	20	appos	_	_
+26	in	in	ADP	APPR	_	28	case	_	_
+27	the	the	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	_
+28	Phone	Phone	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	_
+29	app	app	ADJ	ADJD	_	4	conj	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 36
+# text = In addition, a new Sensitive Content Warning feature helps all users avoid seeing unwanted nude images and videos when receiving them in Messages, an AirDrop, a FaceTime video message, and the Phone app when receiving a Contact Poster.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	addition	addition	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	a	a	ADP	FM	Foreign=Yes	6	case	_	_
+5	new	new	ADJ	FM	Foreign=Yes	6	amod	_	_
+6	Sensitive	Sensitive	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+7	Content	Content	PROPN	NE	Foreign=Yes	6	appos	_	_
+8	Warning	Warning	PROPN	NE	Foreign=Yes	7	flat	_	_
+9	feature	featuer	ADJ	NE	Foreign=Yes	10	amod	_	_
+10	helps	helps	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+11	all	all	DET	PIAT	Definite=Ind|PronType=Ind	13	det	_	_
+12	users	users	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	_
+13	avoid	avoid	NOUN	FM	Foreign=Yes	14	nsubj	_	_
+14	seeing	seeehen	VERB	FM	Foreign=Yes	0	root	_	_
+15	unwanted	unwanted	ADV	FM	Foreign=Yes	14	advmod	_	_
+16	nude	nude	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	20	advmod	_	_
+17	images	imag	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	_
+18	and	and	CCONJ	NE	Case=Gen|Gender=Neut|Number=Sing	19	cc	_	_
+19	videos	videos	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	17	conj	_	_
+20	when	when	VERB	VVINF	VerbForm=Inf	14	xcomp	_	_
+21	receiving	receivehen	VERB	FM	Foreign=Yes	14	conj	_	_
+22	them	th	PRON	PWAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	21	obj	_	_
+23	in	in	ADP	APPR	_	24	case	_	_
+24	Messages	Messag	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	27	punct	_	_
+26	an	an	ADP	APPR	_	27	case	_	_
+27	AirDrop	AirDrop	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	38	obl	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	30	punct	_	_
+29	a	a	ADP	FM	Foreign=Yes	30	case	_	_
+30	FaceTime	FaceTim	NOUN	FM	Foreign=Yes	27	nmod	_	_
+31	video	video	ADP	NE	Foreign=Yes	32	case	_	_
+32	message	message	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	$,	_	27	punct	_	_
+34	and	and	CCONJ	FM	Foreign=Yes	36	cc	_	_
+35	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	36	nmod	_	_
+36	Phone	Phone	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	27	conj	_	_
+37	app	app	PROPN	ADJD	_	27	flat	_	_
+38	when	when	VERB	VVINF	VerbForm=Inf	22	acl	_	_
+39	receiving	receiving	PROPN	FM	Foreign=Yes	38	obj	_	_
+40	a	a	PROPN	FM	Foreign=Yes	39	flat	_	_
+41	Contact	Contact	PROPN	FM	Foreign=Yes	39	flat	_	_
+42	Poster	Poster	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	39	flat	_	SpaceAfter=No
+43	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 37
+# text = To expand these protections beyond our built-in capabilities, we have also made them available to third parties.
+1	To	To	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	expand	expehen	VERB	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	these	thes	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+4	protections	protections	ADJ	FM	Foreign=Yes	5	advmod	_	_
+5	beyond	beyond	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+6	our	our	CCONJ	FM	Foreign=Yes	7	cc	_	_
+7	built-in	built-in	PART	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+8	capabilities	capabiliteisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	we	we	X	FM	Foreign=Yes	14	dep	_	_
+11	have	have	X	FM	Foreign=Yes	14	cc	_	_
+12	also	also	ADV	ADV	_	14	advmod	_	_
+13	made	made	ADJ	NE	Foreign=Yes	14	amod	_	_
+14	them	th	NOUN	PWAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	18	obj	_	_
+15	available	available	PROPN	NE	Foreign=Yes	14	appos	_	_
+16	to	to	PROPN	NN	Foreign=Yes	15	flat	_	_
+17	third	third	PROPN	FM	Foreign=Yes	15	flat	_	_
+18	parties	parteisen	VERB	FM	Foreign=Yes	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 38
+# text = Developers of communication apps are actively incorporating this advanced technology into their products.
+1	Developers	Developers	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	communication	communication	PROPN	NE	Foreign=Yes	1	flat	_	_
+4	apps	apps	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+5	are	are	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	1	flat	_	_
+6	actively	actively	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	1	flat	_	_
+7	incorporating	incorporating	PROPN	FM	Foreign=Yes	1	flat	_	_
+8	this	this	PROPN	FM	Foreign=Yes	1	flat	_	_
+9	advanced	advanced	PROPN	FM	Foreign=Yes	1	flat	_	_
+10	technology	technology	PROPN	FM	Foreign=Yes	1	flat	_	_
+11	into	into	ADP	NE	Foreign=Yes	12	case	_	_
+12	their	theu	PRON	NE	Foreign=Yes	13	obl	_	_
+13	products	products	VERB	NE	Foreign=Yes	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 39
+# text = These features all use privacy-preserving technology — all image and video processing occurs on device, meaning Apple does not get access to the content.
+1	These	Thes	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+2	features	featuer	ADJ	NE	Foreign=Yes	5	amod	_	_
+3	all	all	DET	PIAT	Definite=Ind|PronType=Ind	5	det	_	_
+4	use	use	ADJ	NN	Foreign=Yes	5	amod	_	_
+5	privacy	privacy	PROPN	FM	Foreign=Yes	14	nsubj	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	preserving	preserving	PROPN	FM	Foreign=Yes	5	flat	_	_
+8	technology	technology	PROPN	FM	Foreign=Yes	5	flat	_	_
+9	—	—	PUNCT	$.	_	14	punct	_	_
+10	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	11	det	_	_
+11	image	image	ADV	NE	Case=Nom|Number=Sing	14	advmod	_	_
+12	and	and	CCONJ	FM	Foreign=Yes	13	cc	_	_
+13	video	video	ADV	NE	Case=Nom|Number=Sing	11	conj	_	_
+14	processing	processehen	VERB	NE	Case=Nom|Number=Sing	0	root	_	_
+15	occurs	occurs	ADV	NE	Foreign=Yes	14	advmod	_	_
+16	on	on	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	14	obj	_	_
+17	device	device	PROPN	NN	Case=Nom|Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	meaning	meaning	PROPN	NE	Foreign=Yes	23	nsubj	_	_
+20	Apple	Apple	PROPN	NN	Foreign=Yes	19	flat	_	_
+21	does	does	PROPN	NE	Foreign=Yes	19	flat	_	_
+22	not	not	PROPN	FM	Foreign=Yes	19	flat	_	_
+23	get	gen	VERB	VVPP	VerbForm=Part	14	acl	_	_
+24	access	access	PROPN	NE	Foreign=Yes	23	obj	_	_
+25	to	to	PROPN	NN	Foreign=Yes	24	flat	_	_
+26	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	24	flat	_	_
+27	content	content	PROPN	NE	Foreign=Yes	24	flat	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 40
+# text = We intend to continue investing in these kinds of innovative technologies because we believe it’s the right thing to do.
+1	We	We	PROPN	FM	Foreign=Yes	5	nsubj	_	_
+2	intend	intend	ADJ	ADJD	_	3	amod	_	_
+3	to	To	PROPN	NN	Foreign=Yes	1	flat	_	_
+4	continue	continue	PROPN	FM	Foreign=Yes	1	flat	_	_
+5	investing	investehen	VERB	FM	Foreign=Yes	0	root	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	these	thes	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	5	obl	_	_
+8	kinds	kinds	ADV	ADV	_	5	advmod	_	_
+9	of	of	ADV	ADJD	_	11	advmod	_	_
+10	innovative	innovativ	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	11	advmod	_	_
+11	technologies	technologeisen	VERB	NN	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	_
+12	because	because	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+13	we	w	ADJ	FM	Foreign=Yes	15	amod	_	_
+14	believe	believ	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	15	amod	_	_
+15	it’s	it’s	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_
+16	the	the	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+17	right	right	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	15	appos	_	_
+18	thing	thing	PROPN	NE	Foreign=Yes	17	flat	_	_
+19	to	to	PROPN	NN	Foreign=Yes	17	flat	_	_
+20	do	Do	PROPN	NE	Foreign=Yes	17	flat	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = As you note, we decided to not proceed with the proposal for a hybrid client-server approach to CSAM detection for iCloud Photos from a few years ago, for a number of good reasons.
+1	As	A	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	you	you	PROPN	FM	Foreign=Yes	1	flat	_	_
+3	note	non	VERB	NN	Case=Gen|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	we	we	X	FM	Foreign=Yes	15	obj	_	_
+6	decided	decided	X	FM	Foreign=Yes	5	flat	_	_
+7	to	to	X	NN	Foreign=Yes	5	flat	_	_
+8	not	not	DET	FM	Foreign=Yes	5	flat	_	_
+9	proceed	proceed	ADJ	FM	Foreign=Yes	5	flat	_	_
+10	with	with	PROPN	NE	Foreign=Yes	5	flat	_	_
+11	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	5	flat	_	_
+12	proposal	proposal	PROPN	NE	Foreign=Yes	5	flat	_	_
+13	for	for	PROPN	NE	Foreign=Yes	5	flat	_	_
+14	a	a	PROPN	NE	Foreign=Yes	5	flat	_	_
+15	hybrid	hybrid	VERB	NE	Foreign=Yes	3	conj	_	_
+16	client-	client-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	server	server	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	15	advmod	_	_
+18	approach	approach	ADP	ADJD	_	17	case	_	_
+19	to	to	PROPN	NN	Foreign=Yes	17	flat	_	_
+20	CSAM	CSAM	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	flat	_	_
+21	detection	detection	PROPN	NE	Foreign=Yes	17	flat	_	_
+22	for	for	PROPN	NE	Foreign=Yes	15	flat	_	_
+23	iCloud	iCloud	PROPN	NE	Foreign=Yes	15	flat	_	_
+24	Photos	Photos	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+25	from	from	PROPN	FM	Foreign=Yes	24	flat	_	_
+26	a	a	PROPN	FM	Foreign=Yes	24	flat	_	_
+27	few	few	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	3	advmod	_	_
+28	years	years	ADV	NE	Foreign=Yes	3	advmod	_	_
+29	ago	ago	ADP	NE	Foreign=Yes	3	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	31	punct	_	_
+31	for	fören	VERB	NE	Foreign=Yes	29	conj	_	_
+32	a	a	ADV	NE	Foreign=Yes	33	advmod	_	_
+33	number	number	ADV	NN	_	31	advmod	_	_
+34	of	of	ADV	NE	Foreign=Yes	31	flat	_	_
+35	good	good	ADJ	NN	Foreign=Yes	31	flat	_	_
+36	reasons	reasons	ADJ	NE	Foreign=Yes	31	amod	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 42
+# text = After having consulted extensively with child safety advocates, human rights organizations, privacy and security technologists, and academics, and having considered scanning technology from virtually every angle, we concluded it was not practically possible to implement without ultimately imperiling the security and privacy of our users.
+1	After	After	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	having	havehen	VERB	FM	Foreign=Yes	30	acl	_	_
+3	consulted	consulted	PROPN	FM	Foreign=Yes	2	flat	_	_
+4	extensively	extensively	ADJ	NE	Foreign=Yes	2	flat	_	_
+5	with	with	ADV	NE	Foreign=Yes	6	advmod	_	_
+6	child	child	ADJ	NE	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+7	safety	safety	CCONJ	NE	Foreign=Yes	8	cc	_	_
+8	advocates	advocat	ADJ	NE	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	human	human	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	11	case	_	_
+11	rights	rights	PRON	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	_
+12	organizations	organizations	ADV	FM	Foreign=Yes	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	privacy	privacy	PROPN	FM	Foreign=Yes	6	conj	_	_
+15	and	and	CCONJ	FM	Foreign=Yes	16	cc	_	_
+16	security	security	PROPN	FM	Foreign=Yes	6	conj	_	_
+17	technologists	technologists	ADV	FM	Foreign=Yes	2	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	and	and	CCONJ	FM	Foreign=Yes	20	cc	_	_
+20	academics	academics	ADJ	NN	Case=Nom|Number=Plur	17	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	23	punct	_	_
+22	and	and	CCONJ	FM	Foreign=Yes	23	cc	_	_
+23	having	having	PROPN	FM	Foreign=Yes	2	conj	_	_
+24	considered	considered	PROPN	FM	Foreign=Yes	23	flat	_	_
+25	scanning	scannehen	VERB	FM	Foreign=Yes	2	flat	_	_
+26	technology	technology	PROPN	FM	Foreign=Yes	25	amod	_	_
+27	from	from	PROPN	FM	Foreign=Yes	26	flat	_	_
+28	virtually	virtually	PROPN	NE	Foreign=Yes	26	flat	_	_
+29	every	every	PROPN	FM	Foreign=Yes	26	flat	_	_
+30	angle	anglen	VERB	FM	Foreign=Yes	0	root	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	50	punct	_	_
+32	we	we	X	FM	Foreign=Yes	50	dep	_	_
+33	concluded	concluded	X	FM	Foreign=Yes	50	cc	_	_
+34	it	it	X	FM	Foreign=Yes	50	nsubj	_	_
+35	was	was	PRON	NE	Foreign=Yes	40	obj	_	_
+36	not	not	DET	FM	Foreign=Yes	37	det	_	_
+37	practically	practically	PROPN	NE	Foreign=Yes	40	nsubj	_	_
+38	possible	possible	PROPN	NE	Foreign=Yes	37	flat	_	_
+39	to	to	PROPN	NN	Foreign=Yes	37	flat	_	_
+40	implement	implemenen	VERB	NE	Foreign=Yes	34	acl	_	_
+41	without	without	ADV	NE	Foreign=Yes	50	advmod	_	_
+42	ultimately	ultimately	PROPN	NE	Foreign=Yes	45	flat	_	_
+43	imperiling	imperiling	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	42	flat	_	_
+44	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	42	flat	_	_
+45	security	security	PROPN	FM	Foreign=Yes	47	nsubj	_	_
+46	and	and	CCONJ	FM	Foreign=Yes	47	cc	_	_
+47	privacy	privacy	PROPN	NE	Foreign=Yes	41	conj	_	_
+48	of	of	PROPN	NE	Foreign=Yes	47	flat	_	_
+49	our	our	ADV	NE	Foreign=Yes	50	advmod	_	_
+50	users	users	ADV	NN	Case=Gen|Gender=Masc|Number=Sing	30	advmod	_	SpaceAfter=No
+51	.	.	PUNCT	$.	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = Scanning of personal data in the cloud is regularly used by companies to monetize the information of their users.
+1	Scanning	Scanning	PROPN	NE	Foreign=Yes	12	flat	_	_
+2	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	personal	personal	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	1	flat	_	_
+4	data	data	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	1	flat	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	the	the	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+7	cloud	cloud	PROPN	NE	Foreign=Yes	1	nmod	_	_
+8	is	sein	AUX	FM	Foreign=Yes	12	flat	_	_
+9	regularly	regularly	PROPN	NE	Foreign=Yes	8	amod	_	_
+10	used	used	PROPN	NE	Foreign=Yes	9	flat	_	_
+11	by	by	PROPN	ART	Foreign=Yes	9	flat	_	_
+12	companies	companie	PROPN	FM	Foreign=Yes	0	root	_	_
+13	to	To	PROPN	VVINF	VerbForm=Inf	12	flat	_	_
+14	monetize	monetize	PROPN	FM	Foreign=Yes	12	flat	_	_
+15	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	12	flat	_	_
+16	information	information	PROPN	NE	Foreign=Yes	12	flat	_	_
+17	of	of	PROPN	NE	Foreign=Yes	12	flat	_	_
+18	their	their	PROPN	NE	Foreign=Yes	12	flat	_	_
+19	users	users	ADV	NN	Case=Gen|Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 44
+# text = While some companies have justified those practices, we’ve chosen a very different path — one that prioritizes the security and privacy of our users.
+1	While	While	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	_
+2	some	som	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	companies	companies	NOUN	FM	Foreign=Yes	5	nsubj	_	_
+4	have	have	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	5	advmod	_	_
+5	justified	justified	ADJ	NE	Foreign=Yes	0	root	_	_
+6	those	those	ADV	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	advmod	_	_
+7	practices	practic	ADJ	NE	Foreign=Yes	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	17	punct	_	_
+9	we’ve	we’v	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	16	advmod	_	_
+10	chosen	chos	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	16	amod	_	_
+11	a	a	ADV	FM	Foreign=Yes	14	advmod	_	_
+12	very	very	ADJ	FM	Foreign=Yes	14	advmod	_	_
+13	different	different	ADJ	NE	Case=Nom|Number=Sing	14	advmod	_	_
+14	path	path	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+15	—	—	PUNCT	$.	_	14	punct	_	_
+16	one	one	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	17	advmod	_	_
+17	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+18	prioritizes	prioritizes	PROPN	ADJA	Case=Acc|Gender=Neut|Number=Sing	24	nsubj	_	_
+19	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	18	flat	_	_
+20	security	security	PROPN	FM	Foreign=Yes	18	flat	_	_
+21	and	and	CCONJ	NE	Foreign=Yes	22	cc	_	_
+22	privacy	privacy	PROPN	NE	Foreign=Yes	20	conj	_	_
+23	of	of	PROPN	NE	Foreign=Yes	22	flat	_	_
+24	our	our	ADV	NE	Foreign=Yes	17	advmod	_	_
+25	users	users	ADV	NN	Case=Gen|Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 45
+# text = Scanning every user’s privately stored iCloud content would in our estimation pose serious unintended consequences for our users.
+1	Scanning	Scanning	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	every	every	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+3	user’s	user’s	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+4	privately	privately	ADJ	NE	Foreign=Yes	6	amod	_	_
+5	stored	stored	ADJ	NE	Foreign=Yes	6	amod	_	_
+6	iCloud	iCloud	NOUN	NE	Foreign=Yes	1	conj	_	_
+7	content	contenen	VERB	NE	Foreign=Yes	0	root	_	_
+8	would	would	ADV	ADJD	_	7	advmod	_	_
+9	in	in	ADP	APPR	_	12	case	_	_
+10	our	our	ADV	FM	Foreign=Yes	11	advmod	_	_
+11	estimation	estimation	NUM	NE	Foreign=Yes	12	nummod	_	_
+12	pose	pose	NOUN	FM	Foreign=Yes	7	obl	_	_
+13	serious	serious	ADP	FM	Foreign=Yes	14	case	_	_
+14	unintended	unintended	PROPN	FM	Foreign=Yes	12	nmod	_	_
+15	consequences	consequences	PROPN	FM	Foreign=Yes	14	flat	_	_
+16	for	for	PROPN	FM	Foreign=Yes	14	flat	_	_
+17	our	our	ADV	FM	Foreign=Yes	14	flat	_	_
+18	users	users	ADV	NN	Case=Gen|Gender=Masc|Number=Sing	7	compound:prt	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 46
+# text = Threats to user data are undeniably growing — globally the total number of data breaches more than tripled between 2013 and 2021, exposing 1.1 billion personal records in 2021 alone.
+1	Threats	Threats	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	24	advmod	_	_
+2	to	to	ADV	NN	Foreign=Yes	16	advmod	_	_
+3	user	user	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	16	amod	_	_
+4	data	data	ADV	NE	Foreign=Yes	5	advmod	_	_
+5	are	ar	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	16	amod	_	_
+6	undeniably	undeniably	CCONJ	NE	Foreign=Yes	7	cc	_	_
+7	growing	growing	PROPN	NE	Foreign=Yes	16	nsubj	_	_
+8	—	—	PUNCT	$.	_	9	punct	_	_
+9	globally	globally	PROPN	NE	Foreign=Yes	11	flat	_	_
+10	the	the	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	_
+11	total	total	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+12	number	number	PROPN	NN	_	7	flat	_	_
+13	of	of	PROPN	NE	Foreign=Yes	7	flat	_	_
+14	data	data	ADV	NE	Foreign=Yes	16	advmod	_	_
+15	breaches	breach	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	_
+16	more	more	NOUN	FM	Foreign=Yes	24	nsubj	_	_
+17	than	than	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	20	case	_	_
+18	tripled	tripled	ADJ	FM	Foreign=Yes	20	amod	_	_
+19	between	betwe	ADJ	NE	Foreign=Yes	20	amod	_	_
+20	2013	2013	NUM	CARD	NumType=Card	16	nmod	_	_
+21	and	and	CCONJ	FM	Foreign=Yes	22	cc	_	_
+22	2021	2021	NUM	CARD	NumType=Card	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	16	punct	_	_
+24	exposing	exposehen	VERB	NE	Case=Nom|Number=Sing	0	root	_	_
+25	1.1	1.1	NUM	CARD	NumType=Card	27	nummod	_	_
+26	billion	billion	NUM	NN	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	27	nummod	_	_
+27	personal	personal	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+28	records	records	ADV	NE	Case=Acc|Gender=Neut|Number=Sing	24	advmod	_	_
+29	in	in	ADP	APPR	_	31	case	_	_
+30	2021	2021	NUM	CARD	NumType=Card	31	nummod	_	_
+31	alone	alone	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	24	obl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 47
+# text = As threats become increasingly sophisticated, we are committed to providing our users with the best data security in the world, and we constantly identify and mitigate emerging threats to users’ personal data, on device and in the cloud.
+1	As	A	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	threats	threats	ADV	NE	Case=Gen|Gender=Masc|Number=Sing	9	advmod	_	_
+3	become	becom	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	_
+4	increasingly	increasingly	CCONJ	NE	Foreign=Yes	5	cc	_	_
+5	sophisticated	sophisticated	ADJ	NE	Foreign=Yes	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	we	w	ADJ	FM	Foreign=Yes	8	advmod	_	_
+8	are	ar	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	committed	committed	PROPN	FM	Foreign=Yes	1	flat	_	_
+10	to	To	PROPN	NN	Foreign=Yes	1	flat	_	_
+11	providing	providing	PROPN	NE	Foreign=Yes	1	flat	_	_
+12	our	our	PROPN	NE	Foreign=Yes	1	flat	_	_
+13	users	user	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+14	with	with	PROPN	NE	Foreign=Yes	1	appos	_	_
+15	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	14	flat	_	_
+16	best	besen	VERB	NE	Foreign=Yes	0	root	_	_
+17	data	data	ADV	NE	Foreign=Yes	16	advmod	_	_
+18	security	security	PROPN	NE	Foreign=Yes	21	nsubj	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	the	the	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
+21	world	world	PROPN	NE	Foreign=Yes	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	24	punct	_	_
+23	and	and	CCONJ	FM	Foreign=Yes	24	cc	_	_
+24	we	we	PROPN	FM	Foreign=Yes	21	conj	_	_
+25	constantly	constantly	PROPN	NE	Foreign=Yes	24	flat	_	_
+26	identify	identify	PROPN	NE	Foreign=Yes	24	flat	_	_
+27	and	and	CCONJ	NE	Case=Gen|Gender=Fem|Number=Sing	28	cc	_	_
+28	mitigate	mitigate	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	21	conj	_	_
+29	emerging	emergehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+30	threats	threats	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	29	advmod	_	_
+31	to	to	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	29	advmod	_	_
+32	users	users	ADJ	NE	Case=Gen|Gender=Masc|Number=Sing	34	advmod	_	SpaceAfter=No
+33	’	’	PUNCT	$.	_	32	punct	_	_
+34	personal	personal	ADJ	CARD	NumType=Card	35	amod	_	_
+35	data	data	PROPN	NE	Foreign=Yes	29	obj	_	SpaceAfter=No
+36	,	,	PUNCT	$,	_	37	punct	_	_
+37	on	on	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	appos	_	_
+38	device	device	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	37	flat	_	_
+39	and	and	CCONJ	NE	Foreign=Yes	42	cc	_	_
+40	in	in	ADP	APPR	_	42	case	_	_
+41	the	the	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	42	nmod	_	_
+42	cloud	cloud	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	conj	_	SpaceAfter=No
+43	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 48
+# text = Scanning every user’s privately stored iCloud data would create new threat vectors for data thieves to find and exploit.
+1	Scanning	Scanning	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	every	every	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+3	user’s	user’s	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+4	privately	privately	ADJ	NE	Foreign=Yes	5	advmod	_	_
+5	stored	stored	ADJ	NE	Foreign=Yes	6	amod	_	_
+6	iCloud	iCloud	NOUN	NE	Foreign=Yes	1	conj	_	_
+7	data	data	ADV	NE	Foreign=Yes	12	advmod	_	_
+8	would	would	ADV	FM	Foreign=Yes	12	advmod	_	_
+9	create	create	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
+10	new	new	ADJ	FM	Foreign=Yes	12	amod	_	_
+11	threat	threat	ADJ	FM	Foreign=Yes	12	amod	_	_
+12	vectors	vector	NOUN	NE	Foreign=Yes	17	nsubj	_	_
+13	for	for	PROPN	NE	Foreign=Yes	12	flat	_	_
+14	data	data	PROPN	NE	Foreign=Yes	12	appos	_	_
+15	thieves	thieves	PROPN	NE	Foreign=Yes	14	flat	_	_
+16	to	To	PROPN	NN	Foreign=Yes	14	flat	_	_
+17	find	find	ADJ	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+18	and	and	CCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	19	cc	_	_
+19	exploit	exploit	ADJ	ADJD	_	17	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = It would also inject the potential for a slippery slope of unintended consequences.
+1	It	It	PROPN	FM	Foreign=Yes	4	nsubj	_	_
+2	would	would	ADV	FM	Foreign=Yes	4	advmod	_	_
+3	also	also	ADV	ADV	_	4	advmod	_	_
+4	inject	inject	ADJ	FM	Foreign=Yes	0	root	_	_
+5	the	the	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+6	potential	potential	PROPN	ADJD	_	4	appos	_	_
+7	for	for	PROPN	FM	Foreign=Yes	6	flat	_	_
+8	a	a	PROPN	FM	Foreign=Yes	6	flat	_	_
+9	slippery	slippery	PROPN	FM	Foreign=Yes	6	flat	_	_
+10	slope	slope	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	_
+11	of	of	PROPN	NE	Foreign=Yes	6	flat	_	_
+12	unintended	unintended	PROPN	NE	Foreign=Yes	6	flat	_	_
+13	consequences	consequences	PROPN	NE	Foreign=Yes	6	flat	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 50
+# text = Scanning for one type of content, for instance, opens the door for bulk surveillance and could create a desire to search other encrypted messaging systems across content types (such as images, videos, text, or audio) and content categories.
+1	Scanning	Scanning	PROPN	NE	Foreign=Yes	26	nsubj	_	_
+2	for	for	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	one	on	PRON	NE	Foreign=Yes	1	flat	_	_
+4	type	type	PROPN	NE	Foreign=Yes	1	flat	_	_
+5	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+6	content	content	PROPN	NE	Foreign=Yes	1	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	for	for	PROPN	NE	Foreign=Yes	1	conj	_	_
+9	instance	instance	PROPN	NE	Foreign=Yes	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	opens	opens	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	13	case	_	_
+12	the	the	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	13	nmod	_	_
+13	door	door	PROPN	APPR	Foreign=Yes	1	conj	_	_
+14	for	for	PROPN	NE	Foreign=Yes	13	flat	_	_
+15	bulk	bulk	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	13	flat	_	_
+16	surveillance	surveillance	PROPN	NE	Foreign=Yes	13	flat	_	_
+17	and	and	CCONJ	NE	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	could	could	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+19	create	create	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	_
+20	a	a	PROPN	NE	Foreign=Yes	1	flat	_	_
+21	desire	desire	PROPN	NE	Foreign=Yes	1	flat	_	_
+22	to	To	PROPN	NN	Foreign=Yes	1	flat	_	_
+23	search	search	CCONJ	NE	Foreign=Yes	26	cc	_	_
+24	other	other	ADV	NE	Case=Nom|Number=Sing	25	advmod	_	_
+25	encrypted	encrypted	ADJ	NE	Foreign=Yes	26	amod	_	_
+26	messaging	messaging	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	systems	system	PROPN	NE	Foreign=Yes	30	nsubj	_	_
+28	across	acroß	ADV	NE	Case=Dat|Number=Sing	30	advmod	_	_
+29	content	content	ADJ	NE	Foreign=Yes	30	advmod	_	_
+30	types	typ	ADJ	FM	Foreign=Yes	26	conj	_	_
+31	(	(	PUNCT	$(	_	34	punct	_	SpaceAfter=No
+32	such	such	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	34	advmod	_	_
+33	as	as	PRON	NE	Case=Gen|Gender=Neut|Number=Sing	34	nmod	_	_
+34	images	imag	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+35	,	,	PUNCT	$,	_	36	punct	_	_
+36	videos	videos	ADJ	NN	Case=Gen|Gender=Neut|Number=Sing	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	$,	_	38	punct	_	_
+38	text	texen	VERB	FM	Foreign=Yes	34	conj	_	SpaceAfter=No
+39	,	,	PUNCT	$,	_	45	punct	_	_
+40	or	or	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	45	cc	_	_
+41	audio	audio	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	45	conj	_	SpaceAfter=No
+42	)	)	PUNCT	$(	_	41	punct	_	_
+43	and	and	CCONJ	NE	Foreign=Yes	44	cc	_	_
+44	content	content	ADJ	ADJD	_	41	conj	_	_
+45	categories	categoreisen	VERB	NE	Case=Dat|Number=Sing	34	conj	_	SpaceAfter=No
+46	.	.	PUNCT	$.	_	26	punct	_	_
+
+# sent_id = 51
+# text = How can users be assured that a tool for one type of surveillance has not been reconfigured to surveil for other content such as political activity or religious persecution?
+1	How	How	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	can	can	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
+3	users	user	PRON	NN	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+4	be	be	X	TRUNC	_	11	dep	_	_
+5	assured	assured	X	NE	Foreign=Yes	11	dep	_	_
+6	that	that	X	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	dep	_	_
+7	a	a	X	NE	Foreign=Yes	11	dep	_	_
+8	tool	tool	X	NE	Foreign=Yes	11	dep	_	_
+9	for	for	ADV	NE	Foreign=Yes	11	flat	_	_
+10	one	one	ADV	NE	Foreign=Yes	11	advmod	_	_
+11	type	typ	ADJ	NE	Foreign=Yes	0	root	_	_
+12	of	of	ADV	NE	Foreign=Yes	11	flat	_	_
+13	surveillance	surveillanc	ADJ	NE	Foreign=Yes	17	advmod	_	_
+14	has	has	ADV	NE	Mood=Imp|Number=Sing|VerbForm=Fin	17	advmod	_	_
+15	not	not	ADJ	FM	Foreign=Yes	17	advmod	_	_
+16	been	be	ADJ	NE	Foreign=Yes	17	advmod	_	_
+17	reconfigured	reconfigured	ADJ	NE	Foreign=Yes	20	amod	_	_
+18	to	to	CCONJ	NN	Foreign=Yes	19	cc	_	_
+19	surveil	surveil	ADJ	ADV	_	20	amod	_	_
+20	for	for	NOUN	NE	Foreign=Yes	12	flat	_	_
+21	other	other	ADV	NE	Case=Nom|Number=Sing	22	advmod	_	_
+22	content	content	ADJ	NE	Foreign=Yes	11	flat	_	_
+23	such	such	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	26	cc	_	_
+24	as	as	PRON	NE	Foreign=Yes	26	nsubj	_	_
+25	political	political	ADJ	FM	Foreign=Yes	26	advmod	_	_
+26	activity	activity	ADJ	FM	Foreign=Yes	22	conj	_	_
+27	or	or	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	29	cc	_	_
+28	religious	religious	ADP	FM	Foreign=Yes	29	case	_	_
+29	persecution	persecution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+30	?	?	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 52
+# text = Tools of mass surveillance have widespread negative implications for freedom of speech and, by extension, democracy as a whole.
+1	Tools	Tools	PROPN	NE	Foreign=Yes	5	nsubj	_	_
+2	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	mass	mass	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+4	surveillance	surveillance	PROPN	NE	Foreign=Yes	1	flat	_	_
+5	have	have	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+6	widespread	widespread	ADJ	FM	Foreign=Yes	8	amod	_	_
+7	negative	negativ	ADJ	XY	NumType=Card	8	amod	_	_
+8	implications	implications	NOUN	NE	Foreign=Yes	13	nsubj	_	_
+9	for	for	PROPN	NE	Foreign=Yes	8	appos	_	_
+10	freedom	freedom	PROPN	NE	Foreign=Yes	9	flat	_	_
+11	of	of	PROPN	NE	Foreign=Yes	9	flat	_	_
+12	speech	speech	ADJ	ADJD	_	13	advmod	_	_
+13	and	ehen	VERB	FM	Foreign=Yes	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	by	by	CCONJ	ART	Foreign=Yes	16	cc	_	_
+16	extension	extension	NOUN	NN	Foreign=Yes	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	_
+18	democracy	democracy	CCONJ	NE	Foreign=Yes	21	cc	_	_
+19	as	as	PRON	NE	Foreign=Yes	21	nsubj	_	_
+20	a	a	ADV	NE	Foreign=Yes	21	advmod	_	_
+21	whole	whol	ADJ	NE	Foreign=Yes	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 53
+# text = Also, designing this technology for one government could require applications for other countries across new data types.
+1	Also	also	PROPN	ADV	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	designing	designehen	VERB	FM	Foreign=Yes	1	acl	_	_
+4	this	this	PROPN	FM	Foreign=Yes	3	nsubj	_	_
+5	technology	technology	PROPN	FM	Foreign=Yes	4	flat	_	_
+6	for	for	PROPN	NE	Foreign=Yes	4	flat	_	_
+7	one	on	PROPN	NE	Foreign=Yes	4	flat	_	_
+8	government	governmenen	VERB	NE	Foreign=Yes	0	root	_	_
+9	could	could	ADV	FM	Foreign=Yes	8	advmod	_	_
+10	require	requir	ADJ	NE	Foreign=Yes	11	advmod	_	_
+11	applications	applications	ADV	NE	Foreign=Yes	8	advmod	_	_
+12	for	for	ADV	NE	Foreign=Yes	8	flat	_	_
+13	other	other	ADV	NE	Case=Nom|Number=Sing	14	advmod	_	_
+14	countries	countreisen	VERB	NE	Foreign=Yes	8	conj	_	_
+15	across	acroß	ADV	NE	Case=Dat|Number=Sing	14	advmod	_	_
+16	new	new	ADV	FM	Foreign=Yes	18	advmod	_	_
+17	data	data	ADV	NE	Foreign=Yes	18	advmod	_	_
+18	types	typ	ADJ	FM	Foreign=Yes	14	amod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = Scanning systems are also not foolproof and there is documented evidence from other platforms that innocent parties have been swept into dystopian dragnets that have made them victims when they have done nothing more than share perfectly normal and appropriate pictures of their babies.
+1	Scanning	Scanning	PROPN	NE	Foreign=Yes	3	nsubj	_	_
+2	systems	system	PROPN	NE	Foreign=Yes	1	flat	_	_
+3	are	ar	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+4	also	also	ADV	ADV	_	3	advmod	_	_
+5	not	not	ADJ	FM	Foreign=Yes	6	compound	_	_
+6	foolproof	foolproof	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+7	and	and	CCONJ	FM	Foreign=Yes	8	cc	_	_
+8	there	ther	ADJ	NE	Foreign=Yes	6	conj	_	_
+9	is	sein	AUX	FM	Foreign=Yes	20	aux	_	_
+10	documented	documented	ADV	FM	Foreign=Yes	14	advmod	_	_
+11	evidence	evidenc	ADJ	FM	Foreign=Yes	14	amod	_	_
+12	from	from	ADJ	FM	Foreign=Yes	14	amod	_	_
+13	other	oth	ADJ	NE	Case=Nom|Number=Sing	14	amod	_	_
+14	platforms	platform	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+15	that	thaben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+16	innocent	innocent	ADJ	NE	Foreign=Yes	17	amod	_	_
+17	parties	party	NOUN	FM	Foreign=Yes	20	nsubj	_	_
+18	have	have	PROPN	FM	Foreign=Yes	17	appos	_	_
+19	been	been	PROPN	NE	Foreign=Yes	18	flat	_	_
+20	swept	swepen	VERB	FM	Foreign=Yes	0	root	_	_
+21	into	into	ADV	NE	Foreign=Yes	20	advmod	_	_
+22	dystopian	dystopian	ADV	NE	Foreign=Yes	20	advmod	_	_
+23	dragnets	dragnets	ADV	NE	Foreign=Yes	24	advmod	_	_
+24	that	thaben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+25	have	have	ADJ	FM	Foreign=Yes	28	amod	_	_
+26	made	made	ADJ	NE	Foreign=Yes	28	amod	_	_
+27	them	th	ADJ	PWAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	28	amod	_	_
+28	victims	victims	NOUN	NE	Case=Gen|Gender=Neut|Number=Sing	29	obj	_	_
+29	when	when	VERB	VVINF	VerbForm=Inf	24	xcomp	_	_
+30	they	they	CCONJ	NE	Foreign=Yes	33	cc	_	_
+31	have	have	X	FM	Foreign=Yes	33	dep	_	_
+32	done	don	PRON	NE	Foreign=Yes	33	nsubj	_	_
+33	nothing	nothehen	VERB	NE	Foreign=Yes	29	conj	_	_
+34	more	mor	ADJ	NE	Foreign=Yes	33	advmod	_	_
+35	than	than	ADP	NN	Case=Acc|Gender=Fem|Number=Sing	41	case	_	_
+36	share	shar	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	41	amod	_	_
+37	perfectly	perfectly	CCONJ	NE	Case=Acc|Gender=Fem|Number=Sing	38	cc	_	_
+38	normal	normal	ADJ	NE	Case=Gen|Gender=Fem|Number=Sing	36	conj	_	_
+39	and	and	CCONJ	NE	Case=Gen|Gender=Fem|Number=Sing	40	cc	_	_
+40	appropriate	appropriate	ADJ	NE	Case=Gen|Gender=Fem|Number=Sing	36	conj	_	_
+41	pictures	pictuer	ADJ	NE	Foreign=Yes	43	amod	_	_
+42	of	of	PROPN	NE	Foreign=Yes	41	flat	_	_
+43	their	their	PROPN	NE	Foreign=Yes	33	flat	_	_
+44	babies	babeisen	VERB	NE	Foreign=Yes	33	xcomp	_	SpaceAfter=No
+45	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = We firmly believe that there is much good that we can do when we work together and collaboratively.
+1	We	we	X	NE	Case=Nom|Gender=Masc|Number=Sing	13	dep	_	_
+2	firmly	firmly	X	NE	Case=Nom|Gender=Masc|Number=Sing	13	dep	_	_
+3	believe	believe	X	ADJA	Case=Nom|Gender=Masc|Number=Plur	13	dep	_	_
+4	that	that	X	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cc	_	_
+5	there	ther	ADJ	NE	Foreign=Yes	13	advmod	_	_
+6	is	sein	AUX	VAFIN	Foreign=Yes	13	aux	_	_
+7	much	much	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	13	advmod	_	_
+8	good	good	ADJ	FM	Foreign=Yes	13	advmod	_	_
+9	that	thaben	AUX	FM	Foreign=Yes	13	aux	_	_
+10	we	w	ADJ	FM	Foreign=Yes	13	advmod	_	_
+11	can	can	ADP	NE	Foreign=Yes	12	case	_	_
+12	do	Do	PROPN	NE	Foreign=Yes	13	obl	_	_
+13	when	when	VERB	VVINF	VerbForm=Inf	0	root	_	_
+14	we	we	X	FM	Foreign=Yes	15	nsubj	_	_
+15	work	work	ADV	FM	Foreign=Yes	13	conj	_	_
+16	together	together	ADV	NE	Case=Nom|Number=Sing	15	xcomp	_	_
+17	and	and	CCONJ	NE	Case=Gen|Gender=Neut|Number=Sing	18	cc	_	_
+18	collaboratively	collaboratively	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 56
+# text = As we have done in the past, we would be happy to meet with you to continue our conversation about these important issues and how to balance the different equities we have outlined above.
+1	As	A	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+2	we	we	X	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	have	have	X	NE	Case=Nom|Gender=Masc|Number=Sing	31	dep	_	_
+4	done	done	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+5	in	in	ADP	APPR	_	21	case	_	_
+6	the	the	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+7	past	past	ADJ	FM	Foreign=Yes	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	we	w	ADJ	FM	Foreign=Yes	10	conj	_	_
+10	would	would	ADV	FM	Foreign=Yes	21	advmod	_	_
+11	be	be	ADP	FM	Foreign=Yes	12	case	_	_
+12	happy	happy	PROPN	FM	Foreign=Yes	21	obl	_	_
+13	to	To	PROPN	NN	Foreign=Yes	12	flat	_	_
+14	meet	meet	PROPN	NE	Foreign=Yes	12	flat	_	_
+15	with	with	PROPN	NE	Foreign=Yes	12	flat	_	_
+16	you	you	PROPN	NE	Foreign=Yes	12	flat	_	_
+17	to	To	PROPN	NN	Foreign=Yes	12	flat	_	_
+18	continue	continue	PROPN	NE	Foreign=Yes	12	flat	_	_
+19	our	our	CCONJ	NE	Foreign=Yes	20	cc	_	_
+20	conversation	conversation	PROPN	NE	Foreign=Yes	12	flat	_	_
+21	about	abouen	VERB	NE	Foreign=Yes	3	nmod	_	_
+22	these	thes	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	21	nmod	_	_
+23	important	important	ADJ	NN	Case=Acc|Number=Sing	24	advmod	_	_
+24	issues	issu	ADJ	FM	Foreign=Yes	22	amod	_	_
+25	and	and	CCONJ	FM	Foreign=Yes	26	cc	_	_
+26	how	how	ADV	NE	Foreign=Yes	24	conj	_	_
+27	to	to	PROPN	NN	Foreign=Yes	24	flat	_	_
+28	balance	balance	PROPN	NE	Foreign=Yes	22	nmod	_	_
+29	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	28	flat	_	_
+30	different	different	PROPN	ADJD	_	28	flat	_	_
+31	equities	equiteisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	we	we	X	FM	Foreign=Yes	35	dep	_	_
+33	have	have	X	FM	Foreign=Yes	35	dep	_	_
+34	outlined	outlined	X	FM	Foreign=Yes	35	dep	_	_
+35	above	above	X	FM	Foreign=Yes	31	dep	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	31	punct	_	_
+
+# sent_id = 57
+# text = We remain interested, for instance, in working with the child safety community on efforts like finding ways we can help streamline user reports to law enforcement, growing the adoption of child safety tools, and developing new shared resources between companies to fight grooming and exploitation.
+1	We	we	X	FM	Foreign=Yes	3	dep	_	_
+2	remain	remain	X	FM	Foreign=Yes	3	dep	_	_
+3	interested	interested	X	FM	Foreign=Yes	30	dep	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	for	fören	VERB	NE	Foreign=Yes	3	conj	_	_
+6	instance	instanc	ADJ	NE	Foreign=Yes	3	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	18	punct	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	working	working	PROPN	FM	Foreign=Yes	18	obl	_	_
+10	with	with	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+11	the	the	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+12	child	child	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+13	safety	safety	PROPN	FM	Foreign=Yes	9	flat	_	_
+14	community	community	PROPN	FM	Foreign=Yes	9	flat	_	_
+15	on	on	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+16	efforts	effort	ADP	NE	Foreign=Yes	17	case	_	_
+17	like	like	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	18	obl	_	_
+18	finding	findehen	VERB	NE	Foreign=Yes	3	acl	_	_
+19	ways	ways	ADV	NE	Foreign=Yes	18	advmod	_	_
+20	we	w	ADJ	FM	Foreign=Yes	25	amod	_	_
+21	can	can	ADP	NE	Foreign=Yes	25	case	_	_
+22	help	help	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	25	advmod	_	_
+23	streamline	streamlin	DET	NN	Case=Nom|Gender=Fem|Number=Sing	25	det	_	_
+24	user	user	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	25	amod	_	_
+25	reports	report	NOUN	NE	Case=Nom|Number=Plur	28	nsubj	_	_
+26	to	to	PROPN	NN	Foreign=Yes	25	flat	_	_
+27	law	law	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	26	flat	_	_
+28	enforcement	enforcemenen	VERB	NE	Foreign=Yes	18	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	3	punct	_	_
+30	growing	growehen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+31	the	the	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	30	flat	_	_
+32	adoption	Adoption	PROPN	NE	Foreign=Yes	30	obj	_	_
+33	of	of	PROPN	NE	Foreign=Yes	32	flat	_	_
+34	child	child	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	32	flat	_	_
+35	safety	safety	PROPN	NE	Foreign=Yes	32	flat	_	_
+36	tools	tools	ADV	NE	Foreign=Yes	30	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	$,	_	39	punct	_	_
+38	and	and	CCONJ	FM	Foreign=Yes	39	cc	_	_
+39	developing	developehen	VERB	FM	Foreign=Yes	36	conj	_	_
+40	new	new	ADV	FM	Foreign=Yes	44	advmod	_	_
+41	shared	shared	ADV	NE	Foreign=Yes	42	advmod	_	_
+42	resources	resourc	ADJ	NE	Foreign=Yes	44	amod	_	_
+43	between	betwe	ADJ	NE	Foreign=Yes	44	amod	_	_
+44	companies	companie	PROPN	NE	Foreign=Yes	30	flat	_	_
+45	to	to	PROPN	NN	Foreign=Yes	44	flat	_	_
+46	fight	fight	ADV	NE	Foreign=Yes	47	advmod	_	_
+47	grooming	groomehen	VERB	NE	Foreign=Yes	30	conj	_	_
+48	and	and	CCONJ	NE	Case=Acc|Gender=Fem|Number=Sing	49	cc	_	_
+49	exploitation	exploitation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	47	conj	_	SpaceAfter=No
+50	.	.	PUNCT	$.	_	30	punct	_	_
+
+# sent_id = 58
+# text = We look forward to continuing the discussion.
+1	We	We	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	look	look	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	forward	forward	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+4	to	To	PROPN	NN	Foreign=Yes	1	flat	_	_
+5	continuing	continuing	PROPN	FM	Foreign=Yes	0	root	_	_
+6	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	_
+7	discussion	discussion	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Sincerely, Erik Neuenschwander Director, User Privacy and Child Safety
+1	Sincerely	Sincerely	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\s\s
+3	Erik	Erik	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	Neuenschwander	Neuenschwander	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpacesAfter=\s\s
+5	Director	Director	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	User	User	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+8	Privacy	Privacy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	and	and	CCONJ	FM	Foreign=Yes	10	cc	_	_
+10	Child	Child	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+11	Safety	Safety	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	SpacesAfter=\n
+
+

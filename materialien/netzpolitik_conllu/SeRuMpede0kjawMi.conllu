@@ -1,0 +1,388 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, vor den Feiertagen ist in der Redaktion etwas Ruhe eingekehrt.
+1	Liebe	lieb	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	13	punct	_	SpacesAfter=\s\s
+4	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	6	case	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Feiertagen	Feiertag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
+7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+11	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	12	det	_	_
+12	Ruhe	Ruhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obj	_	_
+13	eingekehrt	eingekehren	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = In den zurückliegenden Wochen hatten wir alle Hände voll zu tun und meist ging es zu wie in einem Bienenstock.
+1	In	in	ADP	APPR	_	4	case	_	_
+2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	zurückliegenden	zurückliegend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
+5	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	wir	wir	PRON	ADJD	_	5	nsubj	_	_
+7	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	Hände	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+9	voll	voll	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advmod	_	_
+10	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	mark	_	_
+11	tun	tun	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+13	meist	meist	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	14	advmod	_	_
+14	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+16	zu	zu	ADV	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	advmod	_	_
+17	wie	wie	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	20	advmod	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Bienenstock	Bienenstock	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Allein in der vergangenen Woche haben wir fünf Dokumente geleakt.
+1	Allein	allein	ADV	ADV	_	5	advmod	_	_
+2	in	in	ADP	APPR	_	5	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	vergangenen	vergangen	ADJ	NE	Case=Dat|Number=Plur	5	amod	_	_
+5	Woche	Woche	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	wir	wir	PRON	ADJD	_	6	nsubj	_	_
+8	fünf	fünf	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Dokumente	Dokument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+10	geleakt	leaken	ADJ	ADJD	_	6	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Die Ruhe wird aber nicht lange anhalten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ruhe	Ruhe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
+4	aber	aber	ADV	ADV	_	7	advmod	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	6	advmod	_	_
+6	lange	lange	ADJ	ADV	_	7	advmod	_	_
+7	anhalten	anhalten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Denn unsere Spendenkampagne wird uns bis zur letzten Minute dieses Jahres in Atem halten.
+1	Denn	denn	SCONJ	KON	_	15	mark	_	_
+2	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Spendenkampagne	Spendenkampagne	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux	_	_
+5	uns	wir	PRON	VVPP	VerbForm=Part	15	iobj	_	_
+6	bis	bis	ADP	APPR	_	10	case	_	_
+7-8	zur	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	_
+10	Minute	Minute	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+11	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Atem	Atem	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+15	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 6
+# text = Von unserem Spendenziel sind wir derzeit noch weit entfernt.
+1	Von	von	ADP	APPR	_	3	case	_	_
+2	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Spendenziel	Spendenziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
+4	sind	sein	AUX	ADJD	_	9	cop	_	_
+5	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+6	derzeit	derzeit	ADV	ADV	_	9	advmod	_	_
+7	noch	noch	ADV	CARD	NumType=Card	9	advmod	_	_
+8	weit	weit	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	9	advmod	_	_
+9	entfernt	entfernen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 7
+# text = Am Freitagabend fehlen uns 278.116 Euro.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Freitagabend	Freitagabend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+6	278.116	278.116	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Euro	Euro	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Wofür wir das Geld benötigen, haben wir hier für euch aufgeschrieben.
+1	Wofür	Wofür	ADP	APPR	_	5	mark	_	_
+2	wir	wir	PRON	ADJD	_	5	nsubj	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	benötigen	benötigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	wir	wir	PRON	ADJD	_	12	nsubj	_	_
+9	hier	hier	ADV	ADV	_	12	advmod	_	_
+10	für	für	ADP	APPR	_	11	case	_	_
+11	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	12	nmod	_	_
+12	aufgeschrieben	aufgeschreiben	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 9
+# text = Nur so viel an dieser Stelle: Die Lage ist ernst und wir brauchen dringend Eure Unterstützung!
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
+2	so	so	ADV	NE	Case=Dat|Number=Plur	3	advmod	_	_
+3	viel	viel	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	6	advmod	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	11	punct	_	_
+8	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Lage	Lage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ist	sein	AUX	ADJD	_	11	cop	_	_
+11	ernst	ernst	ADJ	ADJD	_	0	root	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+13	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+14	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+15	dringend	dringend	ADJ	ADJD	_	14	advmod	_	_
+16	Eure	eur	PROPN	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	17	nmod	_	_
+17	Unterstützung	unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	!	!	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Zugleich haben wir von Euch gerade in den vergangenen Wochen viel Zustimmung, Anerkennung und begeistertes Lob erhalten!
+1	Zugleich	zugleich	ADV	ADV	_	2	advmod	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+3	wir	wir	PRON	ADJD	_	12	nsubj	_	_
+4	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+5	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	11	nmod	_	_
+6	gerade	gerade	ADV	ADV	_	10	advmod	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	vergangenen	vergangen	ADJ	NE	Case=Dat|Number=Plur	10	amod	_	_
+10	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	nmod	_	_
+11	viel	viel	DET	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	det	_	_
+12	Zustimmung	Zustimmung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	Anerkennung	Anerkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	obj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+16	begeistertes	begeistert	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	17	amod	_	_
+17	Lob	Lob	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+18	erhalten	erhalten	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+19	!	!	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 11
+# text = Vielen Dank dafür.
+1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+2	Dank	Dank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	dafür	dafür	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Eure Worte tun gut, machen Mut und motivieren uns mit Blick auf das nächste Jahr.
+1	Eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Worte	Wort	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	gut	gut	ADJ	ADJD	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	machen	machen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	_
+7	Mut	Mut	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	9	cc	_	_
+9	motivieren	motivieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+11	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	case	_	_
+12	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+13	auf	auf	ADP	APPR	_	16	case	_	_
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	nächste	nah	ADJ	NE	NumType=Card	16	amod	_	_
+16	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Bevor das aber anbricht, werden wir in der nächsten Woche auf netzpolitik.org und in unserem „Off the Record“-Podcast auch auf das ausklingende Jahr zurückblicken: Wie war 2022 aus netzpolitischer Sicht?
+1	Bevor	bevor	SCONJ	KOUS	_	4	mark	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	aber	aber	ADV	ADV	_	4	advmod	_	_
+4	anbricht	anbrichen	VERB	VVPP	VerbForm=Part	29	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	werden	werden	AUX	NE	Case=Acc|Number=Plur	4	aux:pass	_	_
+7	wir	wir	PRON	ADJD	_	4	nsubj:pass	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
+11	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+12	auf	auf	ADP	APPR	_	29	case	_	_
+13	netzpolitik.org	netzpolitik.org	ADJ	NE	Case=Dat|Gender=Neut|Number=Sing	29	amod	_	_
+14	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	18	cc	_	_
+15	in	in	ADP	APPR	_	18	case	_	_
+16	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	18	det:poss	_	_
+17	„	„	PUNCT	$.	_	16	punct	_	SpaceAfter=No
+18	Off	Off	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+19	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	18	flat	_	_
+20	Record	Record	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	29	punct	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	compound	_	_
+24	auch	auch	ADV	ADV	_	29	advmod	_	_
+25	auf	auf	ADP	APPR	_	28	case	_	_
+26	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+27	ausklingende	ausklingend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	_
+28	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	_
+29	zurückblicken	zurückblicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+30	:	:	PUNCT	$.	_	32	punct	_	_
+31	Wie	wie	ADV	NN	Case=Nom|Gender=Masc|Number=Sing	32	advmod	_	_
+32	war	sein	AUX	ADV	_	29	parataxis	_	_
+33	2022	2022	NUM	CARD	NumType=Card	36	nsubj	_	_
+34	aus	aus	ADP	APPR	_	36	case	_	_
+35	netzpolitischer	netzpolitisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	36	amod	_	_
+36	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+37	?	?	PUNCT	$.	_	29	punct	_	_
+
+# sent_id = 14
+# text = Was haben wir erreicht?
+1	Was	was	PRON	FM	Foreign=Yes	4	obj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+4	erreicht	erreichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Was nehmen wir mit?
+1	Was	was	PRON	FM	Foreign=Yes	2	obj	_	_
+2	nehmen	nehmen	VERB	NE	NumType=Card	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	mit	mit	ADP	ADJA	Case=Nom|Number=Plur	2	compound:prt	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Ein paar Zahlen leaken wir schon mal vorab:
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	paar	paar	PRON	PIAT	Definite=Ind|PronType=Ind	3	det	_	_
+3	Zahlen	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
+4	leaken	leaken	VERB	NN	Case=Dat|Gender=Fem|Number=Plur	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	schon	schon	ADV	ADV	_	7	advmod	_	_
+7	mal	mal	ADV	ADV	_	4	advmod	_	_
+8	vorab	vorab	ADV	ADJD	_	4	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Mehr als 980 Artikel haben wir 2022 veröffentlicht.
+1	Mehr	mehr	ADV	ADV	_	4	advmod	_	_
+2	als	als	ADP	KOKOM	_	4	case	_	_
+3	980	980	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Artikel	Artikel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obl	_	_
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+7	2022	2022	NUM	CARD	NumType=Card	8	obl	_	_
+8	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 18
+# text = Das sind über 9 Millionen Tastenanschläge, was rund 1,3 Millionen Wörter entspricht.
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	nsubj	_	_
+2	sind	sein	AUX	ADJD	_	6	cop	_	_
+3	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
+4	9	9	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+6	Tastenanschläge	Tastenanschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	rund	rund	ADV	ADV	_	10	advmod	_	_
+10	1,3	1,3	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	_
+12	Wörter	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+13	entspricht	entsprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Das kann sich doch bereits sehen lassen.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+4	doch	doch	ADV	ADV	_	6	advmod	_	_
+5	bereits	bereits	ADV	ADV	_	6	advmod	_	_
+6	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	lassen	lassen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Nun aber ruhen unsere Tastaturen erst einmal.
+1	Nun	nun	ADV	ADV	_	3	advmod	_	_
+2	aber	aber	ADV	ADV	_	3	advmod	_	_
+3	ruhen	ruhen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+5	Tastaturen	Tastatur	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	erst	erst	ADV	ADV	_	7	advmod	_	_
+7	einmal	einmal	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 21
+# text = Wir sind dankbar um die Feiertage, die uns eine kleine Atempause bescheren.
+1	Wir	wir	PRON	ADJD	_	3	nsubj	_	_
+2	sind	sein	AUX	ADJD	_	3	cop	_	_
+3	dankbar	dankbar	ADJ	ADJD	_	0	root	_	_
+4	um	um	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Feiertage	Feiertage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+9	uns	wir	PRON	VVPP	VerbForm=Part	13	iobj	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	kleine	klein	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+12	Atempause	Atempause	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	bescheren	bescheren	VERB	VVINF	VerbForm=Inf	6	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 22
+# text = Danach geht’s mit voller Kraft ins neue Jahr: Denn ob Chatkontrolle, Vorratsdatenspeicherung oder Staatstrojaner – der Kampf für eure digitalen Rechten geht auch 2023 weiter!
+1	Danach	danach	ADV	PAV	_	2	advmod	_	_
+2	geht’s	geht’s	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	5	case	_	_
+4	voller	voll	ADJ	ADJD	_	5	amod	_	_
+5	Kraft	Kraft	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	ins	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	neue	neu	ADJ	ADJA	_	9	amod	_	_
+9	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	$.	_	2	punct	_	_
+11	Denn	denn	ADV	KON	_	13	advmod	_	_
+12	ob	ob	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	amod	_	_
+13	Chatkontrolle	Chatkontrolle	NOUN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+16	oder	oder	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	17	cc	_	_
+17	Staatstrojaner	Staatstrojaner	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+18	–	–	PUNCT	$.	_	13	punct	_	_
+19	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Kampf	Kampf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+21	für	für	ADP	APPR	_	24	case	_	_
+22	eure	euer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur	24	det	_	_
+23	digitalen	digital	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	24	amod	_	_
+24	Rechten	Recht|Rechte	NOUN	ADJA	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
+25	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+26	auch	auch	ADV	ADV	_	25	advmod	_	_
+27	2023	2023	NUM	CARD	NumType=Card	25	obl	_	_
+28	weiter	weiter	ADJ	ADV	_	25	compound:prt	_	SpaceAfter=No
+29	!	!	PUNCT	$.	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = In diesem Sinne wünschen wir euch schöne und erholsame Feiertage.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	wünschen	wünschen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
+7	schöne	schön	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	9	cc	_	_
+9	erholsame	erholsam	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+10	Feiertage	Feiertage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = *Daniel*
+1	*Daniel	*Daniel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	*	*	X	$(	_	1	dep	_	SpacesAfter=\n
+
+

@@ -1,0 +1,71 @@
+---
+title: Why chat control is so dangerous
+author: Markus Reuter; Tomas Rudl; Franziska Rau; Holly Hildebrand
+url: https://netzpolitik.org/2021/eu-commission-why-chat-control-is-so-dangerous/
+hostname: netzpolitik.org
+description: Fighting the dissemination of child sexual abuse material, the EU Commission is considering dangerous measures: the automated search of content on mobile phones and computers. See answers to the key questions regarding „chat control“ in our overview.
+sitename: netzpolitik.org
+date: 2021-11-08
+tags: ['Thema abuse', 'Thema Apple']
+license: CC BY-NC-SA 4.0
+---
+The EU Commission currently prepares a legislative package to fight sexual abuse of children. The draft is soon to be presented and in part covers the dissemination of child sexual abuse material (CSAM) via the internet. Additionally, the directive aims at targeting private and encrypted communication, such as that on messenger services. Critics declare this form of preemptive mass surveillance not only a threat to privacy, (cyber)security and the right to freedom of expression but as danger to democracy in general.
+
+## At a glance:
+
+- What are Commission and Council Presidency planning?
+- How could this measures be implemented technically?
+- In concrete terms: What does „chat control“ mean?
+- Is this system possibly expandable at a later stage?
+- Is that proposal even legal?
+- What actions can I take to protest against the draft?
+
+## What plans EU Commission and the Council Presidency have?
+
+Olivier Onidi, Deputy Director General for Home Affairs, outlined the EU Commission’s ambitions in a meeting of the Joint Parliamentary Scrutiny Group. According to Onidi, the proposal is an attempt to include all means of communication in its scope. The actual value added by the proposal would be „to cover all forms of communication, including private communication“ Onidi replied to a question from MEP Patrick Breyer (Pirates/Green Parliamentary Group). It has been Beyer who gave the Commission’s plans the name „Chat Control“.
+
+Originally, the presentation of the explosive draft was scheduled for December 1 but has since disappeared from the Commission’s calendar. Upon request, a spokesperson merely confirmed the commission to be working on the proposal, stating, however, to be unable to provide a concrete date at present.
+
+The proposal could find support among member states. Slovenia, for instance, as current holder of the Council presidency, has made the fight against child abuse one of its main priorities. For the presidency it is „essential to focus on the digital dimension“ according to a council paper published by Statewatch in September. The work of investigative authorities would be particularly complicated by end-to-end encryption. Accordingly, the role of „proactive measures“ — in other words, automated approaches to scan content — should at least be open for discussion.
+
+How the EU Parliament will position itself on the proposal is yet to be certain. However, this year MEPs already voted in favor of allowing platforms such as Facebook, Skype, and Gmail to continue scanning content. Many platforms and cloud services have been doing this on a voluntary basis for quite some time, although recently strengthened data protection regulations made the practice temporarily illegal. For the time being, the hastily adopted exemption shall apply for three years, affects only unencrypted content, and could be replaced by the newly planned law.
+
+## How could this measures be implemented technically?
+
+Should the scanning obligation make it into the draft law, it is nevertheless unlikely for technical details to be included in it. Brussels’ magic formula is usually „proactive measures“ such as in cases where terrorist content is to be removed from the web. The exact technical implementation is therefore likely to be left to the operators themselves. It as well remains to be seen whether all messenger providers would be affected or only those with a certain number of users.
+
+In principle, they can fall back on an already existing infrastructure, such as the PhotoDNA software developed by Microsoft or the database of the „National Center for Missing and Exploited Children (NCMEC)“, an organization based in the US. The latter stores digital fingerprints, so-called hashes, of pictures or videos that have already been registered as illegal material. Thus, in the future, sending a message could be preceded by determining a hash of the attachment, which is then compared with the database. In the event of the file being identified as relevant, this would not only allow to block the message from being forwarded but also an alert to be given to the police as well.
+
+Microsoft already uses its PhotoDNA — in combination with artificial intelligence — in a number of its products, including Skype, OneDrive and Xbox. In addition, the company has made its software available to other providers, as for example Google, Twitter, and Facebook.
+
+Recently, Apple had also announced taking measures against the spread of CSAM. Those included plans to scan images on the smartphone against the NCMEC database — in other words using „client-side scanning“ (CSS) — prior to uploading them into the cloud. In addition, Apple considered the possibility of implementing „parental controls“ on its devices. With the help of artificial intelligence, this would have had then been able to detect „sexually explicit“ images before messages are sent and notify parents in the event that relevant content is discovered. However, after a worldwide wave of protests, Apple has put its plans on hold for the time being.
+
+CSS is as well one of the surveillance technologies that could follow from the EU law. Most recently, in a joint study, a group of world-renowned researchers and inventors, specialized in the field of cybersecurity and encryption, strongly criticized any plan considering scanning content on devices of end-users’. The experts conclude: client-side scanning is a threat to privacy, security, freedom of speech and democracy as a whole.
+
+Although end-to-end encryption technically remains intact with CSS – that is nothing but a fig leaf in case messages would about to be scanned for specific content before being sent. Finally, with CSS there comes the risk of enabling malicious actors such as state hackers or common criminals to use potential gaps in security as gateways.
+
+## In concrete terms: What does „chat control“ mean?
+
+Regardless of how the technical implementation turn out to be in detail: if the plans of the commission should be coming into action, the intrusion into privacy will be fairly deep. Just imagine for each and every message, regardless of a suspicion, to be automatically searched, evaluated and, in terms of a supposed match, reported — not only to the providers but straight to the authorities.
+
+Inevitably, this would include countless perfectly normal, legitimate photos and videos that people send each other. If automatic detection, so far still unreliable, should raise alarm, the content would have to be checked by humans either way. Not only would this violate the right to privacy even more, but as well open another gateway that opens a possibility to be misused.
+
+Ultimately, such a law would have massive consequences for providers, forcing them to either connect to an existing infrastructure or develop their own solutions to comply with the law. This in turn would play into the hands of larger providers who have sufficient resources to implement the required requirements. Providers that lack the resources or find the effort too great could subsequently withdraw from the EU.
+
+## Is this system possibly extendable at a later stage?
+
+The intrusion on the devices through chat control would already be critical if indeed only abuse representations were searched for, as is currently planned – and even if users could trust that this would not change any time in the future. IT experts fear, however, that even if client-side scanning is initially used only to search for CSAM, the political and social pressure to expand its scope will be immense.
+
+At this point the experts argue that a surveillance infrastructure, once in place, not only creates desires, but after implementation leaves little opportunity to oppose a requested expansion or to ensure that the system will not be abused. Technically, such an expansion is very easy to accomplish. Therefore, IT experts conclude that CSS is an invasion of privacy even worse than any previous proposals to weaken encryption. Edward Snowden made a similar argument against Apple’s plans to implement likewise surveillance technology to scan devices. The whistleblower expressed fear of an unprecedented mass surveillance.
+
+## Is that proposal even legal?
+
+According to a legal opinion by Prof. Dr. Ninon Colneric (PDF) automated scanning could indeed be illegal. Surveillance without a specific reason or reasonable suspicion is prohibited in the EU due to the fact of its violation of fundamental rights. The European Court of Justice has repeatedly confirmed this view and, for example, reproved the retention of data on a number of occasions.
+
+Nevertheless, attempts to revive the data retention zombie with legal tricks have not died down. The demand can be found regularly in council papers of various EU countries. Thus, this type of mass surveillance is still part of the German Telecommunications Act („Telekommunikationsgesetz“), although being currently suspended.
+
+## What actions can I take to protest against the draft?
+
+So far, there are no broad civil society alliances against the proposal, but the protest is just getting louder. MEP Patrick Breyer has put together an info page and calls for action at chatkontrolle.de. He calls on people to contact representatives of the EU Commission, such as the EU Commissioner for Home Affairs, Ylva Johannson, or the EU Commission President, Ursula von der Leyen, via telephone and e‑mail and to express their protest. In the coming weeks, civil society alliances and other forms of protest could also emerge. For this, it can be helpful to get involved yourself and contact civil rights and digital organizations about the issue of chat control.
+
+*Translation from German to English: Holly Hildebrand and Franziska Rau for netzpolitik.org.*

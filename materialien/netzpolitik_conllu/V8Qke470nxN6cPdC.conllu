@@ -1,0 +1,1132 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Das Bundeskriminalamt bekämpft Kinder- und Jugendpornografie im Internet.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	bekämpft	bekämpfen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	7	punct	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+7	Jugendpornografie	Jugendpornografie	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Es ist die Zentralstelle für Bund und Länder.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Zentralstelle	Zentralstelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Bund	Bund	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	8	cc	_	_
+8	Länder	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Letztes Jahr hat das Bundeskriminalamt dem freundlichen Hosting-Unternehmen Flokinet vorgeworfen, strafbare Kinderpornografie zu verbreiten.
+1	Letztes	letzt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+2	Jahr	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	obl	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+7	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	_
+8	Hosting	Hosting	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	iobj	_	_
+11	Flokinet	Flokinet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	10	appos	_	_
+12	vorgeworfen	vorwerfen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	strafbare	strafbar	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	_
+15	Kinderpornografie	Kinderpornografie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+16	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	17	mark	_	_
+17	verbreiten	verbreiten	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = ### Polizei meldet Straftaten Das Referat für Ermittlungen zu Gewalt- und Sexualdelikten verschickte eine „Meldung zu kriminellen Inhalten, die auf ihren Servern zur Verfügung gestellt werden“.
+1	###	###	PUNCT	$.	_	3	punct	_	_
+2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Straftaten	Straftaten	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	14	nsubj	_	SpacesAfter=\s\s
+5	Das	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	nmod	_	_
+6	Referat	Referat	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Ermittlungen	Ermittlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+9	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+10	Gewalt	Gewalt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	13	punct	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	cc	_	_
+13	Sexualdelikten	Sexualdelikt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+14	verschickte	verschicken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+16	„	„	PUNCT	$.	_	19	punct	_	SpaceAfter=No
+17	Meldung	Meldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+18	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	mark	_	_
+19	kriminellen	kriminellen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	20	acl	_	_
+20	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	29	punct	_	_
+22	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	29	nsubj:pass	_	_
+23	auf	auf	ADP	APPR	_	25	case	_	_
+24	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	25	det:poss	_	_
+25	Servern	Servern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	29	obl	_	_
+26-27	zur	_	_	_	_	_	_	_	_
+26	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	28	case	_	_
+27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_
+29	gestellt	stellen	VERB	VVPP	VerbForm=Part	20	acl	_	_
+30	werden	werden	AUX	NE	Case=Acc|Number=Plur	29	aux:pass	_	SpaceAfter=No
+31	“	“	PUNCT	$.	_	29	punct	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Flokinet hat die Meldung jetzt veröffentlicht.
+1	Flokinet	Flokinet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Meldung	Meldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	jetzt	jetzt	ADV	ADV	_	6	advmod	_	_
+6	veröffentlicht	veröffentlichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Das BKA schreibt, „dass sich auf den von Ihnen betriebenen Servern strafrechtlich relevante Inhalte befinden“, und ersucht „dringlichst“ darum, „diese schnellstmöglich zu entfernen“.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	17	punct	_	_
+5	„	„	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+6	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+8	auf	auf	ADP	APPR	_	13	case	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+10	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+11	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+12	betriebenen	betriebenen	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	13	amod	_	_
+13	Servern	Servern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	_
+14	strafrechtlich	strafrechtlich	ADJ	ADJD	_	16	amod	_	_
+15	relevante	relevant	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	_
+16	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	befinden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+18	“	“	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	21	punct	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+21	ersucht	ersuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+22	„	„	PUNCT	$.	_	23	punct	_	SpaceAfter=No
+23	dringlichst	dringlichst	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+24	“	“	PUNCT	$.	_	23	punct	_	_
+25	darum	darum	ADV	PAV	_	21	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	31	punct	_	_
+27	„	„	PUNCT	$.	_	31	punct	_	SpaceAfter=No
+28	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	31	obj	_	_
+29	schnellstmöglich	schnellstmöglich	ADJ	ADJD	_	31	advmod	_	_
+30	zu	zu	PART	NN	Case=Nom|Number=Plur	31	mark	_	_
+31	entfernen	entfernen	VERB	VVINF	VerbForm=Inf	3	conj	_	SpaceAfter=No
+32	“	“	PUNCT	$.	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Der Brief listet zwei URLs mit angeblicher Kinderpornografie:
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brief	Brief	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	listet	listen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	5	nummod	_	_
+5	URLs	URLs	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	_
+6	mit	mit	ADP	$(	_	8	case	_	_
+7	angeblicher	angeblicher	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	Kinderpornografie	Kinderpornografie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Doch die Polizei liegt falsch.
+1	Doch	doch	ADV	KON	_	4	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	falsch	falsch	ADJ	ADJD	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Die Inhalte der Videos sind nicht strafbar.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+4	Videos	Video	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	sind	sein	AUX	ADJD	_	7	cop	_	_
+6	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+7	strafbar	strafbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = ### YouTube-Videos mit Musik Auf dem Web-Server invidious.flokinet.to läuft die Software Invidious.
+1	###	###	PUNCT	$.	_	2	punct	_	_
+2	YouTube	YouTube	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Videos	Video	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	flat	_	_
+5	mit	mit	ADP	$(	_	6	case	_	_
+6	Musik	Musik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+7	Auf	auf	ADP	APPR	_	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	Web	Web	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Server	Server	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+12	invidious.flokinet.to	invidious.flokinet.to	ADV	NE	Foreign=Yes	11	advmod	_	_
+13	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Software	Software	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+16	Invidious	Invidious	PROPN	NE	Case=Nom|Number=Sing	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 11
+# text = Diese bietet ein „alternatives Front-End für YouTube“.
+1	Diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+4	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+5	alternatives	alternativ	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	_
+6	Front	Front	NOUN	NN	_	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	End	End	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	YouTube	YouTube	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	“	“	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Weder Invidious noch Flokinet hosten dort eigene Videos.
+1	Weder	weder	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	2	amod	_	_
+2	Invidious	Invidious	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
+3	noch	noch	ADV	CARD	NumType=Card	4	advmod	_	_
+4	Flokinet	Flokinet	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	hosten	hosen	VERB	NN	Case=Acc|Gender=Masc|Number=Plur	0	root	_	_
+6	dort	dort	ADV	ADV	_	5	advmod	_	_
+7	eigene	eigen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	_
+8	Videos	Videos	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Die hostet YouTube.
+1	Die	der	DET	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	hostet	hostet	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+3	YouTube	YouTube	PROPN	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Das erste Video zeigt den deutschen Komponisten Hans Zimmer, der Musik für einen Film produziert.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Video	Video	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	deutschen	deutsch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Komponisten	Komponist	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	Hans	Hans	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	7	appos	_	_
+9	Zimmer	Zimmer	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	det	_	_
+12	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Film	Film	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+16	produziert	produziert	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Das zweite Video ist ein Lied eines spanischen Opernsängers.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	zweite	zweit	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Video	Video	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Lied	Lied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	spanischen	spanisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	Opernsängers	Opernsänger	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Beide Inhalte sind weder Kinderpornografie noch strafbar.
+1	Beide	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	5	cop	_	_
+4	weder	weder	CCONJ	NN	Case=Nom|Gender=Neut|Number=Plur	5	cc	_	_
+5	Kinderpornografie	Kinderpornografie	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+6	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
+7	strafbar	strafbar	ADJ	ADJD	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Darüber hinaus war der Web-Dienst zum Zeitpunkt der BKA-Meldung bereits seit einem halben Jahr kaputt und offline.
+1	Darüber	darüber	ADV	PAV	_	2	advmod	_	_
+2	hinaus	hinaus	ADV	ADV	_	20	advmod	_	_
+3	war	sein	AUX	ADV	_	20	cop	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	Web	Web	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Dienst	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nsubj	_	_
+8-9	zum	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	BKA	BKA	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Meldung	meldung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	flat	_	_
+15	bereits	bereits	ADV	ADV	_	20	advmod	_	_
+16	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
+17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+18	halben	halb	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	19	amod	_	_
+19	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+20	kaputt	kaputt	ADJ	ADJD	_	0	root	_	_
+21	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	22	cc	_	_
+22	offline	offline	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = ### Wie prüft die Polizei?
+1	###	###	PUNCT	$.	_	3	punct	_	_
+2	Wie	Wie	ADV	NN	Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+3	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Kinderpornografie ist ein schlimmes Verbrechen und die Verbreitung solcher Inhalte ein ernster Vorwurf.
+1	Kinderpornografie	Kinderpornografie	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	schlimmes	schlimm	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	Verbrechen	Verbrechen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	8	cc	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Verbreitung	Verbreitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	solcher	solch	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	Inhalte	Inhalt	NOUN	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	nmod	_	_
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	ernster	ernst	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	Vorwurf	Vorwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 20
+# text = Internet-Dienste müssen rechtswidrige Inhalte „unverzüglich“ entfernen.
+1	Internet	Internet	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+3	Dienste	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nsubj	_	_
+4	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	rechtswidrige	rechtswidrig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
+7	„	„	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+8	unverzüglich	unverzüglich	ADJ	ADJD	_	10	advmod	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	_
+10	entfernen	entfernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 21
+# text = Einige Staaten schreiben eine Frist von 24 Stunden vor.
+1	Einige	einige	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	schreiben	schreiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Frist	Frist	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+7	24	24	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
+9	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	3	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 22
+# text = Terroristische Inhalte müssen Anbieter innerhalb einer Stunde löschen.
+1	Terroristische	Terroristisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obj	_	_
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	Anbieter	Anbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	_
+6	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Stunde	Stunde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	löschen	löschen	VERB	ADJA	Case=Dat|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = Das BKA verschickt die Mail an einem Montag.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	verschickt	verschicken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Mail	Mail	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 24
+# text = Zwei Stunden nach Eingang der Mitteilung teilt Flokinet dem BKA mit, dass die genannten Inhalte nicht verfügbar, nicht gehostet und nicht strafbar sind.
+1	Zwei	zwei	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	_
+3	nach	nach	ADP	ADJA	_	4	case	_	_
+4	Eingang	Eingang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Mitteilung	Mitteilung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	teilt	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Flokinet	Flokinet	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	BKA	BKA	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	7	iobj	_	_
+11	mit	mit	ADP	$(	_	7	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	genannten	genannt	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	amod	_	_
+16	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+18	verfügbar	verfügbar	ADJ	ADJD	_	7	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	21	punct	_	_
+20	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advmod	_	_
+21	gehostet	hosten	VERB	VVPP	VerbForm=Part	7	conj	_	_
+22	und	und	CCONJ	NE	Foreign=Yes	24	cc	_	_
+23	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advmod	_	_
+24	strafbar	strafbar	ADJ	ADJD	_	7	conj	_	_
+25	sind	sein	AUX	ADJD	_	7	cop	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 25
+# text = Doch nach 24 Stunden hat das BKA noch immer nicht geantwortet.
+1	Doch	doch	ADV	KON	_	4	advmod	_	_
+2	nach	nach	ADP	ADJA	_	4	case	_	_
+3	24	24	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+8	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	9	advmod	_	_
+9	immer	immer	ADV	ADV	_	10	advmod	_	_
+10	nicht	nicht	PART	CARD	NumType=Card	11	advmod	_	_
+11	geantwortet	antworten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Am Dienstag schicken wir dem BKA eine Reihe an Fragen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	BKA	BKA	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Reihe	Reihe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+10	an	an	ADP	APPR	_	11	case	_	_
+11	Fragen	Frage	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 27
+# text = Enthalten die gemeldeten URLs wirklich Straftaten?
+1	Enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	gemeldeten	gemeldet	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	URLs	URLs	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	wirklich	wirklich	ADJ	ADV	_	6	amod	_	_
+6	Straftaten	Straftat	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 28
+# text = Wann hat das BKA die URLs geprüft?
+1	Wann	wann	PROPN	PWAV	PronType=Int	7	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+6	URLs	URLs	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	obj	_	_
+7	geprüft	prüfen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 29
+# text = Wann antwortet das BKA dem Anbieter?
+1	Wann	wann	PROPN	ADV	_	2	nsubj	_	_
+2	antwortet	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Anbieter	Anbieter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = ### Polizei meldet „automatisiert“ Am Mittwoch erhalten wir eine Antwort der Pressestelle.
+1	###	###	PUNCT	$.	_	3	punct	_	_
+2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	automatisiert	automatisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+6	“	“	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+7-8	Am	_	_	_	_	_	_	_	_
+7	An	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+10	erhalten	erhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	wir	wir	PRON	ADJD	_	10	nsubj	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Pressestelle	Pressestelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 31
+# text = Das BKA äußert sich „grundsätzlich nicht zu laufenden Ermittlungsverfahren“.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	äußert	äußern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	„	„	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+6	grundsätzlich	grundsätzlich	ADJ	ADJD	_	10	advmod	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+9	laufenden	laufend	ADJ	VVINF	VerbForm=Inf	10	amod	_	_
+10	Ermittlungsverfahren	Ermittlungsverfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+11	“	“	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 32
+# text = Zu den beiden URLs sagt es nichts.
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	case	_	_
+2	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	4	det	_	_
+3	beiden	beide	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	4	det	_	_
+4	URLs	URLs	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+5	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	nichts	nichts	PRON	CARD	NumType=Card	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = Der Sprecher erklärt nur allgemein: In Ermittlungsverfahren im Phänomenbereich Kinderpornografie, bei welchen große Datenmengen sichergestellt werden, erhebt das BKA Verlinkungen aus den kriminellen Plattformen automatisiert und regt diese zur Löschung durch den Provider an.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nur	nur	ADV	CARD	_	5	advmod	_	_
+5	allgemein	allgemein	ADJ	ADJD	_	3	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+7	In	in	ADP	APPR	_	8	case	_	_
+8	Ermittlungsverfahren	Ermittlungsverfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Phänomenbereich	Phänomenbereich	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	Kinderpornografie	Kinderpornografie	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	bei	bei	ADP	APPR	_	15	case	_	_
+15	welchen	welch	PRON	PWS	Case=Dat|Gender=Fem|Number=Plur|PronType=Int	18	obl	_	_
+16	große	groß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	17	amod	_	_
+17	Datenmengen	Datenmeng	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+18	sichergestellt	sicherstellen	VERB	VVPP	VerbForm=Part	8	acl	_	_
+19	werden	werden	AUX	NE	Case=Acc|Number=Plur	18	aux:pass	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	erhebt	erheben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+22	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+24	Verlinkungen	Verlinkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	obj	_	_
+25	aus	aus	ADP	APPR	_	28	case	_	_
+26	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	kriminellen	kriminell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	28	amod	_	_
+28	Plattformen	Plattform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	_
+29	automatisiert	automatisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+30	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	31	cc	_	_
+31	regt	regen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+32	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	31	obj	_	_
+33-34	zur	_	_	_	_	_	_	_	_
+33	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	case	_	_
+34	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Löschung	Löschung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
+36	durch	durch	ADP	APPR	_	38	case	_	_
+37	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Provider	Provider	NOUN	NE	Case=Acc|Number=Sing	31	obl	_	_
+39	an	an	ADP	PTKVZ	_	31	compound:prt	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 34
+# text = Dabei können in Einzelfällen auch Verlinkungen zu nicht strafbaren Inhalten weitergegeben worden sein, die sich auf den in Rede stehenden kriminellen Plattformen befunden haben.
+1	Dabei	dabei	ADV	PAV	_	11	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Einzelfällen	Einzelfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+5	auch	auch	ADV	ADV	_	6	advmod	_	_
+6	Verlinkungen	Verlinkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj:pass	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+9	strafbaren	strafbar	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	10	amod	_	_
+10	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+11	weitergegeben	weitergeben	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	worden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	11	aux:pass	_	_
+13	sein	sein	AUX	VAINF	VerbForm=Inf	11	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	24	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	24	nsubj	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
+17	auf	auf	ADP	APPR	_	23	case	_	_
+18	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Rede	Rede	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	_
+21	stehenden	stehend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	23	amod	_	_
+22	kriminellen	kriminell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	23	amod	_	_
+23	Plattformen	Plattform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	_
+24	befunden	befinden	VERB	VVPP	VerbForm=Part	11	acl	_	_
+25	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 35
+# text = Die Polizei meldet „automatisiert“ alle Links auf „kriminellen Plattformen“.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	automatisiert	automatisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+6	“	“	PUNCT	$.	_	5	punct	_	_
+7	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Number=Plur|PronType=Ind	8	det	_	_
+8	Links	links	NOUN	ADV	_	5	nsubj	_	_
+9	auf	auf	ADP	APPR	_	12	case	_	_
+10	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	kriminellen	kriminell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	12	amod	_	_
+12	Plattformen	Plattform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 36
+# text = Das BKA prüft nicht, ob ein Link strafbar ist oder nicht.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	ob	ob	SCONJ	CARD	NumType=Card	9	mark	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Link	link	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	strafbar	strafbar	ADJ	ADJD	_	3	ccomp	_	_
+10	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	9	cop	_	_
+11	oder	oder	CCONJ	XY	_	12	cc	_	_
+12	nicht	nicht	PART	CARD	NumType=Card	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 37
+# text = Doch offensichtlich führt unsere Anfrage zu einer Überprüfung.
+1	Doch	doch	ADV	KON	_	3	advmod	_	_
+2	offensichtlich	offensichtlich	ADV	ADJD	_	3	advmod	_	_
+3	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+5	Anfrage	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Überprüfung	Überprüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 38
+# text = Am Donnerstag antwortet das BKA dem Anbieter, vier Tage nach der ersten Meldung.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	antwortet	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Anbieter	Anbieter	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	11	nummod	_	_
+11	Tage	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+12	nach	nach	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	15	case	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	ersten	erst	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+15	Meldung	Meldung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 39
+# text = „Bei den gemeldeten URLs handelt es sich nicht um kinderpornografische Inhalte.
+1	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+2	Bei	bei	ADP	APPR	_	5	case	_	_
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	gemeldeten	gemeldet	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	URLs	URLs	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+9	nicht	nicht	PART	CARD	NumType=Card	6	advmod	_	_
+10	um	um	ADP	APPR	_	12	case	_	_
+11	kinderpornografische	kinderpornografisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	12	amod	_	_
+12	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 40
+# text = Bitte betrachten Sie unseren Löschantrag als irrelevant.“
+1	Bitte	Bitte	PART	ADV	_	2	advmod	_	_
+2	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+4	unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+5	Löschantrag	Löschantrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	irrelevant	irrelevant	ADJ	ADJD	_	2	amod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Damit ist der konkrete Fall zwar gut ausgegangen.
+1	Damit	damit	ADV	PAV	_	8	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	konkrete	konkret	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	zwar	zwar	ADV	ADV	_	8	advmod	_	_
+7	gut	gut	ADJ	ADJD	_	8	advmod	_	_
+8	ausgegangen	ausgehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 42
+# text = Aber er zeigt grundlegende Probleme.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	grundlegende	grundlegend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = ### Viele Meldungen nicht strafbar Das BKA erhält Hinweise auf Kinderpornografie unter anderem von Beschwerdestellen im INHOPE-Netzwerk.
+1	###	###	PUNCT	$.	_	3	punct	_	_
+2	Viele	viel	PRON	NN	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+3	Meldungen	Meldung	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+5	strafbar	strafbar	ADJ	ADJD	_	6	amod	_	SpacesAfter=\s\s
+6	Das	Da	PROPN	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nmod	_	_
+7	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	_
+8	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	auf	auf	ADP	APPR	_	11	case	_	_
+11	Kinderpornografie	Kinderpornografie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	_
+12	unter	unter	ADP	ADJD	_	13	case	_	_
+13	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	obl	_	_
+14	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+15	Beschwerdestellen	Beschwerdestelle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+16-17	im	_	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	INHOPE	INHOPE	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Netzwerk	Netzwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	flat	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 44
+# text = Diese nehmen Hinweise entgegen und „prüfen diese auf ihre strafrechtliche Relevanz“.
+1	Diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	_
+2	nehmen	nehmen	VERB	CARD	NumType=Card	0	root	_	_
+3	Hinweise	Hinweise	ADV	NN	Case=Acc|Gender=Masc|Number=Plur	2	compound:prt	_	_
+4	entgegen	entgegen	ADV	APPR	_	7	advmod	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
+6	„	„	PUNCT	$.	_	4	conj	_	SpaceAfter=No
+7	prüfen	prüfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+8	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	obj	_	_
+9	auf	auf	ADP	APPR	_	12	case	_	_
+10	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+11	strafrechtliche	strafrechtlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+12	Relevanz	Relevanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 45
+# text = Erst danach leiten sie geprüfte Hinweise an das BKA.
+1	Erst	erst	ADV	ADV	_	2	advmod	_	_
+2	danach	danach	ADV	PAV	_	3	advmod	_	_
+3	leiten	leiten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+5	geprüfte	geprüft	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	BKA	BKA	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 46
+# text = Im Jahr 2024 erhielt das BKA so über 31.000 Hinweise zu kinderpornografischen Inhalten im Internet.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+4	2024	2024	NUM	CARD	NumType=Card	3	nmod	_	_
+5	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	BKA	BKA	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+8	so	so	ADV	NE	Case=Dat|Number=Plur	5	advmod	_	_
+9	über	über	ADP	FM	Foreign=Yes	11	case	_	_
+10	31.000	31.000	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obl	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	kinderpornografischen	kinderpornografisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	_
+14	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 47
+# text = Noch mehr Meldungen erhält das BKA vom „Nationalen Zentrum für vermisste und ausgebeutete Kinder“.
+1	Noch	noch	ADV	ADV	_	2	advmod	_	_
+2	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	3	amod	_	_
+3	Meldungen	Meldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	BKA	BKA	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7-8	vom	_	_	_	_	_	_	_	_
+7	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+9	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+10	Nationalen	National	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	_
+11	Zentrum	Zentrum	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+12	für	für	ADP	APPR	_	16	case	_	_
+13	vermisste	vermißt	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	ausgebeutete	ausgebeutet	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	13	conj	_	_
+16	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+17	“	“	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 48
+# text = Die US-Organisation meldete ebenfalls 2024 über 205.000 Hinweise an das BKA.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	US	US	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+5	meldete	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ebenfalls	ebenfalls	ADV	ADV	_	10	advmod	_	_
+7	2024	2024	NUM	CARD	NumType=Card	10	nummod	_	_
+8	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
+9	205.000	205.000	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	BKA	BKA	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 49
+# text = Diese prüft das BKA.
+1	Diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	prüft	prüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 50
+# text = Doch nur „in 106.353 Fällen wurde eine strafrechtliche Relevanz festgestellt“.
+1	Doch	doch	ADV	ADV	_	3	advmod	_	_
+2	nur	nur	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
+3	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+4	in	in	ADP	APPR	_	6	case	_	_
+5	106.353	106.353	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
+7	wurde	werden	AUX	ADV	_	11	aux:pass	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	strafrechtliche	strafrechtlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Relevanz	Relevanz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+11	festgestellt	feststellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	“	“	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 51
+# text = Die Hälfte der NCMEC-Meldungen war gar nicht strafbar.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	NCMEC	NCMEC	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Meldungen	Meldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	flat	_	_
+7	war	sein	AUX	ADV	_	10	cop	_	_
+8	gar	gar	ADV	ADV	_	9	advmod	_	_
+9	nicht	nicht	PART	CARD	NumType=Card	10	advmod	_	_
+10	strafbar	strafbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 52
+# text = Im Fall von Flokinet hat das BKA selbst „Verlinkungen aus den kriminellen Plattformen automatisiert [erhoben]“.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Fall	fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+4	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+5	Flokinet	Flokinet	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	BKA	BKA	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+9	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+10	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+11	Verlinkungen	Verlinkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	nsubj	_	_
+12	aus	aus	ADP	APPR	_	15	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	kriminellen	kriminell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	15	amod	_	_
+15	Plattformen	Plattform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	_
+16	automatisiert	automatisieren	ADJ	VVPP	VerbForm=Part	6	xcomp	_	_
+17	[	[	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	erhoben	erhoben	ADJ	VVPP	VerbForm=Part	16	parataxis	_	SpaceAfter=No
+19	]	]	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+20	“	“	PUNCT	$.	_	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 53
+# text = Überprüft hat das BKA die Inhalte offensichtlich nicht.
+1	Überprüft	überprüfen	VERB	VVPP	VerbForm=Part	0	root	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Inhalte	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+7	offensichtlich	offensichtlich	ADJ	ADJD	_	8	advmod	_	_
+8	nicht	nicht	PART	CARD	NumType=Card	1	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = In anderen Fällen erfährt das BKA von Kinderpornografie, löscht die Inhalte aber nicht.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	3	amod	_	_
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	erfährt	erfahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	BKA	BKA	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	8	case	_	_
+8	Kinderpornografie	Kinderpornografie	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	löscht	löschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	aber	aber	ADV	ADV	_	10	advmod	_	_
+14	nicht	nicht	PART	CARD	NumType=Card	10	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = Trotzdem fordert das BKA Netz-Sperren, Vorratsdatenspeicherung und Chatkontrolle – immer wegen Kinderpornografie.
+1	Trotzdem	trotzdem	ADV	PAV	_	2	advmod	_	_
+2	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+5	Netz	Netz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Sperren	sperren	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	Chatkontrolle	Chatkontrolle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+12	–	–	PUNCT	$.	_	2	punct	_	_
+13	immer	immer	ADV	ADV	_	2	advmod	_	_
+14	wegen	wegen	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	15	case	_	_
+15	Kinderpornografie	Kinderpornografie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 56
+# text = ### Keine Konsequenz für Falschmeldungen Flokinet kritisiert, dass das Einreichen einer falschen Meldung keinerlei Konsequenzen hat.
+1	###	###	PUNCT	$.	_	3	punct	_	_
+2	Keine	kein	DET	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	3	nmod	_	_
+3	Konsequenz	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	Falschmeldungen	Falschmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	SpacesAfter=\s\s
+6	Flokinet	Flokinet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	appos	_	_
+7	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	17	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Einreichen	einreichen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	falschen	falsch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	Meldung	Meldung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	keinerlei	keinerlei	PRON	PIAT	Definite=Ind|Polarity=Neg|PronType=Neg	16	nmod	_	_
+16	Konsequenzen	Konsequenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+17	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 57
+# text = Es ist angemessen, dass Hoster Straftaten wie Kinderpornografie zeitnah entfernen müssen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	angemessen	angemessen	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+6	Hoster	Host	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	Straftaten	Straftat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+8	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	9	case	_	_
+9	Kinderpornografie	Kinderpornografie	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+10	zeitnah	zeitnah	ADV	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	advmod	_	_
+11	entfernen	entfernen	VERB	VVINF	VerbForm=Inf	3	csubj	_	_
+12	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 58
+# text = Doch das kann nur funktionieren, wenn die Hinweise der Polizei auch korrekt sind.
+1	Doch	doch	CCONJ	KON	_	5	cc	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nur	nur	ADV	CARD	_	5	advmod	_	_
+5	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	wenn	wenn	SCONJ	VVFIN	_	13	mark	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Hinweise	Hinweis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Polizei	Polizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	auch	auch	ADV	ADV	_	13	advmod	_	_
+13	korrekt	korrekt	ADJ	ADJD	_	5	advcl	_	_
+14	sind	sein	AUX	ADJD	_	13	cop	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Wenn die Polizei automatisiert ungeprüft Inhalte meldet, „lagert der Absender die Überprüfungsarbeit faktisch an uns aus.
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	automatisiert	automatisieren	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	amod	_	_
+5	ungeprüft	ungeprüft	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	amod	_	_
+6	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+7	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	„	„	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+10	lagert	lagern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Absender	Absender	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Überprüfungsarbeit	Überprüfungsarbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+15	faktisch	faktisch	ADJ	ADJD	_	10	advmod	_	_
+16	an	an	ADP	APPR	_	17	case	_	_
+17	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+18	aus	aus	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 60
+# text = Das ist kein praktikables System.“
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+4	praktikables	praktikabl	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	System	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+7	“	“	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 61
+# text = Diese offenbar notwendige Überprüfung ist rechtlich heikel: Bereits der Besitz kinderpornografische Inhalte ist strafbar, unabhängig von der Intention.
+1	Diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+2	offenbar	offenbar	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	4	amod	_	_
+3	notwendige	notwendig	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	4	amod	_	_
+4	Überprüfung	Überprüfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	ist	sein	AUX	ADJD	_	7	cop	_	_
+6	rechtlich	rechtlich	ADJ	ADJD	_	7	advmod	_	_
+7	heikel	heikel	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	15	punct	_	_
+9	Bereits	bereits	ADV	ADV	_	11	advmod	_	_
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Besitz	Besitz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+12	kinderpornografische	kinderpornografisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	13	amod	_	_
+13	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+14	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	strafbar	strafbar	ADJ	ADJD	_	7	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	unabhängig	unabhängig	ADJ	ADJD	_	15	conj	_	_
+18	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Intention	Intention	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 62
+# text = Laut Flokinet benachteiligt dieses System außerdem kleine Internet-Dienste gegenüber Big Tech.
+1	Laut	laut	ADP	APPR	_	2	case	_	_
+2	Flokinet	Flokinet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
+3	benachteiligt	benachteiligen	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	System	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	außerdem	außerdem	ADV	PAV	_	3	advmod	_	_
+7	kleine	klein	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+8	Internet	Internet	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Dienste	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+11	gegenüber	gegenüber	ADP	APPR	_	13	case	_	_
+12	Big	Big	PROPN	FM	Foreign=Yes	13	amod	_	_
+13	Tech	Tech	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 63
+# text = „Große Plattformen können die Kosten für die Bearbeitung automatisierter Anfragen durch KI-Moderation und Inhaltsüberprüfungs-Teams auffangen.
+1	„	„	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+2	Große	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
+3	Plattformen	Plattform	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+5	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	6	det	_	_
+6	Kosten	Kosten	NOUN	NN	Case=Nom|Number=Plur	20	nsubj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Bearbeitung	Bearbeitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+10	automatisierter	automatisiert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
+11	Anfragen	Anfrage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obj	_	_
+12	durch	durch	ADP	APPR	_	15	case	_	_
+13	KI	KI	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	Moderation	Moderation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+16	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	19	cc	_	_
+17	Inhaltsüberprüfungs	Inhaltsüberprüfungs	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+19	Teams	Team	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	_
+20	auffangen	auffangen	VERB	NN	Case=Gen|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 64
+# text = Unternehmen wie Flokinet können das nicht.“
+1	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+2	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	3	case	_	_
+3	Flokinet	Flokinet	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	0	root	_	_
+6	nicht	nicht	PART	NN	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	8	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 65
+# text = Flokinet weist auch darauf hin, dass die Polizei erst reagiert hat, nachdem wir nachgefragt haben.
+1	Flokinet	Flokinet	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	weist	weisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	darauf	darauf	PRON	PAV	_	2	dep	_	_
+5	hin	hin	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	erst	erst	ADV	ADV	_	11	advmod	_	_
+11	reagiert	reagieren	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	nachdem	nachdem	SCONJ	CARD	NumType=Card	16	mark	_	_
+15	wir	wir	PRON	ADJD	_	16	nsubj	_	_
+16	nachgefragt	nachfragen	VERB	VVPP	VerbForm=Part	11	advcl	_	_
+17	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 66
+# text = „Ohne den Druck von Medien wäre die Falschmeldung wahrscheinlich nicht offiziell anerkannt worden.“
+1	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+2	Ohne	ohne	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Medien	Medium	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	_
+7	wäre	sein	AUX	NN	Foreign=Yes	13	aux	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Falschmeldung	Falschmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+10	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	11	advmod	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
+12	offiziell	offiziell	ADJ	CARD	NumType=Card	13	advmod	_	_
+13	anerkannt	anerkennen	VERB	VVPP	VerbForm=Part	0	root	_	_
+14	worden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	13	aux:pass	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+16	“	“	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 67
+# text = ## Schreibe eine Ergänzung!
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Schreibe	Schreibe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ergänzung	Ergänzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+

@@ -1,0 +1,503 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Bundesministerin Lisa Paus (Grüne) hat auf der Jugendkonferenz TINCON die von der EU-Kommission geplante Chatkontrolle klar abgelehnt.
+1	Bundesministerin	Bundesministerin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+2	Lisa	Lisa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Paus	Paus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Grüne	Grüne	PROPN	NN	Case=Nom|Number=Plur	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	$(	_	5	punct	_	_
+7	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Jugendkonferenz	Jugendkonferenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+11	TINCON	TINCON	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	appos	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+13	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	EU	EU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Kommission	Kommission	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	flat	_	_
+18	geplante	geplant	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
+19	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+20	klar	klar	ADJ	ADJD	_	21	advmod	_	_
+21	abgelehnt	ablehnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 2
+# text = „Das geht zu weit, das brauchen nicht“, sagte die Familienministerin auf eine Frage aus dem Publikum.
+1	„	„	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+5	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	8	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+9	nicht	nicht	PART	TRUNC	NumType=Card	8	advmod	_	SpaceAfter=No
+10	“	“	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	8	punct	_	_
+12	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Familienministerin	Familienministerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+15	auf	auf	ADP	APPR	_	17	case	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+18	aus	aus	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Publikum	Publikum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 3
+# text = „Wir brauchen keine private Chatkontrolle“.
+1	„	„	PUNCT	$.	_	2	dep	_	SpaceAfter=No
+2	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
+5	private	privat	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Chatkontrolle	Chatkontrolle	NOUN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	obj	_	SpaceAfter=No
+7	“	“	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Paus besuchte die für junge Menschen veranstaltete TINCON, die derzeit parallel zur re:publica stattfindet, für ein Ask Me Anything („Frag mich alles“).
+1	Paus	Paus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	besuchte	besuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	junge	jung	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	_
+6	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	_
+7	veranstaltete	veranstaltet	VERB	ADJA	Case=Acc|Gender=Masc|Number=Plur	8	amod	_	_
+8	TINCON	TINCON	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	_
+11	derzeit	derzeit	ADV	ADV	_	16	advmod	_	_
+12	parallel	parallel	ADJ	KON	_	16	advmod	_	_
+13-14	zur	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	re:publica	re:publica	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+16	stattfindet	stattfinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	für	für	ADP	APPR	_	20	case	_	_
+19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Ask	Ask	NOUN	NE	Foreign=Yes	2	obl	_	_
+21	Me	Me	PROPN	FM	Foreign=Yes	20	nmod	_	_
+22	Anything	Anything	PROPN	NE	Foreign=Yes	21	flat	_	_
+23	(	(	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+24	„	„	PUNCT	$.	_	25	punct	_	SpaceAfter=No
+25	Frag	Frag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	_
+26	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obj	_	_
+27	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	28	det	_	SpaceAfter=No
+28	“	“	PUNCT	$.	_	25	punct	_	SpaceAfter=No
+29	)	)	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Bei der Chatkontrolle gebe es in der Bundesregierung inzwischen Einigkeit, so Paus weiter.
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	gebe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Bundesregierung	Bundesregierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+9	inzwischen	inzwischen	ADV	ADV	_	14	advmod	_	_
+10	Einigkeit	Einigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	13	advmod	_	_
+13	Paus	Paus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+14	weiter	weiter	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Darüber habe das Kabinett diese Woche gesprochen.
+1	Darüber	darüber	ADV	PAV	_	7	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Kabinett	Kabinett	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 7
+# text = „Da sind sich Nancy Faeser, Marco Buschmann und Lisa Paus einig“, sagte sie mit Blick auf ihre Amtskolleg:innen, die Innenministerin Faeser (SPD) und den Justizminister Buschmann (FDP).
+1	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+2	Da	Da	ADV	ADV	_	5	advmod	_	_
+3	sind	sein	AUX	ADJD	_	5	cop	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	_
+5	Nancy	Nancy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+6	Faeser	Faeser	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Marco	Marco	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	Buschmann	Buschmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	Lisa	Lisa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+12	Paus	Paus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	_
+13	einig	einig	PRON	ADJD	_	5	conj	_	SpaceAfter=No
+14	“	“	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	5	punct	_	_
+16	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+18	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	case	_	_
+19	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+20	auf	auf	ADP	APPR	_	22	case	_	_
+21	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	22	det:poss	_	_
+22	Amtskolleg:innen	Amtskolleg:innen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	25	punct	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Innenministerin	Innenministerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+26	Faeser	Faeser	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+27	(	(	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+28	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	26	appos	_	SpaceAfter=No
+29	)	)	PUNCT	$(	_	28	punct	_	_
+30	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	32	cc	_	_
+31	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Justizminister	Justizminister	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	_
+33	Buschmann	Buschmann	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	32	flat	_	_
+34	(	(	PUNCT	$(	_	35	punct	_	SpaceAfter=No
+35	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
+36	)	)	PUNCT	$(	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 8
+# text = Der Entwurf der EU sei insgesamt sehr gut, aber die private Chatkontrolle gehe zu weit.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Entwurf	Entwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	EU	EU	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	insgesamt	insgesamt	ADV	ADV	_	8	advmod	_	_
+7	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	8	advmod	_	_
+8	gut	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	aber	aber	CCONJ	KON	_	14	cc	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	private	privat	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	Chatkontrolle	Chatkontrolle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	gehe	gehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+16	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Es gelte nach wie vor der Schutz der Privatsphäre.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gelte	geln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nach	nach	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
+4	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	7	case	_	_
+5	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Schutz	Schutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Privatsphäre	Privatsphäre	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Gestellt hatte die Frage die Schülerin Carla Siepmann, die auch als freie Autorin für netzpolitik.org schreibt.
+1	Gestellt	stellen	VERB	VVPP	VerbForm=Part	0	root	_	_
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Schülerin	Schülerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+7	Carla	Carla	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+8	Siepmann	Siepmann	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	17	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
+11	auch	auch	ADV	ADV	_	14	advmod	_	_
+12	als	als	ADP	KOKOM	_	14	case	_	_
+13	freie	frei	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
+14	Autorin	Autorin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	obl	_	_
+15	für	für	ADP	APPR	_	16	case	_	_
+16	netzpolitik.org	netzpolitik.org	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+17	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Die Chatkontrolle steht in einem Entwurf der EU-Kommission zum Schutz von Kindern und Jugendlichen gegen sexualisierte Gewalt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Entwurf	Entwurf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	EU	EU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Kommission	Kommission	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	flat	_	_
+11-12	zum	_	_	_	_	_	_	_	_
+11	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Schutz	Schutz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+14	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+15	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	_
+16	und	und	CCONJ	NE	Foreign=Yes	17	cc	_	_
+17	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	15	conj	_	_
+18	gegen	gegen	ADP	APPR	_	20	case	_	_
+19	sexualisierte	sexualisiert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	20	amod	_	_
+20	Gewalt	Gewalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Chatkontrolle bedeutet, dass Online-Anbieter auf Anordnung automatisch nach Aufnahmen sexualisierter Gewalt gegen Kinder suchen müssen – auch in privaten, Ende-zu-Ende-verschlüsselten Chats.
+1	Chatkontrolle	Chatkontroll	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
+2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	17	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+5	Online	online	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Anbieter	Anbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	_
+9	Anordnung	Anordnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+10	automatisch	automatisch	ADJ	ADJD	_	14	amod	_	_
+11	nach	nach	ADP	ADJA	_	12	case	_	_
+12	Aufnahmen	Aufnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	_
+13	sexualisierter	sexualisiert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	gegen	gegen	ADP	APPR	_	16	case	_	_
+16	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	_
+17	suchen	suchen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+18	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+19	–	–	PUNCT	$.	_	28	punct	_	_
+20	auch	auch	ADV	ADV	_	28	advmod	_	_
+21	in	in	ADP	APPR	_	28	case	_	_
+22	privaten	privat	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	28	amod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	_
+24	Ende-zu	Ende-zu	NOUN	APPR	_	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+26	Ende-	Ende-	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+27	verschlüsselten	verschlüsselt	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	amod	_	_
+28	Chats	Chat	NOUN	NE	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Schlägt die Erkennungssoftware Alarm, werden Ermittler:innen informiert.
+1	Schlägt	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Erkennungssoftware	Erkennungssoftware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	_
+4	Alarm	Alarm	PROPN	NE	_	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	werden	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	8	aux:pass	_	_
+7	Ermittler:innen	Ermittler:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	informiert	informieren	VERB	VVPP	VerbForm=Part	1	parataxis	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 14
+# text = Expert:innen aus den Bereichen Datenschutz, IT, Bürgerrechte und sogar Kinderschutz lehnen das jedoch als zu tiefen Eingriff in Grundrechte ab.
+1	Expert:innen	Expert:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+2	aus	aus	ADP	APPR	_	4	case	_	_
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Bereichen	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	nmod	_	_
+5	Datenschutz	Datenschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	IT	It	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Bürgerrechte	Bürgerrecht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	12	cc	_	_
+11	sogar	sogar	ADV	ADV	_	12	advmod	_	_
+12	Kinderschutz	Kinderschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	_
+13	lehnen	lehnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
+15	jedoch	jedoch	ADV	ADV	_	19	advmod	_	_
+16	als	als	ADP	KOKOM	_	19	case	_	_
+17	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+18	tiefen	tief	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	19	amod	_	_
+19	Eingriff	Eingriff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+20	in	in	ADP	APPR	_	21	case	_	_
+21	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	19	nmod	_	_
+22	ab	ab	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = ## Digitalminister: „entschieden gegen Chatkontrolle eintreten“ Als Bundesministerin ist Lisa Paus auch für Kinder und Jugendliche zuständig – also genau die Gruppe, die durch die von der EU-Kommission vorgeschlagene Chatkontrolle eigentlich geschützt werden sollte.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Digitalminister	Digitalminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	5	punct	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	entschieden	entscheiden	VERB	ADJD	_	8	parataxis	_	_
+6	gegen	gegen	ADP	APPR	_	7	case	_	_
+7	Chatkontrolle	Chatkontrolle	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	eintreten	eintreten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+10	Als	als	ADP	KOUS	_	11	case	_	_
+11	Bundesministerin	Bundesministerin	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+12	ist	sein	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	8	aux:pass	_	_
+13	Lisa	Lisa	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+14	Paus	Paus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	auch	auch	ADV	ADV	_	8	advmod	_	_
+16	für	für	ADP	APPR	_	17	case	_	_
+17	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	19	cc	_	_
+19	Jugendliche	Jugendliche	NOUN	NN	Case=Acc|Number=Plur	17	conj	_	_
+20	zuständig	zuständig	ADJ	ADJD	_	25	amod	_	_
+21	–	–	PUNCT	$.	_	25	punct	_	_
+22	also	also	ADV	ADV	_	25	advmod	_	_
+23	genau	genau	ADJ	ADV	_	25	advmod	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	38	punct	_	_
+27	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	38	nsubj:pass	_	_
+28	durch	durch	ADP	APPR	_	36	case	_	_
+29	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+30	von	von	ADP	FM	Foreign=Yes	32	case	_	_
+31	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	EU	EU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+33	-	-	PUNCT	$(	_	34	punct	_	SpaceAfter=No
+34	Kommission	Kommission	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	flat	_	_
+35	vorgeschlagene	vorgeschlagen	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	36	amod	_	_
+36	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obl	_	_
+37	eigentlich	eigentlich	ADJ	ADV	_	38	advmod	_	_
+38	geschützt	schützn	VERB	VVPP	VerbForm=Part	25	acl	_	_
+39	werden	werden	AUX	NE	Case=Acc|Number=Plur	38	aux:pass	_	_
+40	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	SpaceAfter=No
+41	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 16
+# text = Dahinter steht eine ungleiche Abwägung: Um potenzielle Darstellungen sexualisierter Gewalt zu entdecken, müssten massenhafte intime Chats von Minderjährigen und Erwachsenen durchforstet werden.
+1	Dahinter	dahinter	ADV	PAV	_	2	advmod	_	_
+2	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	ungleiche	ungleich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	Abwägung	Abwägung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	13	punct	_	_
+7	Um	um	ADP	KOUI	_	13	mark	_	_
+8	potenzielle	potenziell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	_
+9	Darstellungen	Darstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+10	sexualisierter	sexualisiert	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
+11	Gewalt	Gewalt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	obj	_	_
+12	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	13	mark	_	_
+13	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	23	punct	_	_
+15	müssten	müssen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+16	massenhafte	massenhaft	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	amod	_	_
+17	intime	intim	ADJ	NN	Case=Acc|Number=Plur	18	amod	_	_
+18	Chats	Chat	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+19	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	20	case	_	_
+20	Minderjährigen	minderjährige	NOUN	ADJA	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	22	cc	_	_
+22	Erwachsenen	Erwachsene	NOUN	NN	Case=Acc|Number=Plur	20	conj	_	_
+23	durchforstet	durchforsten	VERB	VVPP	VerbForm=Part	13	conj	_	_
+24	werden	werden	AUX	NE	Case=Acc|Number=Plur	23	aux:pass	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 17
+# text = Aber keine Erkennungssoftware ist perfekt.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	3	nmod	_	_
+3	Erkennungssoftware	Erkennungssoftware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	perfekt	perfekt	ADJ	CARD	NumType=Card	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 18
+# text = So würden durch irrtümliche Treffer auch harmlose Chats auf den Bildschirmen von Ermittler:innen landen.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	14	advmod	_	_
+2	würden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	14	aux	_	_
+3	durch	durch	ADP	APPR	_	5	case	_	_
+4	irrtümliche	irrtümlich	DET	ADJA	Case=Acc|Gender=Masc|Number=Plur	5	det	_	_
+5	Treffer	Treffer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+6	auch	auch	ADV	ADV	_	8	advmod	_	_
+7	harmlose	harmlos	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	8	amod	_	_
+8	Chats	Chat	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	14	obj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Bildschirmen	Bildschirmen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	_
+12	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+13	Ermittler:innen	Ermittler:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+14	landen	landen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Am gestrigen Donnerstag hat auch Digitalminister Volker Wissing (FDP) auf der re:publica die Absage an die Chatkontrolle unterstrichen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	gestrigen	gestrig	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	Digitalminister	Digitalminister	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+8	Volker	Volker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	Wissing	Wissing	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	$(	_	11	punct	_	_
+13	auf	auf	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	re:publica	re:publica	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Absage	Absage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+18	an	an	ADP	APPR	_	20	case	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+21	unterstrichen	unterstreichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 20
+# text = „Ich werde entschieden gegen die anlasslose Chatkontrolle und das Umgehen der Ende-zu-Ende-Verschlüsselung eintreten“, sagte er, wie heise online berichtet.
+1	„	„	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Ich	ich	PRON	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	werde	werden	AUX	NE	Case=Gen|Gender=Neut|Number=Sing	4	aux	_	_
+4	entschieden	entschieden	VERB	ADJD	_	21	ccomp	_	_
+5	gegen	gegen	ADP	APPR	_	8	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	anlasslose	anlasslos	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Umgehen	umgehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+13	Ende-zu	Ende-zu	NOUN	APPR	_	17	compound	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	Ende	Ende	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+18	eintreten	eintreten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+19	“	“	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	4	punct	_	_
+21	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	27	punct	_	_
+24	wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	27	case	_	_
+25	heise	heise	ADV	ADV	_	27	advmod	_	_
+26	online	online	ADJ	NN	Case=Dat|Number=Sing	27	advmod	_	_
+27	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	obl	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Bevor die Chatkontrolle Wirklichkeit wirkt, muss das Gesetzesvorhaben allerdings in der EU verhandelt werden.
+1	Bevor	bevor	SCONJ	KOUS	_	5	mark	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	Chatkontrolle	Chatkontroll	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+8	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gesetzesvorhaben	Gesetzesvorhabe	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj:pass	_	_
+10	allerdings	allerdings	ADV	ADV	_	14	advmod	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	EU	EU	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	verhandelt	verhandeln	VERB	VVPP	VerbForm=Part	0	root	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 22
+# text = Deutschland spielt dabei eine Rolle im Rat.
+1	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	spielt	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dabei	dabei	ADV	PAV	_	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Rat	Rat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+

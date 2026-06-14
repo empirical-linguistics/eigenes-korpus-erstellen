@@ -1,0 +1,137 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, manchmal fokussiert sich unsere Berichterstattung zur Chatkontrolle darauf, ob das Thema noch auf der Tagesordnung im EU-Rat steht oder nicht.
+1	Liebe	lieb	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\s\s
+4	manchmal	manchmal	ADV	ADV	_	5	advmod	_	_
+5	fokussiert	fokussieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Berichterstattung	Berichterstattung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9-10	zur	_	_	_	_	_	_	_	_
+9	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+12	darauf	darauf	ADV	PAV	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	26	punct	_	_
+14	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	mark	_	_
+15	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Thema	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+17	noch	noch	ADV	CARD	NumType=Card	26	advmod	_	_
+18	auf	auf	ADP	APPR	_	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Tagesordnung	Tagesordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+21-22	im	_	_	_	_	_	_	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	EU	EU	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+25	Rat	Rat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	flat	_	_
+26	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+27	oder	oder	CCONJ	XY	_	26	cc	_	_
+28	nicht	nicht	PART	CARD	NumType=Card	26	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Das liegt daran, dass die Chatkontrolle immer wieder von der Agenda herunter genommen wird, wenn sich die Mitgliedsstaaten nicht einig sind.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	daran	daran	PRON	PAV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+8	immer	immer	ADV	ADV	_	9	advmod	_	_
+9	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	14	advmod	_	_
+10	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Agenda	Agenda	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+13	herunter	herunter	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	14	mark	_	_
+14	genommen	nehmen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	22	punct	_	_
+17	wenn	wenn	SCONJ	VVFIN	_	22	mark	_	_
+18	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	nsubj	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	Mitgliedsstaaten	Mitgliedsstaat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+21	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advmod	_	_
+22	einig	einig	ADJ	ADJD	_	14	advcl	_	_
+23	sind	sein	AUX	ADJD	_	22	cop	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Für Gegner:innen des Überwachungsprojektes ist also die Aussage „von der Tagesordnung gestrichen“ etwa gleichbedeutend mit „weiterhin verhindert“.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Gegner:innen	Gegner:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Überwachungsprojektes	Überwachungsprojekt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	also	also	ADV	ADV	_	8	advmod	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Aussage	Aussage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+10	von	von	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	12	case	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Tagesordnung	Tagesordnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+13	gestrichen	strichen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	acl	_	SpaceAfter=No
+14	“	“	PUNCT	$.	_	16	punct	_	_
+15	etwa	etwa	ADV	ADV	_	16	advmod	_	_
+16	gleichbedeutend	gleichbedeutend	ADJ	ADJD	_	13	advmod	_	_
+17	mit	mit	ADP	$(	_	13	compound:prt	_	_
+18	„	„	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+19	weiterhin	weiterhin	ADV	ADV	_	20	advmod	_	_
+20	verhindert	verhindern	VERB	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Und das ist gut.
+1	Und	und	CCONJ	ADJD	_	4	cc	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	4	cop	_	_
+4	gut	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = So wie es aussieht, steht das Thema erst im Dezember wieder auf der Tagesordnung.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	advmod	_	_
+2	wie	wie	CCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	4	cc	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	aussieht	aussiehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Thema	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+9	erst	erst	ADV	ADV	_	6	advmod	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Dezember	Dezember	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+13	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	6	advmod	_	_
+14	auf	auf	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Tagesordnung	Tagesordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Wir bleiben dran!
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	bleiben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dran	dran	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Ein schönes Herbstwochenende wünscht Euch allen *Markus*
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	schönes	schön	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Herbstwochenende	Herbstwochenende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	wünscht	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
+6	allen	alle	PRON	PIS	Case=Acc|Definite=Ind|Number=Plur|PronType=Ind	8	det	_	SpacesAfter=\s\s
+7	*	*	X	$(	_	8	dep	_	SpaceAfter=No
+8	Markus	Markus	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	4	iobj	_	SpaceAfter=No
+9	*	*	X	$(	_	4	dep	_	SpacesAfter=\n
+
+

@@ -1,0 +1,1366 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Die SMS ist lange nicht mehr so populär, wie sie mal war.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SMS	SMS	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	lange	lange	ADJ	ADV	_	8	advmod	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	8	advmod	_	_
+6	mehr	mehr	ADV	ADV	_	5	advmod	_	_
+7	so	so	ADV	NE	Case=Dat|Number=Plur	8	advmod	_	_
+8	populär	populär	ADJ	FM	Foreign=Yes	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	12	mark	_	_
+11	sie	sie	PRON	VVINF	VerbForm=Inf	12	nsubj	_	_
+12	mal	mal	ADJ	ADV	_	8	advcl	_	_
+13	war	sein	AUX	ADV	_	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Im Jahr 2012 wurden in Deutschland noch fast 60 Milliarden davon verschickt, 2023 waren es nur noch 5,3 Milliarden, so die Bundesnetzagentur.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+4	2012	2012	NUM	CARD	NumType=Card	3	nmod	_	_
+5	wurden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	13	aux:pass	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+8	noch	noch	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	13	advmod	_	_
+9	fast	fast	ADV	ADV	_	10	advmod	_	_
+10	60	60	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+12	davon	davon	ADV	PAV	_	13	advmod	_	_
+13	verschickt	verschicken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	25	punct	_	_
+15	2023	2023	NUM	CARD	NumType=Card	25	nsubj	_	_
+16	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+18	nur	nur	ADV	CARD	NumType=Card	20	advmod	_	_
+19	noch	noch	ADV	CARD	NumType=Card	20	advmod	_	_
+20	5,3	5,3	NUM	CARD	NumType=Card	21	nummod	_	_
+21	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	21	punct	_	_
+23	so	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	25	advmod	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+25	Bundesnetzagentur	Bundesnetzagentur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Messenger – bestenfalls mit Ende-zu-Ende-Verschlüsselung – haben dem Kommunikationsmittel den Rang abgelaufen.
+1	Messenger	Messenger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+2	–	–	PUNCT	$.	_	9	punct	_	_
+3	bestenfalls	bestenfalls	ADV	ADV	_	9	advmod	_	_
+4	mit	mit	ADP	ADJA	Case=Nom|Number=Plur	9	case	_	_
+5	Ende-zu	Ende-zu	NOUN	APPR	_	9	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+10	–	–	PUNCT	$.	_	1	punct	_	_
+11	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Kommunikationsmittel	Kommunikationsmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Rang	Rang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	abgelaufen	abgelaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 4
+# text = Dennoch sind Handy-Nutzer*innen weiterhin über ihre Telefonnummer per SMS erreichbar.
+1	Dennoch	dennoch	ADV	ADV	_	6	advmod	_	_
+2	sind	sein	AUX	ADJD	_	6	cop	_	_
+3	Handy	Handy	NOUN	TRUNC	_	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Nutzer*	Nutzer*	NOUN	$(	_	6	nsubj	_	SpaceAfter=No
+6	innen	innen	VERB	ADV	_	0	root	_	_
+7	weiterhin	weiterhin	ADV	ADV	_	6	advmod	_	_
+8	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	10	case	_	_
+9	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	10	det:poss	_	_
+10	Telefonnummer	Telefonnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
+11	per	per	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	12	case	_	_
+12	SMS	SMS	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
+13	erreichbar	erreichbar	ADJ	ADJD	_	6	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Das machen sich Kriminelle zu Nutze.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	Kriminelle	Kriminelle	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
+6	Nutze	Nutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sie verschicken SMS wie: „Hallo, das hier ist jetzt meine neue Nummer.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	verschicken	verschicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	SMS	SMS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	7	case	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	7	punct	_	_
+6	„	„	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+7	Hallo	Hallo	PROPN	ITJ	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	_
+10	hier	hier	ADV	ADV	_	15	advmod	_	_
+11	ist	sein	AUX	ADJD	_	15	cop	_	_
+12	jetzt	jetzt	ADV	ADV	_	15	advmod	_	_
+13	meine	mein	DET	VVFIN	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
+14	neue	neu	ADJ	ADJA	_	15	amod	_	_
+15	Nummer	Nummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	acl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = LG dein lieblingskind“ Oder: „Die von Ihnen gekaufte Ware wurde versendet.
+1	LG	LG	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	14	dep	_	_
+2	dein	dein	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	3	nmod	_	_
+3	lieblingskind	lieblingskind	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
+4	“	“	PUNCT	$.	_	5	punct	_	_
+5	Oder	oder	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	5	punct	_	_
+7	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+8	Die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	nmod	_	_
+9	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+10	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	nmod	_	_
+11	gekaufte	gekauft	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
+12	Ware	Ware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+13	wurde	werden	AUX	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	aux:pass	_	_
+14	versendet	versandt	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 8
+# text = Bitte überprüfen Sie die Details“ – worauf ein Link folgt.
+1	Bitte	bitten	ADV	ADV	_	2	advmod	_	_
+2	überprüfen	überprüfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+5	Details	Detail	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No
+6	“	“	PUNCT	$.	_	11	punct	_	_
+7	–	–	PUNCT	$.	_	11	punct	_	_
+8	worauf	worauf	ADV	PAV	_	11	advmod	_	_
+9	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Link	link	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	folgt	folgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = So wollen Betrüger*innen die Betroffenen etwa zur Kontaktaufnahme bringen, ihre Daten abgreifen, oder sie zu Malware-Downloads lotsen.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Betrüger*	Betrüger*	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+4	innen	innen	VERB	ADV	_	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	6	det	_	_
+6	Betroffenen	Betroffene	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	_
+7	etwa	etwa	ADV	ADV	_	11	advmod	_	_
+8-9	zur	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Kontaktaufnahme	Kontaktaufnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	bringen	bringen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	14	det:poss	_	_
+14	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+15	abgreifen	abgreifen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	23	punct	_	_
+17	oder	oder	CCONJ	XY	_	23	cc	_	_
+18	sie	sie	PRON	VVINF	VerbForm=Inf	23	nsubj	_	_
+19	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	case	_	_
+20	Malware	Malware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+22	Downloads	Downloads	PROPN	NN	Case=Nom|Number=Plur	23	obl	_	_
+23	lotsen	lotsen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Die Telekom kündigte kürzlich an, ab 1. April eine „SMS-Firewall“ gegen solche Betrugsversuche hochzuziehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Telekom	Telekom	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	kündigte	kündigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	kürzlich	kürzlich	ADJ	ADJD	_	3	advmod	_	_
+5	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	19	punct	_	_
+7	ab	ab	ADP	APPR	_	8	case	_	_
+8	1.	1	NUM	CARD	NumType=Card	19	obl	_	_
+9	April	Aprilen	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+12	SMS	SMS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Firewall	Firewall	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	12	flat	_	SpaceAfter=No
+15	“	“	PUNCT	$.	_	19	punct	_	_
+16	gegen	gegen	ADP	APPR	_	18	case	_	_
+17	solche	solch	PRON	NE	Case=Acc|Gender=Neut|Number=Sing	18	det	_	_
+18	Betrugsversuche	Betrugsversuche	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	_
+19	hochzuziehen	hochzuziehen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Die übrigen Mobilfunkprovider geben auf Anfrage von netzpolitik.org an, bereits technische Maßnahmen zur Bekämpfung von betrügerischen SMS zu nutzen.
+1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	3	det	_	_
+2	übrigen	übrig	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Mobilfunkprovider	Mobilfunkprovider	PROPN	NE	Case=Acc|Number=Sing	4	nsubj	_	_
+4	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	auf	auf	ADP	APPR	_	6	case	_	_
+6	Anfrage	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+7	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	8	case	_	_
+8	netzpolitik.org	netzpolitik.org	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+9	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	bereits	bereits	ADV	ADV	_	12	advmod	_	_
+12	technische	technisch	ADJ	ADJD	_	13	amod	_	_
+13	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	obj	_	_
+14-15	zur	_	_	_	_	_	_	_	_
+14	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Bekämpfung	Bekämpfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+17	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	19	case	_	_
+18	betrügerischen	betrügerisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+19	SMS	SMS	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+20	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	21	mark	_	_
+21	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Die SMS-Kontrolle der Handy-Provider geschieht weitgehend ohne öffentlichen Aufschrei, während etwa die von der EU geplante Chatkontrolle auf breite Ablehnung stößt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SMS	SM	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Kontrolle	Kontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Handy	Handy	PROPN	TRUNC	_	2	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Provider	Provider	NOUN	NE	Case=Acc|Number=Sing	6	flat	_	_
+9	geschieht	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	weitgehend	weitgehend	ADJ	ADJD	_	9	advmod	_	_
+11	ohne	ohne	ADP	FM	Foreign=Yes	13	case	_	_
+12	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Aufschrei	Aufschrei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	26	punct	_	_
+15	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	26	mark	_	_
+16	etwa	etwa	ADV	ADV	_	22	advmod	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+18	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	_
+21	geplante	geplant	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
+22	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	nsubj	_	_
+23	auf	auf	ADP	APPR	_	25	case	_	_
+24	breite	breit	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	25	amod	_	_
+25	Ablehnung	Ablehnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+26	stößt	stoßen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 13
+# text = In beiden Fällen geht es um die automatische Kontrolle von Nachrichten und einen potenziellen Eingriff in die Vertraulichkeit von Kommunikation.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	beiden	beide	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	um	um	ADP	APPR	_	9	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	automatische	automatisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	Kontrolle	Kontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+11	Nachrichten	Nachricht	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	_
+12	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	15	cc	_	_
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	potenziellen	potenziell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	15	amod	_	_
+15	Eingriff	Eingriff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Vertraulichkeit	Vertraulichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+19	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+20	Kommunikation	Kommunikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Eine Infrastruktur, die beispielsweise automatisch Links zu Phishing oder Malware erkennen soll, könnte rein technisch ebenso dafür eingesetzt werden, beliebige andere Links zu filtern.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Infrastruktur	Infrastruktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+5	beispielsweise	beispielsweise	ADV	ADV	_	12	advmod	_	_
+6	automatisch	automatisch	ADJ	ADJD	_	12	advmod	_	_
+7	Links	links	NOUN	ADV	_	12	obj	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+9	Phishing	Phishing	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+10	oder	oder	CCONJ	XY	_	11	cc	_	_
+11	Malware	Malware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+12	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
+13	soll	sollen	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	2	punct	_	_
+15	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+16	rein	rein	ADV	ADJA	Case=Acc|Gender=Fem|Number=Plur	17	advmod	_	_
+17	technisch	technisch	ADJ	ADJD	_	20	advmod	_	_
+18	ebenso	ebenso	ADV	ADV	_	20	advmod	_	_
+19	dafür	dafür	ADV	PAV	_	20	advmod	_	_
+20	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	_
+21	werden	werden	AUX	NE	Case=Acc|Number=Plur	20	aux:pass	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	27	punct	_	_
+23	beliebige	beliebig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	27	amod	_	_
+24	andere	ander	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	25	amod	_	_
+25	Links	links	NOUN	ADV	_	27	obj	_	_
+26	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	27	mark	_	_
+27	filtern	filtern	VERB	VVINF	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = ## Mobilfunkanbieter dürfen SMS-Inhalte nicht analysieren SMS sind nicht verschlüsselt, es wäre also für die Provider leicht, die Inhalte zum Beispiel mit Sprachmodellen auf verdächtige Inhalte zu analysieren.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Mobilfunkanbieter	Mobilfunkanbieter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	SMS	SM	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	flat	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+8	analysieren	analysi	ADJ	VVINF	VerbForm=Inf	9	amod	_	SpacesAfter=\s\s
+9	SMS	SMS	NOUN	NE	Case=Nom|Number=Sing	12	nsubj:pass	_	_
+10	sind	sein	AUX	ADJD	_	12	aux:pass	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+12	verschlüsselt	verschlüsseln	VERB	VVFIN	VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+15	wäre	sein	AUX	NN	Foreign=Yes	20	cop	_	_
+16	also	also	ADV	ADV	_	20	advmod	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Provider	Provider	NOUN	NE	Case=Acc|Number=Sing	20	nmod	_	_
+20	leicht	leicht	ADJ	PTKVZ	_	12	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	33	punct	_	_
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	33	obj	_	_
+24-25	zum	_	_	_	_	_	_	_	_
+24	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
+27	mit	mit	ADP	CARD	NumType=Card	28	case	_	_
+28	Sprachmodellen	Sprachmodelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	obl	_	_
+29	auf	auf	ADP	APPR	_	31	case	_	_
+30	verdächtige	verdächtig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	31	amod	_	_
+31	Inhalte	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	33	obl	_	_
+32	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	33	mark	_	_
+33	analysieren	analysieren	VERB	VVINF	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 16
+# text = Im Rahmen von Strafverfolgung dürfen sie die SMS auch offenlegen, doch außerhalb dessen unterliegen Kurznachrichten dem Fernmeldegeheimnis und sind durch das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz geschützt.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+4	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+5	Strafverfolgung	Strafverfolgung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+6	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+10	auch	auch	ADV	ADV	_	11	advmod	_	_
+11	offenlegen	offenlegen	ADV	VVINF	VerbForm=Inf	33	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	doch	doch	ADV	KON	_	16	advmod	_	_
+14	außerhalb	außerhalb	ADP	APPR	_	15	case	_	_
+15	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	16	obl	_	_
+16	unterliegen	unterliegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+17	Kurznachrichten	Kurznachricht	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	16	nsubj	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Fernmeldegeheimnis	Fernmeldegeheimnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	iobj	_	_
+20	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	21	cc	_	_
+21	sind	sein	AUX	NE	Case=Dat|Gender=Fem|Number=Sing	11	conj	_	_
+22	durch	durch	ADP	APPR	_	26	case	_	_
+23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+24	Telekommunikation	Telekommunikation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+26	Digitale	Digital	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+27	-	-	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+28	Dienste	Dienst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	flat	_	SpaceAfter=No
+29	-	-	PUNCT	$(	_	30	punct	_	SpaceAfter=No
+30	Datenschutz	Datenschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	flat	_	SpaceAfter=No
+31	-	-	PUNCT	$(	_	32	punct	_	SpaceAfter=No
+32	Gesetz	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	flat	_	_
+33	geschützt	schützen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	33	punct	_	_
+
+# sent_id = 17
+# text = Die Mobilfunkanbieter dürfen die SMS-Inhalte also nicht einsehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Mobilfunkanbieter	Mobilfunkanbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+3	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	SMS	SM	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	flat	_	_
+8	also	also	ADV	ADV	_	10	advmod	_	_
+9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	_
+10	einsehen	einsehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 18
+# text = Aber wie anders soll eine SMS-Firewall denn potenziell schädliche Inhalte herausfiltern?
+1	Aber	aber	ADV	KON	_	3	advmod	_	_
+2	wie	wie	CCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	3	cc	_	_
+3	anders	anders	ADV	ADV	_	13	advmod	_	_
+4	soll	sollen	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	13	aux	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Firewall	Firewall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+9	denn	denn	CCONJ	ADV	_	12	cc	_	_
+10	potenziell	potenziell	ADJ	ADJD	_	11	advmod	_	_
+11	schädliche	schädlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	12	amod	_	_
+12	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+13	herausfiltern	herausfiltern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 19
+# text = Wir haben die Provider danach gefragt.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Provider	Provider	NOUN	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	6	nsubj	_	_
+5	danach	danach	ADV	PAV	_	6	advmod	_	_
+6	gefragt	fragen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Den deutschen Mobilfunkmarkt teilen sich vier Anbieter, die jeweils zahlreiche Marken mit Netz versorgen.
+1	Den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	deutschen	deutsch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	Mobilfunkmarkt	Mobilfunkmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	teilen	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	7	nummod	_	_
+7	Anbieter	Anbieter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	15	nsubj	_	_
+10	jeweils	jeweils	ADV	ADV	_	15	advmod	_	_
+11	zahlreiche	zahlreich	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+12	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+13	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	14	case	_	_
+14	Netz	Netz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+15	versorgen	versorgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 21
+# text = Laut Statista versorgte im dritten Quartal 2024 Vodafone 83 Millionen aktive SIM-Karten mit Mobilfunknetz, die Telekom 67 Millionen, Telefónica 46 Millionen und 1&1 drei Millionen.
+1	Laut	laut	ADP	APPR	_	2	case	_	_
+2	Statista	Statista	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	versorgte	versorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+6	dritten	dritt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	7	amod	_	_
+7	Quartal	Quartal	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+8	2024	2024	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Vodafone	Vodafon	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nsubj	_	_
+10	83	83	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+12	aktive	aktive	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	SIM	Sim	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Karten	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	flat	_	_
+16	mit	mit	ADP	$(	_	17	case	_	_
+17	Mobilfunknetz	Mobilfunknetz	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
+20	Telekom	Telekom	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	_
+21	67	67	NUM	CARD	NumType=Card	22	nummod	_	_
+22	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	Telefónica	Telefónica	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	appos	_	_
+25	46	46	NUM	CARD	NumType=Card	26	nummod	_	_
+26	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	nmod	_	_
+27	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	30	cc	_	_
+28	1&1	1&1	NUM	CARD	NumType=Card	30	nummod	_	_
+29	drei	drei	NUM	CARD	NumType=Card	30	nummod	_	_
+30	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Die SMS-Firewall der Telekom wird sich, so antwortete ein Konzernsprecher auf netzpolitik.org-Anfrage, bei der automatischen Analyse von mutmaßlich betrügerischen SMS erst einmal auf verdächtige Links konzentrieren.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SMS	SM	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Firewall	Firewall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Telekom	Telekom	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	iobj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	so	so	ADV	NE	Case=Dat|Number=Plur	11	advmod	_	_
+11	antwortete	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	xcomp	_	_
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Konzernsprecher	Konzernsprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+14	auf	auf	ADP	APPR	_	17	case	_	_
+15	netzpolitik.org	netzpolitik.org	ADJ	NN	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Anfrage	Anfrage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	bei	bei	ADP	APPR	_	22	case	_	_
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	automatischen	automatisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	22	amod	_	_
+22	Analyse	Analyse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+23	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	26	case	_	_
+24	mutmaßlich	mutmaßlich	ADV	APPR	_	25	advmod	_	_
+25	betrügerischen	betrügerisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	26	amod	_	_
+26	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	_
+27	erst	erst	ADV	ADV	_	28	advmod	_	_
+28	einmal	einmal	ADV	ADV	_	11	advmod	_	_
+29	auf	auf	ADP	APPR	_	31	case	_	_
+30	verdächtige	verdächtig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	31	amod	_	_
+31	Links	links	NOUN	ADV	_	32	obl	_	_
+32	konzentrieren	konzentrieren	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 23
+# text = Bei iOS-Geräten seien vor allem Links auf Phishing-Seiten problematisch; bei Android-Geräten würden Links in SMS oft zu Malware führen.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	iOS	iOS	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	flat	_	_
+5	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+6	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	7	case	_	_
+7	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	nmod	_	_
+8	Links	links	NOUN	ADV	_	13	advmod	_	_
+9	auf	auf	ADP	APPR	_	12	case	_	_
+10	Phishing	Phishing	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Seiten	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
+13	problematisch	problematisch	ADJ	ADJD	_	26	advmod	_	SpaceAfter=No
+14	;	;	PUNCT	$.	_	13	punct	_	_
+15	bei	bei	ADP	APPR	_	18	case	_	_
+16	Android	Android	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+18	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	26	obl	_	_
+19	würden	werden	AUX	NN	Foreign=Yes	26	aux	_	_
+20	Links	links	PROPN	ADV	_	26	nsubj	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	SMS	SM	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	26	obl	_	_
+23	oft	oft	ADV	CARD	NumType=Card	22	advmod	_	_
+24	zu	zu	ADP	NN	Case=Gen|Gender=Fem|Number=Plur	25	case	_	_
+25	Malware	Malware	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+26	führen	führen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = ## SMS-Firewalls sind Folge eines Spyware-Angriffs Die Maßnahme sei laut Telekom-Sprecher eine Antwort auf FluBot, „seinerzeit die Malware mit dem höchsten Volumen an potenziell schädlichen Kurznachrichten“.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	SMS	SM	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Firewalls	Firewall	PROPN	KOUS	_	2	flat	_	_
+5	sind	sein	AUX	ADJD	_	6	cop	_	_
+6	Folge	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	Spyware	Spyware	NOUN	NE	Case=Gen|Number=Sing	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Angriffs	Angriff	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\s\s
+11	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Maßnahme	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	laut	laut	ADJ	ADJD	_	15	amod	_	_
+15	Telekom	Telekom	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	_
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+20	auf	auf	ADP	APPR	_	21	case	_	_
+21	FluBot	FluBot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	35	punct	_	_
+23	„	„	PUNCT	$.	_	35	punct	_	SpaceAfter=No
+24	seinerzeit	seinerzeit	SCONJ	ADV	_	35	mark	_	_
+25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Malware	Malware	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	_
+27	mit	mit	ADP	$(	_	30	case	_	_
+28	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	höchsten	hoch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	30	amod	_	_
+30	Volumen	Volume	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	35	nmod	_	_
+31	an	an	ADP	APPR	_	34	case	_	_
+32	potenziell	potenziell	ADJ	ADJD	_	33	advmod	_	_
+33	schädlichen	schädlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	34	amod	_	_
+34	Kurznachrichten	Kurznachricht	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+35	“	“	PUNCT	$.	_	21	punct	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 25
+# text = Das Spionageprogramm FluBot wurde Mitte 2022 vom Netz genommen, aber war laut Telekom Anlass für die Provider, das Gespräch mit den Aufsichtsbehörden zu suchen.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Spionageprogramm	Spionageprogramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+3	FluBot	FluBot	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
+4	wurde	werden	AUX	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	aux:pass	_	_
+5	Mitte	Mitt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	_
+6	2022	2022	NUM	CARD	NumType=Card	5	appos	_	_
+7-8	vom	_	_	_	_	_	_	_	_
+7	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Netz	Netz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+10	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	_
+12	aber	aber	CCONJ	KON	_	16	cc	_	_
+13	war	sein	AUX	ADV	_	16	cop	_	_
+14	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	case	_	_
+15	Telekom	Telekom	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	_
+16	Anlass	Anlaß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	die	der	DET	ART	Case=Acc|Number=Plur|PronType=Art	19	det	_	_
+19	Provider	Provider	NOUN	NE	Case=Acc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	_
+21	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Gespräch	Gespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	obj	_	_
+23	mit	mit	ADP	$(	_	25	case	_	_
+24	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Aufsichtsbehörden	Aufsichtsbehörde	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
+26	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	27	mark	_	_
+27	suchen	suchen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 26
+# text = Ziel sei es gewesen, Menschen zu schützen, „die leider mit ihren Credentials, den Privacy-Einstellungen und dem Teilen persönlicher Informationen auf Social Media nicht optimal umgehen.“
+1	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+4	gewesen	sein	AUX	VVINF	VerbForm=Inf	1	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+7	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	8	mark	_	_
+8	schützen	schützen	VERB	VVINF	VerbForm=Inf	1	csubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	31	punct	_	_
+10	„	„	PUNCT	$.	_	31	punct	_	SpaceAfter=No
+11	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	nsubj	_	_
+12	leider	leider	ADV	ADV	_	31	advmod	_	_
+13	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	15	case	_	_
+14	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	15	det:poss	_	_
+15	Credentials	Credentials	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Privacy	Privacy	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Einstellungen	Einstellung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	18	flat	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	23	cc	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Teilen	Teil|Teilen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	conj	_	_
+24	persönlicher	persönlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	25	amod	_	_
+25	Informationen	Information	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	auf	auf	ADP	APPR	_	27	case	_	_
+27	Social	Social	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+28	Media	Media	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	27	flat	_	_
+29	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advmod	_	_
+30	optimal	optimal	ADV	XY	_	31	advmod	_	_
+31	umgehen	umgehen	VERB	VVFIN	VerbForm=Inf	1	acl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+33	“	“	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Aber woran erkennt die Telekom denn betrügerische Links?
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	woran	woran	ADV	PWAV	PronType=Int	3	advmod	_	_
+3	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Telekom	Telekom	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	denn	denn	ADV	KON	_	3	advmod	_	_
+7	betrügerische	betrügerisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	_
+8	Links	links	NOUN	ADV	_	3	obj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 28
+# text = „In der täglichen Arbeit unserer Security-Expertinnen und ‑Experten sammeln wir als Deutsche Telekom sehr viele Erkenntnisse über Strategien, Werkzeuge und Infrastruktur von Kriminellen.“
+1	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+2	In	in	ADP	APPR	_	5	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	täglichen	täglich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	_
+5	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+6	unserer	unser	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	_
+7	Security	Security	PROPN	NN	Foreign=Yes	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Expertinnen	Expertin	NOUN	VVINF	VerbForm=Inf	7	flat	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+11	‑	‑	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+12	Experten	Experte	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	obj	_	_
+13	sammeln	sammeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	wir	wir	PRON	ADJD	_	13	nsubj	_	_
+15	als	als	ADP	KOKOM	_	17	case	_	_
+16	Deutsche	deutsch	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
+17	Telekom	Telekom	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	13	obl	_	_
+18	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	19	advmod	_	_
+19	viele	viel	DET	NE	Foreign=Yes	20	amod	_	_
+20	Erkenntnisse	Erkenntnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+21	über	über	ADP	FM	Foreign=Yes	22	case	_	_
+22	Strategien	Strategie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	Werkzeuge	Werkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	22	conj	_	_
+25	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	26	cc	_	_
+26	Infrastruktur	Infrastruktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	_
+27	von	von	ADP	FM	Foreign=Yes	28	case	_	_
+28	Kriminellen	Kriminellen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+30	“	“	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 29
+# text = Wichtig sei dabei vor allem das Wissen über ferngesteuerte Server, die als Verteiler von Malware, Teil eines Botnetzes oder aus der Analyse gemeldeter Schad-E-Mails bekannt sind.
+1	Wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	dabei	dabei	ADV	PAV	_	1	advmod	_	_
+4	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	5	case	_	_
+5	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	1	nmod	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wissen	wissen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	1	nsubj	_	_
+8	über	über	ADP	FM	Foreign=Yes	10	case	_	_
+9	ferngesteuerte	ferngesteuert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	_
+10	Server	Server	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	29	punct	_	_
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	29	nsubj	_	_
+13	als	als	ADP	KOKOM	_	14	case	_	_
+14	Verteiler	Verteiler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
+15	von	von	ADP	FM	Foreign=Yes	16	case	_	_
+16	Malware	Malware	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Botnetzes	Botnetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	oder	oder	CCONJ	XY	_	28	cc	_	_
+22	aus	aus	ADP	APPR	_	24	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Analyse	Analyse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
+25	gemeldeter	gemeldeter	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+26	Schad-E	Schad-E	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	$(	_	26	punct	_	SpaceAfter=No
+28	Mails	Mails	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	conj	_	_
+29	bekannt	bekannen	ADJ	ADJD	_	10	acl	_	_
+30	sind	sein	AUX	ADJD	_	29	cop	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 30
+# text = SMS mit Links die auf solche Server führen, sortiere die Telekom künftig aus.
+1	SMS	SM	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	3	case	_	_
+3	Links	links	NOUN	ADV	_	8	obl	_	_
+4	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	8	nsubj	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	solche	solch	PRON	ADJD	_	7	det	_	_
+7	Server	Server	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+8	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	sortiere	sortiere	PRON	NN	Case=Nom|Gender=Neut|Number=Plur	8	obj	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	Telekom	Telekom	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	künftig	künftig	ADJ	ADJD	_	8	advmod	_	_
+14	aus	aus	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Zusätzlich nutze die Telekom Absende- und Empfangsinformationen, sowie Datum und Uhrzeit versendeter SMS, um so Hinweise auf Nachrichten zu finden, die in größeren Volumina oder per Skript verschickt wurden.
+1	Zusätzlich	zusätzlich	ADJ	ADJD	_	2	advmod	_	_
+2	nutze	nutzen	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Telekom	Telekom	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	Absende	Absende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	8	punct	_	_
+7	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	cc	_	_
+8	Empfangsinformationen	Empfangsinformation	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	sowie	sowie	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	Datum	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+13	Uhrzeit	Uhrzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+14	versendeter	versendet	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
+15	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	23	punct	_	_
+17	um	um	ADP	KOUI	_	23	mark	_	_
+18	so	so	ADV	NE	Case=Dat|Number=Plur	23	advmod	_	_
+19	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+20	auf	auf	ADP	APPR	_	21	case	_	_
+21	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obl	_	_
+22	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	23	mark	_	_
+23	finden	finden	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	32	punct	_	_
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	32	nsubj:pass	_	_
+26	in	in	ADP	APPR	_	28	case	_	_
+27	größeren	groß	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	28	amod	_	_
+28	Volumina	Volumina	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
+29	oder	oder	CCONJ	XY	_	31	cc	_	_
+30	per	per	ADP	ADJA	Case=Gen|Gender=Fem|Number=Plur	31	case	_	_
+31	Skript	Skript	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	_
+32	verschickt	verschicken	VERB	VVPP	VerbForm=Part	2	acl	_	_
+33	wurden	werden	AUX	NE	Foreign=Yes	32	aux:pass	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 32
+# text = So könnten Angriffswellen erkannt und entsprechende SMS an der Zustellung gehindert werden.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+2	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Angriffswellen	Angriffswelle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	erkannt	erkennen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+6	entsprechende	entsprechend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
+7	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Zustellung	Zustellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	gehindert	hindern	VERB	VVPP	VerbForm=Part	4	conj	_	_
+12	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = ## Telekom liest Links in Nachrichten aus Um die Links auszulesen muss das Unternehmen allerdings den Inhalt der SMS analysieren.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Telekom	Telekom	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	liest	lesen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Links	links	NOUN	ADV	_	3	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Nachrichten	Nachricht	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	_
+7	aus	aus	ADP	APPR	_	8	case	_	SpacesAfter=\s\s
+8	Um	Um	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+9	die	der	DET	ART	Case=Acc|Number=Plur|PronType=Art	10	det	_	_
+10	Links	links	NOUN	ADV	_	11	obj	_	_
+11	auszulesen	auszulesen	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+12	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Unternehmen	Unternehme	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+15	allerdings	allerdings	ADV	ADV	_	11	advmod	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Inhalt	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	SMS	SMS	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	analysieren	analysieren	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 34
+# text = So lange der genutzte Algorithmus dabei aber nicht den semantischen Wert von Worten untersuche, sondern nur Deeplinks erkenne oder gekürzte Links auflöse und das Ziel mit einer Liste vergleiche, würden die Aufsichtsbehörden dies nicht beanstanden, so der Unternehmenssprecher.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	14	advmod	_	_
+2	lange	lang	ADV	ADV	_	14	advmod	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	genutzte	genutzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Algorithmus	Algorithmus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+6	dabei	dabei	ADV	PAV	_	14	advmod	_	_
+7	aber	aber	ADV	ADV	_	14	advmod	_	_
+8	nicht	nicht	PART	CARD	NumType=Card	11	advmod	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	semantischen	semantisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+12	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	13	case	_	_
+13	Worten	Wort	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	obl	_	_
+14	untersuche	untersuchen	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	19	cc	_	_
+17	nur	nur	ADV	CARD	NumType=Card	19	advmod	_	_
+18	Deeplinks	Deeplinks	NOUN	ADV	_	19	obj	_	_
+19	erkenne	erkennen	VERB	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+20	oder	oder	CCONJ	XY	_	22	cc	_	_
+21	gekürzte	gekürzt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	amod	_	_
+22	Links	links	NOUN	ADV	_	23	conj	_	_
+23	auflöse	auflöse	ADV	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+24	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	26	cc	_	_
+25	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Ziel	Ziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+27	mit	mit	ADP	$(	_	29	case	_	_
+28	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Liste	Liste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	_
+30	vergleiche	vergleich	PRON	ADJA	Case=Acc|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	30	punct	_	_
+32	würden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	37	aux	_	_
+33	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	Aufsichtsbehörden	Aufsichtsbehörde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	37	nsubj	_	_
+35	dies	dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	37	obj	_	_
+36	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advmod	_	_
+37	beanstanden	beanstanden	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	41	punct	_	_
+39	so	so	ADV	NE	Case=Dat|Number=Plur	41	advmod	_	_
+40	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Unternehmenssprecher	Unternehmenssprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = Er sieht offenbar eine weitere Möglichkeit, SMS-Inhalte legal zu untersuchen, ohne mit Gesetzen in Konflikt zu geraten: „Wenn man etwa aus den Inhalten der SMS per Algorithmus Hashwerte bildet und diese vergleicht, ließe sich dadurch auch die im Text immer gleiche Hallo-Mama-Hallo-Papa-SMS mit einer Warnung markieren oder herausfiltern, so wie es zukünftig beispielsweise in Spanien Pflicht für die Provider ist“, schreibt er.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	offenbar	offenbar	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	SMS	SMS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	flat	_	_
+11	legal	legal	ADV	ADV	_	13	advmod	_	_
+12	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	mark	_	_
+13	untersuchen	untersuchen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	21	case	_	_
+16	mit	mit	ADP	CARD	NumType=Card	17	case	_	_
+17	Gesetzen	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	_
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Konflikt	Konflikt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	21	mark	_	_
+21	geraten	geraten	VERB	VVPP	VerbForm=Part	13	obl	_	SpaceAfter=No
+22	:	:	PUNCT	$.	_	40	punct	_	_
+23	„	„	PUNCT	$.	_	40	punct	_	SpaceAfter=No
+24	Wenn	wenn	SCONJ	KOUS	_	35	mark	_	_
+25	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	35	nsubj	_	_
+26	etwa	etwa	ADV	ADV	_	29	advmod	_	_
+27	aus	aus	ADP	APPR	_	29	case	_	_
+28	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	35	obl	_	_
+30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	SMS	SMS	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+32	per	per	ADP	ADJA	Case=Gen|Gender=Fem|Number=Plur	33	case	_	_
+33	Algorithmus	Algorithmus	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	35	obl	_	_
+34	Hashwerte	Hashwert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	33	flat	_	_
+35	bildet	bilden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+36	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	38	cc	_	_
+37	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	38	obj	_	_
+38	vergleicht	vergleichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	conj	_	SpaceAfter=No
+39	,	,	PUNCT	$,	_	35	punct	_	_
+40	ließe	lassen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+41	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	40	obj	_	_
+42	dadurch	dadurch	ADV	PAV	_	40	advmod	_	_
+43	auch	auch	ADV	ADV	_	40	advmod	_	_
+44	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+45-46	im	_	_	_	_	_	_	_	_
+45	in	in	ADP	APPR	_	47	case	_	_
+46	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Text	Text	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	49	nmod	_	_
+48	immer	immer	ADV	ADV	_	49	advmod	_	_
+49	gleiche	gleich	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	50	amod	_	_
+50	Hallo	Hallo	PROPN	ITJ	_	40	nsubj	_	SpaceAfter=No
+51	-	-	PUNCT	$(	_	52	punct	_	SpaceAfter=No
+52	Mama	Mama	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	50	flat	_	SpaceAfter=No
+53	-	-	PUNCT	$(	_	54	punct	_	SpaceAfter=No
+54	Hallo	Hallo	PROPN	ITJ	_	50	flat	_	SpaceAfter=No
+55	-	-	PUNCT	$(	_	56	punct	_	SpaceAfter=No
+56	Papa	Papa	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	50	flat	_	SpaceAfter=No
+57	-	-	PUNCT	$(	_	58	punct	_	SpaceAfter=No
+58	SMS	SMS	PROPN	NE	Case=Nom|Number=Sing	50	flat	_	_
+59	mit	mit	ADP	$(	_	61	case	_	_
+60	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	Warnung	Warnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	62	obl	_	_
+62	markieren	markieren	VERB	ADJA	Case=Dat|Gender=Fem|Number=Plur	40	conj	_	_
+63	oder	oder	CCONJ	XY	_	64	cc	_	_
+64	herausfiltern	herausfiltern	VERB	NE	Case=Dat|Gender=Neut|Number=Sing	40	conj	_	SpaceAfter=No
+65	,	,	PUNCT	$,	_	80	punct	_	_
+66	so	so	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	80	advmod	_	_
+67	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	80	mark	_	_
+68	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	80	obj	_	_
+69	zukünftig	zukünftig	ADJ	ADV	_	80	advmod	_	_
+70	beispielsweise	beispielsweise	ADV	ADV	_	73	advmod	_	_
+71	in	in	ADP	APPR	_	73	case	_	_
+72	Spanien	Spanien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	73	nmod	_	_
+73	Pflicht	Pflicht	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	80	obl	_	_
+74	für	für	ADP	APPR	_	76	case	_	_
+75	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	76	det	_	_
+76	Provider	Provider	NOUN	PIAT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	73	nmod	_	_
+77	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	76	cop	_	SpaceAfter=No
+78	“	“	PUNCT	$.	_	76	punct	_	SpaceAfter=No
+79	,	,	PUNCT	$,	_	73	punct	_	_
+80	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+81	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	80	nsubj	_	SpaceAfter=No
+82	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = Vodafone schreibt, das Unternehmen nutze eine Kombination aus systemischer und manueller Netzüberwachung und wehre damit bereits einen extrem großen Teil der Spam-Attacken ab.
+1	Vodafone	Vodafon	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	nutze	nutzen	VERB	NN	Case=Acc|Gender=Fem|Number=Sing	2	ccomp	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Kombination	Kombination	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	aus	aus	ADP	APPR	_	13	case	_	_
+10	systemischer	systemisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+11	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	12	cc	_	_
+12	manueller	manuelle	PRON	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	_
+13	Netzüberwachung	Netzüberwachung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	wehre	fahren|wehren	VERB	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	6	conj	_	_
+16	damit	damit	ADV	PAV	_	15	advmod	_	_
+17	bereits	bereits	ADV	ADV	_	15	advmod	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	extrem	extrem	ADJ	ADJD	_	20	advmod	_	_
+20	großen	groß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+21	Teil	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Spam	Spam	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+25	Attacken	Attacke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	flat	_	_
+26	ab	ab	ADP	PTKVZ	_	15	compound:prt	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 37
+# text = Die Sicherheitskonzepte würden kontinuierlich verbessert.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Sicherheitskonzepte	Sicherheitskonzepte	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	würden	werden	AUX	NN	Foreign=Yes	5	aux	_	_
+4	kontinuierlich	kontinuierlich	ADJ	ADJD	_	5	advmod	_	_
+5	verbessert	verbessern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = ## Vodafone und Telefónica mauern bei Frage nach SMS-Inhaltsanalyse Auf unsere Nachfrage, wie Vodafone betrügerische SMS erkennen will, ohne den Inhalt der Nachrichten zu untersuchen, schreibt das Unternehmen: „Bitte haben Sie Verständnis, dass wir keine weiteren Details zu unseren Schutzmaßnahmen veröffentlichen – auch um zu verhindern, dass die Kriminellen daraus Hinweise zur ‚Verbesserung’ ihrer Attacken entnehmen könnten.“
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Vodafone	Vodafone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
+4	Telefónica	Telefónica	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	mauern	mauern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	nach	nach	ADP	ADJA	_	9	case	_	_
+9	SMS	SMS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Inhaltsanalyse	Inhaltsanalyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	SpacesAfter=\s\s
+12	Auf	auf	ADP	APPR	_	14	case	_	_
+13	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	14	det:poss	_	_
+14	Nachfrage	Nachfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	20	punct	_	_
+16	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	17	case	_	_
+17	Vodafone	Vodafone	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
+18	betrügerische	betrügerisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	19	amod	_	_
+19	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+20	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	14	acl	_	_
+21	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	20	aux	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	29	punct	_	_
+23	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	29	case	_	_
+24	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Inhalt	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+26	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Nachrichten	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	25	nmod	_	_
+28	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	29	mark	_	_
+29	untersuchen	untersuchen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	31	punct	_	_
+31	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	parataxis	_	_
+32	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
+33	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	SpaceAfter=No
+34	:	:	PUNCT	$.	_	37	punct	_	_
+35	„	„	PUNCT	$.	_	37	punct	_	SpaceAfter=No
+36	Bitte	Bitte	PART	PTKANT	_	37	mark	_	_
+37	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	parataxis	_	_
+38	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	_
+39	Verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	$,	_	49	punct	_	_
+41	dass	dass	SCONJ	KOUS	_	49	mark	_	_
+42	wir	wir	PRON	ADJD	_	49	nsubj	_	_
+43	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|PronType=Neg	45	nmod	_	_
+44	weiteren	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	45	amod	_	_
+45	Details	Detail	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	49	obj	_	_
+46	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	48	case	_	_
+47	unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	48	det:poss	_	_
+48	Schutzmaßnahmen	Schutzmaßnahmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	49	obl	_	_
+49	veröffentlichen	veröffentlichen	VERB	VVINF	VerbForm=Inf	37	ccomp	_	_
+50	–	–	PUNCT	$.	_	49	punct	_	_
+51	auch	auch	ADV	ADV	_	54	advmod	_	_
+52	um	um	ADP	APPR	_	54	mark	_	_
+53	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	54	mark	_	_
+54	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	49	advcl	_	SpaceAfter=No
+55	,	,	PUNCT	$,	_	68	punct	_	_
+56	dass	dass	SCONJ	KOUS	_	68	mark	_	_
+57	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	58	det	_	_
+58	Kriminellen	Kriminelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	68	nsubj	_	_
+59	daraus	daraus	ADV	PAV	_	68	advmod	_	_
+60	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	68	obj	_	_
+61-62	zur	_	_	_	_	_	_	_	_
+61	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	64	case	_	_
+62	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+63	‚	‚	PUNCT	$.	_	64	punct	_	SpaceAfter=No
+64	Verbesserung	Verbesserung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	68	nmod	_	SpaceAfter=No
+65	’	’	PUNCT	$.	_	68	punct	_	_
+66	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	67	det:poss	_	_
+67	Attacken	Attacke	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	68	iobj	_	_
+68	entnehmen	entnehmen	VERB	VVINF	VerbForm=Inf	54	ccomp	_	_
+69	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	68	aux	_	SpaceAfter=No
+70	.	.	PUNCT	$.	_	68	punct	_	SpaceAfter=No
+71	“	“	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Telefónica hat angeblich ebenfalls Prüf- und Schutzmechanismen gegen betrügerische und schädliche SMS implementiert.
+1	Telefónica	Telefónica	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+3	angeblich	angeblich	ADV	ADJD	_	14	advmod	_	_
+4	ebenfalls	ebenfalls	ADV	ADV	_	14	advmod	_	_
+5	Prüf	Prüf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	8	punct	_	_
+7	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	cc	_	_
+8	Schutzmechanismen	Schutzmechanismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	gegen	gegen	ADP	APPR	_	13	case	_	_
+10	betrügerische	betrügerisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
+12	schädliche	schädlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	10	conj	_	_
+13	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+14	implementiert	implementieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 40
+# text = „Die Systeme können beispielsweise binnen kurzer Zeit massenhaft verschickte SMS identifizieren“, schreibt ein Unternehmenssprecher.
+1	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+3	Systeme	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+5	beispielsweise	beispielsweise	ADV	ADV	_	12	advmod	_	_
+6	binnen	binnen	ADP	APPR	_	8	case	_	_
+7	kurzer	kurz	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+8	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+9	massenhaft	massenhaft	ADJ	ADJD	_	11	amod	_	_
+10	verschickte	verschicken	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
+11	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+12	identifizieren	identifizieren	VERB	VVINF	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	12	punct	_	_
+15	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Unternehmenssprecher	Unternehmenssprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 41
+# text = Würden solche Massen-SMS identifiziert, könne das Unternehmen Maßnahmen zur Sperrung einleiten.
+1	Würden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	6	aux	_	_
+2	solche	solch	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	det	_	_
+3	Massen	Masse	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	SMS	SM	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	identifiziert	identifizieren	VERB	VVPP	VerbForm=Part	15	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+11	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+12-13	zur	_	_	_	_	_	_	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Sperrung	Sperrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+15	einleiten	einleiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = Zudem werte es „Rückmeldungen von Kundinnen und Kunden zu möglichen Spam-Nachrichten aus“, heißt es weiter.
+1	Zudem	zudem	ADV	PAV	_	2	advmod	_	_
+2	werte	wert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	Rückmeldungen	Rückmeldung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	Kundinnen	Kundinnen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+8	und	und	CCONJ	NE	Foreign=Yes	9	cc	_	_
+9	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	_
+10	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+11	möglichen	möglich	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	_
+12	Spam	Spam	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	Nachrichten	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+15	aus	aus	ADP	PTKVZ	_	14	fixed	_	SpaceAfter=No
+16	“	“	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+20	weiter	weiter	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 43
+# text = Telefónica prüfe außerdem die Einführung einer Spam-Firewall, „die Nachrichten mit bestimmten schädlichen Inhalten noch schneller erkennt“.
+1	Telefónica	Telefónica	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	prüfe	prüf	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Einführung	Einführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+6	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Spam	Spam	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Firewall	Firewall	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	20	punct	_	_
+11	„	„	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Nachrichten	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+14	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	case	_	_
+15	bestimmten	bestimmt	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	17	amod	_	_
+16	schädlichen	schädlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	17	amod	_	_
+17	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+18	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	19	advmod	_	_
+19	schneller	schnell	ADJ	ADJD	_	20	advmod	_	_
+20	erkennt	erkennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 44
+# text = Auf die Frage, wie die Systeme Betrugs-SMS identifizieren sollen, ohne den Inhalt der Nachrichten zu analysieren, antwortet das Unternehmen nicht.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	wie	wie	SCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	11	mark	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Systeme	System	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	11	nsubj	_	_
+8	Betrugs	Betrug	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	SMS	SM	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	8	flat	_	_
+11	identifizieren	identifizieren	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+12	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Inhalt	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Nachrichten	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nmod	_	_
+19	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	mark	_	_
+20	analysieren	analysieren	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	antwortet	antworten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+23	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+25	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = ## 1&1 hat technische Möglichkeiten zur Texterkennung 1&1 setzt laut einer Unternehmenssprecherin „eine Erkennung anhand volumetrischer Merkmale ein, das heißt z.B. unsere Firewalls alarmieren zuständige Teams (intern und bei anderen Service-Providern) bei sehr hohem SMS-Aufkommen.
+1	##	##	PUNCT	$.	_	3	punct	_	_
+2	1&1	1&1	NUM	CARD	NumType=Card	3	obl	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+4	technische	technisch	ADJ	ADJD	_	5	amod	_	_
+5	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	27	nsubj	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Texterkennung	Texterkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	SpacesAfter=\s\s
+9	1&1	1&1	NUM	XY	_	27	obl	_	_
+10	setzt	setzt	ADV	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advmod	_	_
+11	laut	laut	ADP	APPR	_	13	case	_	_
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Unternehmenssprecherin	Unternehmenssprecherin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+14	„	„	PUNCT	$.	_	16	punct	_	SpaceAfter=No
+15	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Erkennung	Erkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_
+17	anhand	anhand	ADP	APPR	_	19	case	_	_
+18	volumetrischer	volumetrisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	19	amod	_	_
+19	Merkmale	Merkmal	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+20	ein	ein	ADV	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	23	punct	_	_
+22	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	_	_
+23	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	parataxis	_	_
+24	z.B.	z.B.	ADV	NE	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	27	advmod	_	_
+25	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	26	det:poss	_	_
+26	Firewalls	Firewall	NOUN	ADV	_	27	obj	_	_
+27	alarmieren	alarmieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	zuständige	zuständig	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	29	amod	_	_
+29	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	27	nsubj	_	_
+30	(	(	PUNCT	$(	_	31	punct	_	SpaceAfter=No
+31	intern	inter	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	29	appos	_	_
+32	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	37	cc	_	_
+33	bei	bei	ADP	APPR	_	37	case	_	_
+34	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	37	amod	_	_
+35	Service	Service	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	37	compound	_	SpaceAfter=No
+36	-	-	PUNCT	$(	_	35	punct	_	SpaceAfter=No
+37	Providern	Provid	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	31	conj	_	SpaceAfter=No
+38	)	)	PUNCT	$(	_	31	punct	_	_
+39	bei	bei	ADP	APPR	_	42	case	_	_
+40	sehr	sehr	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	41	advmod	_	_
+41	hohem	hoch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	42	amod	_	_
+42	SMS	SMS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No
+43	-	-	PUNCT	$(	_	44	punct	_	SpaceAfter=No
+44	Aufkommen	Aufkommen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	42	flat	_	SpaceAfter=No
+45	.	.	PUNCT	$.	_	27	punct	_	_
+
+# sent_id = 46
+# text = Diese Teams entscheiden dann über die Maßnahmen (Ansprache des Kunden, Sperren, etc.) und führen sie entsprechend durch.“
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+2	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	entscheiden	entscheiden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dann	dann	ADV	ADV	_	3	advmod	_	_
+5	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Maßnahmen	Maßnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+8	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Ansprache	Ansprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Kunden	Kunde	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Sperren	sperren	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	etc.	etc.	X	ADV	_	9	conj	_	SpaceAfter=No
+16	)	)	PUNCT	$(	_	9	punct	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+20	entsprechend	entsprechend	ADJ	APPR	_	18	advmod	_	_
+21	durch	durch	ADP	PTKVZ	_	18	compound:prt	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	18	punct	_	SpaceAfter=No
+23	“	“	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 47
+# text = Das Unternehmen habe zudem „Möglichkeiten zur Texterkennung und ‑analyse“.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zudem	zudem	ADV	PAV	_	6	advmod	_	_
+5	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+6	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	_
+7-8	zur	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Texterkennung	Texterkennung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+10	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	12	cc	_	_
+11	‑	‑	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+12	analyse	analyse	ADJ	ADV	_	9	conj	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 48
+# text = Weitere Maßnahmen seien „bereits in inhaltlicher Abstimmung mit den zuständigen Behörden.
+1	Weitere	weit	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	amod	_	_
+2	Maßnahmen	Maßnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+5	bereits	bereits	ADV	ADV	_	8	advmod	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	inhaltlicher	inhaltlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+8	Abstimmung	Abstimmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+9	mit	mit	ADP	$(	_	12	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	zuständigen	zuständig	ADJ	CARD	NumType=Card	12	amod	_	_
+12	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 49
+# text = Aktuell findet dementsprechend noch keinerlei Auswertung von Inhalten statt“, schreibt die Sprecherin.
+1	Aktuell	aktuell	PROPN	ADJD	_	2	nsubj	_	_
+2	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dementsprechend	dementsprechend	ADV	ADJD	_	2	advmod	_	_
+4	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+5	keinerlei	keinerlei	PRON	PIAT	Definite=Ind|Polarity=Neg|PronType=Neg	6	nmod	_	_
+6	Auswertung	Auswertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+9	statt	statt	ADP	ADV	_	2	compound:prt	_	SpaceAfter=No
+10	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Sprecherin	Sprecherin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 50
+# text = Wer trotz der Maßnahmen der Unternehmen eine verdächtige SMS erhält, kann diese übrigens bei der Verbraucherzentrale Nordrhein-Westfalen oder der Bundesnetzagentur melden.
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	10	nsubj	_	_
+2	trotz	trotz	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Maßnahmen	Maßnahmen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+6	Unternehmen	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	verdächtige	verdächtig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	SMS	SMS	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+13	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	24	nsubj	_	_
+14	übrigens	übrigens	ADV	ADV	_	24	advmod	_	_
+15	bei	bei	ADP	APPR	_	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Verbraucherzentrale	Verbraucherzentrale	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+18	Nordrhein	Nordrhein	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Westfalen	Westfalen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	flat	_	_
+21	oder	oder	CCONJ	XY	_	23	cc	_	_
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Bundesnetzagentur	Bundesnetzagentur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	conj	_	_
+24	melden	melden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	SpacesAfter=\n
+
+

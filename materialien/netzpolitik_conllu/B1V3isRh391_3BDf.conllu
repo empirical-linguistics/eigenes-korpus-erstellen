@@ -1,0 +1,904 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Das Bundeskriminalamt (BKA) hat heute das Bundeslagebild „Sexualdelikte zum Nachteil von Kindern und Jugendlichen“ (PDF) vorgestellt.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+3	(	(	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No
+5	)	)	PUNCT	$(	_	4	punct	_	_
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+7	heute	heute	ADV	ADV	_	23	advmod	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Bundeslagebild	Bundeslagebild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	nsubj:pass	_	_
+10	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+11	Sexualdelikte	Sexualdelikt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	appos	_	_
+12-13	zum	_	_	_	_	_	_	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Nachteil	Nachteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+15	von	von	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	16	case	_	_
+16	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	nmod	_	_
+17	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	18	cc	_	_
+18	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	16	conj	_	SpaceAfter=No
+19	“	“	PUNCT	$.	_	21	punct	_	_
+20	(	(	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	PDF	PDF	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+22	)	)	PUNCT	$(	_	21	punct	_	_
+23	vorgestellt	vorstellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 2
+# text = Aus diesem geht hervor, dass die Zahl erfasster Straftaten bei sexualisierter Gewalt an Kindern sowie die Verbreitung so genannter kinderpornografischer Inhalte gestiegen ist.
+1	Aus	aus	ADP	APPR	_	2	case	_	_
+2	diesem	dies	PRON	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	hervor	hervor	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	23	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	23	mark	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+9	erfasster	erfasster	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+10	Straftaten	Straftat	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	sexualisierter	sexualisiert	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+14	an	an	ADP	APPR	_	15	case	_	_
+15	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	_
+16	sowie	sowie	CCONJ	NE	Case=Dat|Gender=Masc|Number=Sing	18	cc	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Verbreitung	Verbreitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+19	so	so	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	20	advmod	_	_
+20	genannter	genannt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	_
+21	kinderpornografischer	kinderpornografisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	22	amod	_	_
+22	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	23	obj	_	_
+23	gestiegen	steigen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+24	ist	sein	AUX	ADJD	_	23	aux:pass	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sowohl das Bundeskriminalamt sowie die Innenministerin Nancy Faeser nutzten die Vorstellung des Berichts ein weiteres Mal um eine Vorratsdatenspeicherung von IP-Adressen zu fordern.
+1	Sowohl	sowohl	CCONJ	KON	_	3	cc	_	_
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+4	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Fem|Number=Sing	6	cc	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Innenministerin	Innenministerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+7	Nancy	Nancy	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+8	Faeser	Faeser	PROPN	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	flat	_	_
+9	nutzten	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Vorstellung	Vorstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Berichts	Bericht	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	weiteres	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	_
+16	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+17	um	um	ADP	APPR	_	25	mark	_	_
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+20	von	von	ADP	FM	Foreign=Yes	21	case	_	_
+21	IP	IP	PROPN	NE	Case=Dat|Number=Sing	19	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Adressen	Adresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	flat	_	_
+24	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	25	mark	_	_
+25	fordern	fordern	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Tatsächlich ist die Anzahl der polizeilich erfassten Fälle im Deliktfeld über mehrere Jahre hinweg nun ein weiteres Mal angestiegen.
+1	Tatsächlich	tatsächlich	ADJ	ADV	_	20	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+6	polizeilich	polizeilich	ADJ	ADJD	_	7	advmod	_	_
+7	erfassten	erfas	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	_
+8	Fälle	Fäll	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Deliktfeld	Deliktfeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	über	über	ADP	FM	Foreign=Yes	14	case	_	_
+13	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	14	det	_	_
+14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	_
+15	hinweg	hinweg	ADP	ADV	_	19	case	_	_
+16	nun	nun	ADV	ADV	_	15	advmod	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+18	weiteres	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	19	amod	_	_
+19	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	_
+20	angestiegen	ansteigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 5
+# text = So stieg der sexuelle Missbrauch von Kindern und Jugendlichen im letzten Jahr um etwa fünf Prozent.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	stieg	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	sexuelle	sexuell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Missbrauch	Mißbrauch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	nmod	_	_
+8	und	und	CCONJ	NE	Foreign=Yes	9	cc	_	_
+9	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	7	conj	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	13	amod	_	_
+13	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+14	um	um	ADP	APPR	_	17	case	_	_
+15	etwa	etwa	ADV	ADV	_	16	advmod	_	_
+16	fünf	fünf	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Die Zahl der Fälle von Besitz oder Verbreitung von kinderpornografischen Inhalten stieg um etwa sieben Prozent, bei jugendpornografischen Inhalten gar um mehr als 30 Prozent.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Besitz	Besitz	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+7	oder	oder	CCONJ	XY	_	8	cc	_	_
+8	Verbreitung	Verbreitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	_
+9	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+10	kinderpornografischen	kinderpornografisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	11	amod	_	_
+11	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+12	stieg	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	um	um	ADP	APPR	_	16	case	_	_
+14	etwa	etwa	ADV	ADV	_	15	advmod	_	_
+15	sieben	sieben	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	bei	bei	ADP	APPR	_	20	case	_	_
+19	jugendpornografischen	jugendpornografisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	20	amod	_	_
+20	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	conj	_	_
+21	gar	gar	ADV	ADV	_	23	advmod	_	_
+22	um	um	ADP	APPR	_	23	case	_	_
+23	mehr	mehr	ADV	ADV	_	20	advmod	_	_
+24	als	als	ADP	KOKOM	_	26	case	_	_
+25	30	30	NUM	CARD	NumType=Card	26	nummod	_	_
+26	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = ## Aufdeckung des Dunkelfeldes Der Anstieg der erfassten Straftaten muss nicht heißen, dass diese Delikte insgesamt mehr werden, sondern es ist wahrscheinlicher, dass immer mehr Fälle aufgeklärt werden und der Fahndungs- und Ermittlungsdruck auf die Täter:innen steigt.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Aufdeckung	Aufdeckung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Dunkelfeldes	Dunkelfeld	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+5	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Anstieg	Anstieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	erfassten	erfas	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	Straftaten	Straftat	NOUN	VVINF	VerbForm=Inf	6	nmod	_	_
+10	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+12	heißen	heißen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+15	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	16	det	_	_
+16	Delikte	Delikt	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	_
+17	insgesamt	insgesamt	ADV	ADV	_	18	advmod	_	_
+18	mehr	mehr	PRON	ADV	_	19	xcomp	_	_
+19	werden	werden	VERB	NN	Case=Dat|Gender=Neut|Number=Sing	12	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	_
+21	sondern	sondern	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	24	cc	_	_
+22	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+23	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	24	cop	_	_
+24	wahrscheinlicher	wahrscheinlich	PRON	ADJA	Case=Gen|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	30	punct	_	_
+26	dass	dass	SCONJ	KOUS	_	30	mark	_	_
+27	immer	immer	ADV	ADV	_	28	advmod	_	_
+28	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	29	det	_	_
+29	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	30	nsubj:pass	_	_
+30	aufgeklärt	aufgeklären	VERB	VVPP	VerbForm=Part	24	ccomp	_	_
+31	werden	werden	AUX	NE	Case=Acc|Number=Plur	30	aux:pass	_	_
+32	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	41	cc	_	_
+33	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Fahndungs	Fahndungs	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	41	iobj	_	SpaceAfter=No
+35	-	-	PUNCT	$(	_	37	punct	_	_
+36	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	37	cc	_	_
+37	Ermittlungsdruck	Ermittlungsdruck	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_
+38	auf	auf	ADP	APPR	_	40	case	_	_
+39	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	Täter:innen	Täter:innen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	41	obl	_	_
+41	steigt	steigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Das BKA sagt selbst im Lagebild:
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	selbst	selbst	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Lagebild	Lagebild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Grundsätzlich ist zu berücksichtigen, dass die Anzahl aufgedeckter Fälle stark mit polizeilicher Kontrolltätigkeit und dem Anzeigeverhalten korreliert.
+1	Grundsätzlich	grundsätzlich	ADJ	ADJD	_	4	advmod	_	_
+2	ist	sein	AUX	ADJD	_	4	aux:pass	_	_
+3	zu	zu	PART	NN	Case=Nom|Number=Plur	4	mark	_	_
+4	berücksichtigen	berücksichtigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	18	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+9	aufgedeckter	aufgedeckt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	10	amod	_	_
+10	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	stark	stark	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	_
+12	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	14	case	_	_
+13	polizeilicher	polizeilich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	Kontrolltätigkeit	Kontrolltätigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+15	und	und	CCONJ	NE	Foreign=Yes	17	cc	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Anzeigeverhalten	Anzeigeverhalten	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Sing	14	conj	_	_
+18	korreliert	korrelieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj:pass	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Insofern dürfte es auch aufgrund intensivierter polizeilicher Tätigkeiten im Deliktsbereich in den letzten Jahren zu einer Aufhellung des Dunkelfelds gekommen sein.
+1	Insofern	insofern	ADV	ADV	_	21	advmod	_	_
+2	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+4	auch	auch	ADV	ADV	_	21	advmod	_	_
+5	aufgrund	aufgrund	ADP	APPR	_	8	case	_	_
+6	intensivierter	intensiviert	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+7	polizeilicher	polizeilich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	8	amod	_	_
+8	Tätigkeiten	Tätigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	obl	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Deliktsbereich	Deliktsbereich	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	in	in	ADP	APPR	_	15	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	_
+14	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	15	amod	_	_
+15	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	_
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	case	_	_
+17	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Aufhellung	Aufhellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	_
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Dunkelfelds	Dunkelfelds	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	_
+22	sein	sein	AUX	VAINF	VerbForm=Inf	21	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 11
+# text = Das Bundeskriminalamt war in den letzten Jahren dafür kritisiert worden, dass es in Pressemitteilungen gestiegene Fallzahlen kommunizierte, ohne auf diesen Zusammenhang hinzuweisen.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	_
+3	war	sein	AUX	ADV	_	9	aux	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+6	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	7	amod	_	_
+7	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+8	dafür	dafür	ADV	PAV	_	9	advmod	_	_
+9	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	worden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	9	aux:pass	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Pressemitteilungen	Pressemitteilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
+16	gestiegene	gestiegen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	_
+17	Fallzahlen	Fallzahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+18	kommunizierte	kommunizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	_
+20	ohne	ohne	ADP	FM	Foreign=Yes	24	case	_	_
+21	auf	auf	ADP	APPR	_	23	case	_	_
+22	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	Zusammenhang	Zusammenhang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+24	hinzuweisen	hinzuweisen	VERB	VVINF	VerbForm=Inf	18	obl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 12
+# text = Bei der Vorstellung der polizeilichen Kriminalstatistik im April hatte der Vorsitzende der Innenministerkonferenz diese Zahlen erneut kontextlos präsentiert, um für die Vorratsdatenspeicherung zu werben.
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Vorstellung	Vorstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	polizeilichen	polizeilich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Kriminalstatistik	Kriminalstatistik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+10	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Vorsitzende	Vorsitzende	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Innenministerkonferenz	Innenministerkonferenz	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	Zahlen	Zahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	18	nsubj	_	_
+17	erneut	erneut	ADJ	ADV	_	18	advmod	_	_
+18	kontextlos	kontextlos	ADJ	ADJD	_	19	advmod	_	_
+19	präsentiert	präsentieren	ADJ	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	26	punct	_	_
+21	um	um	ADP	KOUI	_	26	mark	_	_
+22	für	für	ADP	APPR	_	24	case	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+25	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	26	mark	_	_
+26	werben	werben	VERB	VVINF	VerbForm=Inf	19	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = ## Sehr viele Minderjährige als Tatverdächtige Hinzu kommt, dass bei kinderpornografischen Inhalten knapp 40 Prozent der Tatverdächtigen selbst Minderjährige sind, bei jugendpornografischen Inhalten ist es sogar die Hälfte.
+1	##	##	PUNCT	$.	_	4	punct	_	_
+2	Sehr	sehr	ADV	ADV	_	3	advmod	_	_
+3	viele	viel	DET	NE	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	Minderjährige	Minderjährige	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Tatverdächtige	Tatverdächtige	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\s
+7	Hinzu	hinzu	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	20	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	kinderpornografischen	kinderpornografisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	13	amod	_	_
+13	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
+14	knapp	knapp	ADV	ADJD	_	15	advmod	_	_
+15	40	40	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Tatverdächtigen	Tatverdächtige	NOUN	ADJA	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	selbst	selbst	ADV	NN	Case=Gen|Gender=Fem|Number=Sing	18	advmod	_	_
+20	Minderjährige	Minderjährige	NOUN	NN	Case=Nom|Number=Plur	8	ccomp	_	_
+21	sind	sein	AUX	ADJD	_	20	cop	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	30	punct	_	_
+23	bei	bei	ADP	APPR	_	25	case	_	_
+24	jugendpornografischen	jugendpornografisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	25	amod	_	_
+25	Inhalten	Inhalt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	_
+26	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+27	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+28	sogar	sogar	ADV	ADV	_	30	advmod	_	_
+29	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Hälfte	Hälfte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Es dürfte sich vornehmlich um selbst erstelltes Bildmaterial handeln, das sie dann wiederum häufig an andere Minderjährige schicken.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+4	vornehmlich	vornehmlich	ADJ	ADJD	_	9	advmod	_	_
+5	um	um	ADP	APPR	_	8	case	_	_
+6	selbst	selbst	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	7	advmod	_	_
+7	erstelltes	erstellt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	Bildmaterial	Bildmaterial	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+9	handeln	handeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	19	punct	_	_
+11	das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	obj	_	_
+12	sie	sie	PRON	NN	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+13	dann	dann	ADV	ADV	_	19	advmod	_	_
+14	wiederum	wiederum	ADV	ADV	_	19	advmod	_	_
+15	häufig	häufig	ADJ	ADJD	_	19	advmod	_	_
+16	an	an	ADP	APPR	_	18	case	_	_
+17	andere	ander	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	amod	_	_
+18	Minderjährige	Minderjährige	NOUN	NN	Case=Nom|Number=Plur	19	obl	_	_
+19	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Diese sexuelle Praxis von Minderjährigen wird Sexting genannt, dabei schicken sich Menschen einvernehmlich sexuelle Bilder.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	sexuelle	sexuell	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Praxis	Praxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	xcomp	_	_
+4	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+5	Minderjährigen	minderjährige	NOUN	VVINF	VerbForm=Inf	3	nmod	_	_
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	aux:pass	_	_
+7	Sexting	Sexting	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+8	genannt	nennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	dabei	dabei	ADV	PAV	_	11	advmod	_	_
+11	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+12	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+14	einvernehmlich	einvernehmlich	ADV	ADV	_	11	advmod	_	_
+15	sexuelle	sexuell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Bilder	Bild	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 16
+# text = 14-Jährige, die etwa einvernehmliches Sexting mit Gleichaltrigen betreiben, machen sich in Deutschland derzeit strafbar.
+1	14	14	NUM	CARD	NumType=Card	3	nummod	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+3	Jährige	Jährige	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	_
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	_
+7	einvernehmliches	einvernehmlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	_
+8	Sexting	Sexting	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obj	_	_
+9	mit	mit	ADP	$(	_	10	case	_	_
+10	Gleichaltrigen	Gleichaltrige	NOUN	NN	Case=Dat|Number=Plur	11	obl	_	_
+11	betreiben	betreiben	VERB	VVINF	VerbForm=Inf	3	acl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+17	derzeit	derzeit	ADV	ADV	_	18	advmod	_	_
+18	strafbar	strafbar	ADJ	ADJD	_	13	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 17
+# text = Fachleute kritisieren das seit langem als Fehlentwicklung.
+1	Fachleute	Fachleute	ADV	NN	Case=Nom|Number=Plur	2	advmod	_	_
+2	kritisieren	kritisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	obj	_	_
+4	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
+5	langem	lang	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	Fehlentwicklung	Fehlentwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 18
+# text = „Minderjährige im Rahmen ihrer gleichberechtigten sexuellen Entwicklung untereinander sollten nicht vom Strafrecht erfasst werden“, fordert etwa der Kriminologe Thomas-Gabriel Rüdiger.
+1	„	„	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Minderjährige	Minderjährige	PRON	NN	Case=Nom|Number=Plur	16	nsubj:pass	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+6	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+7	gleichberechtigten	gleichberechtigt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	advmod	_	_
+8	sexuellen	sexuell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	Entwicklung	Entwicklung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+10	untereinander	untereinander	ADV	ADV	_	16	advmod	_	_
+11	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+12	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advmod	_	_
+13-14	vom	_	_	_	_	_	_	_	_
+13	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Strafrecht	Strafrecht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+16	erfasst	erfassen	VERB	VVPP	VerbForm=Part	20	ccomp	_	_
+17	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	16	aux:pass	_	SpaceAfter=No
+18	“	“	PUNCT	$.	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	16	punct	_	_
+20	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	etwa	etwa	ADV	ADV	_	23	advmod	_	_
+22	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Kriminologe	Kriminologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+24	Thomas	Thomas	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+25	-	-	PUNCT	$(	_	26	punct	_	SpaceAfter=No
+26	Gabriel	Gabriel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	_
+27	Rüdiger	Rüdiger	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Das Phänomen nennt das BKA „Selbstfilmer“.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Phänomen	Phänomen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	„	„	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+7	Selbstfilmer	Selbstfilmer	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Hierbei nehmen Minderjährige pornografische Aufnahmen von sich auf, was legal ist – und verbreiten diese in sozialen Medien und über Messenger, was illegal ist.
+1	Hierbei	hierbei	ADV	PAV	_	2	advmod	_	_
+2	nehmen	nehmen	VERB	NE	NumType=Card	0	root	_	_
+3	Minderjährige	Minderjährige	PRON	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+4	pornografische	pornografisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	_
+5	Aufnahmen	Aufnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nmod	_	_
+8	auf	auf	ADP	APPR	_	2	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	legal	legal	ADJ	ADV	_	2	acl	_	_
+12	ist	sein	AUX	ADJD	_	11	cop	_	_
+13	–	–	PUNCT	$.	_	11	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	verbreiten	verbreiten	VERB	VVINF	VerbForm=Inf	11	conj	_	_
+16	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	sozialen	sozial	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	19	amod	_	_
+19	Medien	Medium	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+20	und	und	CCONJ	NE	Foreign=Yes	22	cc	_	_
+21	über	über	ADP	FM	Foreign=Yes	22	case	_	_
+22	Messenger	Messenger	NOUN	ADJA	_	19	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	25	punct	_	_
+24	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	25	nsubj	_	_
+25	illegal	illegal	ADJ	ADJD	_	19	acl	_	_
+26	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	25	cop	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 21
+# text = Das BKA stellt dazu fest: „Der Trend der „Selbstfilmer“ dürfte für den sprunghaften Anstieg der Fallzahlen in den letzten Jahren mitursächlich sein.“
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dazu	dazu	ADV	PAV	_	3	advmod	_	_
+5	fest	fest	ADV	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	25	punct	_	_
+7	„	„	PUNCT	$.	_	25	punct	_	SpaceAfter=No
+8	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Trend	Trend	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+12	Selbstfilmer	Selbstfilmer	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	9	punct	_	_
+14	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+15	für	für	ADP	APPR	_	18	case	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	sprunghaften	sprunghaft	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	Anstieg	Anstieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	Fallzahlen	Fallzahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+21	in	in	ADP	APPR	_	24	case	_	_
+22	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	24	det	_	_
+23	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	24	amod	_	_
+24	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	_
+25	mitursächlich	mitursächlich	ADJ	ADJD	_	3	parataxis	_	_
+26	sein	sein	AUX	VAINF	VerbForm=Inf	25	cop	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	25	punct	_	SpaceAfter=No
+28	“	“	PUNCT	$.	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = ## Hohe Zahl an Fehlalarmen Viele der Hinweise, die zu einer Strafverfolgung führen, erhält das Bundeskriminalamt über die US-Organisation NCMEC, welche gegen sexualisierte Gewalt gegen Kinder arbeitet.
+1	##	##	PUNCT	$.	_	3	punct	_	_
+2	Hohe	hoch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	Zahl	Zahl	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+4	an	an	ADP	APPR	_	5	case	_	_
+5	Fehlalarmen	Fehlalarmen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	SpacesAfter=\s\s
+6	Viele	viel	PRON	NE	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
+11	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	case	_	_
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Strafverfolgung	Strafverfolgung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	führen	führen	VERB	VVINF	VerbForm=Inf	8	acl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	8	punct	_	_
+16	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+19	über	über	ADP	FM	Foreign=Yes	21	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	US	US	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	flat	_	_
+24	NCMEC	NCMEC	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	21	appos	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	32	punct	_	_
+26	welche	welch	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+27	gegen	gegen	ADP	APPR	_	29	case	_	_
+28	sexualisierte	sexualisiert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	29	amod	_	_
+29	Gewalt	Gewalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
+30	gegen	gegen	ADP	APPR	_	31	case	_	_
+31	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	29	nmod	_	_
+32	arbeitet	arbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 23
+# text = Unter anderem prüft NCMEC auch Hinweise von Internetanbietern und Serviceprovidern auf kinder- und jugendpornografische Inhalte – und leitet diese an die jeweils zuständigen polizeilichen Zentralstellen der Staaten weiter, in denen die Straftaten mutmaßlich stattgefunden haben sollen.
+1	Unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	2	case	_	_
+2	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	nmod	_	_
+3	prüft	prüfen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	amod	_	_
+4	NCMEC	NCMEC	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	nsubj	_	_
+5	auch	auch	ADV	ADV	_	6	advmod	_	_
+6	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	appos	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Internetanbietern	Internetanbieter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+9	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
+10	Serviceprovidern	Serviceprovid	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+11	auf	auf	ADP	APPR	_	12	case	_	_
+12	kinder	kinder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	16	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+15	jugendpornografische	jugendpornografisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	16	amod	_	_
+16	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+17	–	–	PUNCT	$.	_	6	punct	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	cc	_	_
+19	leitet	leiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	19	obj	_	_
+21	an	an	ADP	APPR	_	26	case	_	_
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+23	jeweils	jeweils	ADV	ADV	_	26	advmod	_	_
+24	zuständigen	zuständig	ADJ	CARD	NumType=Card	26	amod	_	_
+25	polizeilichen	polizeilich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	26	amod	_	_
+26	Zentralstellen	Zentralstelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
+27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Staaten	Staat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	weiter	weiter	ADV	ADV	_	19	compound:prt	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	36	punct	_	_
+31	in	in	ADP	APPR	_	32	case	_	_
+32	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	36	obl	_	_
+33	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	Straftaten	Straftat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_
+35	mutmaßlich	mutmaßlich	ADJ	ADV	_	36	advmod	_	_
+36	stattgefunden	stattfinden	VERB	VVPP	VerbForm=Part	19	acl	_	_
+37	haben	haben	AUX	VAINF	VerbForm=Inf	36	aux	_	_
+38	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Aus dem Lagebild geht hervor, dass mehr als die Hälfte der etwa 180.000 Hinweise, die das Bundeskriminalamt durch die US-Organisation NCMEC erhält, nicht strafrechtlich relevant sind.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Lagebild	Lagebild	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	hervor	hervor	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	30	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	30	mark	_	_
+8	mehr	mehr	PRON	ADV	_	30	det	_	_
+9	als	als	ADP	KOKOM	_	11	case	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nmod	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+13	etwa	etwa	ADV	ADV	_	14	advmod	_	_
+14	180.000	180.000	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	30	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	26	punct	_	_
+17	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	26	nsubj	_	_
+18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+20	durch	durch	ADP	APPR	_	22	case	_	_
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	US	US	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+23	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+24	Organisation	Organisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	flat	_	_
+25	NCMEC	NCMEC	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	22	appos	_	_
+26	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	15	punct	_	_
+28	nicht	nicht	PART	TRUNC	NumType=Card	30	advmod	_	_
+29	strafrechtlich	strafrechtlich	ADJ	ADJD	_	30	advmod	_	_
+30	relevant	relevant	ADJ	ADJD	_	4	ccomp	_	_
+31	sind	sein	AUX	ADJD	_	30	cop	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 25
+# text = Diese Zahlen waren schon im Juni bekannt geworden.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	Zahlen	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+4	schon	schon	ADV	ADV	_	9	advmod	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Juni	Juni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+8	bekannt	bekannt	ADJ	ADJD	_	9	xcomp	_	_
+9	geworden	werden	VERB	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Der EU-Abgeordnete Patrick Breyer kritisiert diese Praxis.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	EU	EU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Abgeordnete	Abgeordnete	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+5	Patrick	Patrick	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+6	Breyer	Breyer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+7	kritisiert	kritisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	Praxis	Praxis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 27
+# text = Er macht dafür eine „Rekord-Unzuverlässigkeit“ von Plattformen wie Meta verantwortlich, die angefangen hätten, Textchats nach Schlüsselwörtern zu scannen.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dafür	dafür	ADV	PAV	_	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+5	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+6	Rekord	Rekord	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Unzuverlässigkeit	Unzuverlässigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	11	punct	_	_
+10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+11	Plattformen	Plattform	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
+12	wie	wie	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	13	case	_	_
+13	Meta	Meta	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+14	verantwortlich	verantwortlich	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	nsubj	_	_
+17	angefangen	angefangen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	2	acl	_	_
+18	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	_
+20	Textchats	Textchat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	24	obj	_	_
+21	nach	nach	ADP	CARD	_	22	case	_	_
+22	Schlüsselwörtern	Schlüsselwörter	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+23	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	mark	_	_
+24	scannen	scannen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 28
+# text = „Die Zerstörung unseres Briefgeheimnisses nimmt immer dramatischere Ausmaße an“, kritisiert der Europaabgeordenete der Piratenpartei.
+1	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+2	Die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zerstörung	Zerstörung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+4	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+5	Briefgeheimnisses	Briefgeheimniß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	immer	immer	ADV	ADV	_	6	advmod	_	_
+8	dramatischere	dramatisch	ADJ	NE	Foreign=Yes	9	amod	_	_
+9	Ausmaße	Ausmaße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	_
+10	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
+11	“	“	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	kritisiert	kritisiert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+14	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Europaabgeordenete	Europaabgeordeneter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Piratenpartei	Piratenpartei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = ## Mehr Medienerziehung und Prävention nötig Trotz der vielen Fehlalarme sind für das BKA die Hinweise des NCMEC außerordentlich wichtig: „Die starke Zunahme polizeilich abgeschlossener Fälle von Herstellung, Verbreitung, Erwerb und Besitz kinder- sowie jugendpornografischer Inhalte dürfte im Wesentlichen auf das in den letzten Jahren stetig gestiegene Hinweisaufkommen durch das NCMEC zurückzuführen sein“, heißt es im Lagebericht.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Mehr	Mehr	PRON	PIS	Definite=Ind|PronType=Ind	3	det	_	_
+3	Medienerziehung	Medienerziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	und	und	CCONJ	NE	Foreign=Yes	5	cc	_	_
+5	Prävention	Prävention	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+6	nötig	nötig	ADJ	ADJD	_	7	advmod	_	SpacesAfter=\s\s
+7	Trotz	Trotz	NOUN	APPR	_	20	nsubj	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	10	amod	_	_
+10	Fehlalarme	Fehlalarm	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+11	sind	sein	AUX	ADJD	_	20	cop	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	BKA	BKA	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	20	nmod	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Hinweise	Hinweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	_
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	NCMEC	NCMEC	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	außerordentlich	außerordentlich	ADV	ADJD	_	20	advmod	_	_
+20	wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+21	:	:	PUNCT	$.	_	58	punct	_	_
+22	„	„	PUNCT	$.	_	58	punct	_	SpaceAfter=No
+23	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	25	det	_	_
+24	starke	stark	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	amod	_	_
+25	Zunahme	Zunahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	58	nsubj	_	_
+26	polizeilich	polizeilich	ADJ	ADJD	_	28	advmod	_	_
+27	abgeschlossener	abgeschlossen	ADJ	ADJA	_	28	amod	_	_
+28	Fälle	Fäll	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+29	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	30	case	_	_
+30	Herstellung	Herstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	32	punct	_	_
+32	Verbreitung	Verbreitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	_
+34	Erwerb	Erwerb	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	conj	_	_
+35	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	36	cc	_	_
+36	Besitz	Besitz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	conj	_	_
+37	kinder	kind	ADJ	ADV	_	41	amod	_	SpaceAfter=No
+38	-	-	PUNCT	$(	_	40	punct	_	_
+39	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Masc|Number=Sing	40	cc	_	_
+40	jugendpornografischer	jugendpornografisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	37	conj	_	_
+41	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	58	nsubj	_	_
+42	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	58	aux	_	_
+43-44	im	_	_	_	_	_	_	_	_
+43	in	in	ADP	APPR	_	45	case	_	_
+44	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	45	det	_	_
+45	Wesentlichen	wesentlich	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	58	obl	_	_
+46	auf	auf	ADP	APPR	_	54	case	_	_
+47	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	54	det	_	_
+48	in	in	ADP	APPR	_	51	case	_	_
+49	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	51	det	_	_
+50	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	51	amod	_	_
+51	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	52	nmod	_	_
+52	stetig	stetig	ADJ	ADJD	_	53	advmod	_	_
+53	gestiegene	gestiegen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	54	amod	_	_
+54	Hinweisaufkommen	Hinweisaufkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	58	obl	_	_
+55	durch	durch	ADP	APPR	_	57	case	_	_
+56	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	57	det	_	_
+57	NCMEC	NCMEC	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	54	nmod	_	_
+58	zurückzuführen	zurückführen	VERB	VVIZU	VerbForm=Inf	62	parataxis	_	_
+59	sein	sein	AUX	VAINF	VerbForm=Inf	58	aux:pass	_	SpaceAfter=No
+60	“	“	PUNCT	$.	_	58	punct	_	SpaceAfter=No
+61	,	,	PUNCT	$,	_	58	punct	_	_
+62	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+63	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	62	nsubj	_	_
+64-65	im	_	_	_	_	_	_	_	_
+64	in	in	ADP	APPR	_	66	case	_	_
+65	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	66	det	_	_
+66	Lagebericht	Lagebericht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	62	obl	_	SpaceAfter=No
+67	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = In seiner Bewertung der Lage macht das BKA die Aussetzung der Vorratsdatenspeicherung dafür verantwortlich, dass es nicht noch mehr Fälle und Tatorte aufklären könne.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Bewertung	Bewertung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Lage	Lage	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Aussetzung	Aussetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	dafür	dafür	ADV	PAV	_	14	advmod	_	_
+14	verantwortlich	verantwortlich	ADJ	ADJD	_	6	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	24	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	24	mark	_	_
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+18	nicht	nicht	PART	CARD	NumType=Card	19	advmod	_	_
+19	noch	noch	ADV	CARD	NumType=Card	24	advmod	_	_
+20	mehr	mehr	ADV	ADV	_	24	advmod	_	_
+21	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
+22	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	23	cc	_	_
+23	Tatorte	Tatort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	21	conj	_	_
+24	aufklären	aufklären	VERB	VVINF	VerbForm=Inf	6	ccomp	_	_
+25	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 31
+# text = Doch auch für die Polizist:innen in Wiesbaden ist klar, dass Strafverfolgung nur ein Element eines gesamtgesellschaftlichen Ansatzes beziehungsweise einer ganzheitlichen Bekämpfungsstrategie sein kann.
+1	Doch	doch	ADV	KON	_	9	advmod	_	_
+2	auch	auch	ADV	ADV	_	5	advmod	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Polizist:innen	Polizist:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Wiesbaden	Wiesbaden	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	klar	klar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+12	Strafverfolgung	Strafverfolgung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	nur	nur	ADV	CARD	_	15	advmod	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Element	Element	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	ccomp	_	_
+16	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	gesamtgesellschaftlichen	gesamtgesellschaftlich	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	Ansatzes	Ansatz	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+19	beziehungsweise	beziehungsweise	CCONJ	KON	_	22	cc	_	_
+20	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	ganzheitlichen	ganzheitlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	22	amod	_	_
+22	Bekämpfungsstrategie	Bekämpfungsstrategie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	conj	_	_
+23	sein	sein	AUX	VAINF	VerbForm=Inf	15	cop	_	_
+24	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 32
+# text = „Eine kompetente Medienerziehung und fachkundige Begleitung von Kindern sowie adressatengerechte Präventionsmaßnahmen, die aktuelle Entwicklungen und Täterstrategien berücksichtigen, bilden neben der Einbeziehung verantwortlicher Internet-Dienstanbieter weitere wichtige Bausteine“, resümiert das BKA.
+1	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+2	Eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	kompetente	kompetent	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	Medienerziehung	Medienerziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+6	fachkundige	fachkundig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	Begleitung	Begleitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	_
+10	sowie	sowie	CCONJ	NE	Case=Dat|Gender=Masc|Number=Sing	12	cc	_	_
+11	adressatengerechte	adressatengerecht	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	amod	_	_
+12	Präventionsmaßnahmen	Präventionsmaßnahmen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	aktuelle	aktuell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	16	amod	_	_
+16	Entwicklungen	Entwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+18	Täterstrategien	Täterstrategie	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	_
+19	berücksichtigen	berücksichtigen	VERB	VVINF	VerbForm=Inf	21	acl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	19	punct	_	_
+21	bilden	bilden	VERB	VVFIN	VerbForm=Inf	0	root	_	_
+22	neben	neben	ADP	NN	Case=Gen|Gender=Fem|Number=Plur	24	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Einbeziehung	Einbeziehung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	obl	_	_
+25	verantwortlicher	verantwortlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	28	amod	_	_
+26	Internet	Internet	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	compound	_	SpaceAfter=No
+27	-	-	PUNCT	$(	_	26	punct	_	SpaceAfter=No
+28	Dienstanbieter	Dienstanbieter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	compound	_	_
+29	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	31	amod	_	_
+30	wichtige	wichtig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	31	amod	_	_
+31	Bausteine	Baustein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
+32	“	“	PUNCT	$.	_	34	punct	_	SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	_
+34	resümiert	resümieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
+35	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	36	det	_	_
+36	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+
+

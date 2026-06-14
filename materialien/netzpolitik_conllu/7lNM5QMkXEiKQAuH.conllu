@@ -1,0 +1,381 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser*innen, diese Woche hat sich das Kabinett geeinigt: E‑Sport-Vereine sollen künftig gemeinnützig sein dürfen.
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser*	Leser*	NOUN	$(	_	3	obj	_	SpaceAfter=No
+3	innen	innen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	SpacesAfter=\s\s
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Kabinett	Kabinett	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	geeinigt	einigen	VERB	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
+12	:	:	PUNCT	$.	_	20	punct	_	_
+13	E	E	X	NN	Case=Dat|Gender=Fem|Number=Plur	17	compound	_	SpaceAfter=No
+14	‑	‑	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+15	Sport	Sport	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Vereine	Verein	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	künftig	künftig	ADV	ADJD	_	20	advmod	_	_
+20	gemeinnützig	gemeinnützig	ADJ	ADJD	_	11	ccomp	_	_
+21	sein	sein	AUX	VAINF	VerbForm=Inf	20	cop	_	_
+22	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 2
+# text = Das ist eine gute Nachricht und längst überfällig.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	gute	gut	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Nachricht	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	und	und	CCONJ	NE	Foreign=Yes	7	cc	_	_
+7	längst	längsen	VERB	ADV	_	5	conj	_	_
+8	überfällig	überfällig	ADJ	ADJD	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ebenso überfällig ist es, dass auch Journalismus endlich als gemeinnützig anerkannt wird.
+1	Ebenso	ebenso	ADV	ADV	_	2	advmod	_	_
+2	überfällig	überfällig	ADJ	ADJD	_	0	root	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+7	auch	auch	ADV	ADV	_	8	advmod	_	_
+8	Journalismus	Journalismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+9	endlich	endlich	ADV	ADV	_	8	advmod	_	_
+10	als	als	ADP	KOKOM	_	11	case	_	_
+11	gemeinnützig	gemeinnützig	ADJ	ADJD	_	12	amod	_	_
+12	anerkannt	anerkennen	VERB	VVPP	VerbForm=Part	2	csubj	_	_
+13	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Doch dazu ist es bislang nicht gekommen.
+1	Doch	doch	ADV	KON	_	7	advmod	_	_
+2	dazu	dazu	ADV	PAV	_	7	advmod	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	bislang	bislang	ADV	ADV	_	7	advmod	_	_
+6	nicht	nicht	PART	CARD	NumType=Card	7	advmod	_	_
+7	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Dabei sind die Unterschiede zum E‑Sport doch minimal.
+1	Dabei	dabei	ADV	PAV	_	11	advmod	_	_
+2	sind	sein	AUX	ADJD	_	11	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Unterschiede	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	E	E	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
+8	‑	‑	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+9	Sport	Sport	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+10	doch	doch	ADV	ADV	_	11	advmod	_	_
+11	minimal	minimal	ADV	_	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Regelmäßig legen wir Speedruns hin, um frische Gesetzentwürfe einzuordnen.
+1	Regelmäßig	regelmäßig	ADV	ADJD	_	2	advmod	_	_
+2	legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	Speedruns	Speedrwir	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	hin	hin	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	um	um	ADP	KOUI	_	10	mark	_	_
+8	frische	frische	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	9	amod	_	_
+9	Gesetzentwürfe	Gesetzentwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obj	_	_
+10	einzuordnen	einordnen	VERB	VVIZU	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Unsere inzwischen mehr als 400 Artikel zur Chatkontrolle sind nichts anderes als übles Grinding.
+1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	12	nsubj	_	_
+2	inzwischen	inzwischen	ADV	ADV	_	3	advmod	_	_
+3	mehr	mehr	ADV	ADV	_	1	advmod	_	_
+4	als	als	ADP	KOKOM	_	6	case	_	_
+5	400	400	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	_
+7-8	zur	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+10	sind	sein	AUX	NE	Case=Dat|Gender=Fem|Number=Sing	12	cop	_	_
+11	nichts	nichts	PRON	CARD	NumType=Card	12	nsubj	_	_
+12	anderes	ander	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
+13	als	als	ADP	KOKOM	_	15	case	_	_
+14	übles	übl	ADJ	NE	Foreign=Yes	15	amod	_	_
+15	Grinding	Grinding	NOUN	NE	Foreign=Yes	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Pressestellen verhalten sich wie NPCs, wenn sie uns mit den immer gleichen Floskeln abwimmeln wollen.
+1	Pressestellen	Pressestellen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	verhalten	verhalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	5	case	_	_
+5	NPCs	NPCs	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	15	punct	_	_
+7	wenn	wenn	SCONJ	VVFIN	_	15	mark	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+9	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	iobj	_	_
+10	mit	mit	ADP	$(	_	14	case	_	_
+11	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	14	det	_	_
+12	immer	immer	ADV	ADV	_	13	advmod	_	_
+13	gleichen	gleich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	_
+14	Floskeln	Floskel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+15	abwimmeln	abwimmeln	VERB	FM	Foreign=Yes	2	advcl	_	_
+16	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Und sobald eine neue Regierung ihren Koalitionsvertrag droppt, schalten wir in den Multiplayer-Modus und schreiben unsere Analyse auch mal mit zehn Leuten auf einmal – natürlich auf der Suche nach Easter Eggs.
+1	Und	und	CCONJ	ADJD	_	8	cc	_	_
+2	sobald	sobald	ADV	ADV	_	8	advmod	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	neue	neu	ADJ	ADJA	_	5	amod	_	_
+5	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	_
+7	Koalitionsvertrag	Koalitionsvertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	droppt	droppen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	schalten	schalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	wir	wir	PRON	ADJD	_	10	nsubj	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Multiplayer	Multiplayer	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Modus	Modus	PROPN	APPR	_	14	flat	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+18	schreiben	schreiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Analyse	Analyse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	auch	auch	ADV	ADV	_	22	advmod	_	_
+22	mal	mal	ADV	ADV	_	18	advmod	_	_
+23	mit	mit	ADP	CARD	NumType=Card	25	case	_	_
+24	zehn	zehn	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	nummod	_	_
+25	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	18	obl	_	_
+26	auf	auf	ADP	APPR	_	27	case	_	_
+27	einmal	einmal	ADV	ADV	_	18	advmod	_	_
+28	–	–	PUNCT	$.	_	29	punct	_	_
+29	natürlich	natürlich	ADJ	ADV	_	18	advmod	_	_
+30	auf	auf	ADP	APPR	_	32	case	_	_
+31	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Suche	Suche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+33	nach	nach	ADP	CARD	_	34	case	_	_
+34	Easter	Easter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	32	nmod	_	_
+35	Eggs	Eggs	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	34	flat	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Schon die Ampel hatte sich vorgenommen, Journalismus gemeinnützig zu machen, aber vor Ablauf der Legislaturperiode einen Selfkill hingelegt.
+1	Schon	schon	ADV	ADV	_	6	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ampel	Ampel	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+6	vorgenommen	vornehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	Journalismus	Journalismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	gemeinnützig	gemeinnützig	ADJ	CARD	_	11	xcomp	_	_
+10	zu	zu	PART	NN	Case=Nom|Number=Plur	11	mark	_	_
+11	machen	machen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	_
+13	aber	aber	CCONJ	KON	_	20	cc	_	_
+14	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	15	case	_	_
+15	Ablauf	Ablauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	_
+16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Legislaturperiode	Legislaturperiode	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Selfkill	Selfkill	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+20	hingelegt	hingelegen	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Die nun mitregierende Union wiederum dürfte gemeinnützigen Journalismus für overpowered halten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	nun	nun	ADV	ADV	_	3	advmod	_	_
+3	mitregierende	mitregierend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Union	Union	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+5	wiederum	wiederum	ADV	ADV	_	4	advmod	_	_
+6	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+7	gemeinnützigen	gemeinnützigen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
+8	Journalismus	Journalismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	overpowered	overpowered	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	halten	halten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 12
+# text = Es scheint so, als betrachteten die immer weiter nach Rechtsaußen driftenden Konservativen kritische Medien und Zivilgesellschaft zunehmend als Endgegner.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	als	als	SCONJ	KOUS	_	6	mark	_	_
+6	betrachteten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+8	immer	immer	ADV	ADV	_	9	advmod	_	_
+9	weiter	weiter	ADJ	ADV	_	12	advmod	_	_
+10	nach	nach	ADP	CARD	NumType=Card	11	case	_	_
+11	Rechtsaußen	Rechtsauße	NOUN	ADV	_	12	nmod	_	_
+12	driftenden	driftend	ADJ	VVINF	VerbForm=Inf	13	amod	_	_
+13	Konservativen	konservativ	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+14	kritische	kritisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Medien	Medium	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	17	cc	_	_
+17	Zivilgesellschaft	Zivilgesellschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	conj	_	_
+18	zunehmend	zunehmend	ADJ	ADJD	_	6	advmod	_	_
+19	als	als	ADP	KOKOM	_	20	case	_	_
+20	Endgegner	Endgegner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Wenn das so ist, haben sie die Quest nicht verstanden.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	4	advmod	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Quest	Quest	NOUN	NE	Foreign=Yes	11	obj	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	verstanden	verstehen	ADJ	VVPP	VerbForm=Part	6	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 14
+# text = Nicht die Zivilgesellschaft will die Demokratie am liebsten per Cheatcode deaktivieren, sondern Rechtsaußen.
+1	Nicht	nicht	PART	TRUNC	NumType=Card	3	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zivilgesellschaft	Zivilgesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+4	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	12	aux	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Demokratie	Demokratie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	liebsten	lieb	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	11	amod	_	_
+10	per	per	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	11	amod	_	_
+11	Cheatcode	Cheatcode	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+12	deaktivieren	deaktivieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	15	cc	_	_
+15	Rechtsaußen	Rechtsauße	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 15
+# text = Das wiederholte populistische Zündeln der Union gegen NGOs ist vor allem ein Power-up für die AfD.
+1	Das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+2	wiederholte	wiederholt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	amod	_	_
+3	populistische	populistische	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_
+4	Zündeln	Zündeln	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Union	Union	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	gegen	gegen	ADP	APPR	_	8	case	_	_
+8	NGOs	NGOs	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+9	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	13	cop	_	_
+10	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	11	case	_	_
+11	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	nmod	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Power-up	Power-up	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+14	für	für	ADP	APPR	_	16	case	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	AfD	AfD	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Für guten Journalismus braucht es nicht nur Skills, sondern auch Geld.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	guten	gut	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	_
+3	Journalismus	Journalismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	nicht	nicht	PART	CARD	NumType=Card	4	advmod	_	_
+7	nur	nur	ADV	CARD	NumType=Card	8	advmod	_	_
+8	Skills	skills	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	12	cc	_	_
+11	auch	auch	ADV	ADV	_	12	advmod	_	_
+12	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Mit dem Boost durch Gemeinnützigkeit könnten sogar neue Redaktionen in der Medienlandschaft spawnen.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Boost	Boost	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+4	durch	durch	ADP	APPR	_	5	case	_	_
+5	Gemeinnützigkeit	Gemeinnützigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+7	sogar	sogar	ADV	ADV	_	13	advmod	_	_
+8	neue	neu	ADJ	NN	Case=Dat|Gender=Neut|Number=Plur	9	amod	_	_
+9	Redaktionen	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obj	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Medienlandschaft	Medienlandschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+13	spawnen	spawnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 18
+# text = Ansonsten überlassen wir die Map den Griefern, die mit Hetze und Desinformation um sich schießen.
+1	Ansonsten	ansonsten	ADV	ADV	_	2	advmod	_	_
+2	überlassen	überlassen	VERB	VVPP	VerbForm=Inf	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Map	Ma	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Griefern	Griefer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	_
+10	mit	mit	ADP	CARD	NumType=Card	11	case	_	_
+11	Hetze	Hetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+13	Desinformation	Desinformation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+14	um	um	ADP	APPR	_	16	mark	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+16	schießen	schießen	VERB	VVINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Wenn Journalismus gebufft wird, dann leveln alle up, die eine freie, offene Gesellschaft wollen.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	Journalismus	Journalismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	gebufft	buffen	VERB	VVPP	VerbForm=Part	7	advcl	_	_
+4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	aux:pass	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6	dann	dann	ADV	ADV	_	7	advmod	_	_
+7	leveln	leveln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	7	nsubj	_	_
+9	up	up	ADV	TRUNC	_	7	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+13	freie	frei	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	offene	offen	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Gesellschaft	Gesellschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	wollen	wollen	VERB	VMINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = gg *Sebastian* ## Schreibe eine Ergänzung!
+1	gg	gg	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	SpacesAfter=\s\s
+2	*Sebastian	*Sebastian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	*	*	X	$(	_	4	dep	_	SpacesAfter=\s\s\s
+4	##	##	PUNCT	$.	_	7	punct	_	_
+5	Schreibe	Schreibe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ergänzung	Ergänzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+

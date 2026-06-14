@@ -1,0 +1,515 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Grüne und FDP verabschieden sich mit dem Überwachungspaket der Bundesregierung von ihrem Image als Bürgerrechtsparteien.
+1	Grüne	Grüne	PROPN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	und	und	CCONJ	NE	Foreign=Yes	3	cc	_	_
+3	FDP	FDP	PROPN	NE	Foreign=Yes	1	conj	_	_
+4	verabschieden	verabschieden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	mit	mit	ADP	CARD	NumType=Card	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Überwachungspaket	Überwachungspaket	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Bundesregierung	Bundesregierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+12	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	_
+13	Image	Image	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
+14	als	als	ADP	KOKOM	_	15	case	_	_
+15	Bürgerrechtsparteien	Bürgerrechtspartei	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Das als „Sicherheitspaket“ deklarierte Gesetzesvorhaben der Ampel wird von Menschenrechtsorganisationen wie Amnesty International und der Humanistischen Union scharf kritisiert, die Bundesdatenschutzbeauftragte hält es für unverhältnismäßig und rechtswidrig.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+2	als	als	ADP	KOKOM	_	4	case	_	_
+3	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+4	Sicherheitspaket	Sicherheitspaket	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+5	“	“	PUNCT	$.	_	4	punct	_	_
+6	deklarierte	deklarieren	VERB	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	_
+7	Gesetzesvorhaben	Gesetzesvorhabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Ampel	Ampel	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	_
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	Menschenrechtsorganisationen	Menschenrechtsorganisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	21	obl	_	_
+13	wie	wie	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	14	case	_	_
+14	Amnesty	Amnesty	PROPN	NE	Foreign=Yes	12	nmod	_	_
+15	International	international	PROPN	NE	Foreign=Yes	14	flat	_	_
+16	und	und	CCONJ	NE	Foreign=Yes	19	cc	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	Humanistischen	humanistisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	_
+19	Union	Union	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
+20	scharf	scharf	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advmod	_	_
+21	kritisiert	kritisieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	24	det	_	_
+24	Bundesdatenschutzbeauftragte	Bundesdatenschutzbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+26	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+27	für	für	ADP	APPR	_	28	case	_	_
+28	unverhältnismäßig	unverhältnismäßig	ADJ	ADJD	_	25	xcomp	_	_
+29	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	30	cc	_	_
+30	rechtswidrig	rechtswidrig	ADJ	PTKVZ	_	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 3
+# text = Und sogar in der SPD regt sich Widerstand.
+1	Und	und	CCONJ	ADJD	_	6	cc	_	_
+2	sogar	sogar	ADV	ADV	_	6	advmod	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	SPD	SPD	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	regt	regen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	Widerstand	Widerstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Die Fraktionen von Grünen und FDP tragen das Paket bislang mit.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Fraktionen	Fraktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Grünen	Grüne	PROPN	NN	Case=Nom|Number=Plur	2	nmod	_	_
+5	und	und	CCONJ	NE	Foreign=Yes	6	cc	_	_
+6	FDP	FDP	PROPN	NE	Foreign=Yes	4	conj	_	_
+7	tragen	tragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Paket	Paket	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	bislang	bislingen	VERB	ADV	_	7	conj	_	_
+11	mit	mit	ADP	CARD	NumType=Card	10	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Es richtet sich unter anderem gegen Asylsuchende, die über ein anderes EU-Land eingereist sind.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	richtet	richten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	unter	unter	ADP	ADJD	_	5	case	_	_
+5	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	obl	_	_
+6	gegen	gegen	ADP	APPR	_	7	case	_	_
+7	Asylsuchende	Asylsuchende	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	nsubj	_	_
+10	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	13	case	_	_
+11	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+12	anderes	ander	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	EU	EU	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	flat	_	_
+16	eingereist	eingereisen	VERB	ADV	_	7	acl	_	_
+17	sind	sein	AUX	ADJD	_	16	cop	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Diesen möchte die Ampel-Regierung staatliche Leistungen streichen.
+1	Diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ampel	Ampel	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Regierung	Regierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	_
+7	staatliche	staatlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	Leistungen	Leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+9	streichen	streichen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 7
+# text = Zudem möchte sie den Katalog der Abschiebegründe nochmals ausweiten.
+1	Zudem	zudem	ADV	PAV	_	9	advmod	_	_
+2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Katalog	Katalog	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Abschiebegründe	Abschiebegrund	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	nochmals	nochmals	ADV	ADV	_	9	advmod	_	_
+9	ausweiten	ausweiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Fast überall sollen Menschen in Zukunft ohne Anlass angehalten und durchsucht werden können.
+1	Fast	fast	NOUN	ADV	_	9	dep	_	_
+2	überall	überall	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	9	advmod	_	_
+3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+7	ohne	ohne	ADP	FM	Foreign=Yes	8	case	_	_
+8	Anlass	Anlaß	NOUN	NE	Foreign=Yes	9	obl	_	_
+9	angehalten	anhalten	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	und	und	CCONJ	NE	Foreign=Yes	11	cc	_	_
+11	durchsucht	durchsuchen	VERB	VVPP	VerbForm=Part	9	conj	_	_
+12	werden	werden	AUX	NE	Case=Acc|Number=Plur	9	aux:pass	_	_
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Polizeibehörden sollen per biometrischer Gesichtserkennung nach Personen im Netz fahnden dürfen.
+1	Polizeibehörden	Polizeibehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	per	per	ADP	ADJA	Case=Gen|Gender=Fem|Number=Plur	5	case	_	_
+4	biometrischer	biometrisch	DET	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	det	_	_
+5	Gesichtserkennung	Gesichtserkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+6	nach	nach	ADP	ADJA	_	7	case	_	_
+7	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	obl	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Netz	Netz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+11	fahnden	fahnden	VERB	VVINF	VerbForm=Inf	0	root	_	_
+12	dürfen	dürfen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 10
+# text = Ein Szenario, wie man es von Gesichtersuchmaschinen wie Clearview kennt – inklusive zweifelhafter Datenschutzkonformität.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Szenario	Szenario	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	11	punct	_	_
+4	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	11	advmod	_	_
+5	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	11	nsubj	_	_
+6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Gesichtersuchmaschinen	Gesichtersuchmaschine	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
+9	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+10	Clearview	Clearview	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+11	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+12	–	–	PUNCT	$.	_	15	punct	_	_
+13	inklusive	inklusive	ADP	APPR	_	15	case	_	_
+14	zweifelhafter	zweifelhaft	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	15	amod	_	_
+15	Datenschutzkonformität	Datenschutzkonformität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Zudem möchte die Ampel die Überwachung mittels Big-Data-Anwendungen im Stile von Palantir ausweiten.
+1	Zudem	zudem	ADV	PAV	_	18	advmod	_	_
+2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ampel	Ampel	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Überwachung	Überwachung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+7	mittels	mittels	ADP	APPR	_	10	case	_	_
+8	Big	Big	PROPN	FM	Foreign=Yes	10	amod	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Data	Data	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Anwendungen	Anwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Stile	Stil	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+16	von	von	ADP	FM	Foreign=Yes	17	case	_	_
+17	Palantir	Palantir	PROPN	FM	Foreign=Yes	15	nmod	_	_
+18	ausweiten	ausweiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = ## Abschied vom Markenkern Für beide Parteien wäre die Zustimmung zum Vorhaben ein Abschied von mindestens einem Markenkern – und einer langen Parteitradition.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Abschied	Abschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	vom	_	_	_	_	_	_	_	_
+3	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Markenkern	Markenker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+6	Für	für	ADP	APPR	_	8	case	_	_
+7	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	8	det	_	_
+8	Parteien	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
+9	wäre	sein	AUX	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	cop	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Zustimmung	Zustimmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+12-13	zum	_	_	_	_	_	_	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Vorhaben	Vorhaben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Abschied	Abschied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	appos	_	_
+17	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+18	mindestens	mindestens	ADV	ADV	_	20	advmod	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Markenkern	Markenker	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+21	–	–	PUNCT	$.	_	25	punct	_	_
+22	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	_
+23	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	langen	lang	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	25	amod	_	_
+25	Parteitradition	Parteitradition	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 13
+# text = Bei den Grünen sind mit den Themen Migration und Bürgerrechte sogar gleich zwei Kernidentitäten der Partei betroffen.
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Grünen	Grüne	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	_
+4	sind	sein	AUX	ADJD	_	17	cop	_	_
+5	mit	mit	ADP	$,	NumType=Card	7	case	_	_
+6	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	7	det	_	_
+7	Themen	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	_
+8	Migration	Migration	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	_
+9	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	10	cc	_	_
+10	Bürgerrechte	Bürgerrecht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	conj	_	_
+11	sogar	sogar	ADV	ADV	_	13	advmod	_	_
+12	gleich	gleich	ADV	ADV	_	13	advmod	_	_
+13	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	nummod	_	_
+14	Kernidentitäten	Kernidentität	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Partei	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	betroffen	betreffen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 14
+# text = Während sie früher noch auf Demonstrationen für Grundrechte eintraten, stehen Politiker wie der Grüne Konstantin von Notz und der FDP-Justizminister Marco Buschmann (Buchautor: „Die sterbliche Seele der Freiheit“) nun für einen anderen Kurs.
+1	Während	während	SCONJ	KOUS	_	9	mark	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	früher	früher	ADJ	ADV	_	9	advmod	_	_
+4	noch	noch	ADV	NE	Case=Dat|Gender=Fem|Number=Sing	6	advmod	_	_
+5	auf	auf	ADP	APPR	_	6	case	_	_
+6	Demonstrationen	Demonstration	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nmod	_	_
+9	eintraten	eintraten	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	Politiker	Politiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+13	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	16	case	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	Grüne	Grüne	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+16	Konstantin	Konstantin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	_
+17	von	von	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	18	case	_	_
+18	Notz	Notz	PROPN	APPR	_	16	nmod	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	21	cc	_	_
+20	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	FDP	FDP	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Justizminister	Justizminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	flat	_	_
+24	Marco	Marco	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	21	appos	_	_
+25	Buschmann	Buschmann	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	24	flat	_	_
+26	(	(	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Buchautor	Buchautor	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+28	:	:	PUNCT	$.	_	32	punct	_	_
+29	„	„	PUNCT	$.	_	32	punct	_	SpaceAfter=No
+30	Die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	sterbliche	sterblich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	32	amod	_	_
+32	Seele	Seele	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	appos	_	_
+33	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Freiheit	Freiheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	“	“	PUNCT	$.	_	32	punct	_	SpaceAfter=No
+36	)	)	PUNCT	$(	_	32	punct	_	_
+37	nun	nun	ADV	ADV	_	27	advmod	_	_
+38	für	für	ADP	APPR	_	41	case	_	_
+39	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	anderen	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	41	amod	_	_
+41	Kurs	Kurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Und sogar die Jugendorganisationen der beiden Parteien haben sich auch auf mehrfache Nachfrage von netzpolitik.org bislang nicht zur Ausweitung der biometrischen Überwachung und der polizeilichen Kontrollbefugnisse geäußert.
+1	Und	und	CCONJ	ADJD	_	4	cc	_	_
+2	sogar	sogar	ADV	ADV	_	4	advmod	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Jugendorganisationen	Jugendorganisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	beiden	beide	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	amod	_	_
+7	Parteien	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+8	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
+10	auch	auch	ADV	ADV	_	28	advmod	_	_
+11	auf	auf	ADP	APPR	_	13	case	_	_
+12	mehrfache	mehrfach	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Nachfrage	Nachfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
+14	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+15	netzpolitik.org	netzpolitik.org	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+16	bislang	bislang	ADV	ADV	_	20	advmod	_	_
+17	nicht	nicht	PART	NN	Case=Dat|Gender=Fem|Number=Sing|NumType=Card	20	advmod	_	_
+18-19	zur	_	_	_	_	_	_	_	_
+18	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Ausweitung	Ausweitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	biometrischen	biometrisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
+23	Überwachung	Überwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	und	und	CCONJ	NE	Foreign=Yes	27	cc	_	_
+25	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	polizeilichen	polizeilich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	27	amod	_	_
+27	Kontrollbefugnisse	Kontrollbefugnis	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	23	conj	_	_
+28	geäußert	äußern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Die Grünen hatten als Bewegungspartei eine starke bürgerrechtliche Strömung, die mit der Wende durch das Hinzukommen von DDR-Bürgerrechtler:innen gestärkt wurde.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Grünen	grüne	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	als	als	ADP	KOKOM	_	5	case	_	_
+5	Bewegungspartei	Bewegungspartei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	starke	stark	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	amod	_	_
+8	bürgerrechtliche	bürgerrechtlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	Strömung	Strömung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	22	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	22	nsubj:pass	_	_
+12	mit	mit	ADP	CARD	NumType=Card	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Wende	Wende	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+15	durch	durch	ADP	APPR	_	17	case	_	_
+16	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Hinzukommen	Hinzukommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
+18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+19	DDR	DDR	PROPN	NN	Case=Dat|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	Bürgerrechtler:innen	Bürgerrechtler:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	flat	_	_
+22	gestärkt	stärken	VERB	VVPP	VerbForm=Part	9	acl	_	_
+23	wurde	werden	AUX	KON	_	22	aux:pass	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Erste Kratzer erhielt das Bild der Bürgerrechtspartei nach dem 11.
+1	Erste	erst	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Kratzer	Kratzer	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Bürgerrechtspartei	Bürgerrechtspartei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	nach	nach	ADP	CARD	NumType=Card	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	11	11	NUM	CARD	NumType=Card	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 18
+# text = September 2001, als die Grünen Otto Schilys Sicherheitspakete mittrugen.
+1	September	September	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	_
+2	2001	2001	NUM	CARD	NumType=Card	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	als	als	SCONJ	KOUS	_	10	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Grünen	grün	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+7	Otto	Otto	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	_
+8	Schilys	Schilys	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	_
+9	Sicherheitspakete	Sicherheitspakete	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	_
+10	mittrugen	mittrugen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 19
+# text = Doch immer wieder traten die Grünen in der Folge als Verteidiger von Grundrechten auf.
+1	Doch	doch	ADV	KON	_	3	advmod	_	_
+2	immer	immer	ADV	ADV	_	3	advmod	_	_
+3	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	4	advmod	_	_
+4	traten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	6	det	_	_
+6	Grünen	Grüne	PROPN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+10	als	als	ADP	KOKOM	_	11	case	_	_
+11	Verteidiger	Verteidiger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+12	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+13	Grundrechten	Grundrecht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	_
+14	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 20
+# text = Einer der prominentesten Vertreter gegen Überwachung und für Freiheitsrechte war der Berliner Abgeordnete Hans-Christian Ströbele.
+1	Einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	prominentesten	prominent	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	_
+4	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+5	gegen	gegen	ADP	APPR	_	6	case	_	_
+6	Überwachung	Überwachung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	9	cc	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	Freiheitsrechte	Freiheitsrechte	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
+10	war	sein	AUX	ADV	_	13	cop	_	_
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	Berliner	Berliner	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	Abgeordnete	Abgeordnete	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+14	Hans	Hans	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Christian	Christian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	_
+17	Ströbele	Ströbele	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Die FDP hingegen galt lange aufgrund des Grundrechte-Flügels rund um den ehemaligen Innenminister Gerhart Baum und Burkhard Hirsch sowie wegen des Rücktritts von Sabine Leutheusser-Schnarrenberger beim Großen Lauschangriff als Partei der Bürgerrechte.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	hingegen	hingegen	ADV	ADV	_	2	advmod	_	_
+4	galt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	lange	lange	ADJ	ADV	_	4	advmod	_	_
+6	aufgrund	aufgrund	ADP	APPR	_	10	case	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+8	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	compound	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	Flügels	Flügel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+11	rund	rund	ADV	ADV	_	15	advmod	_	_
+12	um	um	ADP	APPR	_	15	case	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	ehemaligen	ehemalig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	_
+15	Innenminister	Innenminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+16	Gerhart	Gerhart	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	Baum	Baum	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	16	flat	_	_
+18	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	19	cc	_	_
+19	Burkhard	Burkhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
+20	Hirsch	Hirsch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	_
+21	sowie	sowie	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	24	cc	_	_
+22	wegen	wegen	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	24	case	_	_
+23	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Rücktritts	Rücktritt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	15	conj	_	_
+25	von	von	ADP	FM	Foreign=Yes	26	case	_	_
+26	Sabine	Sabine	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Leutheusser	Leutheusser	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	26	flat	_	SpaceAfter=No
+28	-	-	PUNCT	$(	_	29	punct	_	SpaceAfter=No
+29	Schnarrenberger	Schnarrenberger	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	26	flat	_	_
+30-31	beim	_	_	_	_	_	_	_	_
+30	bei	bei	ADP	APPR	_	33	case	_	_
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
+32	Großen	groß	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	33	amod	_	_
+33	Lauschangriff	Lauschangriff	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	_
+34	als	als	ADP	KOKOM	_	35	case	_	_
+35	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	_
+36	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Bürgerrechte	Bürgerrecht	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 22
+# text = In der Partei und rund um die Partei gab und gibt es zahlreiche Menschen, die sich für Grundrechte starkmachen.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Partei	Partei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+4	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	9	cc	_	_
+5	rund	rund	ADV	ADV	_	8	advmod	_	_
+6	um	um	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Partei	Partei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+9	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+11	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+13	zahlreiche	zahlreich	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
+14	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	20	punct	_	_
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	20	nsubj	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
+18	für	für	ADP	APPR	_	19	case	_	_
+19	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	_
+20	starkmachen	starkmachen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	acl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 23
+# text = Auch beim Kampf gegen die Chatkontrolle hatte die Partei zuletzt noch Profil gezeigt.
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2-3	beim	_	_	_	_	_	_	_	_
+2	bei	bei	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Kampf	Kampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+5	gegen	gegen	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	zuletzt	zuletzt	ADV	ADV	_	12	advmod	_	_
+12	noch	noch	ADV	CARD	NumType=Card	8	advmod	_	_
+13	Profil	Profil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	gezeigt	zeigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+

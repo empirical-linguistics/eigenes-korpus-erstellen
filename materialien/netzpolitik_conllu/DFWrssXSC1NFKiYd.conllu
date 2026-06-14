@@ -1,0 +1,624 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Die Daten von 121 Millionen Fluggästen landeten im zurückliegenden Jahr bei der Fluggastdatenzentralstelle im Bundeskriminalamt (BKA).
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	6	case	_	_
+4	121	121	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+6	Fluggästen	Fluggäst	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
+7	landeten	landen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	zurückliegenden	zurückliegend	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	11	amod	_	_
+11	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Fluggastdatenzentralstelle	Fluggastdatenzentralstelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Bundeskriminalamt	Bundeskriminalamt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+18	(	(	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	BKA	BKA	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	SpaceAfter=No
+20	)	)	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Insgesamt übermittelten die Flugunternehmen 424 Millionen sogenannte Passenger Name Records (PNR).
+1	Insgesamt	insgesamt	ADV	ADV	_	2	advmod	_	_
+2	übermittelten	übermitteln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Flugunternehmen	Flugunternehmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	424	424	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	_
+7	sogenannte	sogenannt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	amod	_	_
+8	Passenger	Passenger	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+9	Name	Name	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	Records	Record	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	_
+11	(	(	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	PNR	PNR	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+13	)	)	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ein Jahr zuvor waren es etwa halb so viele, 2020 noch rund 100 Millionen.
+1	Ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+3	zuvor	zuvor	ADV	ADV	_	2	advmod	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	_
+7	halb	halb	ADV	ADJD	_	9	advmod	_	_
+8	so	so	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	9	advmod	_	_
+9	viele	viel	PRON	NE	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	2020	2020	NUM	CARD	NumType=Card	14	nummod	_	_
+12	noch	noch	ADV	CARD	NumType=Card	14	advmod	_	_
+13	rund	rund	ADV	ADV	_	14	advmod	_	_
+14	100	100	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Das geht aus der Antwort auf eine Kleine Anfrage der Linken-Abgeordneten Martina Renner hervor.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Antwort	Antwort	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	auf	auf	ADP	APPR	_	9	case	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	Kleine	klein	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	Anfrage	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	Linken	Linke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Abgeordneten	Abgeordnete	NOUN	NN	Case=Dat|Number=Plur	9	nmod	_	_
+14	Martina	Martina	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_
+15	Renner	Renner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	_
+16	hervor	hervor	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Die Fluggastdatensätze enthalten neben Informationen zu Namen und Route der Reisenden unter anderem Anschrift, Telefonnummer und den gebuchten Sitzplatz.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Fluggastdatensätze	Fluggastdatensatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	enthalten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	neben	neben	ADP	NN	Case=Gen|Gender=Fem|Number=Plur	5	case	_	_
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+7	Namen	Name	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	9	cc	_	_
+9	Route	Route	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Reisenden	Reisende	NOUN	NN	Case=Gen|Number=Plur	9	nmod	_	_
+12	unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	14	case	_	_
+13	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	amod	_	_
+14	Anschrift	Anschrift	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	Telefonnummer	Telefonnummer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	_
+17	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	20	cc	_	_
+18	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	gebuchten	gebucht	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	_
+20	Sitzplatz	Sitzplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Die Daten gleicht das BKA automatisiert mit polizeilichen Datenbanken ab und sucht nach Mustern.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	gleicht	gleichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	BKA	BKA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	automatisiert	automatisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	case	_	_
+8	polizeilichen	polizeilich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	9	amod	_	_
+9	Datenbanken	Datenbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+10	ab	ab	ADP	PTKVZ	_	6	compound:prt	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
+12	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	nach	nach	ADP	CARD	_	14	case	_	_
+14	Mustern	Muster	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Dabei kommt es zu vielen Fehlalarmen: 441.608 Datenbanktreffer und 7.446 Mustertreffer gab es im vergangenen Jahr.
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	_
+2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
+5	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	amod	_	_
+6	Fehlalarmen	Fehlalarm	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	9	punct	_	_
+8	441.608	441.608	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Datenbanktreffer	Datenbanktreffer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	12	cc	_	_
+11	7.446	7.446	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Mustertreffer	Mustertreffer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	_
+13	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	18	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	vergangenen	vergangen	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	_
+18	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 8
+# text = Doch nur 87.845 hielten einer abschließenden fachlichen Überprüfung stand und führten zu einer Fahndung – also etwa ein Fünftel.
+1	Doch	doch	ADV	ADV	_	4	advmod	_	_
+2	nur	nur	ADV	CARD	NumType=Card	3	advmod	_	_
+3	87.845	87.845	NUM	CARD	NumType=Card	4	nsubj	_	_
+4	hielten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	abschließenden	abschließend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+7	fachlichen	fachlichen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	8	amod	_	_
+8	Überprüfung	Überprüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
+9	stand	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	führten	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Fahndung	Fahndung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+15	–	–	PUNCT	$.	_	19	punct	_	_
+16	also	also	ADV	ADV	_	19	advmod	_	_
+17	etwa	etwa	ADV	ADV	_	19	advmod	_	_
+18	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Fünftel	Fünftel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Die entsprechenden Personen haben Zoll und Bundespolizei nur in 19.827 Fällen gefunden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
+2	entsprechenden	entsprechend	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	_
+3	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Zoll	Zoll	NOUN	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	nsubj	_	_
+6	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	7	cc	_	_
+7	Bundespolizei	Bundespolizei	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+8	nur	nur	ADV	CARD	NumType=Card	12	advmod	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	19.827	19.827	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+12	gefunden	gefund	ADJ	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = In knapp einem Drittel der Fälle (7.367 Mal) ging es dabei um Aufenthaltsermittlungen.
+1	In	in	ADP	APPR	_	4	case	_	_
+2	knapp	knapp	ADJ	ADJD	_	4	amod	_	_
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Drittel	Drittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+8	7.367	7.367	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	appos	_	SpaceAfter=No
+10	)	)	PUNCT	$(	_	9	punct	_	_
+11	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+13	dabei	dabei	ADV	PAV	_	11	advmod	_	_
+14	um	um	ADP	APPR	_	15	case	_	_
+15	Aufenthaltsermittlungen	Aufenthaltsermittlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 11
+# text = In 1.387 Fällen waren die Personen zur Festnahme ausgeschrieben.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	1.387	1.387	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+7-8	zur	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Festnahme	Festnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+10	ausgeschrieben	ausgeschrieben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = ## Fluggastdatengesetz muss überarbeitet werden In Deutschland ist die Fluggastdatenspeicherung im Fluggastdatengesetz geregelt, das die EU-PNR-Richtlinie umsetzt.
+1	##	##	PUNCT	$.	_	4	punct	_	_
+2	Fluggastdatengesetz	Fluggastdatengesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	überarbeitet	überarbeiten	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	werden	werden	AUX	NE	Case=Acc|Number=Plur	4	aux:pass	_	SpacesAfter=\s\s
+6	In	in	ADP	APPR	_	7	case	_	_
+7	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Fluggastdatenspeicherung	Fluggastdatenspeicherung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Fluggastdatengesetz	Fluggastdatengesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+14	geregelt	regeln	VERB	VVPP	VerbForm=Part	4	acl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	21	punct	_	_
+16	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	21	nsubj	_	_
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	18	det	_	_
+18	EU-PNR	EU-PNR	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	flat	_	_
+21	umsetzt	umsetzen	VERB	VVPP	VerbForm=Part	4	acl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Doch die geht teilweise zu weit, urteilte der Europäische Gerichtshof (EuGH) im Juni 2022.
+1	Doch	doch	ADV	KON	_	3	advmod	_	_
+2	die	der	DET	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	teilweise	teilweise	ADV	NE	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+6	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	urteilte	urteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	obl	_	_
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	Europäische	europäisch	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	11	amod	_	_
+11	Gerichtshof	Gerichtshof	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+12	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	EuGH	EuGH	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+14	)	)	PUNCT	$(	_	13	punct	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Juni	Juni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+18	2022	2022	NUM	CARD	NumType=Card	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Es brauche eine Beschränkung der Datensammlung und ‑auswertung auf das „absolut Notwendige“, urteilte das Gericht.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Beschränkung	Beschränkung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Datensammlung	Datensammlung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	9	cc	_	_
+8	‑	‑	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+9	auswertung	auswertung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+10	auf	auf	ADP	APPR	_	14	case	_	_
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+12	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+13	absolut	absolut	ADJ	ADJD	_	14	amod	_	_
+14	Notwendige	notwendig	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+15	“	“	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	urteilte	urteilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Gericht	Gericht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = So sei etwa die Speicherdauer der PNR-Daten von fünf Jahren zu lang.
+1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	14	advmod	_	_
+2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+3	etwa	etwa	ADV	ADV	_	5	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Speicherdauer	Speicherdauer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	PNR	PNR	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	flat	_	_
+10	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+11	fünf	fünf	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	_
+13	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	mark	_	_
+14	lang	lingen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Laut der Bundesregierung arbeite das Innenministerium derzeit an einem Entwurf für eine Überarbeitung des Fluggastdatengesetzes, einen konkreten Zeitplan nannte sie nicht.
+1	Laut	laut	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Bundesregierung	Bundesregierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	arbeite	arbeien	VERB	NN	Case=Dat|Gender=Fem|Number=Sing	20	acl	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Innenministerium	Innenministerium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+7	derzeit	derzeit	ADV	ADV	_	4	advmod	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Entwurf	Entwurf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Überarbeitung	Überarbeitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Fluggastdatengesetzes	Fluggastdatengesetz	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	10	punct	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	konkreten	konkret	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	_
+19	Zeitplan	Zeitplan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+20	nannte	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	sie	sie	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	20	nsubj	_	_
+22	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 17
+# text = Ab Ende April sollen Datensätze jedoch in der Regel nur noch sechs Monate gespeichert werden – es sei denn, es handelt sich um verifizierte Treffer.
+1	Ab	ab	ADP	APPR	_	3	case	_	_
+2	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+3	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+4	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+5	Datensätze	Datensatz	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+6	jedoch	jedoch	ADV	ADV	_	14	advmod	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Regel	Regel	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+10	nur	nur	ADV	CARD	_	11	advmod	_	_
+11	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
+12	sechs	sechs	NUM	ADJD	Case=Acc|Gender=Masc|Number=Sing	13	nummod	_	_
+13	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+14	gespeichert	speichern	VERB	VVPP	VerbForm=Part	0	root	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	_
+16	–	–	PUNCT	$.	_	18	punct	_	_
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+18	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+19	denn	denn	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	_
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	handelt	handelen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+23	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+24	um	um	ADP	APPR	_	26	case	_	_
+25	verifizierte	verifiziert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	26	amod	_	_
+26	Treffer	Treffer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Ein weiterer Kritikpunkt der Richter:innen bezog sich auf die Datensammlung bei innereuropäischen Flügen.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	weiterer	weit	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Kritikpunkt	Kritikpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Richter:innen	Richter:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	bezog	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Datensammlung	Datensammlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	innereuropäischen	innereuropäisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	13	amod	_	_
+13	Flügen	Flug	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Die Richtlinie schreibt das zwar nicht vor, viele Staaten haben sie aber in ihren nationalen Gesetzen umgesetzt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
+5	zwar	zwar	ADV	ADV	_	3	advmod	_	_
+6	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	_
+7	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	3	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	viele	viel	DET	NE	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	_
+10	Staaten	Staat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	obj	_	_
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+13	aber	aber	ADV	ADV	_	11	advmod	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	17	det:poss	_	_
+16	nationalen	national	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	17	amod	_	_
+17	Gesetzen	Gesetze	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	obl	_	_
+18	umgesetzt	umsetzen	ADJ	VVPP	VerbForm=Part	3	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Sofern jedoch keine „reale und aktuelle oder vorhersehbare“ terroristische Bedrohung bestehe, verstoße dies laut EuGH gegen EU-Recht.
+1	Sofern	sofern	SCONJ	KOUS	_	13	mark	_	_
+2	jedoch	jedoch	ADV	ADV	_	13	advmod	_	_
+3	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	12	nmod	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	reale	real	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+7	aktuelle	aktuell	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	oder	oder	CCONJ	XY	_	9	cc	_	_
+9	vorhersehbare	vorhersehbar	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	“	“	PUNCT	$.	_	5	punct	_	_
+11	terroristische	terroristisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+12	Bedrohung	Bedrohung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	bestehe	bestehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	verstoße	verstoß	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+16	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	_
+17	laut	laut	ADP	APPR	_	18	case	_	_
+18	EuGH	EuGH	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	15	obl	_	_
+19	gegen	gegen	ADP	APPR	_	20	case	_	_
+20	EU	EU	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+22	Recht	Recht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	flat	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 21
+# text = Sonst dürfe die Speicherung laut dem Urteil nur für „bestimmte Flugverbindungen, bestimmte Reisemuster oder bestimmte Flughäfen“ erfolgen, „für die es Anhaltspunkte gibt, die eine solche Anwendung rechtfertigen können“.
+1	Sonst	sonst	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	20	advmod	_	_
+2	dürfe	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Speicherung	Speicherung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+5	laut	laut	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Urteil	Urteil	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
+8	nur	nur	ADV	CARD	_	12	advmod	_	_
+9	für	für	ADP	APPR	_	12	case	_	_
+10	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	12	amod	_	_
+12	Flugverbindungen	Flugverbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	bestimmte	bestimmt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	amod	_	_
+15	Reisemuster	Reisemuster	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+16	oder	oder	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	18	cc	_	_
+17	bestimmte	bestimmt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	amod	_	_
+18	Flughäfen	Flughafen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
+19	“	“	PUNCT	$.	_	18	punct	_	_
+20	erfolgen	erfolgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	„	„	PUNCT	$.	_	27	punct	_	SpaceAfter=No
+23	für	für	ADP	APPR	_	25	case	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	25	det	_	_
+25	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+26	Anhaltspunkte	Anhaltspunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	nsubj	_	_
+27	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	33	punct	_	_
+29	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	33	nsubj	_	_
+30	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	solche	solch	PRON	ADJD	_	32	det	_	_
+32	Anwendung	Anwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+33	rechtfertigen	rechtfertigen	VERB	VVINF	VerbForm=Inf	35	acl	_	_
+34	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
+35	“	“	PUNCT	$.	_	20	punct	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 22
+# text = Laut Bundesregierung wurde die deutsche Verarbeitungspraxis mittlerweile so umgestellt, dass eine Datenverarbeitung bei innereuropäischen Flügen „nur noch auf Grundlage entsprechender Einschätzungen erfolgt“.
+1	Laut	laut	ADP	APPR	_	2	case	_	_
+2	Bundesregierung	Bundesregierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+3	wurde	werden	AUX	KON	_	9	aux:pass	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Verarbeitungspraxis	Verarbeitungspraxis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+7	mittlerweile	mittlerweile	ADV	ADV	_	9	advmod	_	_
+8	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	9	advmod	_	_
+9	umgestellt	umstellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	24	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	24	mark	_	_
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Datenverarbeitung	Datenverarbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+14	bei	bei	ADP	APPR	_	16	case	_	_
+15	innereuropäischen	innereuropäisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	16	amod	_	_
+16	Flügen	Flug	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+17	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+18	nur	nur	ADV	CARD	NumType=Card	19	advmod	_	_
+19	noch	noch	ADV	CARD	NumType=Card	24	advmod	_	_
+20	auf	auf	ADP	APPR	_	21	case	_	_
+21	Grundlage	Grundlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+22	entsprechender	entsprechend	ADJ	ADV	_	23	amod	_	_
+23	Einschätzungen	Einschätzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+24	erfolgt	erfolgen	VERB	VVPP	VerbForm=Part	9	ccomp	_	SpaceAfter=No
+25	“	“	PUNCT	$.	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = ## “Grundproblem besteht weiter“ Angesichts der hohen Speicherzahlen schreibt Fragestellerin Renner gegenüber netzpolitik.org: „Das PNR-System funktioniert noch immer so wie ein Staubsauger der Daten von Millionen unbescholtener Bürgerinnen und Bürger.“
+1	##	##	PUNCT	$.	_	4	punct	_	_
+2	“	“	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+3	Grundproblem	Grundproblem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	weiter	weiter	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	“	“	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+7	Angesichts	angesicht	NOUN	APPR	_	4	nsubj	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	hohen	hoch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	10	amod	_	_
+10	Speicherzahlen	Speicherzahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	_
+11	schreibt	schreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+12	Fragestellerin	Fragestellerin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	Renner	Renner	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
+14	gegenüber	gegenüber	ADP	APPR	_	18	case	_	_
+15	netzpolitik.org:	netzpolitik.org:	PUNCT	$.	_	18	punct	_	_
+16	„	„	PUNCT	$.	_	18	punct	_	SpaceAfter=No
+17	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	PNR	PNR	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	System	System	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	_
+21	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+22	noch	noch	ADV	CARD	NumType=Card	21	advmod	_	_
+23	immer	immer	ADV	ADV	_	24	advmod	_	_
+24	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	21	advmod	_	_
+25	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	27	case	_	_
+26	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Staubsauger	Staubsauger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	27	nmod	_	_
+30	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	33	case	_	_
+31	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	33	nmod	_	_
+32	unbescholtener	unbescholten	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	33	amod	_	_
+33	Bürgerinnen	Bürgerinnen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	_
+34	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	35	cc	_	_
+35	Bürger	Bürger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	21	punct	_	SpaceAfter=No
+37	“	“	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 24
+# text = Es seien erste Ansätze zur Einschränkung und Löschung erkennbar, aber das Grundproblem bestehe weiter.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	erste	erst	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
+4	Ansätze	Ansatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nsubj	_	_
+5-6	zur	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Einschränkung	Einschränkung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+8	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	9	cc	_	_
+9	Löschung	Löschung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	conj	_	_
+10	erkennbar	erkennbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	aber	aber	CCONJ	KON	_	15	cc	_	_
+13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Grundproblem	Grundproblem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	bestehe	bestehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+16	weiter	weiter	ADV	ADV	_	15	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = „Eine ernsthafte Beschränkung der Datenerhebung bei rein innereuropäischen Flügen scheint es bislang nicht zu geben.
+1	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+2	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	ernsthafte	ernsthaft	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Beschränkung	Beschränkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Datenerhebung	Datenerhebung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	bei	bei	ADP	APPR	_	10	case	_	_
+8	rein	rein	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	9	advmod	_	_
+9	innereuropäischen	innereuropäisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	10	amod	_	_
+10	Flügen	Flüg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	_
+11	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+13	bislang	bislang	ADV	ADV	_	16	advmod	_	_
+14	nicht	nicht	PART	CARD	NumType=Card	16	advmod	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	16	mark	_	_
+16	geben	geben	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 26
+# text = Die Ampel-Koalition hatte sich vollmundig zum Schutz der Bürger und ihrer Daten verpflichtet.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ampel	Ampel	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Koalition	Koalition	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+5	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+7	vollmundig	vollmundig	ADJ	ADJD	_	16	advmod	_	_
+8-9	zum	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Schutz	Schutz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Bürger	Bürger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	15	cc	_	_
+14	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes	15	det:poss	_	_
+15	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	_
+16	verpflichtet	verpflichten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 27
+# text = Chatkontrolle, Vorratsdaten oder PNR zeigen, wie es wirklich ist“, kritisiert die Bundestagsabgeordnete.
+1	Chatkontrolle	Chatkontroll	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Vorratsdaten	Vorratsdat	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	oder	oder	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
+5	PNR	PNR	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	10	mark	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	wirklich	wirklich	ADJ	ADV	_	6	ccomp	_	_
+11	ist	sein	AUX	ADJD	_	10	cop	_	SpaceAfter=No
+12	“	“	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	kritisiert	kritisiert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Bundestagsabgeordnete	Bundestagsabgeordneter	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+

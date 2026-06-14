@@ -1,0 +1,55 @@
+---
+title: Apple begründet Aus für automatischen Foto-Scan
+author: Leonhard Pitz
+url: https://netzpolitik.org/2023/anlasslose-massenueberwachung-apple-begruendet-aus-fuer-automatischen-foto-scan/
+hostname: netzpolitik.org
+description: Bereits im Dezember hatte sich Apple von seinen Plänen zum automatischen Scannen von iCloud-Bildern verabschiedet. Nun liefert das Unternehmen eine Begründung: Es sei „praktisch unmöglich“, automatische Scans mit Privatsphäre und Sicherheit zu vereinen. Das lässt auch vor dem Hintergrund der EU-Debatte um die Chatkontrolle aufhorchen.
+sitename: netzpolitik.org
+date: 2023-09-04
+license: CC BY-NC-SA 4.0
+---
+Laut Apple ist es technisch unmöglich, Bilder in der iCloud zu scannen, ohne dabei die Privatsphäre und Sicherheit der eigenen Nutzer*innen zu gefährden. Das geht aus einer Antwort des Unternehmens an eine Kinderschutzorganisation hervor, über die *Wired* berichtet. Im Dezember des vergangenen Jahres hatte Apple sich schon von dem eigenen Plan distanziert, iCloud-Fotos automatisch auf bekannte Darstellungen von Kindesmissbrauch (Englisch: Child Sexual Abuse Material, CSAM) zu scannen. Der Brief enthält nun eine ausführlichere Begründung für den Schritt.
+
+## Tür zur Massenüberwachung
+
+Man habe sich intensiv mit Expert*innen aus den Bereichen Kinderschutz, Menschenrechte, Privatsphäre und Sicherheit ausgetauscht und Scan-Technologien „aus jedem Winkel betrachtet“, schreibt Erik Neuenschwander, Direktor für Privatsphäre und Kinderschutz bei Apple. „Das Scannen der privaten iCloud-Inhalte aller Nutzer*innen würde aus unserer Sicht schwerwiegende unbeabsichtigte Folgen haben.“
+
+Neuenschwander schreibt, Apples ursprünglicher Plan öffne die Tür zur Massenüberwachung, auch für andere Inhalte und andere Systeme: „Wie können Nutzer*innen sicher sein, dass ein Werkzeug für eine Art der Überwachung nicht umgewandelt wurde, um andere Inhalte zu überwachen, wie politische Aktivitäten oder religiöse Verfolgung?“ Apple hatte die Technologien im August 2021 angekündigt. Nach öffentlichen Protesten pausierte das Unternehmen seine Pläne für den Client-Side-Scan der iCloud einen Monat später.
+
+Zum Schutz von Kindern setzt Apple dagegen verstärkt auf das unternehmenseigene „Communication Safety“-Werkzeug. Dabei werden Bilder und Videos, die über Apple-Dienste an Kinderaccounts versendet werden, auf Nacktheit gescannt und dementsprechend unscharf angezeigt. Außerdem bekommen die Kinder Hinweise zu dem Thema und können eine Vertrauensperson kontaktieren. Im Unterschied zum CSAM-Scan in der Cloud passieren alle Scans auf dem Endgerät (Client-Side-Scanning). Die Verschlüsselung wird dabei laut der FAQ von Apple nicht umgangen.
+
+## Kinderschutzorganisation hatte Apple kritisiert
+
+Neuenschwanders Antwort ist eine Reaktion auf einen Brief von Sarah Gardner, Gründerin der Heat Initiative, einer neuen Kinderschutzorganisation, welche sich für digitale Lösungen im Kampf gegen die sexuelle Gewalt an Kindern einsetzt. Gardner beschwert sich darin, dass Apple den Plan des CSAM-Scans verworfen hat, und kündigt eine Kampagne an gegen Apples „kontinuierliche Verschleppung der Implementierung von kritischer Technologie, die Bilder und Videos von Kindesmissbrauch auf iCloud erkennen kann“.
+
+Gardner ist keine Unbekannte, sondern arbeitete für mindestens zehn Jahre bei Thorn, einer Organisation des Schauspielers Ashton Kutcher. Diese lobbyiert in der EU stark für die Chatkontrolle. Außerdem bietet Thorn selbst Technologien zum Aufspüren von CSAM an.
+
+Apples Reaktion auf Gardners Brief wird damit auch hinsichtlich der europäischen Debatte um die Chatkontrolle und um Client-Side-Scanning relevant. Apple reiht sich damit in die Stimmen ein, die durch solche Verfahren Privatsphäre und Sicherheit stark gefährdet sehen.
+
+*Hier der Brief aus dem PDF befreit:*
+
+**Date:**August 31, 2023**From:**Erik Neuenschwander, Apple**To:**Ms. Sarah Gardner, Heat Initiative
+
+Dear Ms. Gardner,
+
+Thank you for your recent letter inquiring about the ways Apple helps keep children safe. We’re grateful for the tireless efforts of the child safety community and believe that there is much good that we can do by working together. Child sexual abuse material is abhorrent and we are committed to breaking the chain of coercion and influence that makes children susceptible to it. We’re proud of the contributions we have made so far and intend to continue working collaboratively with child safety organizations, technologists, and governments on enduring solutions that help protect the most vulnerable members of our society.
+
+Our goal has been and always will be to create technology that empowers and enriches people’s lives, while helping them stay safe. With respect to helping kids stay safe, we have made meaningful contributions toward this goal by developing a number of innovative technologies. We have deepened our commitment to the Communication Safety feature that we first made available in December 2021. Communication Safety is designed to intervene and offer helpful resources to children when they receive or attempt to send messages that contain nudity. The goal is to disrupt grooming of children by making it harder for predators to normalize this behavior.
+
+In our latest releases, we’ve expanded the feature to more easily and more broadly protect children. First, the feature is on by default for all child accounts. Second, it is expanded to also cover video content in addition to still images. And we have expanded these protections in more areas across the system including AirDrop, the Photo picker, FaceTime messages, and Contact Posters in the Phone app. In addition, a new Sensitive Content Warning feature helps all users avoid seeing unwanted nude images and videos when receiving them in Messages, an AirDrop, a FaceTime video message, and the Phone app when receiving a Contact Poster. To expand these protections beyond our built-in capabilities, we have also made them available to third parties. Developers of communication apps are actively incorporating this advanced technology into their products. These features all use privacy-preserving technology — all image and video processing occurs on device, meaning Apple does not get access to the content. We intend to continue investing in these kinds of innovative technologies because we believe it’s the right thing to do.
+
+As you note, we decided to not proceed with the proposal for a hybrid client-server approach to CSAM detection for iCloud Photos from a few years ago, for a number of good reasons. After having consulted extensively with child safety advocates, human rights organizations, privacy and security technologists, and academics, and having considered scanning technology from virtually every angle, we concluded it was not practically possible to implement without ultimately imperiling the security and privacy of our users.
+
+Scanning of personal data in the cloud is regularly used by companies to monetize the information of their users. While some companies have justified those practices, we’ve chosen a very different path — one that prioritizes the security and privacy of our users. Scanning every user’s privately stored iCloud content would in our estimation pose serious unintended consequences for our users. Threats to user data are undeniably growing — globally the total number of data breaches more than tripled between 2013 and 2021, exposing 1.1 billion personal records in 2021 alone. As threats become increasingly sophisticated, we are committed to providing our users with the best data security in the world, and we constantly identify and mitigate emerging threats to users’ personal data, on device and in the cloud. Scanning every user’s privately stored iCloud data would create new threat vectors for data thieves to find and exploit.
+
+It would also inject the potential for a slippery slope of unintended consequences. Scanning for one type of content, for instance, opens the door for bulk surveillance and could create a desire to search other encrypted messaging systems across content types (such as images, videos, text, or audio) and content categories. How can users be assured that a tool for one type of surveillance has not been reconfigured to surveil for other content such as political activity or religious persecution? Tools of mass surveillance have widespread negative implications for freedom of speech and, by extension, democracy as a whole. Also, designing this technology for one government could require applications for other countries across new data types.
+
+Scanning systems are also not foolproof and there is documented evidence from other platforms that innocent parties have been swept into dystopian dragnets that have made them victims when they have done nothing more than share perfectly normal and appropriate pictures of their babies.
+
+We firmly believe that there is much good that we can do when we work together and collaboratively. As we have done in the past, we would be happy to meet with you to continue our conversation about these important issues and how to balance the different equities we have outlined above. We remain interested, for instance, in working with the child safety community on efforts like finding ways we can help streamline user reports to law enforcement, growing the adoption of child safety tools, and developing new shared resources between companies to fight grooming and exploitation. We look forward to continuing the discussion.
+
+Sincerely,
+
+Erik Neuenschwander
+
+Director, User Privacy and Child Safety

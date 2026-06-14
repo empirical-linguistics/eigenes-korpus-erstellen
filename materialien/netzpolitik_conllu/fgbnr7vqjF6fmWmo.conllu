@@ -1,0 +1,387 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, wir machen manchmal in der Redaktion Witze darüber, ein „Full House“ auf der Seite zu bekommen.
+1	Liebe	lieb	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\s\s
+4	wir	wir	PRON	ADJD	_	5	nsubj	_	_
+5	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+6	manchmal	manchmal	ADV	ADV	_	5	advmod	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Redaktion	Redaktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+10	Witze	Witze	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	appos	_	_
+11	darüber	darüber	ADV	PAV	_	5	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	22	punct	_	_
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	„	„	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+15	Full	Full	PROPN	NE	Case=Nom|Number=Sing	22	nsubj	_	_
+16	House	House	PROPN	NE	Case=Nom|Number=Sing	15	flat	_	SpaceAfter=No
+17	“	“	PUNCT	$.	_	22	punct	_	_
+18	auf	auf	ADP	APPR	_	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+21	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	22	mark	_	_
+22	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = So nennen wir es, wenn alle vier Artikel, die ganz oben angezeigt werden, eine bestimmte Eigenschaft haben.
+1	So	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	2	advmod	_	_
+2	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	wenn	wenn	SCONJ	VVFIN	_	9	mark	_	_
+7	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	9	det	_	_
+8	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	9	nummod	_	_
+9	Artikel	Artikel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj:pass	_	_
+12	ganz	ganz	ADV	ADV	_	13	advmod	_	_
+13	oben	oben	ADV	CARD	NumType=Card	14	advmod	_	_
+14	angezeigt	anzeigen	VERB	VVPP	VerbForm=Part	9	acl	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	20	punct	_	_
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	bestimmte	bestimmt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	19	amod	_	_
+19	Eigenschaft	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+20	haben	haben	VERB	VAINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vier Mal dieselbe Autor:in, vier Mal dasselbe Thema oder – wenn wir nicht gut aufpassen – vier Mal ein Beitragsbild mit Smartphone im Mittelpunkt.
+1	Vier	vier	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Mal	Mal	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nmod	_	_
+3	dieselbe	dieselbe	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
+4	Autor:in	Autor:in	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	7	nummod	_	_
+7	Mal	Mal	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nmod	_	_
+8	dasselbe	dasselbe	DET	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	amod	_	_
+9	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	_
+10	oder	oder	CCONJ	XY	_	11	cc	_	_
+11	–	–	PUNCT	$.	_	16	punct	_	_
+12	wenn	wenn	SCONJ	VVFIN	_	16	mark	_	_
+13	wir	wir	PRON	ADJD	_	16	nsubj	_	_
+14	nicht	nicht	PART	CARD	NumType=Card	16	advmod	_	_
+15	gut	gut	ADJ	ADJD	_	16	advmod	_	_
+16	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	9	advcl	_	_
+17	–	–	PUNCT	$.	_	16	punct	_	_
+18	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	19	nummod	_	_
+19	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Beitragsbild	Beitragsbild	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+22	mit	mit	ADP	$(	_	23	case	_	_
+23	Smartphone	Smartphone	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	_
+24-25	im	_	_	_	_	_	_	_	_
+24	in	in	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Mittelpunkt	Mittelpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Am Mittwoch hatten wir ein Chatkontrolle-Full-House auf der Startseite, denn da war jede Menge los.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+4	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+5	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+7	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Full	Full	PROPN	NE	Case=Nom|Number=Sing	3	flat	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	House	House	PROPN	NE	Case=Nom|Number=Sing	9	flat	_	_
+12	auf	auf	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Startseite	Startseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	3	punct	_	_
+16	denn	denn	CCONJ	KON	_	21	cc	_	_
+17	da	da	ADV	ADV	_	21	advmod	_	_
+18	war	sein	AUX	ADV	_	21	cop	_	_
+19	jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
+20	Menge	Menge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	los	los	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 5
+# text = Die in der Kritik stehende Innenkomissarin Ylva Johansson hat versucht, sich vor dem Parlament herauszureden, es gab eine Einigung des federführenden Ausschusses, wir haben Lobbyismus-Dokumente und ein Interview veröffentlicht.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Kritik	Kritiken	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+5	stehende	stehend	ADJ	ADV	_	6	amod	_	_
+6	Innenkomissarin	Innenkomissarin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	Ylva	Ylva	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
+8	Johansson	Johansson	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	_
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	versucht	versuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	_
+12	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+13	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Parlament	Parlament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+16	herauszureden	herauszureden	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+19	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Einigung	Einigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	_
+22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	federführenden	federführend	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	_
+24	Ausschusses	Ausschuß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	34	punct	_	_
+26	wir	wir	PRON	ADJD	_	34	nsubj	_	_
+27	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+28	Lobbyismus	Lobbyismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	30	compound	_	SpaceAfter=No
+29	-	-	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+30	Dokumente	Dokument	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	obj	_	_
+31	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	33	cc	_	_
+32	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	33	det	_	_
+33	Interview	Interview	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	30	conj	_	_
+34	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	19	conj	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Ganz schön viel rund um einen Gesetzesentwurf, der gerade in die entscheidende Phase geht.
+1	Ganz	ganz	PROPN	ADV	_	2	advmod	_	_
+2	schön	schön	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	viel	viel	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	advmod	_	_
+4	rund	rund	ADV	ADV	_	7	advmod	_	_
+5	um	um	ADP	APPR	_	7	case	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Gesetzesentwurf	Gesetzesentwurf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+10	gerade	gerade	ADV	ADV	_	15	advmod	_	_
+11	in	in	ADP	APPR	_	14	case	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	entscheidende	entscheidend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	Phase	Phase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obl	_	_
+15	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Gut, dass so viele Kolleg:innen sich mit dem Thema auskennen und unterstützen können.
+1	Gut	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	11	punct	_	_
+3	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+4	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	11	advmod	_	_
+5	viele	viel	DET	NE	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Kolleg:innen	Kolleg:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+8	mit	mit	ADP	$(	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+11	auskennen	auskennen	VERB	VVINF	VerbForm=Inf	1	csubj	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+13	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	11	conj	_	_
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Bei der raschen Einordnung von neuen Ereignissen, beim Schreiben und Redigieren.
+1	Bei	bei	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	raschen	rasch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Einordnung	Einordnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+5	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+6	neuen	neu	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	7	amod	_	_
+7	Ereignissen	Ereignis	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9-10	beim	_	_	_	_	_	_	_	_
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Schreiben	Schreiben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+12	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	13	cc	_	_
+13	Redigieren	Redigieren	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Gut aber auch, wenn künftig mal wieder etwas anderes die Woche dominiert.
+1	Gut	gut	ADJ	ADV	_	0	root	_	_
+2	aber	aber	CCONJ	KON	_	3	cc	_	_
+3	auch	auch	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	13	punct	_	_
+5	wenn	wenn	SCONJ	VVFIN	_	13	mark	_	_
+6	künftig	künftig	ADJ	ADJD	_	13	advmod	_	_
+7	mal	mal	ADV	ADV	_	13	advmod	_	_
+8	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	13	advmod	_	_
+9	etwas	etwas	ADV	PIS	Definite=Ind|Gender=Neut|PronType=Ind	13	advmod	_	_
+10	anderes	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	advmod	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	dominiert	dominiert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Das zweite Full House in dieser Woche hatten wir ganz im wörtlichen Sinn.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	zweite	zweit	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	Full	Full	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	2	appos	_	_
+4	House	House	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	3	flat	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+8	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+10	ganz	ganz	ADJ	ADV	_	14	amod	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	14	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	wörtlichen	wörtlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	_
+14	Sinn	Sinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Wie aufmerksame Leser:innen des letzten Wochenrückblicks bestimmt noch wissen, sind wir in ein neues Büro gezogen.
+1	Wie	wie	ADP	ADJA	_	3	case	_	_
+2	aufmerksame	aufmerksam	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
+3	Leser:innen	Leser:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	obl	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	letzten	letzt	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	6	amod	_	_
+6	Wochenrückblicks	Wochenrückblicks	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+7	bestimmt	bestimmt	ADJ	ADV	_	9	advmod	_	_
+8	noch	noch	ADV	CARD	NumType=Card	9	advmod	_	_
+9	wissen	wissen	VERB	VVINF	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	sind	sein	AUX	ADJD	_	17	aux	_	_
+12	wir	wir	PRON	ADJD	_	17	nsubj	_	_
+13	in	in	ADP	APPR	_	16	case	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	neues	neu	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	_
+16	Büro	Büro	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	_
+17	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 12
+# text = Wir haben Kisten geschleppt, Schränke aufgebaut, Kabel gesucht, gebohrt und geschraubt – während am Laptop schon die nächste Recherche gewartet hat.
+1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Kisten	Kiste	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+4	geschleppt	schleppen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	Schränke	Schrank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	aufgebaut	aufbauen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	Kabel	Kabel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	gesucht	suchen	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	gebohrt	bohren	VERB	VVPP	VerbForm=Part	10	conj	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+14	geschraubt	schrauben	VERB	VVPP	VerbForm=Part	4	conj	_	_
+15	–	–	PUNCT	$.	_	24	punct	_	_
+16	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	24	mark	_	_
+17-18	am	_	_	_	_	_	_	_	_
+17	an	an	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Laptop	Laptop	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+20	schon	schon	ADV	ADV	_	24	advmod	_	_
+21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	nächste	nah	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	23	amod	_	_
+23	Recherche	Recherche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	obj	_	_
+24	gewartet	warten	VERB	VVPP	VerbForm=Part	14	advcl	_	_
+25	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Das war ganz schön aufregend und anstrengend, aber wir haben es geschafft.
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	nsubj	_	_
+2	war	sein	AUX	ADV	_	5	cop	_	_
+3	ganz	ganz	ADV	ADV	_	5	advmod	_	_
+4	schön	schön	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	advmod	_	_
+5	aufregend	aufregend	ADJ	ADJD	_	0	root	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+7	anstrengend	anstrengend	ADJ	ADJD	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	aber	aber	CCONJ	KON	_	13	cc	_	_
+10	wir	wir	PRON	ADJD	_	13	nsubj	_	_
+11	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	geschafft	schaffen	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Am Dienstag haben wir den Umzug dann mit einem gemeinsamen, großen Frühstück gefeiert.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+5	wir	wir	PRON	ADJD	_	15	nsubj	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Umzug	Umzug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+8	dann	dann	ADV	ADV	_	15	advmod	_	_
+9	mit	mit	ADP	$(	_	14	case	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+11	gemeinsamen	gemeinsam	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	großen	groß	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	_
+14	Frühstück	Frühstück	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+15	gefeiert	feiern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 15
+# text = Wir fühlen uns wohl und sind froh, jetzt anzukommen.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
+4	wohl	wohl	ADV	NN	Case=Gen|Gender=Fem|Number=Sing|NumType=Card	2	advmod	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+6	sind	sein	AUX	ADJD	_	7	cop	_	_
+7	froh	froh	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	jetzt	jetzt	ADV	ADV	_	10	advmod	_	_
+10	anzukommen	anzukommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Die Kaffeemaschine und das Internet laufen auf jeden Fall schonmal.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Kaffeemaschine	Kaffeemaschine	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Internet	Internet	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
+6	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	schonmal	schonmal	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 17
+# text = Mehr darüber erfahrt ihr dann am Samstag in unserem Podcast von meinem Kollegen Ingo und mir.
+1	Mehr	mehr	ADV	ADV	_	2	advmod	_	_
+2	darüber	darüber	ADV	PAV	_	3	advmod	_	_
+3	erfahrt	erfahren	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	dann	dann	ADV	ADV	_	3	advmod	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+12	von	von	ADP	FM	Foreign=Yes	14	case	_	_
+13	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	14	det:poss	_	_
+14	Kollegen	Kollege	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	_
+15	Ingo	Ingo	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	appos	_	_
+16	und	und	CCONJ	NE	Foreign=Yes	17	cc	_	_
+17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Ein entspanntes Wochenende wünscht euch *anna*
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	entspanntes	entspannt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Wochenende	Wochenende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	wünscht	wünschen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	SpacesAfter=\s\s
+6	*anna	*anna	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	4	advmod	_	SpaceAfter=No
+7	*	*	X	$(	_	4	dep	_	SpacesAfter=\n
+
+

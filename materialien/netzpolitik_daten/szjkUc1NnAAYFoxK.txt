@@ -1,0 +1,54 @@
+---
+title: Es ging immer darum, Verschlüsselung zu umgehen
+author: Tomas Rudl
+url: https://netzpolitik.org/2023/chatkontrolle-es-ging-immer-darum-verschluesselung-zu-umgehen/
+hostname: netzpolitik.org
+description: Eine Gruppe von Expert:innen hat für die EU-Kommission Vorschläge erarbeitet, wie sich eine Chatkontrolle technisch umsetzen ließe. Dabei setzen die Vorschläge vor allem auf das so genannte Client-Side-Scanning, aber auch andere Formen der Überwachung verschlüsselter Kommunikation werden angedacht.
+sitename: netzpolitik.org
+date: 2023-11-16
+tags: ['Thema Chatkontrolle', 'Thema Client-Side-Scanning']
+license: CC BY-NC-SA 4.0
+---
+Die sogenannte Chatkontrolle könnte womöglich nur ein erster Schritt sein, mit der die EU-Kommission stückweise verschlüsselte Kommunikation anzugreifen versucht. Langfristig könnten etwa zwischengeschaltete Server in die Inhalte von Nachrichten hineinschauen, um Darstellungen von Kindesmissbrauch oder sonstige illegale Inhalte aufzuspüren. Das geht aus Empfehlungen hervor, die eine Gruppe von Expert:innen im Rahmen des „EU Internet Forums“ für die EU-Kommission erarbeitet hatte.
+
+Letzte Woche war bekannt geworden, dass die EU-Kommission sich sehr einseitig für ihre technische Folgenabschätzung zu dem umstrittenen Chatkotrolle-Gesetzentwurf hat beraten lassen. Den Entwurf hat EU-Innenkommissarin Ylva Johansson vor über einem Jahr vorgelegt, er richtet sich unter anderem gegen die Verbreitung von Missbrauchsinhalten über das Internet, könnte aber einer anlasslosen Überwachung auch anderer Inhalte Tür und Tor öffnen.
+
+Besonders brisant ist an dem Vorschlag, gegebenenfalls auch private Nachrichten zu durchleuchten, die eigentlich mit Ende-zu-Ende-Verschlüsselung gesichert sind. Eine Technik dafür ist als „Client-Side-Scanning“ (CSS) bekannt und gleicht Inhalte mit Datenbanken ab, bevor sie verschlüsselt und versandt werden.
+
+Das Vorhaben der EU-Kommission stand von Beginn an unter starker und bemerkenswert breiter Kritik, da damit eine neue Form anlassloser Massenüberwachung eingeführt und zugleich Verschlüsselung geschwächt würde. Kürzlich hat sich das EU-Parlament dagegen ausgesprochen, während sich die EU-Länder noch nicht auf eine gemeinsame Position einigen konnten.
+
+## Expert:innen mit Schlagseite
+
+Im Vorfeld hatte sich die EU-Kommission von über 30 Personen beraten lassen. Wie netzpolitik.org letzte Woche berichtete, hatte die Gruppe eine klare Schlagseite: Neben Vertreter:innen von Geheimdiensten und Polizeien hörte Johansson vor allem Expert:innen an, die mit Massenüberwachung nicht auf Kriegsfuß zu stehen scheinen.
+
+Nach unserer Veröffentlichung wurde uns das gesamte Dokument zugespielt, das wir im Volltext veröffentlichen. Darüber hatte bereits Politico im Jahr 2020 berichtet, dem damals veröffentlichten Dokument fehlte jedoch die Liste der Expert:innen. Das undatierte Diskussionspapier gewährt auf 28 Seiten einen Einblick in die Denkweise der Kommission und welche Handlungsoptionen sie überhaupt in Betracht zieht.
+
+## EU-Kommission gibt Ziel klar vor
+
+Von Anfang an ist klar: Es geht um die „proaktive Erkennung durch Unternehmen von Bildern, Videos und Text-basiertem Kindesmissbrauch wie Grooming oder Sextortion“. Unter Grooming versteht man die Kontaktanbahnung Erwachsener zu Minderjährigen, Sextortion ist eine Form sexueller Erpressung. Das Papier beschränkt sich auf die Untersuchung von Messenger-Diensten und auf eine „spezifische Art illegaler Inhalte, auf Kindesmissbrauch“.
+
+Der Fokus auf derartiges Material erkläre sich unter anderem daraus, dass als solche erkannte Inhalte „unabhängig vom Kontext“ seien, anders als etwa mutmaßlich terroristische Inhalte, heißt es in der Einleitung. Das ist eine bemerkenswerte Aussage, schließlich handelt es sich bei vielen Tatverdächtigen um Minderjährige oder um sonstige Nutzer:innen, die aus völlig unverfänglichen Gründen ins Visier von Online-Diensten und Polizeien geraten. Kontext, den automatisierte Werkzeuge nicht erfassen können, ist auch hier entscheidend.
+
+## Hauptproblem Verschlüsselung
+
+Das Papier bewertet denkbare Ansätze nach fünf Kriterien: Effektivität, Machbarkeit, Privatsphäre, Sicherheit und Transparenz. Als Hauptproblem verortet es Ende-zu-Ende-verschlüsselte Kommunikation, die führende Messenger-Dienste wie Signal, WhatsApp oder iMessage seit geraumer Zeit standardmäßig einsetzen. „Gibt es irgendwelche technischen Lösungen, die die Erkennung von Missbrauchsmaterial erlauben, während sie die gleichen oder vergleichbaren Vorteile von Verschlüsselung beibehalten?“, fragen die Autor:innen.
+
+Aus Sicht hunderter Wissenschaftler:innen und IT-Expert:innen fällt die Antwort darauf nicht schwer: Techniken wie CSS würden Ende-zu-Ende-Verschlüsselung und damit die Privatsphäre schwächen, der Abgleich mit Datenbanken voller digitaler Fingerabdrücke („Hashes“) sei manipulierbar und nicht zuverlässig, und automatisierte Erkennung sowie damit verbundene Fehlerraten würden unnötig Ressourcen binden, die dann dem tatsächlichen Kampf gegen Kindesmissbrauch fehlen würden.
+
+Solche Stimmen wollte die Kommission aber augenscheinlich nicht hören oder sie wurden im Bericht nicht merklich gewürdigt – so ist nicht auzuschließen, dass beispielsweise Facebooks Ex-Sicherheitschef oder manche Vertreter:innen von Google oder Microsoft, die mit am Tisch saßen, das Vorhaben kritisch sehen. Sie vertretende Wirtschaftsverbände wie CCIA oder Eco stellen sich nicht von ungefähr konsequent gegen die Aushöhlung von Verschlüsselung.
+
+### Alles netzpolitisch Relevante
+
+#### Drei Mal pro Woche als Newsletter in deiner Inbox.
+
+## Bericht ermittelt „Top 3“-Ansätze
+
+Der Bericht listet knapp ein Dutzend technisch denkbarer Ansätze auf, sie reichen vom Status Quo über Inhalteerkennung auf den Geräten beziehungsweise Servern bis hin zu relativ neuartigen Techniken wie der selektiven Überwindung sogenannter homomorpher Verschlüsselung. Einige davon, etwa letztgenannte Technik, würden noch mehr Forschung benötigen, heißt es in der Zusammenfassung. Andere Ansätze wie uneingeschränkte Ende-zu-Ende-Verschlüsselung wie bisher seien für die Lösung des Problems nicht anwendbar.
+
+Als „Top 3“-Ansätze gelten dem Papier zufolge: Inhalte werden vor ihrer Verschlüsselung auf den Geräten der Nutzer:innen in Hashes umgerechnet, während danach ein Server die Hashes mit einer Datenbank bereits gemeldeter Inhalte abgleicht. Das entspricht praktisch dem CSS-Ansatz. Zweitens in Frage käme eine ähnliche Technik, bei der die Hashes teils auf den Geräten selbst und teils auf Servern ermittelt würden. Und drittens könnten die Diensteanbieter oder Dritt-Anbieter speziell gesicherte Server, sogenannte „Secure Enclaves“, in die Kommunikation zwischenschalten. Diese hätten dann vollen Zugriff auf den Klartext derartig „verschlüsselter“ Inhalte.
+
+In ihrem Gesetzentwurf hat sich die EU-Kommission nicht auf eine genaue Technik festgelegt. Stattdessen könnten die Anbieter beliebige Technologien einsetzen, solange sie die Auflagen erfüllen und unter anderem „wirksam zur Erkennung der Verbreitung von bekannten oder neuen Darstellungen sexuellen Kindesmissbrauchs oder der Kontaktaufnahme zu Kindern“ beitragen. Alternativ könnten sie kostenlos Techniken nutzen, die ihnen ein noch einzurichtendes EU-Zentrum zur Verfügung stellen würde.
+
+Der Bericht spricht aber klare Empfehlungen aus: Sofort wäre CSS einsetzbar, notfalls könnte ein teilweises Erstellen von Hashes auf Servern stattfinden. Langfristig sollte die EU aber Geld in Forschung stecken, rät das Papier – das in der vorliegenden Fassung noch nicht vollständig finalisiert war. Erfolgsversprechend seien hierbei etwa „Secure Enclaves“ bei den Anbietern oder der Einsatz sogenannter Klassifikatoren („classifiers“). Diese könnten mit Hilfe von Machine Learning selbstständig verdächtige Inhalte aufspüren und an Behörden melden, so die Zukunftsvision.
+
+Klar wird durch das Papier in jedem Fall eines: Von Anfang an stand die Einführung einer anlasslosen Massenüberwachung im Fokus aller Bemühungen.

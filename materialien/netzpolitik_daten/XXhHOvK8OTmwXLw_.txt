@@ -1,0 +1,64 @@
+---
+title: Internet Architecture Board lehnt Client-Side-Scanning ab
+author: Markus Reuter
+url: https://netzpolitik.org/2023/chatkontrolle-internet-architecture-board-lehnt-client-side-scanning-ab/
+hostname: netzpolitik.org
+description: Das Internet Architecture Board wacht über die Internetstandards und die Architektur des Internets als Ganzes. Nun hat sich das Komitee zur Chatkontrolle und der damit verbundenen Technologie des Client-Side-Scannings geäußert – mit einem vernichtenden Urteil.
+sitename: netzpolitik.org
+date: 2023-12-20
+tags: ['Thema Chatkontrolle', 'Thema Client-Side-Scanning']
+license: CC BY-NC-SA 4.0
+---
+Die Chatkontrolle fällt auch beim Internet Architecture Board (IAB) durch. Vorschläge wie die EU-Chatkontrolle würden „einen uneingeschränkten Zugang zu privaten Inhalten vorschreiben und damit die Ende-zu-Ende-Verschlüsselung untergraben“, heißt es in einer Stellungnahme des IAB.
+
+Bei Technologien, die darauf abzielen, die Nutzerkommunikation zu scannen, gäbe es keine technische Möglichkeit, den Umfang und die Absicht des Scannens von vornherein begrenzen oder eine spätere Ausweitung der Ausspähung zu verhindern. Darüber hinaus könne insbesondere beim Scannen nach illegalen Inhalten keine Transparenz gewährleistet werden, so das IAB.
+
+Weiter heißt es:
+
+Die Einführung solcher Technologien hat Auswirkungen auf alle Nutzer des globalen Internets und schafft ein Werkzeug, das leicht als weitverbreitetes Instrument der Überwachung und Zensur missbraucht werden kann. Das bedeutet eine reale Gefahr für den freien Informationsfluss und die Sicherheit und Privatsphäre der Menschen.
+
+
+## Open-Source-Software gefährdet
+
+Weiterhin kritisiert das IAB, dass sich das clientseitige Scannen und die damit verbundenen Regularien negativ auf das offene Internet auswirken könnten. Auch könnte das clientseitige Scannen den Einsatz von Open-Source-Software einschränken und so zu einer stagnierenden Softwarelandschaft führen, in der die Nutzer:innen am Ende weniger Wahlmöglichkeiten hätten.
+
+Laut dem IAB steht die Verpflichtung zum clientseitigen Scannen in direktem Widerspruch zu der sicheren und offenen Kommunikationsplattform, die das Internet derzeit bietet. Das untergrabe jene Kernprinzipien, die das Internet durch Verschlüsselung absichern. Aus diesem Grund lehnt das IAB diese Technologien ab:
+
+Die Verpflichtung, Inhalte auf dem Gerät zu scannen, wird die Privatsphäre gefährden, die Sicherheit schwächen und die Menschenrechte auf Kommunikation, Meinungsfreiheit und freie Meinungsäußerung beeinträchtigen.
+
+
+Mit dem IAB lehnt ein weiteres wichtiges Gremium die Chatkontrolle ab. Der Widerspruch gegen Chatkontrolle und Client-Side-Scanning ist laut dem Dachverband europäischer Digitalorganisationen EDRi „beispiellos breit“.
+
+## Breiter Widerspruch gegen die Chatkontrolle
+
+Dabei ist auffällig, dass der Deutsche Kinderschutzbund wie auch Vertreter:innen von Ermittlungsbehörden das anlasslose Durchleuchten privater Dateien und Kommunikation gleichsam als unverhältnismäßig ablehnen. Diese Kritik äußern auch weltweit führende IT-Sicherheitsforscher:innen, zahlreiche Wissenschaftler:innen und der Menschenrechtskommissar der Vereinten Nationen.
+
+Die Chatkontrolle wird auch von europäischen und deutschen Datenschutzbehörden sowie von mehr als 100 internationalen Digital- und Bürgerrechtsorganisationen abgelehnt. Und während Tech-Firmen wie Apple es mittlerweile für technisch unmöglich halten, Daten automatisch zu scannen, ohne dabei die Privatsphäre und die IT-Sicherheit zu gefährden, protestieren in deutschen Fußballstadien Fans gegen diese neue Form der Massenüberwachung. Auch zwei Drittel aller Jugendlichen in Europa lehnen die Chatkontrolle ab.
+
+Bei Jurist:innen fällt das Projekt ebenfalls durch: So warnt der Deutsche Anwaltsverein vor einem „massiven Eingriff in die Freiheitsrechte“, während der Rechtsausschuss des irischen Parlaments kein gutes Haar an der Chatkontrolle lässt.
+
+Rechtlich begründete Kritik am Vorhaben kommt auch vom Juristischen Dienst des EU-Rats, der die Chatkontrolle für grundrechtswidrig hält. Eine Studie des Wissenschaftlichen Dienstes des EU-Parlaments kritisiert die Pläne ebenfalls scharf – und sogar eine Bewertung der EU-Kommission warnt vor dem Vorhaben des eigenen Hauses.
+
+
+Die Stellungnahme im Wortlaut
+
+
+## IAB Statement on Encryption and Mandatory Client-side Scanning of Content
+
+15 December 2023
+
+*A secure, resilient, and interoperable Internet benefits the public interest and supports human rights to privacy and freedom of opinion and expression. This is endangered by technologies, such as recent proposals for client-side scanning, that mandate unrestricted access to private content and therefore undermine end-to-end encryption and bear the risk to become a widespread facilitator of surveillance and censorship.*
+
+This statement is a reaction to recent policy proposals in the [United Kingdom], [European Union], [United States], and other countries that are mandating client-side scans that require access to otherwise end-to-end encrypted content. These proposals envision client-side scanning technologies that search content on devices before it is encrypted or after decryption on receipt. This would potentially be accomplished by comparison against a database maintained by an authority or by leveraging machine learning to identify previously unseen but potentially prohibited content. These envisioned mechanisms fail to consider their broader implications for Internet security.
+
+The Internet Engineering Task Force [IETF] is the leading standards development organization for the global Internet. The Internet Architecture Board [IAB] provides long-range technical direction for Internet development, ensuring the Internet continues to grow and evolve as a platform for global communication and innovation. To create and maintain the Internet as the bedrock of current secure communication, the IETF and the IAB serve as stewards of the Internet’s communication protocols and its core values of trust, openness, and fairness that underpin secure online communication. This is accomplished through a transparent process backed by consensus that is open for anybody to participate in. We encourage the continued deployment and strengthening of mechanisms that enhance privacy and security for all users of the Internet.
+
+The IETF and the IAB have published concerns about standardizing wiretaps [RFC2804], backdoors [RFC1984] [RFC3365], and surveillance [RFC7258], because these technologies reduce the security of the Internet as a whole, fail to curtail malicious actors, and reduce security for Internet users. To ensure all communication can remain properly protected, the IETF continues to develop and enhance encrypted protocols like [IPsec] at the IP layer, [TLS1.
+
+The IAB has recognised surveillance of any form as a threat to Internet user privacy, where “surveillance is the observation or monitoring of an individual’s communications or activities” [RFC6973]. As the IAB and Internet Engineering Steering Group (IESG) documented in 1996 [RFC1984], instituting governmental control into communication “provide[s] only a marginal or illusory benefit to law enforcement agencies” as any seemingly beneficial purpose can be equally used by malevolent actors or future authoritarian shifts in government administrations. The IETF community still holds true to these principles today.
+
+For technologies where the intended purpose is scanning of user communication, there is by design no technical way to limit the scope and intent of scanning, nor curtail subsequent changes in scope or intent. Further, specifically when scanning for illegal content, transparency cannot be provided. Mandating such technologies impacts all users of the global Internet and creates a tool that is straightforward to abuse as a widespread facilitator of surveillance and censorship, presenting real-world dangers to the free flow of information and the security and privacy of people. Without privacy, users cannot benefit from the Internet’s virtue to connect people and support freedom of expression.
+
+Additionally, one of the founding principles of the Internet has been its openness; the ability for any standards-compliant software to access the network of networks has been the catalyst for world-changing innovations over many decades. Mandatory use of client-side scanning, and the regulatory burden it would impose, would negatively impact this, restrict use of open-source software, and lead to a stagnant landscape where users lose choice.
+
+The IAB shares concerns about societal harms through the distribution of illegal content and criminal action on the Internet and recognizes the need to protect Internet users from such threats. However, the IAB believes that mandating client-side scanning is in direct opposition to the safe, secure and open communication platform that the Internet provides today and undermines the core principles applied by the IAB and the IETF [RFC1984], [RFC2804], [RFC6973] in order to secure the Internet through encryption. The IAB opposes technologies that foster surveillance as they weaken the user’s expectations of private communication which decreases the trust in the Internet as the core communication platform of today’s society. Mandatory client-side scanning creates a tool that is straightforward to abuse as a widespread facilitator of surveillance and censorship. Mandating on-device scanning of content will compromise privacy, weaken security, and imperil human rights to communication, freedom of expression and freedom of opinion.

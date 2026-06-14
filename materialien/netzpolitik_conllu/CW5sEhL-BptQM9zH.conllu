@@ -1,0 +1,397 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Der Chaos Communication Congress wird in seiner 37.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Chaos	Chaos	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Communication	Communicatien	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	2	flat	_	_
+4	Congress	Congress	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	flat	_	_
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	37	37	NUM	CARD	NumType=Card	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ausgabe zwischen Weihnachten und Silvester nach Hamburg ins umgebaute Hamburger CCH zurückkehren.
+1	Ausgabe	Ausgabe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	dep	_	_
+2	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	3	case	_	_
+3	Weihnachten	Weihnacht|Weihnachten	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	Silvester	silvester	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	3	conj	_	_
+6	nach	nach	ADP	CARD	_	7	case	_	_
+7	Hamburg	Hamburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+8-9	ins	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	12	case	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+10	umgebaute	umgebaut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+11	Hamburger	Hamburger	PROPN	ADJA	_	12	amod	_	_
+12	CCH	CCH	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	obl	_	_
+13	zurückkehren	zurückkehren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Nach dem diesjährigen Chaos Communication Camp hätten die Hackerinnen und Hacker Lust und Bedarf nach mehr Austausch, Themen, Workshops und mehr Party, verkündet der CCC.
+1	Nach	nach	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	diesjährigen	diesjährig	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	_
+4	Chaos	Chaos	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+5	Communication	Communicatien	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	appos	_	_
+6	Camp	Camp	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	5	flat	_	_
+7	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Hackerinnen	Hackerinnen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+10	und	und	CCONJ	NE	Foreign=Yes	11	cc	_	_
+11	Hacker	Hacker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+12	Lust	Lust	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+13	und	und	CCONJ	NE	Foreign=Yes	14	cc	_	_
+14	Bedarf	Bedarf	NOUN	NE	Foreign=Yes	12	conj	_	_
+15	nach	nach	ADP	CARD	_	17	case	_	_
+16	mehr	mehr	ADV	ADV	_	17	advmod	_	_
+17	Austausch	Austausch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	26	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	Workshops	Workshop	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
+22	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	24	cc	_	_
+23	mehr	mehr	ADV	ADV	_	24	advmod	_	_
+24	Party	Party	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	19	punct	_	_
+26	verkündet	verkünden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
+27	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	CCC	CCC	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Weiter heißt es in der Mitteilung: Die digitale Welt ist mal wieder im Umbruch: noch mehr Auftragshacks, noch mehr Staatstrojaner vor dem Bundesverfassungsgericht, noch mehr KI-Hyper-Hyper samt irren Ideen wie der Chatkontrolle und noch mehr Polithampel, die nur nach Lobbyversprechungen entscheiden.
+1	Weiter	weiter	ADV	ADV	_	2	advmod	_	_
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Mitteilung	Mitteilung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+8	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	digitale	digital	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	Welt	Welt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	mal	mal	ADV	ADV	_	13	advmod	_	_
+13	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	2	advmod	_	_
+14-15	im	_	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Umbruch	Umbruch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+17	:	:	PUNCT	$.	_	19	punct	_	_
+18	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	19	advmod	_	_
+19	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	45	advmod	_	_
+20	Auftragshacks	Auftragshack	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	24	punct	_	_
+22	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	23	advmod	_	_
+23	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	24	det	_	_
+24	Staatstrojaner	Staatstrojaner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	conj	_	_
+25	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	27	case	_	_
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	Bundesverfassungsgericht	Bundesverfassungsgericht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	31	punct	_	_
+29	noch	noch	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	31	cc	_	_
+30	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	31	det	_	_
+31	KI	KI	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+32	-	-	PUNCT	$(	_	33	punct	_	SpaceAfter=No
+33	Hyper	Hyper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	SpaceAfter=No
+34	-	-	PUNCT	$(	_	35	punct	_	SpaceAfter=No
+35	Hyper	Hyper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	_
+36	samt	samt	ADP	APPR	_	38	case	_	_
+37	irren	irren	ADJ	NN	Case=Gen|Gender=Masc|Number=Plur	38	amod	_	_
+38	Ideen	Idee	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
+39	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	41	case	_	_
+40	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+42	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	44	cc	_	_
+43	noch	noch	ADV	NE	Case=Dat|Gender=Fem|Number=Sing	44	advmod	_	_
+44	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	19	conj	_	_
+45	Polithampel	Polithampel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+46	,	,	PUNCT	$,	_	51	punct	_	_
+47	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	51	nsubj	_	_
+48	nur	nur	ADV	CARD	NumType=Card	51	advmod	_	_
+49	nach	nach	ADP	XY	NumType=Card	50	case	_	_
+50	Lobbyversprechungen	Lobbyversprechung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	51	obl	_	_
+51	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	45	acl	_	SpaceAfter=No
+52	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Dagegen hilft nur: sich informieren, sich positive Impulse für eine lebenswerte digitale Zukunft holen und lernen, was mit universellen Computern alles möglich ist.
+1	Dagegen	dagegen	ADV	PAV	_	2	advmod	_	_
+2	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	CARD	NumType=Card	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	6	punct	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+6	informieren	informieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+9	positive	positiv	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	amod	_	_
+10	Impulse	Impuls	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+11	für	für	ADP	APPR	_	15	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	lebenswerte	lebenswert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+14	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+16	holen	holen	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	lernen	lernen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+21	mit	mit	ADP	$(	_	23	case	_	_
+22	universellen	universell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	23	amod	_	_
+23	Computern	Computer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	nmod	_	_
+24	alles	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	25	nsubj	_	_
+25	möglich	möglich	ADJ	ADJD	_	6	acl	_	_
+26	ist	sein	AUX	ADJD	_	25	cop	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s
+
+# sent_id = 6
+# text = Während des Neubaus und Umbaus der Hamburger Veranstaltungsfläche hatte der CCC seine Konferenz drei Mal in der Messe Leipzig ausgerichtet.
+1	Während	während	ADP	KOUS	_	3	case	_	_
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Neubaus	Neubau	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+4	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	5	cc	_	_
+5	Umbaus	Umbaus	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	Hamburger	Hamburger	PROPN	ADJA	_	8	amod	_	_
+8	Veranstaltungsfläche	Veranstaltungsfläche	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+9	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	CCC	CCC	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nsubj	_	_
+12	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	13	det:poss	_	_
+13	Konferenz	Konferenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obj	_	_
+14	drei	drei	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Messe	Messe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+19	Leipzig	Leipzig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	appos	_	_
+20	ausgerichtet	ausrichten	ADJ	VVPP	VerbForm=Part	9	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 7
+# text = Nun freue man sich auf das vertraute, aber modern umgestaltete Gebäude: „Die dort für uns verfügbare Fläche beträgt zwar nur knapp ein Fünftel dessen, was der CCC im Congress Center Leipzig bespielt hat, dafür sind die Wege aber auch vertikal und deutlich kürzer und die zu heizenden Räume übersichtlicher.
+1	Nun	nun	ADV	ADV	_	2	advmod	_	_
+2	freue	freuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+5	auf	auf	ADP	APPR	_	12	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+7	vertraute	vertraut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	aber	aber	CCONJ	KON	_	12	cc	_	_
+10	modern	modern	ADJ	NE	NumType=Card	12	amod	_	_
+11	umgestaltete	umgestaltet	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	12	amod	_	_
+12	Gebäude	Gebäude	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	21	punct	_	_
+14	„	„	PUNCT	$.	_	21	punct	_	SpaceAfter=No
+15	Die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nsubj	_	_
+16	dort	dort	ADV	ADV	_	21	advmod	_	_
+17	für	für	ADP	APPR	_	18	case	_	_
+18	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+19	verfügbare	verfügbar	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_
+20	Fläche	Fläche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	beträgt	betragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+22	zwar	zwar	ADV	ADV	_	21	advmod	_	_
+23	nur	nur	ADV	CARD	NumType=Card	24	advmod	_	_
+24	knapp	knapp	ADJ	ADJD	_	26	amod	_	_
+25	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Fünftel	Fünftel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	obj	_	_
+27	dessen	der	PRON	PDS	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	26	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	27	punct	_	_
+29	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	37	nsubj	_	_
+30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	CCC	CCC	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	im	_	_	_	_	_	_	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Congress	Congress	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	37	obl	_	_
+35	Center	Center	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	34	flat	_	_
+36	Leipzig	Leipzig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	34	flat	_	_
+37	bespielt	bespielen	VERB	VVPP	VerbForm=Part	27	acl	_	_
+38	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
+39	,	,	PUNCT	$,	_	46	punct	_	_
+40	dafür	dafür	ADV	PAV	_	46	advmod	_	_
+41	sind	sein	AUX	ADJD	_	46	cop	_	_
+42	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	Wege	Weg	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	46	nsubj	_	_
+44	aber	aber	ADV	ADV	_	46	advmod	_	_
+45	auch	auch	ADV	ADV	_	46	advmod	_	_
+46	vertikal	vertikal	ADJ	ADJA	_	21	conj	_	_
+47	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	49	cc	_	_
+48	deutlich	deutlich	ADJ	ADJD	_	49	advmod	_	_
+49	kürzer	kurz	ADJ	ADJD	_	46	conj	_	_
+50	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	55	cc	_	_
+51	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+52	zu	zu	PART	NN	Case=Gen|Gender=Fem|Number=Plur	53	mark	_	_
+53	heizenden	heizenden	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	54	acl	_	_
+54	Räume	Raum	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	55	nsubj	_	_
+55	übersichtlicher	übersichtlich	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	21	conj	_	SpaceAfter=No
+56	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Die Besucher können dank der Lage mitten in Hamburg auf die reichlich vorhandene Infrastruktur an Unterkünften und Verpflegung zurückgreifen.“
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Besucher	Besucher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+4	dank	dank	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Lage	Lage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+7	mitten	mitten	ADV	ADV	_	9	advmod	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Hamburg	Hamburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+10	auf	auf	ADP	APPR	_	14	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+12	reichlich	reichlich	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	_
+13	vorhandene	vorhanden	ADJ	NE	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	_
+14	Infrastruktur	Infrastruktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obl	_	_
+15	an	an	ADP	APPR	_	16	case	_	_
+16	Unterkünften	Unterkunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	14	nmod	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	Verpflegung	Verpflegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+19	zurückgreifen	zurückgreifen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Es können laut Ankündigung weniger Besucher:innen als in Vor-Corona-Zeiten am Kongress teilnehmen, auch werde das Vortragsprogramm auf weniger Bühnen stattfinden als früher.
+1	Es	es	PRON	PPER	PronType=Prs	17	expl	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+3	laut	laut	ADP	ADJD	_	4	case	_	_
+4	Ankündigung	Ankündigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+5	weniger	wenig	DET	PIAT	Definite=Ind|PronType=Ind	6	amod	_	_
+6	Besucher:innen	Besucher:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obj	_	_
+7	als	als	ADP	KOKOM	_	11	case	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	Vor	vor	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Corona	Corona	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Zeiten	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	flat	_	_
+14-15	am	_	_	_	_	_	_	_	_
+14	an	an	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Kongress	Kongreß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+17	teilnehmen	teilnehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	26	punct	_	_
+19	auch	auch	ADV	ADV	_	26	advmod	_	_
+20	werde	werden	AUX	NN	Case=Nom|Gender=Neut|Number=Plur	26	aux	_	_
+21	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Vortragsprogramm	Vortragsprogramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	nsubj	_	_
+23	auf	auf	ADP	APPR	_	25	case	_	_
+24	weniger	wenig	DET	PIAT	Definite=Ind|PronType=Ind	25	amod	_	_
+25	Bühnen	Bühne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obl	_	_
+26	stattfinden	stattfinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+27	als	als	ADP	KOKOM	_	26	compound:prt	_	_
+28	früher	früher	ADJ	ADJD	_	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 10
+# text = In Leipzig hatten etwa 17.000 Menschen den Congress besucht, in Hamburg waren es zum Höhepunkt etwa 13.000 Menschen.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Leipzig	Leipzig	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+3	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+4	etwa	etwa	ADV	ADV	_	5	advmod	_	_
+5	17.000	17.000	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Congress	Congress	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+9	besucht	besuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	20	punct	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Hamburg	Hamburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+13	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+15-16	zum	_	_	_	_	_	_	_	_
+15	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Höhepunkt	Höhepunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+18	etwa	etwa	ADV	ADV	_	19	advmod	_	_
+19	13.000	13.000	NUM	CARD	NumType=Card	20	nummod	_	_
+20	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Inhalte für die „traditionsreichste deutsche IT-Sicherheits- und Technikkompetenzkonferenz“ (Eigenbeschreibung) können zu einem späteren Zeitpunkt in einem Call for Papers eingereicht werden.
+1	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	27	nsubj:pass	_	_
+2	für	für	ADP	APPR	_	9	case	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+4	„	„	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+5	traditionsreichste	traditionsreich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+6	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+7	IT	It	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Sicherheits	Sicherheits	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	12	punct	_	_
+11	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	12	cc	_	_
+12	Technikkompetenzkonferenz	Technikkompetenzkonferenz	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	15	punct	_	_
+14	(	(	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Eigenbeschreibung	Eigenbeschreibung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
+16	)	)	PUNCT	$(	_	15	punct	_	_
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+18	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	späteren	spät	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	21	amod	_	_
+21	Zeitpunkt	Zeitpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+22	in	in	ADP	APPR	_	24	case	_	_
+23	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Call	Call	PROPN	NN	Foreign=Yes	27	obl	_	_
+25	for	for	PROPN	NE	Foreign=Yes	24	flat	_	_
+26	Papers	Papers	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	24	flat	_	_
+27	eingereicht	einreichen	VERB	VVPP	VerbForm=Part	0	root	_	_
+28	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	27	aux:pass	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	27	punct	_	_
+
+# sent_id = 12
+# text = Der Ticketverkauf findet im Vorfeld statt, die Veranstaltung wird vermutlich wie in den Vorjahren ausverkauft sein.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Ticketverkauf	Ticketverkauf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Vorfeld	Vorfeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+7	statt	statt	ADP	ADV	_	3	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	17	punct	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Veranstaltung	Veranstaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	aux	_	_
+12	vermutlich	vermutlich	ADJ	ADV	_	17	advmod	_	_
+13	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	16	case	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Vorjahren	Vorjahren	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	_
+17	ausverkauft	ausverkaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	sein	sein	AUX	VAINF	VerbForm=Inf	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Informationen zum Congress und dem Vorverkauf, sowie Möglichkeiten sich einzubringen, gibt es auf dem Veranstaltungsblog des CCC.
+1	Informationen	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+2-3	zum	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Congress	Congress	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	_
+5	und	und	CCONJ	NE	Foreign=Yes	7	cc	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vorverkauf	Vorverkauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Masc|Number=Sing	12	cc	_	_
+10	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+11	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+12	einzubringen	einzubringen	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+16	auf	auf	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Veranstaltungsblog	Veranstaltungsblog	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	CCC	CCC	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+

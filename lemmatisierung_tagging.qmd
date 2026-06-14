@@ -1,0 +1,193 @@
+# Zusätzliche Optionen: Lemmatisierung und POS-Tagging
+
+Optional können wir die Daten auch automatisch lemmatisieren und mit <dfn><abbr title="Parts of Speech (Wortarten)">POS</abbr></dfn>-Tags versehen. Für die Fragestellung, der wir in unserem Beispiel nachgegangen sind, ist das zwar zunächst nicht unmittelbar relevant, es kann aber sehr nützlich sein, wenn wir quantitative Verfahren auf die Daten anwenden wollen. Dafür nutzen wir die [`spacyr`](https://spacyr.quanteda.io/)-Programmbibliothek. Wenn Sie sie noch nicht installiert haben, müssen Sie sie zunächst mit
+
+```{r}
+#| eval: false
+install.packages("spacyr")
+```
+
+installieren und zudem der Anleitung unter <https://spacyr.quanteda.io/> folgen und über `spacy_install()` Spacy installieren. Außerdem müssen wir noch ein Modell fürs Deutsche installieren, weil `spacy_install()` zunächst nur das englische en_core_web_sm-Modell mitinstalliert. Die aktuell verfügbaren Modelle finden Sie [hier](https://github.com/explosion/spacy-models), suchen Sie ggf. unter "Releases" nach "de_core".
+
+Wir verwenden hier das de_core_news_sm-Modell. sm steht für small, news weist darauf hin, dass es auf News-Daten trainiert wurde.
+
+```{r}
+#| eval: false
+
+library(spacyr)
+spacy_download_langmodel("de_core_news_sm")
+```
+
+```{r}
+#| include: false
+library(spacyr)
+```
+
+Alternativ oder ergänzend können wir unsere Daten auch mit UDPipe annotieren. UDPipe bietet eine NLP-Schnittstelle für [Universal Dependencies](https://universaldependencies.org/), ein Framework, das sich in den letzten Jahren als Standard für die sprachübergreifende Annotation von Daten vor allem im Bereich des syntaktischen Taggings entwickelt hat. Auch hier müssen Sie ggf. zunächst mit
+
+```{r}
+#| eval: false
+install.packages("udpipe")
+
+```
+
+das entsprechende Paket installieren und anschließend die passenden Sprachmodelle herunterladen und laden.
+
+```{r}
+#| eval: false
+library(udpipe)
+udpipe_download_model("german-gsd")
+udpipe_model <- udpipe_load_model("german-gsd-ud-2.5-191206.udpipe")
+```
+
+```{r}
+#| include: false
+
+library(udpipe)
+```
+
+## Liste mit Metadaten
+
+Bevor wir weiterarbeiten, werten wir aber zunächst die Metadaten aus, die in den von Trafilatura gecrawlten Dateien enthalten sind – auch das haben wir zuvor in @sec-quickandairty manuell gemacht.
+
+```{r}
+library(tidyverse) # <1> 
+
+# Liste aller Dateien
+f <- list.files("materialien/netzpolitik_daten/", full.names = TRUE) # <2>
+
+# über alle Dateien iterieren
+for(i in 1:length(f)) {
+  # Datei einlesen
+  d <- readLines(f[i])
+  
+  # Header auslesen
+  hdr <- grep("---", d[1:20]) # <3>
+  
+  # Metadaten in Tabelle überführen
+  cur_tbl <- separate_wider_delim(tibble(x = d[(hdr[1]+1):(hdr[2]-1)]), cols = x, delim =  ": ", names = c("type", "text"), too_many = "drop") # <4>
+  
+  # transponieren
+  cur_tbl <- as_tibble(t(cur_tbl[,2])) %>% set_names(unname(as_vector(cur_tbl[,1]))) # <5>
+  
+  # Dateinamen hinzufügen
+  cur_tbl$file <- f[i] # <6>
+  
+  # zu Gesamttabelle hinzufügen
+  if(i == 1) { # <7>
+    all_tbl <- cur_tbl
+  } else {
+    all_tbl <- bind_rows(all_tbl, cur_tbl)
+  }
+  
+  # Fortschritt anzeigen (bei Bedarf auskommentieren)
+  # print(i) # <8>
+}
+
+
+# resultierende Tabelle
+all_tbl |> DT::datatable()
+
+
+```
+
+1.  brauchen wir für einige der unten angewandten Funktionen, u.a. die `separate_wider_delim`-Funktion
+2.  erstellt eine Liste mit den Dateien, die im nächsten Schritt eingelesen werden.
+3.  Mit \`---\` wird in den Trafilatura-Ergebnisdateien der Header mit Metadaten abgegrenzt. Für den unwahrscheinlichen Fall, dass irgendwo im Text noch der String \`---\` vorkommt, durchsuchen wir nur die ersten 20 Zeilen.
+4.  Dieser Code überführt die Metadaten-Zeilen in eine Tabelle, indem er da, wo in den Metadaten der erste Doppelpunkt steht, quasi eine Spaltengrenze setzt.
+5.  Hier wird die Tabelle transponiert, damit sie, wenn die nächsten Datenpunkte dazukommen, nicht "nach rechts" wächst, sondern "nach unten".
+6.  Es ist immer nützlich, den Dateinamen in eine solche Tabelle mit aufzunehmen, damit man die richtige Datei mit den passenden Metadaten verknüpfen kann.
+7.  In dem Loop werden die Metadaten Datei für Datei extrahiert; es entsteht jeweils quasi eine eigene Tabelle (`tbl_cur`). Hier werden diese Einzeltabellen zu einer Gesamttabelle zusammengeführt.
+8.  Das kann für größere Loops nützlich sein, insbesondere zum Troubleshooting, weil man dann unmittelbar sieht, bei welcher Iteration es zu Problemen gekommen ist.
+
+## Tagging mit Spacy
+
+Nun können wir die Daten lemmatisieren und POS-taggen; Spacy kann außerdem noch Tags für sog. Named Entities hinzufügen. Hier sehen wir zunächst für eine einzelne Datei, wie das geht:
+
+```{r}
+
+# Datei einlesen
+d <- readLines(f[1])
+
+# Header finden
+hdr <- grep("---", d[1:20])
+
+# Header entfernen
+d <- d[(hdr[2]+1):length(d)]
+
+# parsen
+spacy_parse(d)
+
+```
+
+Mit einem einfachen Loop können wir dieses Verfahren natürlich nicht nur auf eine, sondern auf alle Dateien anwenden und diese dann auch exportieren.
+
+```{r}
+#| eval: false
+
+for(i in 1:length(f)) {
+  # Datei einlesen
+  d <- readLines(f[i])
+  
+  # Header finden
+  hdr <- grep("---", d[1:20])
+  
+  # Header entfernen
+  d <- d[(hdr[2]+1):length(d)]
+  
+  # parsen
+  tbl_cur <- spacy_parse(d)
+  
+  # exportieren
+  
+  write_csv(tbl_cur, paste0("materialien/netzpolitik_spacy_parsed/", gsub(".*/|\\.txt", "", f[i]), ".csv"))
+
+  # Fortschritt tracken (ggf. auskommentieren)
+  print(i)
+}
+
+```
+
+::: callout-tip
+Für alle, die mit der [Corpus Workbench (CWB)](https://cwb.sourceforge.io/) arbeiten, lassen sich auf diese Weise auch mit kleinen Modifikationen des obigen Codes [VRT-Dateien](https://www.bubenhofer.com/korpuslinguistik/kurs/index.php?id=cwb_importieren.html) erstellen.
+:::
+
+## Tagging mit UDPipe
+
+Auch mit UDPipe können wir POS-Tags erstellen, aber auch syntaktische Dependenzannotationen; darüber hinaus können wir die Daten im CoNNL-U-Format exportieren, das mit vielen Annotationsprogrammen (z.B. INCEpTION) kompatibel ist.
+
+```{r}
+#| eval: false
+
+# über alle Dateien iterieren
+for(i in 1:length(f)) {
+  # Datei einlesen
+  d <- readLines(f[i])
+  
+  # Header finden
+  hdr <- grep("---", d[1:20])
+  
+  # Header entfernen
+  d <- d[(hdr[2]+1):length(d)]
+  
+  # alles in eine Zeile
+  d <- paste0(d, collapse = " ") # <1>
+  
+  # annotiertes Dokument erstellen
+  d_annotated <- udpipe_annotate(object = udpipe_model, x = d, doc_id = gsub(".*/|\\.txt", "", f[1]))
+  
+  # annotertes Dokument exportieren
+  d_annotated$conllu |> writeLines(paste0("materialien/netzpolitik_conllu/", gsub(".*/|\\.txt", "", f[i]), ".conllu"))
+  
+  # Fortschritt tracken (ggf. auskommentieren)
+  # print(i)
+}
+
+
+```
+
+1.  Für die korrekte Erstellung des CoNLL-U-Outputs ist es wichtig, dass der Vektor, der als Input für `udpipe_annotate` verwendet wird, die Länge 1 hat. Das erreichen wir, indem wir mit dem `paste`-Argument den gesamten Text sozusagen in eine Zeile packen.
+
+Die so entstehenden CoNLL-U-Dokumente können wir dann z.B. auch in INCEpTION zur weiteren Bearbeitung öffnen.
+
+![Öffnen von CoNLL-U-Dateien in INCEpTION](images/inception_ud.gif){fig-alt="Der Screencast zeigt, wie ein neues Projekt mit der Einstellung \"Universal Dependencies\" in INCEpTION angelegt wird. Anschließend werden die über den Code weiter oben erstellten CoNLL-U-Dateien eingelesen. Im Annotations-Interface wird das syntaktische Parsing der Dateien bereits automatisch visualisiert."}

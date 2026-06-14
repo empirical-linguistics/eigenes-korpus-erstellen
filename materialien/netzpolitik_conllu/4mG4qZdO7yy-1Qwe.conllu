@@ -1,0 +1,604 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Heute erzähle ich euch alles über „Verschlüsselung“.
+1	Heute	heute	ADV	ADV	_	2	advmod	_	_
+2	erzähle	erzählen	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+5	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	obj	_	_
+6	über	über	ADP	NN	Foreign=Yes	8	case	_	_
+7	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+8	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Wisst ihr, das ist wie ein Geheimcode, den nur ihr und eure Freund:innen verstehen können!
+1	Wisst	wisst	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	8	case	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Geheimcode	Geheimcode	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
+11	nur	nur	ADV	CARD	NumType=Card	16	advmod	_	_
+12	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+14	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
+15	Freund:innen	Freund:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	_
+16	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	8	acl	_	_
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Verschlüsselung sorgt dafür, dass eure Nachrichten im Internet sicher bleiben und nur von denen gelesen werden können, für die sie bestimmt sind.
+1	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	sorgt	sorgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dafür	dafür	PRON	PAV	_	2	dep	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+6	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	amod	_	_
+7	Nachrichten	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+11	sicher	sicher	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+12	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	17	cc	_	_
+14	nur	nur	ADV	CARD	_	17	advmod	_	_
+15	von	von	ADP	FM	Foreign=Yes	16	case	_	_
+16	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	17	obl	_	_
+17	gelesen	lesen	VERB	VVPP	VerbForm=Part	12	conj	_	_
+18	werden	werden	AUX	NE	Case=Acc|Number=Plur	17	aux:pass	_	_
+19	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	_
+21	für	für	ADP	APPR	_	22	case	_	_
+22	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	nmod	_	_
+23	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	bestimmt	bestimmen	ADJ	ADJD	_	12	acl	_	_
+25	sind	sein	AUX	ADJD	_	24	cop	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Cool, oder?
+1	Cool	cool	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	oder	oder	CCONJ	XY	_	4	cc	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Und wisst ihr, was ‚Phishing’ ist?
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	wisst	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	‚	‚	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+7	Phishing	Phishing	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	’	’	PUNCT	$.	_	7	punct	_	_
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Nein, wir gehen nicht angeln!
+1	Nein	nein	PART	PTKANT	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	wir	wir	PRON	ADJD	_	6	nsubj	_	_
+4	gehen	gehen	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	angeln	angeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Das ist, wenn Betrüger versuchen, an eure persönlichen Daten zu kommen, indem sie sich als vertrauenswürdige Unternehmen ausgeben.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	wenn	wenn	SCONJ	VVFIN	_	6	mark	_	_
+5	Betrüger	Betrüger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+6	versuchen	versuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	an	an	ADP	APPR	_	11	case	_	_
+9	eure	euer	DET	ADJA	Case=Acc|Gender=Fem|Number=Plur	11	det	_	_
+10	persönlichen	persönlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	11	amod	_	_
+11	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	_
+12	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	mark	_	_
+13	kommen	kommen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	indem	indem	SCONJ	KOUS	_	21	mark	_	_
+16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+18	als	als	ADP	KOKOM	_	20	case	_	_
+19	vertrauenswürdige	vertrauenswürdig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	_
+20	Unternehmen	Unternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	_
+21	ausgeben	ausgeben	VERB	VVPP	VerbForm=Part	6	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Also, wenn euch jemand per E‑Mail nach eurem Passwort fragt, seid vorsichtig und meldet es sofort!
+1	Also	also	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	13	punct	_	_
+3	wenn	wenn	SCONJ	VVFIN	_	13	mark	_	_
+4	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	_
+5	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	13	nsubj	_	_
+6	per	per	ADP	ADJA	Case=Gen|Gender=Fem|Number=Plur	9	case	_	_
+7	E	E	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	9	compound	_	SpaceAfter=No
+8	‑	‑	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+9	Mail	Mail	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+10	nach	nach	ADP	CARD	_	12	case	_	_
+11	eurem	eur	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	12	det:poss	_	_
+12	Passwort	Paßwort	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+13	fragt	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	seid	seid	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	16	advmod	_	_
+16	vorsichtig	vorsichtig	ADJ	ADJD	_	13	conj	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+18	meldet	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	sofort	sofort	ADV	ADJD	_	18	advmod	_	SpaceAfter=No
+21	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 9
+# text = Das check ich für euch!
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	check	checken	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Wisst ihr, was ‚Cybermobbing’ ist?
+1	Wisst	Wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	was	was	PRON	NE	Foreign=Yes	7	nsubj	_	_
+5	‚	‚	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+6	Cybermobbing	Cybermobbing	PROPN	NE	Foreign=Yes	7	nsubj	_	SpaceAfter=No
+7	’	’	PUNCT	$.	_	1	acl	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Das ist, wenn jemand euch im Internet beleidigt oder bedroht.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	wenn	wenn	SCONJ	VVFIN	_	10	mark	_	_
+5	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	_
+6	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
+10	beleidigt	beleidigt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	oder	oder	CCONJ	XY	_	12	cc	_	_
+12	bedroht	bedrohen	ADJ	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 12
+# text = Das ist überhaupt nicht cool!
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	überhaupt	überhaupt	ADV	ADV	_	4	advmod	_	_
+4	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	_
+5	cool	cool	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Wenn euch das passiert, sprecht mit euren Eltern oder Lehrern darüber.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	passiert	passieren	ADJ	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	sprecht	sprechen	VERB	ADJD	_	4	acl	_	_
+7	mit	mit	ADP	CARD	NumType=Card	9	case	_	_
+8	euren	euer	ADJ	NN	Case=Dat|Gender=Masc|Number=Plur	9	amod	_	_
+9	Eltern	Eltern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+10	oder	oder	CCONJ	XY	_	11	cc	_	_
+11	Lehrern	Lehrer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	_
+12	darüber	darüber	ADV	PAV	_	6	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Gemeinsam können wir Cybermobbing stoppen!
+1	Gemeinsam	gemeinsam	ADJ	ADJD	_	5	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	wir	wir	PRON	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Cybermobbing	Cybermobbing	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+5	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Außerdem möchte ich über die Sicherheit von öffentlichen WLAN-Netzwerken sprechen.
+1	Außerdem	außerdem	ADV	PAV	_	12	advmod	_	_
+2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+4	über	über	ADP	FM	Foreign=Yes	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+7	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+8	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	9	amod	_	_
+9	WLAN	WLAN	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Netzwerken	Netzwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	flat	_	_
+12	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 16
+# text = Wisst ihr, wenn ihr in einem Café oder Park WLAN benutzt, können Hacker eure Daten ausspionieren!
+1	Wisst	Wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
+5	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Café	Café	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+9	oder	oder	CCONJ	NE	Case=Dat|Gender=Masc|Number=Sing	10	cc	_	_
+10	Park	Park	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	8	conj	_	_
+11	WLAN	WLAN	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	appos	_	_
+12	benutzt	benutzen	VERB	VVPP	VerbForm=Part	1	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	Hacker	Hacker	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+18	ausspionieren	ausspionieren	VERB	VVINF	VerbForm=Inf	1	conj	_	SpaceAfter=No
+19	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 17
+# text = Also seid vorsichtig und verbindet euch nur mit sicheren Netzwerken oder benutzt ein VPN, um euch zu schützen.
+1	Also	also	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+2	seid	seid	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+3	vorsichtig	vorsichtig	ADJ	ADJD	_	0	root	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	verbindet	verbinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
+7	nur	nur	ADV	CARD	NumType=Card	10	advmod	_	_
+8	mit	mit	ADP	$,	NumType=Card	10	case	_	_
+9	sicheren	sicher	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	amod	_	_
+10	Netzwerken	Netzwerk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
+11	oder	oder	CCONJ	XY	_	12	cc	_	_
+12	benutzt	benutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	VPN	VPN	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	um	um	ADP	KOUI	_	19	mark	_	_
+17	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	19	obj	_	_
+18	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	mark	_	_
+19	schützen	schützen	VERB	VVINF	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Überhaupt ist es wichtig, eure Privatsphäre im Internet zu schützen.
+1	Überhaupt	überhaupt	ADV	ADV	_	2	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	eure	euer	ADJ	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	amod	_	_
+7	Privatsphäre	Privatsphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Internet	Internet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+11	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	mark	_	_
+12	schützen	schützen	VERB	VVINF	VerbForm=Inf	4	csubj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Wenn ihr Fotos, Videos oder persönliche Informationen online teilt, könnten sie in die falschen Hände geraten.
+1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+2	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+3	Fotos	Fotos	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Videos	Video	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	conj	_	_
+6	oder	oder	CCONJ	XY	_	8	cc	_	_
+7	persönliche	persönlich	ADJ	XY	_	8	amod	_	_
+8	Informationen	Informatione	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	conj	_	_
+9	online	online	ADJ	NN	Case=Dat|Number=Sing	10	advmod	_	_
+10	teilt	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+13	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	falschen	falsch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Hände	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
+18	geraten	geraten|raten	VERB	VVFIN	VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 20
+# text = Also denkt immer zweimal nach, bevor ihr etwas postet und achtet darauf, wer eure Beiträge sehen kann!
+1	Also	also	ADV	ADV	_	2	advmod	_	_
+2	denkt	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	4	advmod	_	_
+4	zweimal	zweimal	ADV	XY	_	2	advmod	_	_
+5	nach	nach	ADP	CARD	NumType=Card	2	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	bevor	bevor	SCONJ	KOUS	_	10	mark	_	_
+8	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	etwas	etwas	ADV	PIS	Definite=Ind|PronType=Ind	10	advmod	_	_
+10	postet	postet	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+12	achtet	achten	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	darauf	darauf	ADV	PAV	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	18	nsubj	_	_
+16	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	Beiträge	Beitrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+18	sehen	sehen	VERB	VVINF	VerbForm=Inf	10	acl	_	_
+19	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = ## Mach den Hacker-Tobi-Check!
+1	##	##	PUNCT	$.	_	4	punct	_	_
+2	Mach	Mach	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	4	case	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hacker	Hacker	PROPN	ADJA	_	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Tobi	Tobi	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Check	Check	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Verschlüsselung ist…
+1	Verschlüsselung	Verschlüsselung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	…	…	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = ☐ wenn auf Eurem Handy Inhalte und Chats durchsucht werden.
+1	☐	☐	SYM	NE	_	9	dep	_	_
+2	wenn	wenn	SCONJ	VVFIN	_	9	mark	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	Eurem	Eure	NOUN	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	9	obl	_	_
+5	Handy	Handy	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	_
+6	Inhalte	Inhalt	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	5	flat	_	_
+7	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	8	cc	_	_
+8	Chats	Chat	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+9	durchsucht	durchsuchen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	9	aux:pass	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = ☐ eine Art Geheimcode, den nur ihr und eure Freund:innen verstehen können.
+1	☐	☐	SYM	NE	_	3	cc	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+4	Geheimcode	Geheimcode	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+7	nur	nur	ADV	CARD	_	12	advmod	_	_
+8	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+10	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	amod	_	_
+11	Freund:innen	Freund:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	_
+12	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	4	acl	_	_
+13	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = ☐ eine gefährliche Sache.
+1	☐	☐	SYM	NE	_	4	dep	_	_
+2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	gefährliche	gefährlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Phishing ist…
+1	Phishing	Phishing	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+3	…	…	PUNCT	$.	_	0	root	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = ☐ Angeln auf Englisch.
+1	☐	☐	SYM	NE	_	2	cc	_	_
+2	Angeln	Angel|Angeln	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	Englisch	Englisch	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = ☐ ein lustiges Kinderspiel, wo man so ein Aquarium aufbaut.
+1	☐	☐	SYM	NE	_	4	dep	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	lustiges	lustig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	Kinderspiel	Kinderspiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	11	advmod	_	_
+7	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	11	nsubj	_	_
+8	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	11	advmod	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Aquarium	Aquarium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+11	aufbaut	aufbauen	VERB	VVPP	VerbForm=Part	4	acl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = ☐ ein Betrugsversuch, um an Deine Daten zu kommen.
+1	☐	☐	SYM	NE	_	3	dep	_	_
+2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Betrugsversuch	Betrugsversuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	_
+5	um	um	ADP	KOUI	_	10	mark	_	_
+6	an	an	ADP	APPR	_	7	case	_	_
+7	Deine	Dein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	10	obl	_	_
+8	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	nsubj	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	kommen	kommen	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = Cybermobbing ist…
+1	Cybermobbing	Cybermobbing	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+3	…	…	PUNCT	$.	_	0	root	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = ☐ der Name einer Veranstaltung des Chaos Computer Clubs.
+1	☐	☐	SYM	NE	_	0	root	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Veranstaltung	Veranstaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Chaos	Chaos	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	Computer	Computer	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Plur	7	flat	_	_
+9	Clubs	Club	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = ☐ etwas, wogegen wir die Chatkontrolle brauchen.
+1	☐	☐	SYM	NE	_	2	cc	_	_
+2	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	8	dep	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	wogegen	wogegen	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+5	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = ☐ wenn Euch jemand im Netz beleidigt oder bedroht.
+1	☐	☐	SYM	NE	_	8	cc	_	_
+2	wenn	wenn	SCONJ	VVFIN	_	8	mark	_	_
+3	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
+4	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	8	nsubj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Netz	Netz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+8	beleidigt	beleidigt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	oder	oder	CCONJ	XY	_	10	cc	_	_
+10	bedroht	bedrohen	ADJ	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = In öffentlichen WLANs…
+1	In	in	ADP	APPR	_	3	case	_	_
+2	öffentlichen	öffentlichen	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	3	amod	_	_
+3	WLANs	WLANs	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	…	…	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = ☐ sollte ich lieber ein VPN benutzen.
+1	☐	☐	SYM	NE	_	7	cc	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	lieber	lieb	ADV	ADV	_	7	advmod	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	VPN	VPN	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	_
+7	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = ☐ muss ich keine Sorgen haben.
+1	☐	☐	SYM	NE	_	6	cc	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|PronType=Neg	5	nmod	_	_
+5	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 37
+# text = ☐ kann ich nicht alle Seiten aufrufen, weil die Anbieter gerne zensieren.
+1	☐	☐	SYM	NE	_	7	cc	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+5	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+7	aufrufen	aufrufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Anbieter	Anbieter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+12	gerne	gerne	ADV	ADV	_	13	advmod	_	_
+13	zensieren	zensieren	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Privatsphäre im Internet.… ☐ ist Schnee von gestern.
+1	Privatsphäre	Privatsphäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Internet	Internet	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.…	.…	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+6	☐	☐	SYM	NE	_	5	cc	_	_
+7	ist	sein	AUX	ADJD	_	10	cop	_	_
+8	Schnee	Schnee	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nsubj	_	_
+9	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+10	gestern	gestern	VERB	ADV	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = ☐ wichtig, deswegen muss ich mit privaten Daten aufpassen.
+1	☐	☐	SYM	NE	_	2	cc	_	_
+2	wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	deswegen	deswegen	ADV	PAV	_	10	advmod	_	_
+5	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	9	case	_	_
+8	privaten	privat	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	_
+9	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	_
+10	aufpassen	aufpassen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = ☐ würden manche Politiker am Liebsten abschaffen.
+1	☐	☐	SYM	NE	_	8	cc	_	_
+2	würden	werden	AUX	NN	Foreign=Yes	8	aux	_	_
+3	manche	manch	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	Politiker	Politiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Liebsten	Liebste	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+8	abschaffen	abschaffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = *Dies ist ein Beitrag der Ausgabe zum 1. April 2024.
+1	*	*	SYM	$(	_	2	dep	_	SpaceAfter=No
+2	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Beitrag	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ausgabe	Ausgabe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	zum	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+10	1	1	NUM	CARD	NumType=Card	12	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+12	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+13	2024	2024	NUM	CARD	NumType=Card	12	appos	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 42
+# text = Deren Inhalte sind teilweise frei erfunden und unrichtig.*
+1	Deren	der	DET	PDAT	Case=Gen|Number=Plur|PronType=Dem	2	amod	_	_
+2	Inhalte	Inhalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	6	cop	_	_
+4	teilweise	teilweise	ADV	NN	Case=Nom|Gender=Masc|Number=Plur	6	advmod	_	_
+5	frei	frei	ADJ	ADJD	_	6	advmod	_	_
+6	erfunden	erfinden	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	und	und	CCONJ	NE	Foreign=Yes	9	cc	_	_
+8	unrichtig.	unrichtig.	ADJ	ADJA	_	9	amod	_	SpaceAfter=No
+9	*	*	NOUN	$(	_	6	conj	_	SpacesAfter=\n
+
+

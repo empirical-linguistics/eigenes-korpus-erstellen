@@ -1,0 +1,636 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Die EU-Richtlinie zu Fluggastdatensätzen (PNR-Richtlinie) verpflichtet die EU-Mitgliedsstaaten seit 2016 dazu, europaweit Daten über Fluggäste zu erheben und untereinander auszutauschen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	EU	EU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
+6	Fluggastdatensätzen	Fluggastdatensätzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+7	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	PNR	PNR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	SpaceAfter=No
+11	)	)	PUNCT	$(	_	8	punct	_	_
+12	verpflichtet	verpflichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	EU	EU	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Mitgliedsstaaten	Mitgliedsstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	flat	_	_
+17	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	case	_	_
+18	2016	2016	NUM	CARD	NumType=Card	12	obl	_	_
+19	dazu	dazu	ADV	PAV	_	12	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	26	punct	_	_
+21	europaweit	europaweit	ADJ	APPR	_	22	amod	_	_
+22	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	26	obj	_	_
+23	über	über	ADP	NN	Foreign=Yes	24	case	_	_
+24	Fluggäste	Fluggast	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	obl	_	_
+25	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	26	mark	_	_
+26	erheben	erheben	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+27	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	29	cc	_	_
+28	untereinander	untereinander	ADV	ADV	_	29	advmod	_	_
+29	auszutauschen	austauschen	VERB	VVIZU	VerbForm=Inf	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Ein EuGH-Urteil im Jahr 2022 beschränkte diese Massenüberwachung bei Flugreisen und legte auch ein Diskriminierungsverbot fest.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	EuGH	EuGH	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Urteil	Urteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+8	2022	2022	NUM	CARD	NumType=Card	7	nmod	_	_
+9	beschränkte	beschränken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	Massenüberwachung	Massenüberwachung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
+12	bei	bei	ADP	APPR	_	13	case	_	_
+13	Flugreisen	Flugreisen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obl	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	legte	legen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	auch	auch	ADV	ADV	_	15	advmod	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Diskriminierungsverbot	Diskriminierungsverbot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+19	fest	fest	ADV	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Die PNR-Richtlinie blieb jedoch bestehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	PNR	PNR	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
+5	blieb	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	jedoch	jedoch	ADV	ADV	_	5	advmod	_	_
+7	bestehen	bestehen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Die PNR-Daten sollen vor allem sogenannte terroristische Gefährder identifizieren – unter anderem mit Hilfe sogenannter Künstlicher Intelligenz (KI).
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	PNR	PNR	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	flat	_	_
+5	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	7	case	_	_
+7	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	obl	_	_
+8	sogenannte	sogenannt	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+9	terroristische	terroristisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	Gefährder	Gefährder	NOUN	FM	Foreign=Yes	11	obj	_	_
+11	identifizieren	identifizieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+12	–	–	PUNCT	$.	_	14	punct	_	_
+13	unter	unter	ADP	ADJD	_	14	case	_	_
+14	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	obl	_	_
+15	mit	mit	ADP	$,	NumType=Card	16	case	_	_
+16	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+17	sogenannter	sogenannt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+18	Künstlicher	künstlicher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Intelligenz	Intelligenz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_
+20	(	(	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	KI	KI	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
+22	)	)	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 5
+# text = Mehrere europäische Länder (pdf) – darunter auch Deutschland – setzen KI bereits für die Strafverfolgung und die Vorhersage von Verbrechen ein.
+1	Mehrere	mehrere	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+2	europäische	europäisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
+3	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	pdf	pdf	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	$(	_	5	punct	_	_
+7	–	–	PUNCT	$.	_	10	punct	_	_
+8	darunter	darunter	ADV	PAV	_	10	advmod	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+11	–	–	PUNCT	$.	_	10	punct	_	_
+12	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	KI	KI	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	obj	_	_
+14	bereits	bereits	ADV	ADV	_	17	advmod	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Strafverfolgung	Strafverfolgung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	20	cc	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Vorhersage	Vorhersage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+21	von	von	ADP	FM	Foreign=Yes	22	case	_	_
+22	Verbrechen	Verbrechen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nmod	_	_
+23	ein	ein	ADV	PTKVZ	_	12	compound:prt	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Ebendies kritisiert Douwe Korff, Jura-Professor an der London Metropolitan University und Anwalt für Menschenrechte, in seiner kürzlich veröffentlichten wissenschaftlichen Forschung.
+1	Ebendies	Ebendies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	kritisiert	kritisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Douwe	Douwe	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Korff	Korff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Jura	Jura	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Professor	Professor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	flat	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	London	London	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+12	Metropolitan	Metropolitan	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	_
+13	University	University	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	_
+14	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	15	cc	_	_
+15	Anwalt	Anwalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	conj	_	_
+16	für	für	ADP	APPR	_	17	case	_	_
+17	Menschenrechte	Menschenrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	24	punct	_	_
+19	in	in	ADP	APPR	_	24	case	_	_
+20	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	24	det:poss	_	_
+21	kürzlich	kürzlich	ADJ	ADJD	_	22	advmod	_	_
+22	veröffentlichten	veröffentlicht	ADJ	NN	Case=Nom|Gender=Neut|Number=Plur	24	amod	_	_
+23	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_
+24	Forschung	Forschung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Er zählt drei grundlegende Probleme auf, die all jenen algorithmischen Verfahren gemein sind, die dem Profiling von potenziellen Gefährder:innen dienen.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	zählt	zählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+4	grundlegende	grundlegend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	5	amod	_	_
+5	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+6	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	die	der	PRON	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+9	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	12	det	_	_
+10	jenen	jen	DET	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+11	algorithmischen	algorithmisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
+12	Verfahren	Verfahren	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	iobj	_	_
+13	gemein	gemein	ADJ	ADJD	_	2	acl	_	_
+14	sind	sein	AUX	ADJD	_	13	cop	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Profiling	Profiling	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	iobj	_	_
+19	von	von	ADP	FM	Foreign=Yes	21	case	_	_
+20	potenziellen	potenziell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	21	amod	_	_
+21	Gefährder:innen	Gefährder:innen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
+22	dienen	dienen	VERB	VVFIN	VerbForm=Inf	2	acl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = ## 500.000 potenzielle Terrorist:innen
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	500.000	500.000	NUM	CARD	NumType=Card	3	nummod	_	_
+3	potenzielle	potenziell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	4	amod	_	_
+4	Terrorist:innen	Terrorist:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Als Erstes benennt er einen statistischen Fehlschluss, den sogenannten Prävalenzfehler.
+1	Als	als	ADP	KOKOM	_	2	case	_	_
+2	Erstes	erst	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	3	obl	_	_
+3	benennt	benennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	statistischen	statistisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Fehlschluss	Fehlschluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	sogenannten	sogenannt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	amod	_	_
+11	Prävalenzfehler	Prävalenzfehler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Dieser Fehler beschreibt, dass vermeintlich zuverlässige statistische Modelle dazu neigen, besonders unwahrscheinliche Ereignisse disproportional häufig vorherzusagen.
+1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Fehler	Fehler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	beschreibt	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+6	vermeintlich	vermeintlich	ADJ	ADV	_	9	amod	_	_
+7	zuverlässige	zuverlässig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	_
+8	statistische	statistisch	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	Modelle	Modell	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+10	dazu	dazu	ADV	PAV	_	11	advmod	_	_
+11	neigen	neigen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13	besonders	besonders	ADV	ADV	_	14	advmod	_	_
+14	unwahrscheinliche	unwahrscheinlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	15	amod	_	_
+15	Ereignisse	Ereignis	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+16	disproportional	disproportional	ADJ	ADJD	_	18	advmod	_	_
+17	häufig	häufig	ADJ	ADJD	_	18	advmod	_	_
+18	vorherzusagen	vorherzusagen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Selbst wenn beispielsweise ein KI-Modell Terrorist:innen in 99,9 Prozent der Fälle frühzeitig erkennen könnte, würde das Modell viele Unschuldige gleichermaßen verdächtigen, da die absolute Häufigkeit von Terrorist:innen in der Bevölkerung außerordentlich gering ist.
+1	Selbst	selbst	ADV	ADV	_	15	advmod	_	_
+2	wenn	wenn	SCONJ	VVFIN	_	15	mark	_	_
+3	beispielsweise	beispielsweise	ADV	ADV	_	8	advmod	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	KI	KI	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Modell	Modell	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+8	Terrorist:innen	Terrorist:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	99,9	99,9	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Prozent	Prozent	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Fälle	Fall	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	frühzeitig	frühzeitig	ADJ	ADJD	_	15	advmod	_	_
+15	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	24	advcl	_	_
+16	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	15	punct	_	_
+18	würde	werden	AUX	NE	Case=Nom|Number=Sing	24	aux	_	_
+19	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Modell	Modell	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+21	viele	viel	DET	NE	Case=Nom|Gender=Neut|Number=Sing	22	amod	_	_
+22	Unschuldige	Unschuldige	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	gleichermaßen	gleichermaßen	ADV	ADV	_	24	advmod	_	_
+24	verdächtigen	verdächtig	ADJ	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	36	punct	_	_
+26	da	da	SCONJ	KOUS	_	36	mark	_	_
+27	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	absolute	absolut	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	29	amod	_	_
+29	Häufigkeit	Häufigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+30	von	von	ADP	FM	Foreign=Yes	31	case	_	_
+31	Terrorist:innen	Terrorist:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Bevölkerung	Bevölkerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
+35	außerordentlich	außerordentlich	ADV	ADJD	_	36	advmod	_	_
+36	gering	gering	ADJ	ADJD	_	24	advcl	_	_
+37	ist	sein	AUX	ADJD	_	36	cop	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 12
+# text = Dieses Problem ist weitgehend unabhängig vom Anwendungsfall und beschreibt eine grundlegende Eigenschaft statistischer Verfahren.
+1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	5	cop	_	_
+4	weitgehend	weitgehend	ADJ	ADJD	_	5	advmod	_	_
+5	unabhängig	unabhängig	ADJ	ADJD	_	0	root	_	_
+6-7	vom	_	_	_	_	_	_	_	_
+6	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Anwendungsfall	Anwendungsfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
+9	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	10	cc	_	_
+10	beschreibt	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	grundlegende	grundlegend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Eigenschaft	Eigenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+14	statistischer	statistisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	15	amod	_	_
+15	Verfahren	Verfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Die Auswertung der Fluggastdaten in der EU würde nach Einschätzung des Wissenschaftlers – selbst bei dieser unrealistisch hohen Trefferquote – jedes Jahr etwa 500.000 Personen fälschlicherweise als potenzielle Terrorist:innen kennzeichnen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Auswertung	Auswertung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Fluggastdaten	Fluggastdat	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+8	würde	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Sing	30	aux	_	_
+9	nach	nach	ADP	ADJA	_	10	case	_	_
+10	Einschätzung	Einschätzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Wissenschaftlers	Wissenschaftler	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	–	–	PUNCT	$.	_	8	punct	_	_
+14	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+15	bei	bei	ADP	APPR	_	19	case	_	_
+16	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+17	unrealistisch	unrealistisch	ADJ	ADJD	_	18	advmod	_	_
+18	hohen	hoch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	_
+19	Trefferquote	Trefferquote	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+20	–	–	PUNCT	$.	_	8	punct	_	_
+21	jedes	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	det	_	_
+22	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	30	obl	_	_
+23	etwa	etwa	ADV	ADV	_	24	advmod	_	_
+24	500.000	500.000	NUM	CARD	NumType=Card	25	nummod	_	_
+25	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	obj	_	_
+26	fälschlicherweise	fälschlicherweise	ADV	ADV	_	30	advmod	_	_
+27	als	als	ADP	KOKOM	_	29	case	_	_
+28	potenzielle	potenziell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	29	amod	_	_
+29	Terrorist:innen	Terrorist:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	obl	_	_
+30	kennzeichnen	kennzeichnen	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	30	punct	_	_
+
+# sent_id = 14
+# text = Bei einer plausibleren Trefferquote geriete eine noch höhere Zahl Unschuldiger ins Visier der Ermittler:innen.
+1	Bei	bei	ADP	APPR	_	4	case	_	_
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	plausibleren	plausibl	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Trefferquote	Trefferquote	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	geriete	gerien	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	noch	noch	ADV	CARD	NumType=Card	8	advmod	_	_
+8	höhere	hoch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	Zahl	Zahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	_
+10	Unschuldiger	Unschuldiger	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	9	appos	_	_
+11-12	ins	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Visier	Visier	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	Ermittler:innen	Ermittler:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Bereits in der Vergangenheit hatte Korff die EU-Kommission auf diesen Umstand hingewiesen, allerdings sei die Warnung folgenlos geblieben.
+1	Bereits	bereits	ADV	ADV	_	4	advmod	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Vergangenheit	Vergangenheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+6	Korff	Korff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	EU	EU	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	_
+11	auf	auf	ADP	APPR	_	13	case	_	_
+12	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	Umstand	Umstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+14	hingewiesen	hinweisen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	21	punct	_	_
+16	allerdings	allerdings	ADV	ADV	_	21	advmod	_	_
+17	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Warnung	Warnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+20	folgenlos	folgenlos	ADJ	ADJD	_	21	xcomp	_	_
+21	geblieben	bleiben	VERB	VVPP	VerbForm=Part	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = ## Software erbt unsere Verzerrungen Darüber hinaus neigt Profiling-Software dazu, gesellschaftliche Vorurteile zu replizieren und zu verstärken.
+1	##	##	PUNCT	$.	_	3	punct	_	_
+2	Software	Software	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	erbt	erbt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	5	det:poss	_	_
+5	Verzerrungen	Verzerrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpacesAfter=\s\s
+6	Darüber	darüber	ADV	PAV	_	3	advmod	_	_
+7	hinaus	hinaus	ADV	ADV	_	3	advmod	_	_
+8	neigt	neigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	Profiling	Profiling	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Software	Software	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	dazu	dazu	ADV	PAV	_	8	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	gesellschaftliche	gesellschaftlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	15	amod	_	_
+15	Vorurteile	Vorurteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+16	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	17	mark	_	_
+17	replizieren	replizieren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	20	cc	_	_
+19	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	20	mark	_	_
+20	verstärken	verstärken	VERB	VVINF	VerbForm=Inf	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Ein solcher Bias (Verzerrung) sei allerdings laut EU-Kommission bei der Analyse von Fluggastdaten ausgeschlossen, da Eigenschaften wie Ethnie oder politische Einstellung ignoriert würden.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	solcher	solch	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	Bias	Bias	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Verzerrung	Verzerrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	$(	_	5	punct	_	_
+7	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	allerdings	allerdings	ADV	ADV	_	10	advmod	_	_
+9	laut	laut	ADJ	ADJD	_	10	amod	_	_
+10	EU	EU	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	_
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Analyse	Analyse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+16	von	von	ADP	FM	Foreign=Yes	17	case	_	_
+17	Fluggastdaten	Fluggastdat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	nmod	_	_
+18	ausgeschlossen	ausschließen	VERB	VVPP	VerbForm=Part	10	acl	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	27	punct	_	_
+20	da	da	SCONJ	KOUS	_	27	mark	_	_
+21	Eigenschaften	Eigenschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	27	nsubj:pass	_	_
+22	wie	wie	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	23	case	_	_
+23	Ethnie	Ethni	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	obl	_	_
+24	oder	oder	CCONJ	XY	_	26	cc	_	_
+25	politische	politisch	ADJ	NE	Case=Dat|Gender=Fem|Number=Sing	26	amod	_	_
+26	Einstellung	Einstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	conj	_	_
+27	ignoriert	ignorieren	VERB	VVPP	VerbForm=Part	10	advcl	_	_
+28	würden	werden	AUX	NN	Foreign=Yes	27	aux	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 18
+# text = Diese zu verwenden sei gesetzlich auch verboten.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	zu	zu	PART	NN	Case=Nom|Gender=Fem|Number=Plur	3	mark	_	_
+3	verwenden	verwenden	VERB	VVINF	VerbForm=Inf	7	csubj	_	_
+4	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	gesetzlich	gesetzlich	ADJ	ADJD	_	7	advmod	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	verboten	verbieten	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Korff widerspricht und weist erstens darauf hin, dass die entsprechende Richtlinie es den Mitgliedsstaaten erlaube, auch umfangreiche Datenbanken anderer Behörden in die Analyse einzubeziehen.
+1	Korff	Korff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	widerspricht	widersprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
+4	weist	weisen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	erstens	erstens	ADV	ADV	_	4	advmod	_	_
+6	darauf	darauf	ADV	PAV	_	4	advmod	_	_
+7	hin	hin	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	entsprechende	entsprechend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
+12	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+13	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Mitgliedsstaaten	Mitgliedsstaat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+16	erlaube	erlauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	26	punct	_	_
+18	auch	auch	ADV	ADV	_	26	advmod	_	_
+19	umfangreiche	umfangreich	ADJ	NE	Case=Nom|Number=Sing	26	amod	_	_
+20	Datenbanken	Datenbank	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+21	anderer	ander	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	22	amod	_	_
+22	Behörden	Behörde	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	in	in	ADP	APPR	_	25	case	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Analyse	Analyse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+26	einzubeziehen	einzubeziehen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Diese enthielten durchaus auch sensible personenbezogene Daten.
+1	Diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	_
+2	enthielten	enthalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	durchaus	durchaus	ADV	ADV	_	2	advmod	_	_
+4	auch	auch	ADV	ADV	_	2	advmod	_	_
+5	sensible	sensibel	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	_
+6	personenbezogene	personenbezogen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	7	amod	_	_
+7	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Zweitens wiesen auch Datensätze ohne sensible personenbezogene Daten starke Verzerrungen auf, die dann die statistische Auswertung beeinflussen würden, so Korff.
+1	Zweitens	zweitens	ADV	ADV	_	2	advmod	_	_
+2	wiesen	weisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	Datensätze	Datensatz	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	ohne	ohne	ADP	FM	Foreign=Yes	8	case	_	_
+6	sensible	sensibel	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	8	amod	_	_
+7	personenbezogene	personenbezogen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	_
+8	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+9	starke	stark	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	amod	_	_
+10	Verzerrungen	Verzerrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+11	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13	die	der	PRON	ART	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	_
+14	dann	dann	ADV	ADV	_	18	advmod	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	statistische	statistisch	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	17	amod	_	_
+17	Auswertung	Auswertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	beeinflussen	beeinflussen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+19	würden	werden	AUX	NN	Foreign=Yes	18	aux	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	_
+21	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	22	advmod	_	_
+22	Korff	Korff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Besonders marginalisierte Gruppen müssten damit rechnen, disproportional häufig und ohne nachvollziehbare Gründe verdächtigt zu werden.
+1	Besonders	besonders	ADV	ADV	_	2	advmod	_	_
+2	marginalisierte	marginalisiert	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
+3	Gruppen	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+4	müssten	müssen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	damit	damit	ADV	PAV	_	6	advmod	_	_
+6	rechnen	rechnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	14	punct	_	_
+8	disproportional	disproportional	ADJ	ADJD	_	14	advmod	_	_
+9	häufig	häufig	ADJ	ADJD	_	14	advmod	_	_
+10	und	und	CCONJ	NE	Foreign=Yes	13	cc	_	_
+11	ohne	ohne	ADP	NE	Foreign=Yes	13	case	_	_
+12	nachvollziehbare	nachvollziehbar	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	13	amod	_	_
+13	Gründe	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
+14	verdächtigt	verdächtigen	VERB	VVPP	VerbForm=Part	6	xcomp	_	_
+15	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	mark	_	_
+16	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = ## Software ist intransparent Denn, so kritisiert Korff schließlich, Behörden könnten selbst die Details solcher Software nicht einsehen.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Software	Software	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	5	cop	_	_
+4	intransparent	intransparent	ADJ	ADJD	_	5	amod	_	SpacesAfter=\s\s
+5	Denn	denn	NOUN	KON	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	so	so	ADV	NE	Case=Dat|Number=Plur	8	advmod	_	_
+8	kritisiert	kritisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	Korff	Korff	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	schließlich	schließlich	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	20	punct	_	_
+12	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	20	nsubj	_	_
+13	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+14	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advmod	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
+16	Details	Detail	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+17	solcher	solch	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	Software	Software	NOUN	NE	Case=Gen|Number=Sing	16	nmod	_	_
+19	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advmod	_	_
+20	einsehen	einsehen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 24
+# text = Aus diesem Grund seien sie außerstande, die Ergebnisse der Datenanalyse zu hinterfragen.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Grund	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+4	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	außerstande	außerstande	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
+9	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Datenanalyse	Datenanalyse	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	13	mark	_	_
+13	hinterfragen	hinterfragen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 25
+# text = Ihre Verdachtsfälle könnten sie damit auch nur unzureichend begründen.
+1	Ihre	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	2	det:poss	_	_
+2	Verdachtsfälle	Verdachtsfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obj	_	_
+3	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+4	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+5	damit	damit	ADV	PAV	_	9	advmod	_	_
+6	auch	auch	ADV	ADV	_	9	advmod	_	_
+7	nur	nur	ADV	CARD	NumType=Card	8	advmod	_	_
+8	unzureichend	unzureichend	ADJ	ADJD	_	9	advmod	_	_
+9	begründen	begründen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 26
+# text = Aus diesem Grund bezeichnet Korff die Profiling-Algorithmen aus wissenschaftlicher Sicht als fragwürdig und für den polizeilichen Gebrauch als ungeeignet.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Grund	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	bezeichnet	bezeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Korff	Korff	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	Profiling	Profiling	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Algorithmen	Algorithmus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+10	aus	aus	ADP	APPR	_	12	case	_	_
+11	wissenschaftlicher	wissenschaftlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	_
+12	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+13	als	als	ADP	KOKOM	_	14	case	_	_
+14	fragwürdig	fragwürdig	ADJ	ADJD	_	4	xcomp	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+16	für	für	ADP	APPR	_	19	case	_	_
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	polizeilichen	polizeilich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	_
+19	Gebrauch	Gebrauch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+20	als	als	ADP	KOKOM	_	21	case	_	_
+21	ungeeignet	ungeeignet	ADJ	ADJD	_	14	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Korffs Kritik richtet sich in dem wissenschaftlichen Artikel insbesondere gegen die PNR-Richtlinie der EU-Kommission.
+1	Korffs	Korffs	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	Kritik	Kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	richtet	richten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	in	in	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	8	amod	_	_
+8	Artikel	Artikel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+9	insbesondere	insbesondere	ADV	ADV	_	12	advmod	_	_
+10	gegen	gegen	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	PNR	PNR	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Richtlinie	Richtlinie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	flat	_	_
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	EU	EU	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+17	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 28
+# text = Sie sei jedoch auf alle KI-basierten Profiling-Verfahren anwendbar, etwa bei der Chatkontrolle.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	jedoch	jedoch	ADV	ADV	_	2	advmod	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	KI-basierten	KI-basiert	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
+7	Profiling	Profiling	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Verfahren	Verfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	flat	_	_
+10	anwendbar	anwendbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	etwa	etwa	ADV	ADV	_	15	advmod	_	_
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+

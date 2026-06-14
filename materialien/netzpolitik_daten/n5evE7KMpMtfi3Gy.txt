@@ -1,0 +1,60 @@
+---
+title: Akute Gefahr für offene Software
+author: Gastbeitrag; Elina Eickstädt
+url: https://netzpolitik.org/2022/chatkontrolle-akute-gefahr-fuer-offene-software/
+hostname: netzpolitik.org
+description: Dass die Chatkontrolle dramatische Folgen für unser aller Grundrechte hätte, ist inzwischen allenthalben bekannt. Dass ihre Einführung aber auch die Open-Source-Community hart treffen würde, wird hingegen noch kaum diskutiert.
+sitename: netzpolitik.org
+date: 2022-12-27
+tags: ['Thema App-Store', 'Thema Apple App Store']
+license: CC BY-NC-SA 4.0
+---
+Derzeit wird heftig um die Pläne der EU-Kommission und des Bundesinnenministeriums gerungen, eine neue anlasslose Massenüberwachung einzuführen. Im Fokus der öffentlichen Debatte stehen dabei vor allem die Auswirkungen, welche die sogenannte Chatkontrolle für die verschlüsselte Kommunikation, den Datenschutz und unser aller Privatsphäre hätte.
+
+Außen vor sind hingegen die drohenden Folgen einer solcher Überwachung für Programmier:innen und Anbieter:innen von Apps in App-Stores. Diese wären dabei vor allem in der Open-Source-Community zu spüren. EU-Kommission und Bundesregierung zeigen damit zum wiederholten Mal, dass sie die Bedeutung des Open-Source-Ökosystems verkennen. Denn die Chatkontrolle brächte das Prinzip sowie die Herstellungs- und Vertriebsbedingungen freier Software in arge Bedrängnis.
+
+## Wer oder was ist ein App-Store?
+
+App-Stores sind nach Artikel 2.14 des Digital Markets Acts (DMA) „Online-Vermittlungsdienste, durch die in erster Linie Software-Anwendungen als Produkt oder Dienstleistung vermittelt werden“. Dafür müssen sie folgende Bedingungen erfüllen: Sie müssen erstens elektronische, nicht-materielle Dienstleistungen anbieten (Art.1 b), zweitens eine Plattform für Anbieter bereitstellen, die Nutzer:innen ihre Produkte zur Verfügung stellen und die dafür notwendigen Transaktionen abwickeln, sowie drittens ein Vertragsverhältnis zwischen Anbietern und Nutzer:innen herstellen.
+
+Der DMA schränkt diese Regelung je nach Zahl der Nutzer:innen und der Umsatzhöhe jedoch auf eine sehr geringe Anzahl von App-Stores ein. Zu diesen zählen nicht zuletzt der App Store von Apple und der Play Store von Google.
+
+Derartige Einschränkungen sieht die CSA-Verordnung der EU-Kommission nicht vor. Sie will vielmehr sämtliche App-Stores in die Pflicht nehmen – unabhängig von ihrer Größe und ihren finanziellen Ressourcen.
+
+Von den Regelungen der Chatkontrolle wären demnach auch alternative App-Stores wie F‑Droid und andere Repositories von Open-Source-Software betroffen. Sie erfüllen die oben genannten Bedingungen zum Teil oder – je nach Auslegung – in Gänze. Die Pläne zur Chatkontrolle schaffen damit eine große Rechtsunsicherheit für diese offenen nicht-kommerziellen Angebote, die meist eine Community aus Ehrenamtlichen betreibt.
+
+## App-Stores müssten eine Altersverifikation einführen
+
+Besonders deutlich zeigt sich dies bei der geplanten Altersverifikation. Denn die Pläne der Kommission sehen vor, dass App-Stores künftig für jede App separat das Risiko bewerten müssen, ob diese für die Kontaktaufnahme zu Kindern geeignet ist oder nicht. Bei dieser Einschätzung sollen auch die Software-Anbieter behilflich sein, sofern diese eine eigene Risikoeinschätzung erstellt haben.
+
+Kann eine App für die Kontaktaufnahme zu Kindern verwendet werden, müssen App-Stores sicherstellen, dass Kinder unterhalb eines bestimmten Alters auf diese keinen Zugriff erhalten. Das heißt aber nichts anderes, als das App-Stores bei ihren Nutzer:innen eine Altersverifikation ein- und durchführen müssen. Sie sollen zudem transparent anzeigen, wie die Risikobewertung vorgenommen und welche Maßnahmen dafür ergriffen wurden – natürlich ohne die Wirksamkeit der Maßnahmen zu gefährden.
+
+Für die Altersverifikationen könnten App-Stores eine Ausweispflicht einführen. Die Verordnung der EU-Kommission macht diesbezüglich keine konkreten Vorschläge, wie diese erfolgen kann. Und auch das Impact Assessment, das unter anderem die möglichen Folgen eines EU-Gesetzes beschreibt, unterbreitet diesbezüglich keine konkreten Vorschläge. Vielmehr ist lediglich die Rede von bereits bestehenden „robusten Altersverifikationen“, die etwa gewährleisten sollen, dass sich Erwachsene nicht als Kinder ausgeben können.
+
+In der Praxis hat sich jedoch gezeigt, dass die bestehenden Vorkehrungen leicht umgangen werden können oder aber widerrechtlich biometrische Daten abfragen, obwohl das Sammeln und Verarbeiten biometrischer Daten gemäß Art. 9.1 der DSGVO untersagt ist.
+
+## Folgen für kleinere App-Stores und freie Linux-Distributionen
+
+Das Problem reicht aber noch tiefer: Denn die App-Stores müssten fortan jede Applikation, die sie anbieten, vorab auf Herz und Nieren prüfen. Insbesondere für App-Stores, die das anonyme Herunterladen von Software ermöglichen, hätte dies weitreichende Folgen: Sie müssten entsprechende Authentifizierungen in ihre Angebotsplattformen einbauen, die gewährleisten, dass Kinder auf bestimmte Applikationen keinen Zugriff erhalten.
+
+Betrachtet man exemplarisch die Distribution Arch Linux, fallen rasch die schwerwiegenden Folgen ins Auge, die eine solche Regelung nach sich zöge – und die ähnlich auch für andere Linux-Distributionen gelten.
+
+Arch Linux legt ein besonderes Augenmerk darauf, möglichst wenig Daten über die Nutzer:innen zu sammeln. Sowohl die Distribution selbst als auch die Packages können von einer Vielzahl sogenannter Mirrors heruntergeladen werden. Ein Mirror (zu Deutsch: Spiegel) beschreibt einen gespiegelten Speicherort von Dateien, die damit an mehreren Orten im Internet verfügbar sind.
+
+Die Mirrors sind wiederum in drei sogenannte Tiers (zu Deutsch: Stufen) eingeteilt: Mirrors des Tiers 0 enthalten die vom Arch-Team selbst erstellten Softwarepakete. Mirrors des Tier 1 sind Kopien von Tier 0, Mirrors von Tier 2 entsprechend Kopien von Tier 1. Diese dezentrale Verteilung der Software verhindert auch, dass Entwickler:innen an zentraler Stelle Informationen über ihre Nutzer:innen sammeln können. Gleiches gilt auch für das Tracken der Downloads von Software-Paketen.
+
+### Wir sind ein spendenfinanziertes Medium.
+
+#### Unterstütze auch Du unsere Arbeit mit einer Spende.
+
+## Drohende Zentralisierung
+
+Die Einführung einer Altersverifikation würde eine vollständige Zentralisierung der Infrastruktur erforderlich machen. Gleichzeitig könnte diese ohne Weiteres umgangen werden: Denn die Entwickler:innen geben die Quellen aller Software-Pakete (Git Repositories) an. Damit kann jede:r Nutzer:in den Code eigenständig herunterladen und selbst die Applikation „zusammenbauen“.
+
+Diese Möglichkeit, Programme eigenständig kompilieren zu können, ist eine zentrale Voraussetzung für die Transparenz offener Software. Für eine effektive Umsetzung der Altersverifizierung müssten die Anbieter:innen und Programmier:innen offener Software künftig darauf jedoch verzichten.
+
+Zu guter Letzt würde die zentralisierte Erfassung von Nutzer:innendaten dazu führen, dass ein erheblich größerer Einsatz bei den Datenschutzmaßnahmen erforderlich wäre. Diesen aber kann die Open-Source-Community allein kaum erbringen, betont auch Levente Polyák, Leiter des Arch Linux Projects und dessen Sicherheitsteams, gegenüber netzpolitik.org.
+
+Hinzu komme laut Polyák eine nachträgliche Analyse der rund 13.700 Software-Pakete, die derzeit im Umlauf sind. Dies wäre ebenfalls ein gewaltiger Mehraufwand, der dann in Zukunft auch für jedes weitere Software-Paket erbracht werden müsste. Im Ergebnis würde dies eine extreme Belastung für ehrenamtliche Entwickler:innen bedeuten.
+
+Angesichts dieser drohenden Auswirkungen bleibt nur zu hoffen, dass die EU-Kommission so rasch wie möglich erkennt, welche Folgen die Chatkontrolle für Open-Source-Software und für die Community hat, die diese entwickelt und vertreibt. Deren meist ehrenamtliche Arbeit ruht schon jetzt auf nur wenigen Schultern. Kommt die Chatkontrolle wie geplant, dürfte sie künftig erheblich schwerer werden.

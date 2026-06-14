@@ -1,0 +1,68 @@
+---
+title: Warum die Chatkontrolle so gefährlich ist
+author: Tomas Rudl; Markus Reuter
+url: https://netzpolitik.org/2021/eu-kommission-warum-die-chatkontrolle-so-gefaehrlich-ist/
+hostname: netzpolitik.org
+description: Im Kampf gegen die Verbreitung von Kindesmissbrauchsdarstellungen denkt die EU-Kommission über gefährliche Maßnahmen nach: die automatisierte Durchsuchung von Inhalten auf Handys und Computern. Wir haben einen Überblick mit den wichtigsten Fragen und Antworten zum Thema.
+sitename: netzpolitik.org
+date: 2021-11-04
+license: CC BY-NC-SA 4.0
+---
+Die EU-Kommission arbeitet an einem Gesetzespaket zur Bekämpfung von sexuellem Kindesmissbrauch, das sie bald vorstellen will. Ein Teil des geplanten Gesetzes behandelt die Verbreitung von Darstellungen von Kindesmissbrauch im Internet. Ins Visier soll das Gesetz auch private und verschlüsselte Kommunikation nehmen, etwa über Messenger-Apps. Kritiker:innen bezeichnen diese Form der präventiven Massenüberwachung als Gefahr für Privatsphäre, IT-Sicherheit, Meinungsfreiheit und Demokratie.
+
+## Der Überblick:
+
+- Was planen EU-Kommission und Ratspräsidentschaft?
+- Wie könnte das technisch umgesetzt werden?
+- Was bedeutet eine Chatkontrolle konkret?
+- Kann das System ausgeweitet werden?
+- Ist die Chatkontrolle überhaupt legal?
+- Wie kann ich mich dagegen wehren?
+
+## Was planen EU-Kommission und Ratspräsidentschaft?
+
+Was die EU-Kommission sich wünscht, umriss Olivier Onidi, der stellvertretende Generaldirektor für Inneres. Der Vorschlag werde versuchen, „alle Kommunikationsmittel in den Geltungsbereich einzubeziehen“. Schließlich sei dies der wahre Mehrwert des Vorschlags, „eben alle Kommunikationsformen zu erfassen, einschließlich privater Kommunikation“, antwortete Onidi auf eine Frage des EU-Abgeordneten Patrick Breyer (Piraten/Grünen-Fraktion). Breyer hat dem Vorhaben den Namen „Chatkontrolle“ gegeben.
+
+Ursprünglich war die Vorstellung des brisanten Gesetzentwurfs für den 1. Dezember angesetzt, inzwischen ist der Punkt jedoch aus dem Kalender der Kommission verschwunden. Auf Anfrage bestätigt eine Sprecherin lediglich, dass die Kommission an dem Vorschlag arbeite. Ein konkretes Datum könne sie im Moment aber nicht nennen.
+
+Die Mitgliedstaaten könnten den Vorschlag unterstützen. So hat Slowenien, das derzeit die Ratspräsidentschaft innehat, den Kampf gegen Kindesmissbrauch zu einer seiner Hauptprioritäten erklärt. Die Ratspräsidentschaft will den Fokus auf die „digitale Dimension“ richten, heißt es in einem Ratspapier aus dem September, das Statewatch veröffentlicht hat. Vor allem Ende-zu-Ende verschlüsselte Kommunikation mache Ermittlungsbehörden das Leben schwer. Man wolle deshalb die Rolle „proaktiver Maßnahmen“ zumindest diskutieren – also automatisierte Ansätze, welche die Inhalte durchleuchten.
+
+Wie sich das EU-Parlament zu dem Vorschlag positionieren wird, ist derzeit noch offen. Allerdings stimmten die Abgeordneten in diesem Jahr dafür, Online-Diensten wie Facebook, Skype oder Gmail weiterhin das Scannen von Inhalten zu erlauben. Auf freiwilliger Basis geschieht dies auf vielen Plattformen und Cloud-Diensten schon seit geraumer Zeit, kürzlich gestärkte Datenschutzbestimmungen machten die Praxis jedoch vorübergehend illegal. Die eilig beschlossene Ausnahmeregel gilt vorerst für drei Jahre, betrifft nur unverschlüsselte Inhalte und könnte durch das nun geplante Gesetz ersetzt werden.
+
+## Wie könnte das technisch umgesetzt werden?
+
+Sollte es die Scanpflicht in den Gesetzentwurf schaffen, ist es unwahrscheinlich, dass dort technische Details ausgeführt werden. Die Zauberformel lautet in Brüssel üblicherweise „proaktive Maßnahmen“, die etwa auch terroristische Inhalte aus dem Netz entfernen sollten. Die genaue technische Umsetzung dürfte den Anbietern selbst überlassen werden. Offen bleibt vorerst auch, ob alle Anbieter von Messengern betroffen sein könnten oder nur solche ab einer gewissen Zahl an Nutzer:innen.
+
+Grundsätzlich könnten diese auf bereits bestehende Ansätze zurückgreifen, beispielsweise auf die von Microsoft entwickelte PhotoDNA-Software und die Datenbank der US-Organisation National Center for Missing and Exploited Children (NCMEC). Darin liegen digitale Fingerabdrücke, sogenannte Hashes, von Bildern oder Videos, die bereits einmal als illegal erkannt worden sind. Vor jedem Versenden einer Nachricht könnte der Hash eines Anhangs ermittelt und mit der Datenbank abgeglichen werden. Stellt sich die Datei als einschlägig bekannt heraus, ließe sich der Versand unterbinden und potenziell ein Hinweis an die Polizei auslösen.
+
+In Kombination mit Künstlicher Intelligenz setzt Microsoft PhotoDNA in einer Reihe seiner Produkte ein, etwa in Skype, OneDrive oder Xbox. Zudem stellt der Hersteller die Software auch anderen Anbietern zur Verfügung, unter anderem Google, Twitter und Facebook.
+
+Auch Apple plant Maßnahmen gegen die Verbreitung von Kindesmissbrauchsdarstellungen. Auf dem Smartphone sollen diese mittels „Client-Side-Scanning“ mit der NCMEC-Datenbank abgeglichen werden, bevor sie in die Cloud geladen werden können. Zudem plante Apple eine auf dem Gerät laufende „Kindersicherung“. Diese sollte mit Hilfe Künstlicher Intelligenz „sexuell explizite“ Bilder beim Versand von Nachrichten erkennen und gegebenenfalls die Eltern benachrichtigen. Nach einer weltweiten Protestwelle liegen die Pläne jedoch vorerst auf Eis.
+
+Eine Überwachungstechnologie, die aus dem EU-Gesetz folgen könnte, wird Client-Side-Scanning (CSS) genannt. Zuletzt haben weltweit bekannte IT-Sicherheitsforscher:innen und Erfinder von Verschlüsselungssystemen in einer gemeinsamen Studie alle Pläne für Inhalte-Scanner auf den Geräten von Endnutzer:innen heftig kritisiert. Die Expertinnen kommen zum Schluss: Client-Side-Scanning ist eine Gefahr für Privatsphäre, IT-Sicherheit, Meinungsfreiheit und die Demokratie als Ganzes.
+
+Technisch gesehen ermögliche CSS zwar noch eine Ende-zu-Ende-Verschlüsselung, aber das sei fraglich, wenn die Nachricht bereits vor dem Abschicken nach gezielten Inhalten durchsucht würde. Zudem schaffe CSS Sicherheitslücken und Einfallstore für Akteure wie staatliche Hacker und Kriminelle.
+
+## Was bedeutet eine Chatkontrolle konkret?
+
+Wie auch immer die technische Umsetzung im Detail ausfallen sollte: Der Eingriff in die Privatsphäre wäre sehr tief. Jede einzelne Nachricht würde verdachtsunabhängig und automatisch durchsucht, ausgewertet und gegebenenfalls an die Anbieter sowie Behörden gemeldet.
+
+Darunter wären zwangsläufig auch zahllose ganz normale legitime Fotos und Videos, die sich Menschen zuschicken. Sollte die bis auf Weiteres unzuverlässige automatische Erkennung anschlagen, müsste der Inhalt in jedem Fall von Menschen geprüft werden. Dies würde nicht nur das Recht auf Privatsphäre verletzen, sondern auch ein weiteres Einfallstor für Missbrauch darstellen.
+
+Für die Anbieter hätte dies ebenfalls massive Konsequenzen. Sie müssten sich entweder an eine bereits bestehende Infrastruktur anschließen oder selbst Lösungen entwickeln, um dem Gesetz zu entsprechen. Dies würde größeren Anbietern in die Hände spielen, die über genug Ressourcen verfügen, solche Anforderungen umzusetzen. Alternativ könnten sich manche Anbieter aus der EU zurückziehen, wenn der Aufwand zu groß für sie ist.
+
+## Kann das System ausgeweitet werden?
+
+Der Eingriff auf die Geräte durch eine Chatkontrolle wäre schon erheblich, auch wenn nur wie bislang angedacht nach Missbrauchsdarstellungen gesucht würde. IT-Expert:innen befürchten, dass selbst wenn das Client-Side-Scanning zunächst nur zur Suche nach solchen Inhalten eingesetzt würde, ein enormer politischer und gesellschaftlicher Druck entstünde, den Anwendungsbereich auszuweiten.
+
+Ihr Argument ist dabei, dass eine einmal eingeführte Überwachungsinfrastruktur Begehrlichkeiten weckt und es nach der Einführung kaum noch eine Möglichkeit gäbe, sich gegen die Ausweitung zu wehren oder den Missbrauch des Systems zu kontrollieren. Technisch ist eine Ausweitung sehr einfach umzusetzen. Deswegen kommen die IT-Expert:innen zum Schluss, dass CSS einen Eingriff in die Privatsphäre darstellt, der sogar schlimmer ist als frühere Vorschläge zur Schwächung von Verschlüsselung. Ähnlich argumentierte auch Edward Snowden gegen die Pläne von Apple, eine solche Überwachungstechnologie auf den Endgeräten einzubauen. Der Whistleblower befürchtet eine nie dagewesene Massenüberwachung.
+
+## Ist die Chatkontrolle überhaupt legal?
+
+Eine automatisierte Scan-Verpflichtung könnte illegal sein, davon geht ein Rechtsgutachten von Prof. Dr. Ninon Colneric (PDF) aus. Generell ist in der EU anlasslose und verdachtsunabhängige Überwachung verboten, weil sie die Grundrechte verletzt. Der Europäische Gerichtshof hat diese Sicht wiederholt bestätigt und beispielsweise die Vorratsdatenspeicherung immer wieder gerügt.
+
+Dennoch sind bis heute die Versuche nicht verebbt, den Zombie Vorratsdatenspeicherung mit juristischen Tricks doch wieder zum Leben zu erwecken. Die Forderung findet sich regelmäßig in Ratspapieren der EU-Länder wieder. Auch im deutschen Telekommunikationsgesetz ist die Massenüberwachung weiter enthalten, selbst wenn sie derzeit ausgesetzt ist.
+
+## Wie kann ich mich dagegen wehren?
+
+Bislang gibt es noch keine breiten zivilgesellschaftlichen Bündnisse gegen das Vorhaben, aber der Protest wird gerade lauter. Der EU-Piraten-Angeordnete Patrick Breyer hat eine Aktions-Seite unter chatkontrolle.de zusammengestellt. Er ruft dazu auf, Vertreter:innen der EU-Kommission wie die EU-Innenkommissarin Ylva Johannson oder die EU-Kommissionspräsdientin Ursula von der Leyen via Telefon und E‑Mail zu kontaktieren und dort Protest zu formulieren. In den nächsten nächsten Wochen könnten auch zivilgesellschaftliche Bündnisse und andere Formen des Protests hinzukommen. Dafür kann es hilfreich sein, sich selbst zu engagieren und Bürgerrechts- und Digitalorganisationen wegen des Themas Chatkontrolle zu kontaktieren.

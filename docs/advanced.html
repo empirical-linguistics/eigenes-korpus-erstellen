@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>6&nbsp; Ein eigenes Korpus erstellen: Advanced – Mini-Tutorial: Ein eigenes Korpus erstellen und annotieren</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./lemmatisierung_tagging.html" rel="next">
+<link href="./quick_and_dirty.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-89fccfa5ba8c33feadc231cb220ccdd9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownKatex.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownHighlight.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown-init.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="webex.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./advanced.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Ein eigenes Korpus erstellen: Advanced</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Mini-Tutorial: Ein eigenes Korpus erstellen und annotieren</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einleitung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vorueberlegungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Rechtliche und ethische Vorüberlegungen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./voraussetzungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Technische Voraussetzungen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./konzeption.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Konzeptionelle Überlegungen</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quick_and_dirty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ein eigenes Korpus erstellen: Quick &amp; Dirty</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./advanced.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Ein eigenes Korpus erstellen: Advanced</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lemmatisierung_tagging.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Zusätzliche Optionen: Lemmatisierung und POS-Tagging</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Literatur</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#link-liste-erstellen" id="toc-link-liste-erstellen" class="nav-link active" data-scroll-target="#link-liste-erstellen"><span class="header-section-number">6.0.1</span> Link-Liste erstellen</a></li>
+  <li><a href="#crawlen-mit-trafilatura" id="toc-crawlen-mit-trafilatura" class="nav-link" data-scroll-target="#crawlen-mit-trafilatura"><span class="header-section-number">6.0.2</span> Crawlen mit Trafilatura</a></li>
+  <li><a href="#annotation-in-dezidierter-annotationssoftware" id="toc-annotation-in-dezidierter-annotationssoftware" class="nav-link" data-scroll-target="#annotation-in-dezidierter-annotationssoftware"><span class="header-section-number">6.0.3</span> Annotation in dezidierter Annotationssoftware</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="advanced" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Ein eigenes Korpus erstellen: Advanced</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Die oben skizzierte Herangehensweise hat den Nachteil, dass sie viel manuelle Arbeit erfordert. Mit einigen Grundkenntnissen im Bereich Programmierung und vor allem <a href="https://www.regular-expressions.info/">regulären Ausdrücken</a> lässt sich jedoch vieles davon automatisieren. Im Folgenden erstellen wir zunächst eine Link-Liste in <a href="https://r-project.org/">R</a> und crawlen die einzelnen Einträge in dieser Liste dann mit Trafilatura. Im Folgenden kann ich keinen Einstieg in R geben und verweise stattdessen auf die Vielzahl bereits existierender Ressourcen, biete aber dennoch hoffentlich ausreichende Erklärungen, um auch für Einsteiger:innen transparent zu machen, was die einzelnen Codezeilen tun.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Zum Einstieg in R gibt es viele sehr empfehlenswerte Tutorials und frei verfügbare Bücher. Besonders empfehlenswert ist die aktuelle Einführung von <span class="citation" data-cites="lefoll2026">LeFoll (<a href="references.html#ref-lefoll2026" role="doc-biblioref">2026</a>)</span>; auch die <a href="https://ladal.edu.au/">LADAL-Tutorials</a> von Martin Schweinberger eignen sich gut zum Einstieg.</p>
+</div>
+</div>
+<section id="link-liste-erstellen" class="level3" data-number="6.0.1">
+<h3 data-number="6.0.1" class="anchored" data-anchor-id="link-liste-erstellen"><span class="header-section-number">6.0.1</span> Link-Liste erstellen</h3>
+<p>Bereits oben haben wir netzpolitik.org nach dem Schlagwort “Chatkontrolle” durchsucht und gesehen, dass (Stand Juni 2026) 493 Artikel gefunden werden. Jeden einzelnen dieser Artikel händisch zu copy&amp;pasten, wie wir es oben getan haben, wäre sehr aufwändig und ist glücklicherweise auch nicht nötig, denn wir können z.B. das Tool Trafilatura <span class="citation" data-cites="barbaresi2021">Barbaresi (<a href="references.html#ref-barbaresi2021" role="doc-biblioref">2021</a>)</span> nutzen, um auch größere Mengen an Websites zu crawlen. Dafür brauchen wir jedoch zunächst eine Link-Liste. Die können wir zusammenstellen, indem wir die Ergebnisse unserer Suche nutzen.</p>
+<p>Den Link zu jedem einzelnen der 493 Ergebnisse manuell in eine Liste zu copy&amp;pasten, wäre aber ähnlich aufwendig, wie alle Texte händisch zu kopieren. Stattdessen können wir in R ein Skript schreiben, das das für uns übernimmt. Der folgende Code ist natürlich spezifisch für netzpolitik.org, aber die einzelnen “Bausteine” lassen sich auch auf andere Websites übertragen.</p>
+<p>Für Anfänger:innen mag der Code auf den ersten Blick komplex und undurchschaubar wirken, er basiert aber auf einer Reihe sehr einfacher Beobachtungen:</p>
+<ul>
+<li><p>Die erste Ergebnisseite hat die URL https://netzpolitik.org/?s=Chatkontrolle, alle weiteren Ergebnisseiten haben die URL <code>https://netzpolitik.org/page/i/?s=Chatkontrolle</code>, wobei <code>i</code> für die jeweilige Seite steht (2, 3, 4 etc.).</p></li>
+<li><p>Da es 493 Treffer gibt und pro Seite (manuell nachgezählt) 20 Treffer angezeigt werden, muss es 493/20 = 24.65 = aufgerundet 25 Ergebnisseiten geben.</p></li>
+<li><p>Ein Blick in den Quelltext zeigt, dass die Links zu den einzelnen Artikeln in den Ergebnissen immer folgendes Format haben: <code>https://netzpolitik.org/jahr/titel</code>. Die Strings, die diesem Muster entsprechen, müssen wir also aus den Ergebnisseiten extrahieren. Das wird dadurch erleichtert, dass es zwar noch andere URLs in den Quelltexten der Ergebnisseiten gibt, bei denen jedoch durchweg auf <code>https://netzpolitik.org/</code> alphabetische und nicht numerische Zeichen folgen.</p></li>
+</ul>
+<p>Wir müssen also zunächst die 25 Ergebnisseiten crawlen und aus diesen Ergebnisseiten dann die Strings herausziehen, die dem Muster <code>https://netzpolitik.org/</code>, direkt gefolgt von numerischen Zeichen, entsprechen. Der folgende R-Code tut genau dies:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="annotated-cell-1"><pre class="sourceCode r code-annotation-code code-with-copy code-annotated"><code class="sourceCode r"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># einen leere Liste erstellen</span></span>
+<span id="annotated-cell-1-2"><a href="#annotated-cell-1-2" aria-hidden="true" tabindex="-1"></a>l <span class="ot">&lt;-</span> <span class="fu">list</span>()</span>
+<span id="annotated-cell-1-3"><a href="#annotated-cell-1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-4"><a href="#annotated-cell-1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># über die Ergebnisliste iterieren</span></span>
+<span id="annotated-cell-1-5"><a href="#annotated-cell-1-5" aria-hidden="true" tabindex="-1"></a></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1">1</button><span id="annotated-cell-1-6" class="code-annotation-target"><a href="#annotated-cell-1-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">25</span>) {</span>
+<span id="annotated-cell-1-7"><a href="#annotated-cell-1-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>( i <span class="sc">==</span> <span class="dv">1</span>) {</span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="2">2</button><span id="annotated-cell-1-8" class="code-annotation-target"><a href="#annotated-cell-1-8" aria-hidden="true" tabindex="-1"></a>    l[[i]] <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="st">"https://netzpolitik.org/?s=Chatkontrolle"</span>)</span>
+<span id="annotated-cell-1-9"><a href="#annotated-cell-1-9" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="annotated-cell-1-10"><a href="#annotated-cell-1-10" aria-hidden="true" tabindex="-1"></a>    l[[i]] <span class="ot">&lt;-</span> <span class="fu">readLines</span>(<span class="fu">paste0</span>(<span class="st">"https://netzpolitik.org/page/"</span>, </span>
+<span id="annotated-cell-1-11"><a href="#annotated-cell-1-11" aria-hidden="true" tabindex="-1"></a>                               i,</span>
+<span id="annotated-cell-1-12"><a href="#annotated-cell-1-12" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"/?s=Chatkontrolle"</span>, </span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="3">3</button><span id="annotated-cell-1-13" class="code-annotation-target"><a href="#annotated-cell-1-13" aria-hidden="true" tabindex="-1"></a>                               <span class="at">collapse =</span> <span class="st">""</span>))</span>
+<span id="annotated-cell-1-14"><a href="#annotated-cell-1-14" aria-hidden="true" tabindex="-1"></a>  }</span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="4">4</button><span id="annotated-cell-1-15" class="code-annotation-target"><a href="#annotated-cell-1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">Sys.sleep</span>(<span class="at">time =</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="dv">1</span>))</span>
+<span id="annotated-cell-1-16"><a href="#annotated-cell-1-16" aria-hidden="true" tabindex="-1"></a>} </span>
+<span id="annotated-cell-1-17"><a href="#annotated-cell-1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-18"><a href="#annotated-cell-1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Liste in Vektor überführen</span></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="5">5</button><span id="annotated-cell-1-19" class="code-annotation-target"><a href="#annotated-cell-1-19" aria-hidden="true" tabindex="-1"></a>l <span class="ot">&lt;-</span> <span class="fu">unlist</span>(l)</span>
+<span id="annotated-cell-1-20"><a href="#annotated-cell-1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-21"><a href="#annotated-cell-1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Links extrahieren</span></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="6">6</button><span id="annotated-cell-1-22" class="code-annotation-target"><a href="#annotated-cell-1-22" aria-hidden="true" tabindex="-1"></a>find_links <span class="ot">&lt;-</span> <span class="fu">grep</span>(<span class="st">"&lt;a href=</span><span class="sc">\"</span><span class="st">https://netzpolitik.org/[0-9].* "</span>, l)</span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="7">7</button><span id="annotated-cell-1-23" class="code-annotation-target"><a href="#annotated-cell-1-23" aria-hidden="true" tabindex="-1"></a>l1 <span class="ot">&lt;-</span> l[find_links]</span>
+<span id="annotated-cell-1-24"><a href="#annotated-cell-1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-25"><a href="#annotated-cell-1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Elemente vor und nach dem eigentlichen Link ersetzen</span></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="8">8</button><span id="annotated-cell-1-26" class="code-annotation-target"><a href="#annotated-cell-1-26" aria-hidden="true" tabindex="-1"></a>l1 <span class="ot">&lt;-</span> <span class="fu">trimws</span>(<span class="fu">gsub</span>(<span class="st">"&lt;a href=</span><span class="sc">\"</span><span class="st">"</span>, <span class="st">""</span>, l1))</span>
+<span id="annotated-cell-1-27"><a href="#annotated-cell-1-27" aria-hidden="true" tabindex="-1"></a>l1 <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">"</span><span class="sc">\"</span><span class="st">.*"</span>, <span class="st">""</span>, l1)</span>
+<span id="annotated-cell-1-28"><a href="#annotated-cell-1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-29"><a href="#annotated-cell-1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Duplikate entfernen</span></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="9">9</button><span id="annotated-cell-1-30" class="code-annotation-target"><a href="#annotated-cell-1-30" aria-hidden="true" tabindex="-1"></a>l1 <span class="ot">&lt;-</span> <span class="fu">unique</span>(l1)</span>
+<span id="annotated-cell-1-31"><a href="#annotated-cell-1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="annotated-cell-1-32"><a href="#annotated-cell-1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Linkliste exportieren</span></span>
+<button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="10">10</button><span id="annotated-cell-1-33" class="code-annotation-target"><a href="#annotated-cell-1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(l1, <span class="st">"materialien/linkliste.txt"</span>)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-annotation">
+<dl class="code-annotation-container-hidden code-annotation-container-grid">
+<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="6" data-code-annotation="1">wir wissen, dass es 25 Ergebnisseiten geben muss, weil pro Seite 20 Einträge angezeigt werden und es 493 Ergebnisse gibt</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="2">2</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="8" data-code-annotation="2">Ab der zweiten Ergebnisseite muss bei der URL die <code>/page</code>-Erweiterung angegeben werden, die für die erste Seite noch entfällt. Mit diesem if-Statement stellen wir sicher, dass die erste Ergebnisseite entsprechend anders behandelt wird als die folgenden.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="3">3</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="13" data-code-annotation="3">die i-te Ergebnisseite wird als i-tes Element der Liste hizugefügt.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="4">4</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="15" data-code-annotation="4">mit Sys.sleep können wir einen kurzen Abstand zwischen den Anfragen einbauen, was bei der Abfrage von größeren Datenmengen sinnvoll sein kann, um die Server zu schonen</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="5">5</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="19" data-code-annotation="5">Dieser Befehl überführt die Liste in einen Vektor, der anschließend weiter verarbeitet werden kann.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="6">6</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="22" data-code-annotation="6">Eine manuelle Inspektion des Quelltexts zeigt, dass alle Links mit https://netzpolitik.org/ beginnen, gefolgt von einer Zahl - Letzterem tragen wir mit dem regulären Ausdruck <code>[0-9]</code> Rechnung. Dieser <code>grep</code>-Befehl sucht also alle Elemente in unserem Vektor, in denen dieses Link-Muster zu finden ist.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="7">7</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="23" data-code-annotation="7">Hier wird das Subset unseres Vektors mit allen Elementen erstellt, die das eben gesuchte Muster enthalten.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="8">8</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="26" data-code-annotation="8">In dieser und der folgenden Zeile werden alle Elemente vor und nach dem eigentlichen Link gelöscht. <code>trimws</code> steht für “trim whitespace”; diese Funktion entfernt Leerzeichen am Anfang und am Ende des Strings.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="9">9</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="30" data-code-annotation="9">Viele Links treten im gecrawlten Quelltext mehrfach auf, deshalb werden sie hier dedupliziert.</span>
+</dd>
+<dt data-target-cell="annotated-cell-1" data-target-annotation="10">10</dt>
+<dd>
+<span data-code-cell="annotated-cell-1" data-code-lines="33" data-code-annotation="10">Dieser Befehl schließlich exportiert die Links in eine Linkliste.</span>
+</dd>
+</dl>
+</div>
+</div>
+<p>Das Ergebnis des Codes ist die Linkliste, die im Textdokument <code>linkliste.txt</code> gespeichert ist.</p>
+</section>
+<section id="crawlen-mit-trafilatura" class="level3" data-number="6.0.2">
+<h3 data-number="6.0.2" class="anchored" data-anchor-id="crawlen-mit-trafilatura"><span class="header-section-number">6.0.2</span> Crawlen mit Trafilatura</h3>
+<p>Als nächstes können wir die Linkliste als Input für Trafilatura nutzen. Trafilatura ist eine Python-Programmbibliothek, die man aber auch einfach übers Terminal aufrufen kann. Es gäbe zwar auch R-Libraries, die einen ähnlichen Zweck erfüllen, z.B. <code>rvest</code>, aber Trafilatura hat den Vorteil, dass es viele Prozessierungsschritte automatisch erledigt, die wir andernfalls manuell erledigen müssten (z.B. die Entfernung von Boilerplate-Text). Wenn Trafilatura korrekt installiert ist, genügt folgender Terminal-Befehl, um die Daten zu crawlen:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>trafilatura -i materialien/linkliste.txt -o materialien/netzpolitik_daten --with-metadata --formatting --output-format txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Der Befehl ist wie folgt zu lesen:</p>
+<ul>
+<li><p><code>-i</code> (Input) gibt an, wo die Datei mit der Link-Liste liegt, die gecrawlt werden soll;</p></li>
+<li><p><code>-o</code> (Output) gibt an, wo die Ergebnisse gespeichert werden sollen;</p></li>
+<li><p><code>--with-metadata</code> gibt an, dass die gespeicherten Dateien auch Metadaten enthalten sollen (z.B. Datum);</p></li>
+<li><p><code>--formatting</code> gibt an, dass die Dateien auch Informationen zur Formatierung enthalten sollen (z.B. bei welchen Textstrings es dich um Überschriften handelt);</p></li>
+<li><p><code>--output-format</code> gibt an, dass wir die Dateien als Rohtextdateien (.txt) haben möchten.</p></li>
+</ul>
+</section>
+<section id="annotation-in-dezidierter-annotationssoftware" class="level3" data-number="6.0.3">
+<h3 data-number="6.0.3" class="anchored" data-anchor-id="annotation-in-dezidierter-annotationssoftware"><span class="header-section-number">6.0.3</span> Annotation in dezidierter Annotationssoftware</h3>
+<p>Wärend wir im Quick&amp;Dirty-Ansatz noch alle relevanten Segmente manuell aus den Daten herauskopiert haben, können wir sie dank entsprechender Software auch in eigens für solche Zwecke entwickelter Annotationssoftware mit Annotationen versehen. In der qualitativen Forschung ist das kommerzielle Tool MAXQDA nach wie vor der sprichwörtliche Platzhirsch; tatsächlich ist es von der Benutzerfreundlichkeit und Funktionsvielfalt her das wahrscheinlich einsteigerfreundlichste Tool, und viele Universitäten oder Institute haben Lizenzen dafür. Inzwischen gibt es aber erfreulicherweise auch kostenlose und quelloffene Alternativen, auf die wir uns hier beschränken wollen.</p>
+<section id="openqda" class="level4" data-number="6.0.3.1">
+<h4 data-number="6.0.3.1" class="anchored" data-anchor-id="openqda"><span class="header-section-number">6.0.3.1</span> OpenQDA</h4>
+<p>Die niedrigschwelligste und einfachste Option ist derzeit wohl <a href="https://openqda.org/">OpenQDA</a>, das online verwendbar und denkbar einfach zu bedienen ist. Hier können wir zunächst ein neues Projekt erstellen. Links sehen wir eine Sidebar, in der verschiedene Optionen verfügbar sind; die Schritte “Preparation”, “Coding” und “Analysis”, die hier ausgewählt werden können…</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/openqda-sidebar.png" class="img-fluid figure-img" alt="Sidebar von OpenQDA mit den Optionen Preparation, Coding, Analysis"></p>
+<figcaption>OpenQDA-Workflow-Sidebar.</figcaption>
+</figure>
+</div>
+<p>… müssen wir nun nacheinander abarbeiten.</p>
+<p>Nach Import der über Trafilatura gecrawlten Dateien können wir diese im “Preparation”-Tab theoretisch weiter bearbeiten, was wir aber an dieser Stelle nicht wollen – wir wollen direkt in die Kodierung einsteigen. Um ein Dokument kodieren zu können, müssen wir es zuerst für die weitere Textbearbeitung sperren (“Lock for Coding”), was im Preparation-Tab geschieht:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ openqda-lockforcoding.png" class="img-fluid figure-img" alt="Der Lock-for-Coding-Button in OpenQDA."></p>
+<figcaption>Der Lock-for-Coding-Button in OpenQDA.</figcaption>
+</figure>
+</div>
+<p>Wenn wir im Folgenden auf “Confirm” klicken, werden wir direkt in den Coding-Tab weitergeleitet, wo wir das Dokument nun bearbeiten können und wo wir links unter “Sources” zwischen allen Dokumenten wählen können, die wir bereits für die Kodierung freigegeben haben (bei mir sind das im folgenden Screenshot schon ein paar mehr).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/openqda-coding01.png" class="img-fluid figure-img" alt="Coding-Ansicht von OpenQDA"></p>
+<figcaption>Coding-Ansicht von OpenQDA mit Sources-Auswahl</figcaption>
+</figure>
+</div>
+<p>Nun können wir erste Annotationen vornehmen, indem wir einzelne Wörter oder Spannen im Text markieren, worauf am oberen rechten Rand ein “Menu”-Button erscheint, auf den wir klicken können, um mit “Create new in-vivo-Code” einen neuen Code zu erstellen. Einen einmal erstellten Code können wir für andere Textsegmente auch wiederverwenden: sobald wir einen Code erstellt haben, steht er bei weiteren Annotationen im Auswahlmenü zur Verfügung</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/openqda-annotation.gif" class="img-fluid figure-img" alt="Der Screencast zeigt einen Annotationsvorgang in OpenQDA"></p>
+<figcaption>Beispiel für Kodierungen (Annotationen) in OpenQDA.</figcaption>
+</figure>
+</div>
+<p>Wenn wir mit den Annotationen fertig sind, können wir die annotierten Segmente mit den Annotationen auch im <dfn><abbr title="Comma-separated values">CSV</abbr></dfn>-Format exportieren. Dafür müssen wir in den “Analysis”-Tab wechseln. Die Option “Export to CSV” ist zunächst ausgegraut, weil wir zuerst eine Option im Dropdown-Menü “Select a visualization” wählen müssen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ openqda_csv_export.png" class="img-fluid figure-img" alt="Der Screenshot zeigt den &quot;Analysis&quot;-Tab in OpenQDA. Hier gibt es die Möglichkeit zum CSV-Export"></p>
+<figcaption>CSV-Export in OpenQDA</figcaption>
+</figure>
+</div>
+<p>Das resultierende Spreadsheet ist ganz ähnlich wie <a href="quick_and_dirty.html#fig-spreadsheet" class="quarto-xref">Figure&nbsp;<span>5.2</span></a> oben, auch wenn die zusätzlichen Spalten, die wir dort hinzufügen konnten, hier natürlich fehlen – bei Bedarf können wir sie noch manuell in einem Tabellenkalkulationsprogramm ergänzen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/openqda_csv_result.png" class="img-fluid figure-img" alt="Screenshot des Spreadsheets, das aus OpenQDA exportiert wurde."></p>
+<figcaption>Das Spreadsheet, das aus den oben vorgenommenen Annotationen resultiert.</figcaption>
+</figure>
+</div>
+</section>
+<section id="inception" class="level4" data-number="6.0.3.2">
+<h4 data-number="6.0.3.2" class="anchored" data-anchor-id="inception"><span class="header-section-number">6.0.3.2</span> INCEpTION</h4>
+<p><a href="https://inception-project.github.io/">INCEpTION</a> ist ein vielseitiges Annotationstool, das einen deutlich größeren Funktionsumfang bietet als OpenQDA, aber auch anspruchsvoller ist. Es ist vor allem für serverbasierte Nutzung ausgelegt, man kann es aber auch auf dem eigenen Rechner verwenden. Sofern man Java installiert hat, genügt es in der Regel, die auf der Website verfügbare .jar-Datei herunterzuladen und zu öffnen. INCEpTION öffnet sich dann in Ihrem Browser, wo Sie bei der ersten Verwendung zunächst ein Admin-Passwort vergeben müssen.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Achtung!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Notieren Sie sich unbedingt das Admin-Passwort, das Sie vergeben. Für die lokale Nutzung gibt es naheliegenderweise keine Password-Reset-Option.</p>
+</div>
+</div>
+<p>Anschließend können wir ein neues Projekt erstellen – hier verwenden wir die Option “Classic linguistic project” (wir könnten aber auch einfach ein “Blank project” erstellen). Nun können wir über die Importfunktion die über Trafilatura gecrawlten Dateien einlesen.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Beim Einlesen der von Trafilatura gecrawlten .txt-Dateien kann es aufgrund der Dateinamen, die Trafilatura vergibt, zu einer Fehlermeldung kommen:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/inception_character_error.png" class="img-fluid figure-img" alt="Fehlermeldung: &quot;Document name cannot start with any of these characters: -&quot;"></p>
+<figcaption>Fehlermeldung in INCEpTION beim Datenimport</figcaption>
+</figure>
+</div>
+<p>Wie aus der Fehlermeldung klar hervorgeht, akzeptiert INCEpTION keine Dateinamen, die mit <code>-</code> anfangen. Zum Glück können wir die Dateinamen über einen einfachen Terminal-Befehl relativ schnell ändern. (Transparenzhinweis: Die beiden Befehle wurden mit Hilfe von ChatGPT erstellt.)</p>
+<p>Um die Befehle anzuwenden, müssen wir zunächst mit dem <code>cd</code>-Befehl in das entsprechende Verzeichnis navigieren. Anschließend sollten Sie die Befehle einfach copy&amp;pasten und ausführen können.</p>
+<p>In Mac (zsh):</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>for f in -- -*; do</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    [[ -e "$f" ]] || continue</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    mv -- "$f" "x$f"</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>done</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In Windows (PowerShell):</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Get-ChildItem -File | Where-Object {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    $_.Name.StartsWith('-')</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>} | ForEach-Object {</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    Rename-Item -LiteralPath $_.FullName -NewName ("x" + $_.Name)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/inception_import.gif" class="img-fluid figure-img" alt="Der Screencast zeigt, wie man in INCEpTION ein neues Projekt erstellt und Daten importiert."></p>
+<figcaption>Erstellung eines neuen Projekts und Datenimport in INCEpTION</figcaption>
+</figure>
+</div>
+<p>Bevor wir mit der Annotation loslegen können, müssen wir einen entsprechenden Annotations-Layer kreieren. In der Sidebar links sehen wir die Option “Layers” (falls Sie die Sidebar nicht sehen können: Sie befindet sich im “Settings”-Menü des Projekts), wo wir einen neuen Layer anlegen können.</p>
+<p>Der Screencast in <a href="#fig-inceptionlayer" class="quarto-xref">Figure&nbsp;<span>6.1</span></a> zeigt, wie das Anlegen eines neuen Annotations-Layers aussehen kann. Folgende Entscheidungen habe ich im Beispiel in <a href="#fig-inceptionlayer" class="quarto-xref">Figure&nbsp;<span>6.1</span></a> getroffen:</p>
+<ul>
+<li><p>Die “granularity” habe ich auf character-level gesetzt. Das bedeutet, dass wir nicht nur ganze Wörter markieren können, sondern auch einzelne Wortbestandteile. In einigen Fällen kann das nützlich sein, etwa wenn wir nur einzelne Kompositionsglieder in einem Kompositum annotieren möchten.</p></li>
+<li><p>Ich erlaube Überlappungen und “Stacking”, die per Default ausgeschlossen sind. Das bedeutet, dass sich Annotationsspannen überlappen können, dass also z.B. demselben Wort (oder einer größeren Spanne) mehr als eine Annotation zugewiesen werden kann. Im Beispiel weiter unten in <a href="#fig-inception-annotation" class="quarto-xref">Figure&nbsp;<span>6.2</span></a> mache ich davon auch Gebrauch.</p></li>
+<li><p>Mit der “Remember”-Option stelle ich sicher, dass einmal vergebene Tags wiederverwendet werden können.</p></li>
+</ul>
+<div id="fig-inceptionlayer" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Der Screencast zeigt, wie in INCEpTION ein neuer Annotationslayer erstellt wird.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-inceptionlayer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/inception-create-layer.gif" class="img-fluid figure-img" alt="Der Screencast zeigt, wie in INCEpTION ein neuer Annotationslayer erstellt wird.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inceptionlayer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Erstellung eines neuen Annotations-Layers in INCEpTION
+</figcaption>
+</figure>
+</div>
+<p>Sobald der Layer erstellt ist, kann die eigentliche Annotation beginnen. Dafür müssen wir zunächst auf “Dashboard” klicken, dann auf “Annotation” und ein Dokument zum Annotieren auswählen. Nun können wir einzelne Spannen im Text markieren.</p>
+<div id="fig-inception-annotation" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Screencast, der ein einfaches Annotationsbeispiel in INCEpTION zeigt.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-inception-annotation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/inception-annotation.gif" class="img-fluid figure-img" alt="Screencast, der ein einfaches Annotationsbeispiel in INCEpTION zeigt.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inception-annotation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.2: Annotation in INCEpTION
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In den obigen Beispielen wurde bei der Annotation ein eher induktiver Ansatz gewählt, bei der die Annotationskategorien quasi bottom-up aus den Daten heraus entwickelt werden. Es kann aber in vielen Fällen auch sinnvoll sein, mit einem bestehenden, finiten Inventar an Annotationskategorien, einem sogenannten <strong>Tagset</strong>, zu operieren; INCEpTION erlaubt im “Settings”-Menü das Erstellen oder Importieren von Tagsets. Tagsets können auch erweiterbar sein (auch hier kann man in INCEpTION einstellen, ob das erlaubt sein soll oder nicht). Im Fall der Metaphernannotation könnte man beispielsweise mit der online verfügbaren “Master Metaphor List” von George Lakoff und Kolleg:innen als Tagset arbeiten und dieses bei Bedarf noch erweitern, wenn man auf Metaphern stößt, die sich damit nicht gut abbilden lassen.</p>
+</div>
+</div>
+<p>Ein einfacher CSV-Export ist in INCEpTION leider nicht möglich (<a href="https://stackoverflow.com/questions/64704561/exporting-text-sequences-with-labels-from-inception-annotation-engine">hier</a> wird allerdings ein Workaround vorgestellt); dafür lassen sich die Annotationen am Ende im “Curation”-Tab quasi alle zusammen anschauen, was für die qualitative Auswertung auch hilfreich sein kann (um ein Dokument im “Curation”-Tab sehen zu können, muss allerdings die Annotation zunächst abgeschlossen werden - dafür muss man auf den “Toggle State”-Button klicken, der wie ein Häkchen aussieht und das Dokument in den Read-only-Modus überführt.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/inception-toggle-state.png" class="img-fluid figure-img" alt="Screenshot des Toggle-State-Button in INCEpTION"></p>
+<figcaption>Toggle-State-Button in INCEpTION</figcaption>
+</figure>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-barbaresi2021" class="csl-entry" role="listitem">
+Barbaresi, Adrien. 2021. <span>“Trafilatura: A Web Scraping Library and Command-Line Tool for Text Discovery and Extraction.”</span> In.
+</div>
+<div id="ref-lefoll2026" class="csl-entry" role="listitem">
+LeFoll, Elen. 2026. <em>Data Analysis for the Language Sciences. <span>A</span> Very Gentle Introduction to Statistics and Data Visualization in <span>R</span></em>. <a href="https://elenlefoll.github.io/RstatsTextbook/">https://elenlefoll.github.io/RstatsTextbook/</a>.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script>
+
+/* definition of content for the buttons */
+const webex_buttons = {check_hidden:          "<b>&check;</b>",
+                       check_hidden_alt:      "Check answer",
+                       check_shown:           "<b>&lsh;</b>",
+                       check_shown_alt:       "Hide check",
+                       check_of_total:        "/",
+                       solution:              "<b>&quest;</b>",
+                       solution_alt:          "Correct solution",
+                       question_next:         "<b>&#8634;</b>",
+                       question_next_alt:     "Next question",
+                       question_previous:     "",
+                       question_previous_alt: ""}
+
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  document.querySelectorAll(".webex-total_correct").forEach(total => {
+    p = total.closest(".webex-box");
+    var correct = p.getElementsByClassName("webex-correct").length;
+    var solvemes = p.getElementsByClassName("webex-solveme").length;
+    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+    var selects = p.getElementsByClassName("webex-select").length;
+    /* no specific class on input node, thus searching via query selector */
+    var checkboxgroups = p.querySelectorAll("div[class=webex-checkboxgroup] input[type=checkbox]").length
+
+    /* show number of correct / total number of answers */
+    total.innerHTML = correct + "&nbsp;" + webex_buttons.check_of_total + "&nbsp;" + (solvemes + radiogroups + checkboxgroups + selects);
+  });
+}
+
+/* check answers */
+check_func = function() {
+  console.log("webex: check answer");
+
+  //var cl = elem.parentElement.classList;
+  var cl = this.closest(".webex-box").classList;
+  if (cl.contains("unchecked")) {
+    cl.remove("unchecked");
+    this.innerHTML = webex_buttons.check_shown; //"Hide check";
+    if (webex_buttons.check_shown_alt.length > 0) this.setAttribute("title", webex_buttons.check_shown_alt);
+  } else {
+    cl.add("unchecked");
+    this.innerHTML = webex_buttons.check_hidden; //"Check answer";
+    if (webex_buttons.check_hidden_alt.length > 0) this.setAttribute("title", webex_buttons.check_hidden_alt);
+  }
+}
+
+/* helper functions for checking the webex ID */
+const id_checker = {"fmt": new RegExp("[g-zG-Z]"),
+                    "load": function(e) { return e.getAttribute("id").match("(?<=(-)).*$")[0]; },
+                    "eval": new TextEncoder(),
+                    "dval": new TextDecoder()}
+
+/* Show/hide correct solution */
+solution_func = function() {
+  console.log("webex: show/hide solution");
+
+  var div = this.closest(".webex-question").querySelector(".webex-solution");
+  var cl = div.classList;
+
+  if (cl.contains("visible")) {
+    cl.remove("visible");
+  } else {
+    cl.add("visible");
+  }
+}
+
+/* function to check if the real answer is numeric */
+convert_to_numeric = function(x) {
+  if (typeof x == "string") {
+    /* do nothing */
+  } else if (x.length == 1) {
+    /* take first element */
+    x = x[0]
+  } else {
+    return NaN;
+  }
+
+  /* remove spaces for easier parsing */
+  x = x.replace(/\s/g, "");
+
+  /* Define patterns for different formats, note that spaces have been removed above */
+  const patterns = [
+    {regex: /^[+-]?\d+(\.\d{3})*,\d+$/, decimal: ",", thousand: "." },  // Format: "1.100.100.100,3"
+    {regex: /^[+-]?\d+(,\d{3})*\.\d+$/, decimal: ".", thousand: "," },  // Format: "1,100,100,100.3"
+    {regex: /^[+-]?\d+(\.|\.\d+)?$/, decimal: "." },                    // Format: "1100100100.5" or "1100100100."
+    {regex: /^[+-]?\d+(,|,\d+)$/, decimal: "," }                        // Format: "1100100100,5" or "1100100100,"
+  ];
+
+
+  /* testing all regular expressions, convert to float if possible */
+  for (const { regex, decimal, thousand } of patterns) {
+    if (regex.test(x)) {
+      let numeric = x;
+      if (thousand) numeric = numeric.replace(new RegExp(`\\${thousand}`, "g"), "");
+      numeric = numeric.replace(decimal, ".");
+      return parseFloat(numeric);
+    }
+  }
+
+  /* input of length 1 but none of the known formats, return NaN */
+  return NaN;
+}
+
+/* Checking webex ID, returns formalsol */
+check_id = function(e) {
+  /* loading webex ID */
+  var id = id_checker["load"](e);
+
+  /* extracting answer */
+  let answer = e.dataset.answer;
+
+  /* checking unique id, prepare and return array */
+  if (!id_checker["fmt"].test(id)) {
+    const a = id_checker["eval"].encode(atob(answer));
+    const b = id_checker["eval"].encode(id);
+    const res = a.map((byte, index) => byte^b[index % b.length]);
+    answer = id_checker["dval"].decode(res);
+    /* Replacing &amp; with ' before parsing */
+    answer = answer.replaceAll("&apos;", "'");
+  }
+
+  return JSON.parse(answer);
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  /* avoid that keyup and keychange twice execute this function within nms = 10
+   * ms, clearing inputTimer and add timeout */
+  console.log("webex: check solveme");
+
+  /* float, precision for checking numeric answers */
+  const eps = 0.00000000000001;
+
+  /* get last checked user answer */
+  const question = this.closest(".webex-question")
+
+  /* extracting classes */
+  var cl = this.classList;
+  var my_answer = this.value;
+
+  /* extracting classes */
+  var cl = this.classList;
+
+  /* empty answer? Job done */
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+    return false;
+  }
+
+  /* Find closest (parent) webex-question */
+  let formalsols = check_id(this)
+
+  /* by default we assume the users' answer is incorrect */
+  var user_answer_correct = false;
+
+  /* check if the correct answer is numeric, i.e. if 
+   * formalsols is of length 1 containing one single numeric
+   * value in a known format, else, NaN is returned */
+  const num_formalsol = convert_to_numeric(formalsols);
+  const num_my_answer = convert_to_numeric(my_answer);
+
+  /* if the correct answer is numeric (float), the user's answer
+   * must also be numeric. If not, it is wrong. Else we can
+   * compare floating point numbers */
+  if (!isNaN(num_formalsol) && !isNaN(num_my_answer)) {
+    /* check if the real answer and the user input are numerically the same;
+     * adding 'delta' to avoid precision issues */
+    var diff = Math.abs(num_formalsol - num_my_answer);
+    if (diff < parseFloat(this.dataset.tol) + eps) { user_answer_correct = true; }
+
+  /* if the question contains regex, a regular expression is used
+   * to evaluate the users answer. Allows for multiple regular expressions */
+  } else if (cl.contains("regex")) {
+    for (let i = 0; i < formalsols.length; i++) {
+        let regex = new RegExp(formalsols[i], cl.contains("ignorecase") ? "i" : "");
+        if (regex.test(my_answer)) { user_answer_correct = true; break; }
+    }
+
+  /* else we evaluate on 'string level', considering the creators preferences
+   * regarding set options */
+  } else {
+    /* modify/prepare answer */
+    if (cl.contains("ignorecase")) { my_answer = my_answer.toLowerCase(); }
+    if (cl.contains("nospaces"))   { my_answer = my_answer.replace(/ /g, ""); }
+
+    /* if the real answer includes user input - correct */
+    if (formalsols.includes(my_answer)) {
+      user_answer_correct = true;
+  
+      // added regex bit
+      if (cl.contains("regex")) {
+        answer_regex = RegExp(formalsols.join("|"))
+        if (answer_regex.test(my_answer)) {
+          cl.add("webex-correct");
+        }
+      }
+    }
+  }
+
+  if (user_answer_correct) {
+      cl.add("webex-correct");
+      cl.remove("webex-incorrect");
+  } else {
+      cl.add("webex-incorrect");
+      cl.remove("webex-correct");
+  }
+
+  update_total_correct();
+
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var options   = [];
+  Array.from(this.querySelectorAll("option")).forEach((option, index) => {
+    if (!option.hasAttribute("value") || !option.getAttribute("value") === "blank") {
+      options.push(option);
+    }
+  });
+
+  /* get selected option */
+  function get_selected(options) { return options.findIndex(option => option.selected); }
+  var option_index = get_selected(options)
+
+  /* loading webex ID */
+  var formalsol = check_id(this)
+
+  /* add class for current selection */
+  this.classList.remove("webex-incorrect");
+  this.classList.remove("webex-correct");
+  if (option_index >= 0) {
+    this.classList.add(formalsol[option_index] === 1 ? "webex-correct" : "webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  /* get real answer (binary integer array) */
+  var id = e.target.getAttribute("name");
+  var group = document.querySelector(".webex-radiogroup[id='webex-" + id + "']");
+  var formalsol = check_id(group)
+
+  /* check which radiobuttion is selected (user answer) */
+  function get_checked(radios) {
+    return radios.findIndex(radios => radios.checked);
+  }
+  var radios = Array.from(group.querySelectorAll("input[type='radio']"))
+  var radio_index = get_checked(radios);
+
+  /* remove existing classes */
+  radios.forEach(radio => {
+    let cl = radio.closest("label").classList
+    cl.remove("webex-incorrect");
+    cl.remove("webex-correct");
+  });
+
+  /* add class for current selection */
+  let cl = radios[radio_index].closest("label").classList
+  if (formalsol[radio_index] === 1) {
+      cl.add("webex-correct");
+  } else {
+      cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+
+/* function for checking checkboxgroups answers */
+checkboxgroups_func = function(e) {
+  console.log("webex: check checkboxgroups");
+
+  /* get real answer (binary integer array) */
+  var group = document.querySelector(".webex-checkboxgroup[id='" + this.id + "']");
+  var formalsol = check_id(group);
+
+  /* check which checkbox is checked (user answer) */
+  function get_checked(group) {
+      const checkboxes = Array.from(group.querySelectorAll("input[type='checkbox']"));
+      return checkboxes.reduce((indices, checkbox, index) => {
+          if (checkbox.checked) indices.push(index);
+          return indices;
+      }, []);
+  }
+  var checks = Array.from(group.querySelectorAll("input[type='checkbox']"));
+  var check_index = get_checked(group);
+
+  checks.forEach((e, index) => {
+    var label = e.parentNode;
+    var ans = formalsol[index];
+    if ((e.checked && ans === 1) || (!e.checked && ans === 0)) {
+        label.setAttribute("class", "webex-correct")
+    } else {
+        label.setAttribute("class", "webex-incorrect")
+    }
+  });
+
+  update_total_correct();
+}
+
+/* shuffling array (thanks to stack overflow)
+ * If argument x is an integer we create an integer sequence
+ * from 0, 1, ..., (x - 1) and return a shuffled version. If
+ * the input is an array, we simply shuffle it */
+shuffle_array = function(x) {
+   if (Number.isInteger(x) && !isNaN(x)) {
+     x = Array.from({length: x}, (v, i) => i);
+   }
+   let shuffled = x.map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort).map(({ value }) => value)
+   return shuffled;
+}
+
+/* ---------------------------------------------------------
+ * ---------------------------------------------------------
+ * --------------------------------------------------------- */
+window.onload = function() {
+  //console.log("webex: onload");
+
+  /* setting up buttons and actions to show/hide answers */
+  document.querySelectorAll(".webex-check").forEach(section => {
+    section.classList.add("unchecked");
+
+    /* ul to take up the list items with buttons */
+    let button_ul = document.createElement("ul");
+    button_ul.setAttribute("class", "webex-button-list");
+    section.appendChild(button_ul);
+
+    /* button to _check_ if answers given are correct */
+    let li_check = document.createElement("li");
+    button_ul.appendChild(li_check); /* add list item to ul */
+    let btn_check = document.createElement("button");
+    btn_check.innerHTML = webex_buttons.check_hidden;  // "Check answer";
+    btn_check.setAttribute("class", "webex-button webex-button-check");
+    if (webex_buttons.check_hidden_alt.length > 0) btn_check.setAttribute("title", webex_buttons.check_hidden_alt);
+    btn_check.onclick = check_func;
+    li_check.appendChild(btn_check);
+
+    /* span to show current number of points (when _check_ active) */
+    let spn = document.createElement("span");
+    spn.classList.add("webex-total_correct");
+    li_check.appendChild(spn);
+
+    /* button to show the _solution_ if there is one */
+    var has_solution = section.parentNode.querySelectorAll(".webex-solution").length > 0;
+    if (has_solution) {
+      let li_solution = document.createElement("li");
+      button_ul.appendChild(li_solution); /* add list item to ul */
+      let btn_solution = document.createElement("button");
+      btn_solution.innerHTML = webex_buttons.solution; // "Correct answer";
+      btn_solution.setAttribute("class", "webex-button webex-button-solution");
+      if (webex_buttons.solution_alt.length > 0) btn_solution.setAttribute("title", webex_buttons.solution_alt);
+      btn_solution.onclick = solution_func;
+      li_solution.appendChild(btn_solution);
+    }
+
+  });
+
+  /* set up webex-solveme inputs */
+  document.querySelectorAll(".webex-solveme").forEach(solveme => {
+    solveme.setAttribute("autocomplete","off");
+    solveme.setAttribute("autocorrect", "off");
+    solveme.setAttribute("autocapitalize", "off");
+    solveme.setAttribute("spellcheck", "false");
+    solveme.value = "";
+
+    /* adjust answer for 'no spaces' (ignore spaces) */
+    if (solveme.classList.contains("nospaces")) {
+      solveme.dataset.answer = solveme.dataset.answer.replace(/ /g, "");
+    }
+
+    /* attach checking function, triggered on key up, change, and when
+     * elemnt is out of focus. Only evaluated once by tracking changes
+     * via variable solveme_last_user_answer */
+    solveme.addEventListener("keyup",  solveme_func);
+    solveme.addEventListener("change", solveme_func);
+    solveme.addEventListener("blur",   solveme_func);
+
+    /* adding span to show correct/incorrect icon */
+    solveme.insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  });
+
+  /* set up radiogroups (single choice questions with display = "buttons") */
+  document.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+    radiogroup.onchange = radiogroups_func;
+  });
+
+  /* set up checkboxgroups (multiple choice questions with display = "buttons") */
+  document.querySelectorAll(".webex-checkboxgroup").forEach(checkboxgroup => {
+    checkboxgroup.onchange = checkboxgroups_func;
+  });
+
+  /* set up selects (dropdown menus) */
+  document.querySelectorAll(".webex-select").forEach(select => {
+    select.onchange = select_func;
+    /* append webex-icon for correct/incorrect icons */
+    var elem = document.createElement("span")
+    elem.classList.add("webex-icon")
+    select.parentNode.appendChild(elem)
+  });
+
+  /* change to next/previous question if multiple are available */
+  function handleQuestionClick(group, questions, step) {
+    return async function() {
+      /* get question order as integer vector */
+      let questionOrder = group.dataset.questionOrder.split(",").map(str => parseInt(str));
+
+      /* current question/position */
+      let currentPosition = parseInt(group.dataset.currentPosition);
+
+      /* Hide the current question */
+      questions.forEach(question => { question.classList.remove("active"); });
+
+      /* Move to the next question index */
+      currentPosition = (currentPosition + step) % questionOrder.length;
+      if (currentPosition < 0) currentPosition = currentPosition + questionOrder.length
+
+      /* Display the new question */
+      questions[questionOrder[currentPosition]].classList.add("active");
+
+      // Update the currentPosition data attribute on the group div
+      group.dataset.currentPosition = currentPosition;
+    };
+  }
+
+  document.querySelectorAll(".webex-group").forEach(group => {
+    const questions = Array.from(group.querySelectorAll(".webex-question"));
+
+    /* Create vector with question order. If the webex-group does
+     * not have class '.noshuffle' we will randomly shuffle the order */
+    let questionOrder = Array.from({length: questions.length}, (v, i) => i);
+    if (!group.classList.contains("noshuffle")) {
+      questionOrder = shuffle_array(questionOrder);
+    }
+
+    /* take start position (if set) or start at 0 */
+    const currentPosition = parseInt(group.getAttribute("data-start-position")) || 0;
+
+    /* show the default question for each group */
+    questions[questionOrder[currentPosition]].classList.add("active");
+
+    /* store random order of questions as well as current position */
+    group.dataset.questionOrder   = questionOrder;
+    group.dataset.currentPosition = currentPosition;
+
+    /* find all webex-questions, search for .webex-button-list and
+     * populate the list with necessary <li><button>...</button></li> elements */
+    questions.forEach(question => {
+        let button_ul = question.querySelector("ul.webex-button-list");
+
+        let li_next = document.createElement("li");
+        let nextButton = document.createElement("button");
+        nextButton.setAttribute("class", "webex-button webex-button-next");
+        if (webex_buttons.question_next_alt.length > 0) nextButton.setAttribute("title", webex_buttons.question_next_alt);
+        nextButton.innerHTML = webex_buttons.question_next; // "Next question";
+        nextButton.addEventListener("click", handleQuestionClick(group, questions, 1));
+        li_next.appendChild(nextButton);
+
+        let li_previous = document.createElement("li");
+        let previousButton = document.createElement("button");
+        previousButton.setAttribute("class", "webex-button webex-button-previous");
+        if (webex_buttons.question_previous_alt.length > 0) previousButton.setAttribute("title", webex_buttons.question_previous_alt);
+        previousButton.innerHTML = webex_buttons.question_previous; // "Previous question";
+        previousButton.addEventListener("click", handleQuestionClick(group, questions, -1));
+        li_previous.appendChild(previousButton);
+
+        if (webex_buttons.question_previous.length > 0) button_ul.appendChild(li_previous);
+        if (webex_buttons.question_next.length > 0) button_ul.appendChild(li_next);
+    });
+  });
+
+  /* Development options */
+  document.querySelectorAll(".webex-question.check").forEach(question => {
+      question.querySelector(".webex-button-check").click()
+  });
+  document.querySelectorAll(".webex-question.solution").forEach(question => {
+      let btn = question.querySelector(".webex-button-solution");
+      if (btn !== null) { btn.click(); }
+  });
+
+  /* Pre-filling <input> fields */
+  document.querySelectorAll(".webex-question.prefill").forEach(question => {
+      question.querySelectorAll("input.webex-solveme").forEach(solveme => {
+          let x = JSON.parse(solveme.dataset.answer);
+          solveme.value = x[0];
+          /* Trigger the on change event */
+          solveme.dispatchEvent(new Event("change"));
+      });
+
+      /* Pre-filling radiogroups, that is for schoice questions */
+      question.querySelectorAll(".webex-radiogroup").forEach(radiogroup => {
+          let x = JSON.parse(radiogroup.dataset.answer);
+          let idx = x.indexOf(1);
+          let radios = radiogroup.querySelectorAll('input[type="radio"]');
+          radios[idx].checked = true;
+          /* Trigger the on change event */
+          radios[idx].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+
+      /* Pre-filling checkboxgroups, that is for schoice questions w/ dropdown menus */
+      question.querySelectorAll(".webex-select").forEach(dropdown => {
+          let x = JSON.parse(dropdown.dataset.answer);
+          let idx = x.indexOf(1) + 1; /* +1 to skip the first blank option */
+          let options = dropdown.querySelectorAll("option");
+          options[idx].selected = true;
+          /* Trigger the on change event */
+          options[idx].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+
+      /* Pre-filling checkboxgroups, that is for mchoice questions */
+      question.querySelectorAll(".webex-checkboxgroup").forEach(radiogroup => {
+          let x = JSON.parse(radiogroup.dataset.answer);
+          let checkboxes = radiogroup.querySelectorAll('input[type="checkbox"]');
+          for (let i = 0; i < checkboxes.length; i++) {
+              checkboxes[i].checked = x[i];
+          }
+          /* Trigger the on change event */
+          checkboxes[0].dispatchEvent(new Event("change", { bubbles: true }));
+      });
+  });
+
+  /* Show set tolerance (devel option) */
+  function calc_width(x, txt, offset = 20) {
+      /* We do the following:
+       * Create a new span, insert the value we need in the .tolerance
+       * input node, and calculate its offsetWidth. Then remove it
+       * again; this is just used to calculate the required width. */
+      var cwtmp = document.createElement("span");
+      x.appendChild(cwtmp);
+      cwtmp.innerHTML = txt || "";
+      var w = parseInt(cwtmp.getBoundingClientRect().width) + offset;
+      cwtmp.remove();
+      return w;
+  }
+
+  /* If tolerance should be shown (devel option) we calculate:
+   * - the width required to properly display the solution
+   * - the width required to properly display the tolerance
+   * - add a new element to display the tolerance
+   * - reduce the width of the solution input box. */
+  document.querySelectorAll(".webex-question.tolerance").forEach(question => {
+      question.querySelectorAll("input[data-tol]").forEach(elem => {
+          var w = null;
+
+          /* Add new element showing the tolerance */
+          let tol = document.createElement("input");
+          tol.type = "text"; // <inpyt type="text">
+          tol.disabled = true; // Disable input element
+          tol.classList.add("tolerance"); // Appending class
+          tol.value = "Â± " + elem.getAttribute("data-tol");
+
+          /* Add new node */
+          elem.parentNode.insertBefore(tol, elem)
+
+          var body     = document.querySelector("body");
+          //tol.value = "Â± " + "0.0000007";
+          //tol.value = "Â± " + "0.07";
+          w    = calc_width(body, tol.value);
+          wold = parseInt(elem.getBoundingClientRect().width);
+          wmin = calc_width(body, elem.value);
+
+          /* Calculate required width of the 'tolerance' node, and the
+           * reduction of the original 'input' node */
+          let wnew = Math.max(wmin, wold - w);
+          tol.style.width  = w + "px";
+          elem.style.width = wnew + "px";
+      });
+  });
+
+  update_total_correct();
+}
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+      for (let i=0; i<annoteTargets.length; i++) {
+        const annoteTarget = annoteTargets[i];
+        const targetCell = annoteTarget.getAttribute("data-target-cell");
+        const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+        const contentFn = () => {
+          const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          if (content) {
+            const tipContent = content.cloneNode(true);
+            tipContent.classList.add("code-annotation-tip-content");
+            return tipContent.outerHTML;
+          }
+        }
+        const config = {
+          allowHTML: true,
+          content: contentFn,
+          onShow: (instance) => {
+            selectCodeLines(instance.reference);
+            instance.reference.classList.add('code-annotation-active');
+            window.tippy.hideAll();
+          },
+          onHide: (instance) => {
+            unselectCodeLines();
+            instance.reference.classList.remove('code-annotation-active');
+          },
+          maxWidth: 300,
+          delay: [50, 0],
+          duration: [200, 0],
+          offset: [5, 10],
+          arrow: true,
+          appendTo: function(el) {
+            return el.parentElement.parentElement.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'quarto',
+          placement: 'right',
+          popperOptions: {
+            modifiers: [
+            {
+              name: 'flip',
+              options: {
+                flipVariations: false, // true by default
+                allowedAutoPlacements: ['right'],
+                fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+              },
+            },
+            {
+              name: 'preventOverflow',
+              options: {
+                mainAxis: false,
+                altAxis: false
+              }
+            }
+            ]        
+          }      
+        };
+        window.tippy(annoteTarget, config); 
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./quick_and_dirty.html" class="pagination-link" aria-label="Ein eigenes Korpus erstellen: Quick &amp; Dirty">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ein eigenes Korpus erstellen: Quick &amp; Dirty</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lemmatisierung_tagging.html" class="pagination-link" aria-label="Zusätzliche Optionen: Lemmatisierung und POS-Tagging">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Zusätzliche Optionen: Lemmatisierung und POS-Tagging</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,713 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = 944 Artikel haben wir 2023 bis zum 22. Dezember veröffentlicht.
+1	944	944	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Artikel	Artikel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+4	wir	wir	PRON	ADJD	_	12	nsubj	_	_
+5	2023	2023	NUM	CARD	NumType=Card	12	obj	_	_
+6	bis	bis	ADP	APPR	_	11	case	_	_
+7-8	zum	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+9	22	22	NUM	CARD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+11	Dezember	Dezember	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+12	veröffentlicht	veröffentlichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Dadurch kamen über 10 Millionen Zeichen zusammen.
+1	Dadurch	dadurch	ADV	PAV	_	2	advmod	_	_
+2	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	FM	Foreign=Yes	6	case	_	_
+4	10	10	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	_
+6	Zeichen	Zeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+7	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	2	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Das wären etwa 5.555 Seiten, wenn man das ausdrucken würde – tut das bitte nicht!
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	nsubj	_	_
+2	wären	sein	AUX	ADJD	_	5	cop	_	_
+3	etwa	etwa	ADV	ADV	_	4	advmod	_	_
+4	5.555	5.555	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Seiten	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	wenn	wenn	SCONJ	VVFIN	_	10	mark	_	_
+8	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	_
+9	das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	obj	_	_
+10	ausdrucken	ausdrucken	VERB	NN	Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	_
+11	würde	werden	AUX	NE	Case=Nom|Number=Sing	10	aux	_	_
+12	–	–	PUNCT	$.	_	10	punct	_	_
+13	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	nsubj	_	_
+15	bitte	bitten	ADV	ADJA	Case=Nom|Gender=Fem|Number=Sing	16	advmod	_	_
+16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	SpaceAfter=No
+17	!	!	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Pro Tag veröffentlichen wir damit rund 2,6 Artikel mit einer durchschnittlichen Länge von 10.802 Zeichen.
+1	Pro	pro	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	2	case	_	_
+2	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	veröffentlichen	veröffentlichen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+4	wir	wir	PRON	ADJD	_	3	nsubj	_	_
+5	damit	damit	ADV	PAV	_	3	advmod	_	_
+6	rund	rund	ADV	ADV	_	7	advmod	_	_
+7	2,6	2,6	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+9	mit	mit	ADP	$(	_	12	case	_	_
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	durchschnittlichen	durchschnittlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	12	amod	_	_
+12	Länge	Länge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+13	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+14	10.802	10.802	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Zeichen	Zeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Hinter diesen nüchternen Zahlen verbergen sich ausführliche Recherchen, knackige Kommentare, veröffentlichte Dokumente, gründliche Analysen, kleinere Meldungen und ganz praktische Hilfestellungen.
+1	Hinter	hinter	ADP	APPR	_	4	case	_	_
+2	diesen	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+3	nüchternen	nüchtern	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	4	amod	_	_
+4	Zahlen	Zahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+5	verbergen	verbergen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	ausführliche	ausführlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	_
+8	Recherchen	Recherche	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	knackige	knackig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	_
+11	Kommentare	Kommentar	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	veröffentlichte	veröffentlicht	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
+14	Dokumente	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	gründliche	gründlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	_
+17	Analysen	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	kleinere	klein	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	20	amod	_	_
+20	Meldungen	Meldung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	conj	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	24	cc	_	_
+22	ganz	ganz	ADV	ADV	_	23	advmod	_	_
+23	praktische	praktisch	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	24	amod	_	_
+24	Hilfestellungen	Hilfestellung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Über das Jahr betrachtet erschienen die meisten Artikel im Monat September (103), die wenigsten publizierten wir im August (58).
+1	Über	über	ADP	APPR	_	3	case	_	_
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	betrachtet	betrachten	VERB	VVPP	VerbForm=Part	5	acl	_	_
+5	erschienen	erscheinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	8	det	_	_
+7	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	8	amod	_	_
+8	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+12	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	appos	_	_
+13	(	(	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	103	103	NUM	CARD	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	_
+17	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	obj	_	_
+18	wenigsten	wenigst	DET	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+19	publizierten	publiziert	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+20	wir	wir	PRON	ADJD	_	19	nsubj	_	_
+21-22	im	_	_	_	_	_	_	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	August	August	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+24	(	(	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+25	58	58	NUM	CARD	NumType=Card	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Jede Woche veröffentlichen wir einen netzpolitischen Wochenrückblick, so kommen wir auf 52 Stück im Jahr.
+1	Jede	jed	PRON	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+3	veröffentlichen	veröffentlichen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	wir	wir	PRON	ADJD	_	3	nsubj	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	netzpolitischen	netzpolitisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Wochenrückblick	Wochenrückblick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	so	so	ADV	NE	Case=Dat|Number=Plur	10	advmod	_	_
+10	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	wir	wir	PRON	ADJD	_	10	nsubj	_	_
+12	auf	auf	ADP	APPR	_	14	case	_	_
+13	52	52	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Stück	Stück	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Der Rückblick wird auch als Newsletter verschickt, 14.610 Mailadressen stehen mittlerweile auf der Abonnent:innen-Liste.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Rückblick	Rückblicken	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
+4	auch	auch	ADV	ADV	_	7	advmod	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Newsletter	Newsletter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+7	verschickt	verschicken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	14.610	14.610	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Mailadressen	Mailadresse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	mittlerweile	mittlerweile	ADV	ADV	_	11	advmod	_	_
+13	auf	auf	ADP	APPR	_	17	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	Abonnent:innen	Abonnent:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Liste	Liste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Darüber freuen wir uns sehr!
+1	Darüber	darüber	ADV	PAV	_	2	advmod	_	_
+2	freuen	freuen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
+5	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Ebenso regelmäßig erscheinen die Texte unserer Kolumnist:innen.
+1	Ebenso	ebenso	ADV	ADV	_	3	advmod	_	_
+2	regelmäßig	regelmäßig	ADJ	ADJD	_	3	advmod	_	_
+3	erscheinen	erscheinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Texte	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	unserer	unser	PRON	ADJA	Case=Gen|Gender=Fem|Number=Plur	7	det:poss	_	_
+7	Kolumnist:innen	Kolumnist:innen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Das geschieht jeden Sonntag, außer der Monat hat fünf Sonntage.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	geschieht	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	Sonntag	Sonntag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	außer	außer	ADP	KOUS	_	8	case	_	_
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Monat	Monat	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	fünf	fünf	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Sonntage	Sonntage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Die Kolumne von Markus Beckedahl kommt in freien Abständen hinzu.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Kolumne	Kolumne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	4	case	_	_
+4	Markus	Markus	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Beckedahl	Beckedahl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	freien	frei	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	9	amod	_	_
+9	Abständen	Abstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+10	hinzu	hinzu	ADV	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Für den meisten Diskussionsstoff hat offenbar Carla Siepmanns Breakpoint-Folge „Das Rezept, um reich zu werden“ gesorgt: 74 Ergänzungen dazu gibt es.
+1	Für	für	ADP	APPR	_	4	case	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	Diskussionsstoff	Diskussionsstoff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	offenbar	offenbar	ADV	CARD	NumType=Card	5	advmod	_	_
+7	Carla	Carla	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nsubj	_	_
+8	Siepmanns	Siepmann	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	flat	_	_
+9	Breakpoint	Breakpoint	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+10	-	-	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+11	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	flat	_	_
+12	„	„	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+13	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Rezept	Rezept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	um	um	ADP	KOUI	_	19	mark	_	_
+17	reich	reich	ADJ	NN	Case=Gen|Gender=Masc|Number=Sing	19	xcomp	_	_
+18	zu	zu	PART	NE	Case=Gen|Gender=Masc|Number=Sing	19	mark	_	_
+19	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	26	advcl	_	SpaceAfter=No
+20	“	“	PUNCT	$.	_	19	punct	_	_
+21	gesorgt	sorgen	ADJ	ADJD	_	26	advmod	_	SpaceAfter=No
+22	:	:	PUNCT	$.	_	26	punct	_	_
+23	74	74	NUM	CARD	NumType=Card	24	nummod	_	_
+24	Ergänzungen	Ergänzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	nsubj	_	_
+25	dazu	dazu	ADV	PAV	_	26	advmod	_	_
+26	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+27	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Das waren auch die meisten Ergänzungen des Jahres für einen Text überhaupt.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	auch	auch	ADV	ADV	_	6	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	_
+6	Ergänzungen	Ergänzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nsubj	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+12	überhaupt	überhaupen	VERB	ADV	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 15
+# text = Insgesamt habt ihr mehr als 7.000 Mal eine freigeschaltete Ergänzung hinterlassen.
+1	Insgesamt	insgesamt	ADV	ADV	_	2	advmod	_	_
+2	habt	haben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	mehr	mehr	ADV	ADV	_	2	advmod	_	_
+5	als	als	ADP	KOKOM	_	7	case	_	_
+6	7.000	7.000	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	freigeschaltete	freigeschaltet	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	_
+10	Ergänzung	Ergänzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	hinterlassen	hinterlassen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = ## Smartphones, Chatkontrolle und Handy-Blitzer im Trend Mit 239.600 Aufrufen am häufigsten gelesen wurde der Text von Leonhard: „Beschlagnahmte Smartphones: Ein Grundrechtseingriff unbekannten Ausmaßes“.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Smartphones	Smartphones	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Chatkontrolle	Chatkontrolle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+6	Handy	Handy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Blitzer	Blitzer	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Trend	Trend	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	SpacesAfter=\s\s
+12	Mit	mit	ADP	APPR	_	14	case	_	_
+13	239.600	239.600	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Aufrufen	aufrufen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	_
+15-16	am	_	_	_	_	_	_	_	_
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	häufigsten	häufig	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+18	gelesen	lesen	VERB	VVPP	VerbForm=Part	21	acl	_	_
+19	wurde	werden	AUX	KON	_	18	aux:pass	_	_
+20	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Text	Text	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+22	von	von	ADP	FM	Foreign=Yes	23	case	_	_
+23	Leonhard	Leonhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	:	:	PUNCT	$.	_	26	punct	_	_
+25	„	„	PUNCT	$.	_	26	punct	_	SpaceAfter=No
+26	Beschlagnahmte	Beschlagnahmter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	21	appos	_	_
+27	Smartphones	Smartphones	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	:	:	PUNCT	$.	_	30	punct	_	_
+29	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Grundrechtseingriff	Grundrechtseingriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	33	appos	_	_
+31	unbekannten	unbekannt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	32	amod	_	_
+32	Ausmaßes	Ausmaßes	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	“	“	PUNCT	$.	_	26	punct	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 17
+# text = Viele wollten aber auch wissen, wie sich das Innenministerium bei der Chatkontrolle durchsetzte (164.800 Aufrufe) und was es mit den Handy-Blitzern auf sich hat (164.300 Aufrufe).
+1	Viele	viel	PRON	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+2	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	aber	aber	ADV	ADV	_	5	advmod	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	14	punct	_	_
+7	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	14	mark	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Innenministerium	Innenministerium	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	durchsetzte	durchsetzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+15	(	(	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+16	164.800	164.800	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Aufrufe	Aufruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	appos	_	SpaceAfter=No
+18	)	)	PUNCT	$(	_	17	punct	_	_
+19	und	und	CCONJ	NE	Foreign=Yes	29	cc	_	_
+20	was	was	PRON	NE	Foreign=Yes	29	obj	_	_
+21	es	es	PRON	NE	Foreign=Yes	29	nsubj	_	_
+22	mit	mit	ADP	$(	_	24	case	_	_
+23	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	24	det	_	_
+24	Handy	Handy	PROPN	TRUNC	_	29	obl	_	SpaceAfter=No
+25	-	-	PUNCT	$(	_	26	punct	_	SpaceAfter=No
+26	Blitzern	Blitz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	flat	_	_
+27	auf	auf	ADP	APPR	_	28	case	_	_
+28	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	29	obl	_	_
+29	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+30	(	(	PUNCT	$(	_	32	punct	_	SpaceAfter=No
+31	164.300	164.300	NUM	CARD	NumType=Card	32	nummod	_	_
+32	Aufrufe	Aufruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	appos	_	SpaceAfter=No
+33	)	)	PUNCT	$(	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = In unseren Artikeln setzen wir gerne Links, nicht nur zu unseren eigenen Texten.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	3	det:poss	_	_
+3	Artikeln	Artikel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	gerne	gerne	ADV	ADV	_	4	advmod	_	_
+7	Links	links	NOUN	ADV	_	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+10	nur	nur	ADV	CARD	NumType=Card	14	advmod	_	_
+11	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+12	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	14	det:poss	_	_
+13	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	14	amod	_	_
+14	Texten	Text	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Denn wir sind überzeugt: Links sind Service, Respekt und Aufklärung.
+1	Denn	denn	SCONJ	KON	_	4	mark	_	_
+2	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	4	cop	_	_
+4	überzeugt	überzeugt	ADJ	ADJD	_	6	advcl	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	4	punct	_	_
+6	Links	links	NOUN	ADV	_	0	root	_	_
+7	sind	sein	AUX	ADJD	_	6	cop	_	_
+8	Service	Service	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Respekt	Respekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+11	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+12	Aufklärung	Aufklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 20
+# text = Im gesamten Jahr waren es 10.526 Verlinkungen, davon rund 3.700 interne.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	gesamten	gesamt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	_
+4	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+5	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	10.526	10.526	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Verlinkungen	Verlinkung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	davon	davon	ADV	PAV	_	13	advmod	_	_
+11	rund	rund	ADV	ADV	_	12	advmod	_	_
+12	3.700	3.700	NUM	CARD	NumType=Card	13	nummod	_	_
+13	interne	intern	ADJ	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 21
+# text = Leser:innen finden bei uns also immer zahlreiche Verweise auf Originalquellen und weiterführende Texte.
+1	Leser:innen	Leser:innen	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+5	also	also	ADV	ADV	_	2	advmod	_	_
+6	immer	immer	ADV	ADV	_	2	advmod	_	_
+7	zahlreiche	zahlreich	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Verweise	Verweis	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+9	auf	auf	ADP	APPR	_	10	case	_	_
+10	Originalquellen	Originalquelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+12	weiterführende	weiterführend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	13	amod	_	_
+13	Texte	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Thematisch – das ist vermutlich wenig überraschend – hat die Chatkontrolle dominiert.
+1	Thematisch	thematisch	ADJ	ADJD	_	7	advmod	_	_
+2	–	–	PUNCT	$.	_	7	punct	_	_
+3	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+4	ist	sein	AUX	ADJD	_	7	cop	_	_
+5	vermutlich	vermutlich	ADJ	ADV	_	6	advmod	_	_
+6	wenig	wenig	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	7	advmod	_	_
+7	überraschend	überraschend	ADJ	ADJD	_	12	amod	_	_
+8	–	–	PUNCT	$.	_	7	punct	_	_
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+12	dominiert	dominiert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 23
+# text = Insgesamt 112 Mal taucht der entsprechende Tag zu unseren Texten auf.
+1	Insgesamt	insgesamt	ADV	ADV	_	2	advmod	_	_
+2	112	112	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	_
+4	taucht	tauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	entsprechende	entsprechend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	zu	zu	ADP	NN	Case=Acc|Gender=Masc|Number=Plur	10	case	_	_
+9	unseren	unser	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	10	det:poss	_	_
+10	Texten	Text|Texten	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+11	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 24
+# text = Auch oft dabei: Staatstrojaner (53), Künstliche Intelligenz (51) und die Datenschutzgrundverordnung, die wir als DSGVO noch 45 Mal als Schlagwort wählten.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	oft	oft	ADV	CARD	NumType=Card	3	advmod	_	_
+3	dabei	dabei	ADV	PAV	_	5	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	3	punct	_	_
+5	Staatstrojaner	Staatstrojaner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	53	53	NUM	CARD	NumType=Card	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Künstliche	künstlich	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+11	Intelligenz	Intelligenz	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	_
+12	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	51	51	PROPN	XY	NumType=Card	10	appos	_	SpaceAfter=No
+14	)	)	PUNCT	$(	_	13	punct	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	17	cc	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Datenschutzgrundverordnung	Datenschutzgrundverordnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	28	punct	_	_
+19	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	28	obj	_	_
+20	wir	wir	PRON	ADJD	_	28	nsubj	_	_
+21	als	als	ADP	KOKOM	_	22	case	_	_
+22	DSGVO	DSGVO	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
+23	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	24	advmod	_	_
+24	45	45	NUM	CARD	NumType=Card	25	nummod	_	_
+25	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	28	obl	_	_
+26	als	als	ADP	KOKOM	_	27	case	_	_
+27	Schlagwort	Schlagwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	_
+28	wählten	wählen	VERB	VVINF	VerbForm=Inf	17	acl	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Die Reichweite unserer Artikel in Klicks einzuschätzen, ist für uns nicht ganz leicht.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Reichweite	Reichweite	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	unserer	unser	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+4	Artikel	Artikel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Klicks	Klick	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	einzuschätzen	einzuschätzen	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	14	cop	_	_
+10	für	für	ADP	APPR	_	11	case	_	_
+11	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+12	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+13	ganz	ganz	ADJ	ADV	_	14	advmod	_	_
+14	leicht	leicht	ADJ	ADJD	_	7	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 26
+# text = Wir tracken unsere Leser:innen nicht, daher fehlt uns für sichere und ausführliche Angaben die Datenbasis.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	tracken	tracken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	4	det:poss	_	_
+4	Leser:innen	Leser:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	daher	daher	ADV	PAV	_	8	advmod	_	_
+8	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+9	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	obj	_	_
+10	für	für	ADP	APPR	_	14	case	_	_
+11	sichere	sicher	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+13	ausführliche	ausführlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	_
+14	Angaben	Angabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Datenbasis	Datenbasis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 27
+# text = Wir erfassen jedoch serverseitig Seitenzugriffe und auch WordPress bietet uns Zahlen an, beide sind aber nicht voll verlässlich.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	erfassen	erfassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	jedoch	jedoch	ADV	ADV	_	2	advmod	_	_
+4	serverseitig	serverseitig	ADJ	ADJD	_	5	amod	_	_
+5	Seitenzugriffe	Seitenzugriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	8	cc	_	_
+7	auch	auch	ADV	ADV	_	8	advmod	_	_
+8	WordPress	WordPress	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+11	Zahlen	Zahl	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	_
+12	an	an	ADP	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	19	nsubj	_	_
+15	sind	sein	AUX	ADJD	_	19	cop	_	_
+16	aber	aber	ADV	ADV	_	19	advmod	_	_
+17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+18	voll	voll	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advmod	_	_
+19	verlässlich	verlässlich	ADJ	ADJD	_	2	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Laut unserer Statistik wurden die Artikel des Jahres 2023 direkt auf der Website rund 8,5 Millionen Mal aufgerufen.
+1	Laut	laut	ADP	APPR	_	3	case	_	_
+2	unserer	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Statistik	Statistik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+4	wurden	werden	AUX	FM	Foreign=Yes	18	aux:pass	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+6	Artikel	Artikel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	nsubj:pass	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	2023	2023	NUM	CARD	NumType=Card	8	appos	_	_
+10	direkt	direkt	ADJ	ADJD	_	13	advmod	_	_
+11	auf	auf	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Website	Website	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+14	rund	rund	ADV	ADV	_	15	advmod	_	_
+15	8,5	8,5	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	_
+17	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	_
+18	aufgerufen	aufrufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 29
+# text = Die meisten Menschen besuchen uns mittwochs, am Samstag lesen uns die wenigsten Leute.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	besuchen	besuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+6	mittwochs	mittwochs	NUM	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8-9	am	_	_	_	_	_	_	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	_
+11	lesen	lesen	VERB	NN	Case=Gen|Gender=Masc|Number=Sing	4	parataxis	_	_
+12	uns	wir	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	11	obj	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	wenigsten	wenigst	DET	NN	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	11	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 30
+# text = Das liegt auch daran, dass am Wochenende weniger Artikel erscheinen.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	daran	daran	PRON	PAV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+10	weniger	wenig	DET	PIAT	Definite=Ind|PronType=Ind	11	amod	_	_
+11	Artikel	Artikel	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+12	erscheinen	erscheinen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 31
+# text = Insgesamt – inklusive der Artikel vorheriger Jahre, Datei‑, Podcast- und sonstiger Downloads – gab es 2023 rund 158,2 Millionen Seitenaufrufe, davon 62.074.774 Unique Pageviews.
+1	Insgesamt	insgesamt	ADV	ADV	_	18	advmod	_	_
+2	–	–	PUNCT	$.	_	5	punct	_	_
+3	inklusive	inklusive	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Artikel	Artikel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
+6	vorheriger	vorherig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	7	amod	_	_
+7	Jahre	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Datei	Datei	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+10	‑	‑	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+15	sonstiger	sonstig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	Downloads	Download	NOUN	NN	Case=Nom|Number=Plur	5	conj	_	_
+17	–	–	PUNCT	$.	_	5	punct	_	_
+18	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+20	2023	2023	NUM	CARD	NumType=Card	23	nummod	_	_
+21	rund	rund	ADV	ADV	_	22	advmod	_	_
+22	158,2	158,2	NUM	CARD	NumType=Card	23	nummod	_	_
+23	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	nmod	_	_
+24	Seitenaufrufe	Seitenaufruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	28	punct	_	_
+26	davon	davon	ADV	PAV	_	28	advmod	_	_
+27	62.074.774	62.074.774	NUM	CARD	NumType=Card	28	nummod	_	_
+28	Unique	Unique	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	18	appos	_	_
+29	Pageviews	Pageviews	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	flat	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 32
+# text = Das sind rund 1,19 Millionen Unique Pageviews pro Woche.
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	nsubj	_	_
+2	sind	sein	AUX	ADJD	_	6	cop	_	_
+3	rund	rund	ADV	ADV	_	4	advmod	_	_
+4	1,19	1,19	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+6	Unique	Unique	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+7	Pageviews	Pageviews	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	_
+8	pro	pro	ADP	NE	Case=Gen|Gender=Fem|Number=Sing	9	case	_	_
+9	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = Die Follower:innen-Zahl unseres Mastodon-Accounts hat sich im Lauf des Jahres fast verdoppelt: auf 43.000.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+2	Follower:innen	Follower:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+5	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes	6	det:poss	_	_
+6	Mastodon	Mastodon	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Accounts	Accounts	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	flat	_	_
+9	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Lauf	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	fast	fast	ADV	ADV	_	17	advmod	_	_
+17	verdoppelt	verdoppeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	:	:	PUNCT	$.	_	20	punct	_	_
+19	auf	auf	ADP	APPR	_	20	case	_	_
+20	43.000	43.000	NUM	CARD	NumType=Card	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 34
+# text = Darüber freuen wir uns sehr.
+1	Darüber	darüber	ADV	PAV	_	2	advmod	_	_
+2	freuen	freuen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
+5	sehr	sehr	ADV	NN	Case=Dat|Gender=Fem|Number=Sing	2	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 35
+# text = Wir haben uns auch ein Profil auf Bluesky zugelegt, dem mittlerweile etwa 11.400 andere Profile folgen.
+1	Wir	wir	PRON	ADJD	_	9	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	uns	wir	PRON	VVPP	VerbForm=Part	9	iobj	_	_
+4	auch	auch	ADV	ADV	_	9	advmod	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Profil	Profil	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+7	auf	auf	ADP	APPR	_	8	case	_	_
+8	Bluesky	Bluesky	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	zugelegt	zulegen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	_
+11	dem	der	PRON	PRELS	Case=Dat|Gender=Neut|Number=Sing|PronType=Rel	17	iobj	_	_
+12	mittlerweile	mittlerweile	ADV	ADV	_	17	advmod	_	_
+13	etwa	etwa	ADV	ADV	_	14	advmod	_	_
+14	11.400	11.400	NUM	CARD	NumType=Card	16	nummod	_	_
+15	andere	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	16	amod	_	_
+16	Profile	Profil	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nsubj	_	_
+17	folgen	folgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+

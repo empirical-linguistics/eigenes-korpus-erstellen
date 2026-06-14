@@ -1,0 +1,633 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Liebe Leser:innen, die Zeit rennt: Noch fehlen uns aber sage und schreibe 217.913 Euro, um unser Spendenziel bis zum Jahresende zu erreichen.
+1	Liebe	lieb	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Leser:innen	Leser:innen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\s\s
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	rennt	rennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	9	punct	_	_
+8	Noch	noch	ADV	ADV	_	9	advmod	_	_
+9	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+11	aber	aber	ADV	KON	_	9	advmod	_	_
+12	sage	sagen	VERB	NE	Case=Dat|Gender=Fem|Number=Sing	9	xcomp	_	_
+13	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	14	cc	_	_
+14	schreibe	schreiben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+15	217.913	217.913	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	26	punct	_	_
+18	um	um	ADP	APPR	_	26	mark	_	_
+19	unser	unser	PRON	NN	Case=Dat|Gender=Fem|Number=Sing	20	det:poss	_	_
+20	Spendenziel	Spendenziel	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	26	obj	_	_
+21	bis	bis	ADP	APPR	_	24	case	_	_
+22-23	zum	_	_	_	_	_	_	_	_
+22	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Jahresende	Jahresende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	_
+25	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	mark	_	_
+26	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = Die Lage ist aktuell ernster, als wir Anfang des Jahres kalkuliert hatten:
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lage	Lage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	aktuell	aktuell	ADJ	ADJD	_	5	advmod	_	_
+5	ernster	ernst	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	als	als	SCONJ	KOKOM	_	12	mark	_	_
+8	wir	wir	PRON	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	Anfang	Anfang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	kalkuliert	kalkulieren	VERB	VVPP	VerbForm=Part	5	advcl	_	_
+13	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	:	:	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Auch als gemeinnütziger Verein trifft uns die Inflation.
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2	als	als	ADP	KOKOM	_	4	case	_	_
+3	gemeinnütziger	gemeinnützig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	Verein	Verein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+5	trifft	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	uns	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Inflation	Inflation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Im Laufe dieses Jahres sind unsere Kosten deutlich gestiegen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Laufe	Lauf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+4	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	sind	sein	AUX	ADJD	_	10	aux	_	_
+7	unsere	unser	PRON	PPOSAT	Case=Acc|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	10	nsubj	_	_
+9	deutlich	deutlich	ADJ	ADJD	_	10	advmod	_	_
+10	gestiegen	steigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Und dann mussten wir zum Jahresende auch noch überraschend umziehen.
+1	Und	und	CCONJ	ADJD	_	11	cc	_	_
+2	dann	dann	ADV	ADV	_	11	advmod	_	_
+3	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+4	wir	wir	PRON	ADJD	_	11	nsubj	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Jahresende	Jahresende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+8	auch	auch	ADV	ADV	_	9	advmod	_	_
+9	noch	noch	ADV	CARD	NumType=Card	11	advmod	_	_
+10	überraschend	überraschend	ADJ	ADJD	_	11	advmod	_	_
+11	umziehen	umziehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Daher sahen wir uns gezwungen, unser Spendenziel in diesem Jahr zu erhöhen.
+1	Daher	daher	ADV	PAV	_	2	advmod	_	_
+2	sahen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
+5	gezwungen	zwingen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	unser	unser	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	8	det:poss	_	_
+8	Spendenziel	Spendenziel	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	13	obj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
+11	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+12	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	mark	_	_
+13	erhöhen	erhöhen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Erreichen wir das Spendenziel bis zum 31. Dezember nicht, müssen wir netzpolitik.org nicht gleich dichtmachen.
+1	Erreichen	Erreichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+2	wir	wir	PRON	ADJD	_	1	nsubj	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Spendenziel	Spendenziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+5	bis	bis	ADP	APPR	_	10	case	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+8	31	31	NUM	CARD	NumType=Card	10	amod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+10	Dezember	Dezember	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	1	punct	_	_
+13	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+14	wir	wir	PRON	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+15	netzpolitik.org	netzpolitik.org	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	18	advmod	_	_
+16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advmod	_	_
+17	gleich	gleich	ADV	ADV	_	18	advmod	_	_
+18	dichtmachen	dichtmachen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 8
+# text = Allerdings müssten wir sehr schwierige Entscheidungen treffen.
+1	Allerdings	allerdings	ADV	ADV	_	7	advmod	_	_
+2	müssten	müssen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	wir	wir	PRON	ADJD	_	7	nsubj	_	_
+4	sehr	sehr	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	5	advmod	_	_
+5	schwierige	schwierig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	_
+6	Entscheidungen	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+7	treffen	treffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Helft uns dabei, dass wir gar nicht erst in die prekäre Lage kommen, entscheiden zu müssen, ob wir unsere Gehälter solidarisch kürzen oder Stellen streichen.
+1	Helft	Helft	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	uns	wir	PRON	VVPP	VerbForm=Part	1	obj	_	_
+3	dabei	dabei	ADV	PAV	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+6	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+7	gar	gar	ADV	ADV	_	8	advmod	_	_
+8	nicht	nicht	PART	CARD	NumType=Card	14	advmod	_	_
+9	erst	erst	ADV	ADV	_	14	advmod	_	_
+10	in	in	ADP	APPR	_	13	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prekäre	prekär	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Lage	Lage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+14	kommen	kommen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	14	conj	_	_
+17	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+18	müssen	müssen	AUX	VMINF	VerbForm=Inf	16	aux	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	mark	_	_
+21	wir	wir	PRON	ADJD	_	25	nsubj	_	_
+22	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	23	det:poss	_	_
+23	Gehälter	Gehälter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+24	solidarisch	solidarisch	ADV	ADJD	_	25	advmod	_	_
+25	kürzen	kürzen	VERB	NN	Case=Dat|Number=Plur	16	ccomp	_	_
+26	oder	oder	CCONJ	XY	_	28	cc	_	_
+27	Stellen	Stelle|Stellen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+28	streichen	streichen	VERB	VVINF	VerbForm=Inf	25	conj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Wir wollen nicht, dass wichtige netzpolitische Themen auf der Strecke bleiben.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+6	wichtige	wichtig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	amod	_	_
+7	netzpolitische	netzpolitisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	amod	_	_
+8	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Strecke	Strecke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+12	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = ## Keine Paywall, keine Werbung und kein Tracking Mit eurem Spendengeld finanzieren wir investigative Recherchen, tiefgründige Analysen und bissige Kommentare.
+1	##	##	PUNCT	$.	_	3	punct	_	_
+2	Keine	kein	DET	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	3	det	_	_
+3	Paywall	Paywall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
+6	Werbung	Werbung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+8	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	9	nmod	_	_
+9	Tracking	Tracking	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpacesAfter=\s\s
+10	Mit	mit	ADP	APPR	_	12	case	_	_
+11	eurem	eur	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	12	amod	_	_
+12	Spendengeld	Spendengeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+13	finanzieren	finanzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14	wir	wir	PRON	ADJD	_	13	nsubj	_	_
+15	investigative	investigativ	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	amod	_	_
+16	Recherchen	Recherche	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	tiefgründige	tiefgründig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	_
+19	Analysen	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	conj	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	22	cc	_	_
+21	bissige	bissig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	22	amod	_	_
+22	Kommentare	Kommentar	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Wir stellen IFG-Anfragen und führen mitunter auch Gerichtsverfahren gegen mächtige Gegner.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	IFG	IFG	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Anfragen	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	flat	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+7	führen	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	mitunter	mitunter	ADV	CARD	NumType=Card	7	advmod	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	Gerichtsverfahren	Gerichtsverfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+11	gegen	gegen	ADP	APPR	_	13	case	_	_
+12	mächtige	mächtig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	13	amod	_	_
+13	Gegner	Gegner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Unser Publikationsmodell erlaubt es uns, dass Recherchen und Nachrichten politischen Druck entfalten können – für digitale Grund- und Freiheitsrechte sowie einen starken Verbraucher:innenschutz.
+1	Unser	unser	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Publikationsmodell	Publikationsmodell	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	erlaubt	erlauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+8	Recherchen	Recherche	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+9	und	und	CCONJ	NE	Foreign=Yes	10	cc	_	_
+10	Nachrichten	Nachricht	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+11	politischen	politisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	entfalten	entfalten	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+15	–	–	PUNCT	$.	_	18	punct	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	amod	_	_
+18	Grund	Grund	NOUN	TRUNC	_	13	obl	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	21	punct	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+21	Freiheitsrechte	Freiheitsrechte	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	_
+22	sowie	sowie	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	cc	_	_
+23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	starken	stark	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	_
+25	Verbraucher:innenschutz	Verbraucher:innenschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Aus Überzeugung gibt’s bei uns keine Paywall, keine Werbung, keine Cookies und kein Tracking – sondern freie Inhalte für alle.
+1	Aus	aus	ADP	APPR	_	2	case	_	_
+2	Überzeugung	Überzeugung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+3	gibt’s	gibt’s	ADV	NE	Case=Gen|Gender=Masc|Number=Sing	2	advmod	_	_
+4	bei	bei	ADP	APPR	_	5	case	_	_
+5	uns	wir	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+6	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	7	nmod	_	_
+7	Paywall	Paywall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	10	nmod	_	_
+10	Werbung	Werbung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	nmod	_	_
+13	Cookies	Cookies	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	16	cc	_	_
+15	kein	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	16	nmod	_	_
+16	Tracking	Tracking	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+17	–	–	PUNCT	$.	_	20	punct	_	_
+18	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	20	cc	_	_
+19	freie	frei	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	20	amod	_	_
+20	Inhalte	Inhalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
+21	für	für	ADP	APPR	_	22	case	_	_
+22	alle	alle	PRON	PIS	Case=Acc|Definite=Ind|Number=Plur|PronType=Ind	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Jede Spende ist somit auch ein solidarischer Beitrag.
+1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Spende	Spend	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	8	cop	_	_
+4	somit	somit	ADV	NN	Case=Nom|Gender=Fem|Number=Plur	8	advmod	_	_
+5	auch	auch	ADV	ADV	_	8	advmod	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	solidarischer	solidarisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Beitrag	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 16
+# text = Denn eure Unterstützung ermöglicht es allen Menschen, unsere Recherchen, Analysen und Kommentare zu lesen.
+1	Denn	denn	SCONJ	KON	_	4	mark	_	_
+2	eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	3	det	_	_
+3	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	ermöglicht	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	10	det:poss	_	_
+10	Recherchen	Recherche	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Analysen	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+14	Kommentare	Kommentar	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
+16	lesen	lesen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = ## Jeder Euro hilft im Kampf für digitale Freiheitsrechte In einer normalen Woche besuchen im Schnitt etwa eine Million Menschen unsere Seite.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Jeder	Jeder	PROPN	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	Euro	Euro	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_
+4	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Kampf	Kampf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	10	amod	_	_
+10	Freiheitsrechte	Freiheitsrechte	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	SpacesAfter=\s\s
+11	In	in	ADP	APPR	_	14	case	_	_
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	normalen	normal	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	_
+14	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+15	besuchen	besuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16-17	im	_	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Schnitt	Schnitt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+19	etwa	etwa	ADV	ADV	_	20	advmod	_	_
+20	eine	ein	NUM	ART	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	21	nummod	_	_
+21	Million	Million	NUM	NN	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	22	nummod	_	_
+22	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	nsubj	_	_
+23	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	24	det:poss	_	_
+24	Seite	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 18
+# text = Würde nur ein kleiner Teil von ihnen einmalig ein paar Euro spenden, hätten wir unser Ziel innerhalb kürzester Zeit erreicht.
+1	Würde	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	12	aux	_	_
+2	nur	nur	ADV	CARD	_	5	advmod	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	kleiner	klein	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8	einmalig	einmalig	ADJ	ADJD	_	12	advmod	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	paar	paar	PRON	PIAT	Definite=Ind|PronType=Ind	11	det	_	_
+11	Euro	Euro	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+12	spenden	spenden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	_
+14	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+15	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	21	nsubj	_	_
+16	unser	unser	PRON	NN	Case=Gen|Gender=Fem|Number=Sing	17	det:poss	_	_
+17	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	obj	_	_
+18	innerhalb	innerhalb	ADP	APPR	_	20	case	_	_
+19	kürzester	kürzester	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	_
+20	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+21	erreicht	erreichen	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 19
+# text = Doch ganz so einfach ist es nicht.
+1	Doch	doch	ADV	KON	_	4	advmod	_	_
+2	ganz	ganz	ADV	ADV	_	3	advmod	_	_
+3	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	4	advmod	_	_
+4	einfach	einfach	ADJ	ADJD	_	0	root	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Deshalb bitten wir euch: Wenn ihr noch Geld entbehren könnt, dann unterstützt netzpolitik.org mit eurer Spende einmalig – oder noch besser mit einem langfristigen Dauerauftrag, damit wir noch besser planen können.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+2	bitten	bitten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|PronType=Prs	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	14	punct	_	_
+6	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+7	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	noch	noch	ADV	CARD	NumType=Card	10	advmod	_	_
+9	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	entbehren	entbehren	VERB	VVINF	VerbForm=Inf	14	advcl	_	_
+11	könnt	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	10	punct	_	_
+13	dann	dann	ADV	ADV	_	14	advmod	_	_
+14	unterstützt	unterstützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	netzpolitik.org	netzpolitik.org	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	_
+16	mit	mit	ADP	$(	_	18	case	_	_
+17	eurer	euer	ADJ	ADJD	_	18	amod	_	_
+18	Spende	Spend	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
+19	einmalig	einmalig	ADJ	ADJD	_	14	advmod	_	_
+20	–	–	PUNCT	$.	_	23	punct	_	_
+21	oder	oder	CCONJ	XY	_	23	cc	_	_
+22	noch	noch	ADV	CARD	NumType=Card	23	advmod	_	_
+23	besser	gut	ADJ	ADJD	_	14	conj	_	_
+24	mit	mit	ADP	$(	_	27	case	_	_
+25	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	langfristigen	langfristig	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	27	amod	_	_
+27	Dauerauftrag	Dauerauftrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	33	punct	_	_
+29	damit	damit	SCONJ	PAV	_	33	mark	_	_
+30	wir	wir	PRON	ADJD	_	33	nsubj	_	_
+31	noch	noch	ADV	CARD	NumType=Card	33	advmod	_	_
+32	besser	gut	ADJ	ADJD	_	33	advmod	_	_
+33	planen	planen	ADJ	NN	Case=Dat|Number=Plur	14	advcl	_	_
+34	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Auch kleine Beträge helfen!
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2	kleine	klein	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	3	amod	_	_
+3	Beträge	Betrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 22
+# text = Und falls ihr selbst nicht spenden könnt, dann erzählt bitte anderen, warum sie uns unterstützen sollten.
+1	Und	und	CCONJ	ADJD	_	6	cc	_	_
+2	falls	falls	SCONJ	KOUS	_	6	mark	_	_
+3	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	selbst	selbst	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	6	advmod	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	spenden	spenden	VERB	VVINF	VerbForm=Inf	10	advcl	_	_
+7	könnt	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	_
+9	dann	dann	ADV	ADV	_	10	advmod	_	_
+10	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	bitte	bitten	ADV	ADJA	Case=Dat|Gender=Fem|Number=Sing	10	advmod	_	_
+12	anderen	ander	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	17	obj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	warum	warum	ADV	ADJD	_	17	mark	_	_
+15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+16	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	17	iobj	_	_
+17	unterstützen	unterstützen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	_
+18	sollten	sollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 23
+# text = Und dass Spenden an uns steuerlich absetzbar sind.
+1	Und	und	CCONJ	ADJD	_	7	cc	_	_
+2	dass	daß	SCONJ	KOUS	_	7	mark	_	_
+3	Spenden	spenden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	an	an	ADP	APPR	_	5	case	_	_
+5	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	steuerlich	steuerlich	ADJ	ADJD	_	7	advmod	_	_
+7	absetzbar	absetzbar	ADJ	ADJD	_	0	root	_	_
+8	sind	sein	AUX	ADJD	_	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = ## Wir überwachen die Überwacher!
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Überwacher	Überwacher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Verglichen mit den Budgets von Geheimdiensten, Innenministerien oder Tech-Konzernen sind unsere Ausgaben verschwindend gering.
+1	Verglichen	vergleichen	VERB	VVPP	VerbForm=Part	0	root	_	_
+2	mit	mit	ADP	$,	NumType=Card	4	case	_	_
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Budgets	Budget	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Geheimdiensten	Geheimdienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Innenministerien	Innenministerium	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	conj	_	_
+9	oder	oder	CCONJ	XY	_	12	cc	_	_
+10	Tech	Tech	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Konzernen	Konzern	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
+13	sind	sein	AUX	ADJD	_	1	aux:pass	_	_
+14	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	15	det:poss	_	_
+15	Ausgaben	Ausgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+16	verschwindend	verschwindend	ADJ	ADJD	_	17	advmod	_	_
+17	gering	gering	ADJ	ADJD	_	1	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 26
+# text = Dafür setzen wir das Geld besser ein als sie: für eine lebenswerte digitale Welt, die allen Menschen gleichermaßen zugutekommt.
+1	Dafür	dafür	ADV	PAV	_	2	advmod	_	_
+2	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	besser	gut	ADJ	ADJD	_	7	advmod	_	_
+7	ein	ein	ADV	PTKVZ	_	2	advmod	_	_
+8	als	als	ADP	KOKOM	_	9	case	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+10	:	:	PUNCT	$.	_	15	punct	_	_
+11	für	für	ADP	APPR	_	15	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	lebenswerte	lebenswert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+14	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nsubj	_	_
+18	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	19	det	_	_
+19	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	iobj	_	_
+20	gleichermaßen	gleichermaßen	ADV	ADV	_	21	advmod	_	_
+21	zugutekommt	zugutekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Gerade in unsicheren Zeiten braucht es wachsame Augen, die die Mächtigen im Blick behalten, Missstände aufdecken und unsere Demokratie und Grundrechte schützen.
+1	Gerade	gerade	ADV	ADV	_	4	advmod	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	unsicheren	unsich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	4	amod	_	_
+4	Zeiten	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	_
+5	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	wachsame	wachsam	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	amod	_	_
+8	Augen	Auge	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Mächtigen	mächtige	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	obj	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+16	behalten	behalten	VERB	ADJA	Case=Dat|Gender=Masc|Number=Sing	8	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	Missstände	Missstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	aufdecken	aufdecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	_
+21	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	22	det:poss	_	_
+22	Demokratie	Demokratie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	24	cc	_	_
+24	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	22	conj	_	_
+25	schützen	schützen	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Chatkontrolle und Vorratsdatenspeicherung, Handyausspähung und KI-Hype, Cookie-Monster und Tech-Solutionism – wir kämpfen gegen den Bullshit und überwachen die Überwacher!
+1	Chatkontrolle	Chatkontrolle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	20	obj	_	_
+2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+3	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Handyausspähung	Handyausspähung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	7	cc	_	_
+7	KI	KI	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Hype	Hype	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Cookie	Cookie	PROPN	NN	Foreign=Yes	1	conj	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Monster	Monster	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	11	flat	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	Tech	Tech	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Solutionism	Solutionism	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	15	flat	_	_
+18	–	–	PUNCT	$.	_	1	punct	_	_
+19	wir	wir	PRON	ADJD	_	20	nsubj	_	_
+20	kämpfen	kämpfen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+21	gegen	gegen	ADP	APPR	_	23	case	_	_
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Bullshit	Bullshit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+24	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	25	cc	_	_
+25	überwachen	überwachen	VERB	VVINF	VerbForm=Inf	20	conj	_	_
+26	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Überwacher	Überwacher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+28	!	!	PUNCT	$.	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Etwa 220.000 Euro habt Ihr uns in den vergangenen Wochen bereits gespendet, es fehlen trotzdem noch 217.913 Euro mehr.
+1	Etwa	etwa	ADV	ADV	_	2	advmod	_	_
+2	220.000	220.000	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	habt	haben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vergangenen	vergangen	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	_
+11	bereits	bereits	ADV	ADV	_	12	advmod	_	_
+12	gespendet	spenden	VERB	VVPP	VerbForm=Part	4	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+16	trotzdem	trotzdem	ADV	NE	Case=Dat|Number=Sing	15	advmod	_	_
+17	noch	noch	ADV	CARD	NumType=Card	18	advmod	_	_
+18	217.913	217.913	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Euro	Euro	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	15	nsubj	_	_
+20	mehr	mehr	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 30
+# text = Mit eurer Unterstützung geht es auch im nächsten Jahr mit voller Kraft weiter.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	eurer	euer	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	Unterstützung	Unterstützung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	auch	auch	ADV	ADV	_	4	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	_
+10	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+11	mit	mit	ADP	$(	_	13	case	_	_
+12	voller	voll	ADJ	ADJD	_	13	amod	_	_
+13	Kraft	Kraft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	_
+14	weiter	weiter	ADV	ADV	_	4	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Dankeschön!
+1	Dankeschön	Dankeschön	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+

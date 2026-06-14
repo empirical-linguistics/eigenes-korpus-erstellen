@@ -1,0 +1,712 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Die FDP ist in fast allen Politikfeldern Treiberin einer umwelt- und generationenfeindlichen, ignoranten und unverantwortlichen Klimapolitik.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	fast	fast	ADV	ADV	_	6	advmod	_	_
+6	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	_
+7	Politikfeldern	Politikfeld	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	_
+8	Treiberin	Treiberin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	umwelt	umwelt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	13	punct	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+13	generationenfeindlichen	nerationenfeindlichen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	ignoranten	ignorant	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+17	unverantwortlichen	unverantwortlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
+18	Klimapolitik	Klimapolitik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Nun will die kleinste der Ampel-Parteien auch im Bereich der IT-Dienstleistungen und Rechenzentren Klimaziele verwässern und hintertreiben.
+1	Nun	nun	ADV	ADV	_	20	advmod	_	_
+2	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	20	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	kleinste	klein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	20	nsubj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ampel	Ampel	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Parteien	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	flat	_	_
+9	auch	auch	ADV	ADV	_	12	advmod	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Bereich	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	IT	It	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Dienstleistungen	Dienstleistung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	14	flat	_	_
+17	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	18	cc	_	_
+18	Rechenzentren	Rechenzentrum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+19	Klimaziele	Klimaziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	_
+20	verwässern	verwässern	VERB	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+22	hintertreiben	hintertreiben	VERB	VVINF	VerbForm=Inf	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 3
+# text = Dabei machten IT und Server schon im Jahr 2020 etwa drei Prozent des gesamten Stromverbrauchs in Deutschland aus, das sind 16 Milliarden Kilowattstunden.
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	_
+2	machten	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	IT	It	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	Server	Server	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	_
+6	schon	schon	ADV	ADV	_	2	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+10	2020	2020	NUM	CARD	NumType=Card	9	nmod	_	_
+11	etwa	etwa	ADV	ADV	_	12	advmod	_	_
+12	drei	drei	NUM	CARD	NumType=Card	13	nummod	_	_
+13	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+15	gesamten	gesamt	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	16	amod	_	_
+16	Stromverbrauchs	Stromverbrauch	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+17	in	in	ADP	APPR	_	18	case	_	_
+18	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
+19	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	_
+21	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	nsubj	_	_
+22	sind	sein	AUX	ADJD	_	25	cop	_	_
+23	16	16	NUM	CARD	NumType=Card	24	nummod	_	_
+24	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	nmod	_	_
+25	Kilowattstunden	Kilowattstunden	PROPN	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Tendenz steigend.
+1	Tendenz	Tendenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	steigend	steigend	VERB	ADJD	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Es geht um das Gesetz zur Steigerung der Energieeffizienz (EnEfG), das im Frühjahr vom Bundesministerium für Wirtschaft und Klimaschutz als Kabinettsentwurf veröffentlicht wurde und nun diskutiert wird.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	um	um	ADP	APPR	_	5	case	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Steigerung	Steigerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Energieeffizienz	Energieeffizienz	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	(	(	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	EnEfG	EnEfG	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	28	punct	_	_
+15	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	28	nsubj:pass	_	_
+16-17	im	_	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Frühjahr	Frühjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
+19-20	vom	_	_	_	_	_	_	_	_
+19	von	von	ADP	FM	Foreign=Yes	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Bundesministerium	Bundesministerien	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
+22	für	für	ADP	APPR	_	23	case	_	_
+23	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	_
+25	Klimaschutz	Klimaschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	conj	_	_
+26	als	als	ADP	KOKOM	_	27	case	_	_
+27	Kabinettsentwurf	Kabinettsentwurf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	obl	_	_
+28	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	10	acl	_	_
+29	wurde	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	28	aux:pass	_	_
+30	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	32	cc	_	_
+31	nun	nun	ADV	ADV	_	32	advmod	_	_
+32	diskutiert	diskutieren	VERB	VVPP	VerbForm=Part	28	conj	_	_
+33	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	32	aux:pass	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Darin soll auch die Energieeffizienz und Abwärmenutzung in Rechenzentren und IT-Betrieben reguliert werden, neu errichtete Rechenzentren sollen zu einer teilweisen Nutzung der Abwärme verpflichtet werden.
+1	Darin	darin	ADV	PAV	_	14	advmod	_	_
+2	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	14	aux	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Energieeffizienz	Energieeffizienz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	7	cc	_	_
+7	Abwärmenutzung	Abwärmenutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Rechenzentren	Rechenzentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+11	IT	It	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Betrieben	Betrieb	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	conj	_	_
+14	reguliert	reguliert	VERB	VVPP	VerbForm=Part	0	root	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	neu	neu	ADJ	NE	Case=Acc|Number=Sing	18	advmod	_	_
+18	errichtete	errichtet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl	_	_
+19	Rechenzentren	Rechenzentrum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+21	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	case	_	_
+22	einer	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	24	det	_	_
+23	teilweisen	teilweise	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	amod	_	_
+24	Nutzung	Nutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+25	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	Abwärme	Abwärme	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+27	verpflichtet	verpflichten	VERB	VVPP	VerbForm=Part	14	conj	_	_
+28	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	27	aux:pass	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 7
+# text = Ab dem Jahr 2028 soll die Wärme größerer Rechenzentren eigentlich vollständig wiederverwendet werden.
+1	Ab	ab	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+4	2028	2028	NUM	CARD	NumType=Card	3	nmod	_	_
+5	soll	sollen	AUX	NN	Case=Acc|Gender=Masc|Number=Plur	12	aux	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Wärme	Wärme	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	nsubj:pass	_	_
+8	größerer	groß	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	9	amod	_	_
+9	Rechenzentren	Rechenzentrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	eigentlich	eigentlich	ADJ	ADJD	_	12	advmod	_	_
+11	vollständig	vollständig	ADJ	ADJD	_	12	advmod	_	_
+12	wiederverwendet	wiederverwenden	VERB	VVPP	VerbForm=Part	0	root	_	_
+13	werden	werden	AUX	NE	Case=Acc|Number=Plur	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Mit großem Stolz verschickt der digitalpolitische Sprecher der FDP-Fraktion, Maximilian Funke-Kaiser, dazu eine Pressemitteilung.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	großem	groß	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	3	amod	_	_
+3	Stolz	stolz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+4	verschickt	verschicken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	digitalpolitische	digitalpolitisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	FDP	FDP	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Fraktion	Fraktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Maximilian	Maximilian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+14	Funke	Funke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Kaiser	Kaiser	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	dazu	dazu	ADV	PAV	_	20	advmod	_	_
+19	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Pressemitteilung	Pressemitteilung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Funke-Kaiser, der gegen die Chatkontrolle gute Arbeit in der Ampel-Koalition macht, ist bei der Klimapolitik allerdings ein Totalausfall.
+1	Funke	Funke	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+3	Kaiser	Kaiser	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	16	punct	_	_
+5	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
+6	gegen	gegen	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Chatkontrolle	Chatkontrolle	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+9	gute	gut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Ampel	Ampel	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Koalition	Koalition	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	flat	_	_
+16	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	3	punct	_	_
+18	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+19	bei	bei	ADP	APPR	_	21	case	_	_
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Klimapolitik	Klimapolitik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+22	allerdings	allerdings	ADV	ADV	_	24	advmod	_	_
+23	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Totalausfall	Totalausfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 10
+# text = Er brüstet sich in besagter Pressemitteilung, dass die FDP erreicht habe, dass Rechenzentren „nicht mehr im Umkreis von 5 Kilometern zu einem Fernwärmenetz errichtet werden müssen“.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	brüstet	brüsten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	besagter	besagt	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Pressemitteilung	Pressemitteilung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	erreicht	erreichen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+12	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	28	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	28	mark	_	_
+15	Rechenzentren	Rechenzentrum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+16	„	„	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+17	nicht	nicht	PART	XY	NumType=Card	21	advmod	_	_
+18	mehr	mehr	ADV	ADV	_	17	advmod	_	_
+19-20	im	_	_	_	_	_	_	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Umkreis	Umkreis	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_
+22	von	von	ADP	FM	Foreign=Yes	24	case	_	_
+23	5	5	NUM	CARD	NumType=Card	24	nummod	_	_
+24	Kilometern	Kilometer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	nmod	_	_
+25	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
+26	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	Fernwärmenetz	Fernwärmenetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
+28	errichtet	errichten	VERB	VVPP	VerbForm=Part	11	ccomp	_	_
+29	werden	werden	AUX	NE	Case=Acc|Number=Plur	28	aux:pass	_	_
+30	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No
+31	“	“	PUNCT	$.	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Die Idee hinter diesem Regulierungsvorschlag ist eigentlich, dass sich die Abwärme der Rechenzentren wunderbar in diese Netze einspeisen lässt – allerdings nur, wenn die Rechenzentren auch in der Nähe solcher Netze stehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	hinter	hinter	ADP	APPR	_	5	case	_	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Regulierungsvorschlag	Regulierungsvorschlag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	eigentlich	eigentlich	ADJ	ADV	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	20	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Abwärme	Abwärme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	Rechenzentren	Rechenzentrum	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	wunderbar	wunderbar	ADV	ADJD	_	20	advmod	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	diese	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	18	det	_	_
+18	Netze	Netz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	_
+19	einspeisen	einspeisen	VERB	VVINF	VerbForm=Inf	20	xcomp	_	_
+20	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+21	–	–	PUNCT	$.	_	23	punct	_	_
+22	allerdings	allerdings	ADV	ADV	_	23	advmod	_	_
+23	nur	nur	ADV	CARD	NumType=Card	7	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	34	punct	_	_
+25	wenn	wenn	SCONJ	VVFIN	_	34	mark	_	_
+26	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	27	det	_	_
+27	Rechenzentren	Rechenzentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	34	nsubj	_	_
+28	auch	auch	ADV	ADV	_	31	advmod	_	_
+29	in	in	ADP	APPR	_	31	case	_	_
+30	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	obl	_	_
+32	solcher	solch	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	33	det	_	_
+33	Netze	Netz	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	_
+34	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Diese sinnvolle Regelung will die FDP nun verhindern.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	sinnvolle	sinnvoll	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Regelung	Regelung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	8	aux	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	FDP	FDP	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	8	obj	_	_
+7	nun	nun	ADV	ADV	_	8	advmod	_	_
+8	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Und als sei das nicht genug der Klimaverachtung, verkünden die Neoliberaldemokraten, dass die verpflichtende Abwärme-Nutzung dank ihrer Hilfe nun umgangen werden können soll.
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	als	als	ADP	KOKOM	_	0	root	_	_
+3	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+5	nicht	nicht	PART	NN	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	6	advmod	_	_
+6	genug	genug	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	8	advmod	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Klimaverachtung	Klimaverachtung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	verkünden	verkünden	VERB	VVINF	VerbForm=Inf	2	conj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Neoliberaldemokraten	Neoliberaldemokrat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+16	verpflichtende	verpflichtend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
+17	Abwärme	Abwärme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+19	Nutzung	Nutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nsubj	_	_
+20	dank	dinken	VERB	APPR	_	10	ccomp	_	_
+21	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	22	det:poss	_	_
+22	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	iobj	_	_
+23	nun	nun	ADV	ADV	_	20	advmod	_	_
+24	umgangen	umgangen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	20	conj	_	_
+25	werden	werden	AUX	NE	Case=Acc|Number=Plur	24	aux:pass	_	_
+26	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+27	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	24	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Woanders werden mit der Abwärme schon Hotels und Bürogebäude geheizt.
+1	Woanders	woanders	ADV	ADV	_	10	advmod	_	_
+2	werden	werden	AUX	NE	Case=Acc|Number=Plur	10	aux:pass	_	_
+3	mit	mit	ADP	$(	_	5	case	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Abwärme	Abwärme	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+6	schon	schon	ADV	ADV	_	7	advmod	_	_
+7	Hotels	Hotel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	obj	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	cc	_	_
+9	Bürogebäude	Bürogebäude	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	_
+10	geheizt	heizen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 15
+# text = Aber wenns nach der FDP geht, soll die heiße Luft dank Schlupflöchern im Gesetz lieber weiter ungenutzt und sinnlos in die Atmosphäre geblasen werden.
+1	Aber	aber	ADV	KON	_	2	advmod	_	_
+2	wenns	wenns	ADV	NN	Case=Gen|Gender=Masc|Number=Sing	6	advmod	_	_
+3	nach	nach	ADP	CARD	_	5	case	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	FDP	FDP	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+6	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	19	punct	_	_
+8	soll	sollen	AUX	NN	Case=Acc|Gender=Masc|Number=Plur	19	aux	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	heiße	heiß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	_
+11	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	_
+12	dank	dank	ADP	APPR	_	13	case	_	_
+13	Schlupflöchern	Schlupflöcher	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	nmod	_	_
+14-15	im	_	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Gesetz	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	_
+17	lieber	lieb	ADV	ADV	_	19	advmod	_	_
+18	weiter	weiter	ADV	ADV	_	19	advmod	_	_
+19	ungenutzt	ungenutzen	ADJ	ADJD	_	6	conj	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+21	sinnlos	sinnlos	ADJ	ADJD	_	25	advmod	_	_
+22	in	in	ADP	APPR	_	24	case	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Atmosphäre	Atmosphäre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+25	geblasen	blasen	VERB	VVPP	VerbForm=Part	19	conj	_	_
+26	werden	werden	AUX	NE	Case=Acc|Number=Plur	25	aux:pass	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 16
+# text = Vermutlich nennt die Partei das dann technologieoffen.
+1	Vermutlich	vermutlich	ADJ	ADV	_	2	advmod	_	_
+2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	_
+6	dann	dann	ADV	ADV	_	7	advmod	_	_
+7	technologieoffen	technologieoffen	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = ## Die FDP und ihr nicht-erklärtes 4,5‑Grad-Ziel Im Koalitionsvertrag der Ampel steht eigentlich: „Wir werden Rechenzentren in Deutschland auf ökologische Nachhaltigkeit und Klimaschutz ausrichten, u. a. durch Nutzung der Abwärme.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+5	ihr	ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	_
+6	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	erklärtes	erklärtes	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	13	compound	_	_
+9	4,5	4,5	NUM	CARD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	‑	‑	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+11	Grad	Grad	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	SpacesAfter=\s\s
+14-15	Im	_	_	_	_	_	_	_	_
+14	In	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Koalitionsvertrag	Koalitionsvertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Ampel	Ampel	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	eigentlich	eigentlich	ADJ	ADV	_	19	advmod	_	SpaceAfter=No
+21	:	:	PUNCT	$.	_	23	punct	_	_
+22	„	„	PUNCT	$.	_	23	punct	_	SpaceAfter=No
+23	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	_
+24	werden	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	33	aux:pass	_	_
+25	Rechenzentren	Rechenzentrum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	33	dep	_	_
+26	in	in	ADP	APPR	_	27	case	_	_
+27	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
+28	auf	auf	ADP	APPR	_	30	case	_	_
+29	ökologische	ökologisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	30	amod	_	_
+30	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_
+31	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	32	cc	_	_
+32	Klimaschutz	Klimaschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	conj	_	_
+33	ausrichten	ausrichten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
+34	,	,	PUNCT	$,	_	38	punct	_	_
+35	u.	u.	X	FM	_	38	dep	_	_
+36	a.	a.	ADV	ADV	_	38	advmod	_	_
+37	durch	durch	ADP	APPR	_	38	case	_	_
+38	Nutzung	Nutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	conj	_	_
+39	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	Abwärme	Abwärme	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 18
+# text = Neue Rechenzentren sind ab 2027 klimaneutral zu betreiben.“
+1	Neue	neu	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	Rechenzentren	Rechenzentrum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3	sind	sein	AUX	ADJD	_	8	aux:pass	_	_
+4	ab	ab	ADP	APPR	_	5	case	_	_
+5	2027	2027	NUM	CARD	NumType=Card	8	obl	_	_
+6	klimaneutral	klimaneutral	ADJ	ADJD	_	8	advmod	_	_
+7	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+8	betreiben	betreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+10	“	“	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 19
+# text = Doch was juckt die FDP ein Vertrag von gestern: Für ihr nicht-erklärtes 4,5‑Grad-Ziel macht die FDP alles – und wenn unsere Enkel den Hitzetod sterben oder in den Fluten von Extremwettern ertrinken.
+1	Doch	doch	CCONJ	KON	_	3	cc	_	_
+2	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	juckt	jucken	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vertrag	Vertrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	gestern	gestern	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+10	:	:	PUNCT	$.	_	9	punct	_	_
+11	Für	für	ADP	APPR	_	12	case	_	_
+12	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+13	nicht	nicht	PART	NN	Case=Dat|Gender=Fem|Number=Sing|NumType=Card	20	advmod	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	erklärtes	erklärtes	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	20	amod	_	_
+16	4,5	4,5	NUM	CARD	NumType=Card	18	nummod	_	SpaceAfter=No
+17	‑	‑	PUNCT	$.	_	16	punct	_	SpaceAfter=No
+18	Grad	Grad	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+20	Ziel	Ziel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	obj	_	_
+21	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	FDP	FDP	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+24	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	obj	_	_
+25	–	–	PUNCT	$.	_	21	punct	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	32	cc	_	_
+27	wenn	wenn	SCONJ	VVFIN	_	32	mark	_	_
+28	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	29	det:poss	_	_
+29	Enkel	Enkel	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	32	nsubj	_	_
+30	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Hitzetod	Hitzetod	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+32	sterben	sterben	VERB	VVINF	VerbForm=Inf	21	advcl	_	_
+33	oder	oder	CCONJ	XY	_	39	cc	_	_
+34	in	in	ADP	APPR	_	36	case	_	_
+35	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	Fluten	Flu	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	39	obl	_	_
+37	von	von	ADP	FM	Foreign=Yes	38	case	_	_
+38	Extremwettern	Extremwetter	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	36	nmod	_	_
+39	ertrinken	ertrinken	VERB	VVINF	VerbForm=Inf	32	conj	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Eine lebenswerte Zukunft ist mit so einer Politik der schnellen kurzsichtigen Profite nicht möglich.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	lebenswerte	lebenswert	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Zukunft	Zukunft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+5	mit	mit	ADP	NE	Case=Nom|Number=Sing|NumType=Card	8	case	_	_
+6	so	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
+7	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Politik	Politik	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	schnellen	schnell	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+11	kurzsichtigen	kurzsichtig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
+12	Profite	Profite	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+13	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
+14	möglich	möglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Was Maximilian Funke-Kaiser in seiner Pressemeldung „bürokratiearm“ nennt, kann man auch einfach mit „menschenfeindlich“ übersetzen.
+1	Was	was	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	Maximilian	Maximilian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+3	Funke	Funke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Kaiser	Kaiser	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	flat	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Pressemeldung	Pressemeldung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+9	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+10	bürokratiearm	bürokratiearm	ADJ	ADJD	_	12	xcomp	_	SpaceAfter=No
+11	“	“	PUNCT	$.	_	10	punct	_	_
+12	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	22	punct	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+15	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	22	nsubj	_	_
+16	auch	auch	ADV	ADV	_	17	advmod	_	_
+17	einfach	einfach	ADJ	ADV	_	22	advmod	_	_
+18	mit	mit	ADP	$(	_	22	mark	_	_
+19	„	„	PUNCT	$.	_	22	punct	_	SpaceAfter=No
+20	menschenfeindlich	menschenfeindlich	ADJ	ADJD	_	22	advmod	_	SpaceAfter=No
+21	“	“	PUNCT	$.	_	20	punct	_	_
+22	übersetzen	übersetzen	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 22
+# text = Wie verantwortungslos kann eine Partei eigentlich sein, um für den schnellen Profit der Industrie noch jede Chance auf Klimaschutz zu torpedieren.
+1	Wie	wie	ADV	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	advmod	_	_
+2	verantwortungslos	verantwortungslos	ADJ	ADJD	_	6	advmod	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	eigentlich	eigentlich	ADJ	ADJD	_	0	root	_	_
+7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	22	punct	_	_
+9	um	um	ADP	KOUI	_	22	mark	_	_
+10	für	für	ADP	APPR	_	13	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	schnellen	schnell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Profit	Profit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Industrie	Industrie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	noch	noch	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	22	advmod	_	_
+17	jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
+18	Chance	Chance	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	22	obj	_	_
+19	auf	auf	ADP	APPR	_	20	case	_	_
+20	Klimaschutz	Klimaschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	_
+21	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	22	mark	_	_
+22	torpedieren	torpedieren	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 23
+# text = Denn eigentlich ist doch sonnenklar: Natürlich braucht es Auflagen in allen Bereichen, auch bei den etwa 50.000 Rechenzentren, wenn Deutschland seine selbstgesteckten Klimaziele irgendwie erreichen will.
+1	Denn	denn	ADV	KON	_	5	advmod	_	_
+2	eigentlich	eigentlich	ADJ	ADJD	_	5	advmod	_	_
+3	ist	sein	AUX	ADJD	_	5	cop	_	_
+4	doch	doch	ADV	ADV	_	5	advmod	_	_
+5	sonnenklar	sonnenklar	ADJ	ADJD	_	8	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	5	punct	_	_
+7	Natürlich	natürlich	ADJ	ADJD	_	8	advmod	_	_
+8	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	Auflagen	Auflage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	Bereichen	Bereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	auch	auch	ADV	ADV	_	20	advmod	_	_
+16	bei	bei	ADP	APPR	_	20	case	_	_
+17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+18	etwa	etwa	ADV	ADV	_	19	advmod	_	_
+19	50.000	50.000	NUM	CARD	NumType=Card	20	nummod	_	_
+20	Rechenzentren	Rechenzentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	28	punct	_	_
+22	wenn	wenn	SCONJ	VVFIN	_	28	mark	_	_
+23	Deutschland	Deutschland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+24	seine	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	26	det:poss	_	_
+25	selbstgesteckten	selbstgesteckt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	26	amod	_	_
+26	Klimaziele	Klimaziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	28	obj	_	_
+27	irgendwie	irgendwie	ADV	ADV	_	28	advmod	_	_
+28	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	20	advcl	_	_
+29	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	28	aux	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 24
+# text = Aber bei der FDP fährt man lieber mit Vollgas in den Klimakollaps, Hauptsache die Profite des nächsten Jahres sind sicher.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	bei	bei	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	FDP	FDP	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	fährt	fahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	5	nsubj	_	_
+7	lieber	lieb	ADV	ADV	_	5	advmod	_	_
+8	mit	mit	ADP	CARD	NumType=Card	9	case	_	_
+9	Vollgas	Vollgas	NOUN	NN	Case=Dat|Number=Plur	5	obl	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Klimakollaps	Klimakollaps	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	Hauptsache	Hauptsache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Profite	Profite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	_
+17	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+18	nächsten	nah	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	19	amod	_	_
+19	Jahres	Jahr	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+20	sind	sein	AUX	ADJD	_	21	cop	_	_
+21	sicher	sicher	ADJ	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Und zu guter Letzt will der gute Maximilian auch noch die Netzknoten für Mobilfunk aus dem Gesetz ausnehmen, denn bei der FDP meint man, dass jede Ausnahme für die Wirtschaft irgendwie gut sei.
+1	Und	und	CCONJ	ADJD	_	4	cc	_	_
+2	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	case	_	_
+3	guter	gut	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Letzt	letzt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+5	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	18	aux	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	gute	gut	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Maximilian	Maximilian	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	12	advmod	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Netzknoten	Netzknot	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Mobilfunk	Mobilfunk	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	aus	aus	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Gesetz	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+18	ausnehmen	ausnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	_
+20	denn	denn	SCONJ	KON	_	24	mark	_	_
+21	bei	bei	ADP	APPR	_	23	case	_	_
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	FDP	FDP	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+24	meint	meinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+25	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	34	punct	_	_
+27	dass	dass	SCONJ	KOUS	_	34	mark	_	_
+28	jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
+29	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+30	für	für	ADP	APPR	_	32	case	_	_
+31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	_
+33	irgendwie	irgendwie	ADV	ADV	_	34	advmod	_	_
+34	gut	gut	ADJ	ADJD	_	24	ccomp	_	_
+35	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 26
+# text = Das mag kurzfristig stimmen, heißt dann aber in Wahrheit: „Scheiß auf die Zukunft unserer Kinder und die des Planeten.“
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	mag	mögen	NOUN	CARD	NumType=Card	4	nsubj	_	_
+3	kurzfristig	kurzfristig	ADJ	ADJD	_	4	advmod	_	_
+4	stimmen	stimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+7	dann	dann	ADV	ADV	_	6	advmod	_	_
+8	aber	aber	ADV	ADV	_	6	advmod	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Wahrheit	Wahrheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	$.	_	13	punct	_	_
+12	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+13	Scheiß	Scheiß	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+14	auf	auf	ADP	APPR	_	16	case	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+17	unserer	unser	PRON	ADJA	Case=Gen|Gender=Fem|Number=Plur	18	det:poss	_	_
+18	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
+20	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	conj	_	_
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Planeten	Planet	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	22	punct	_	SpaceAfter=No
+24	“	“	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 27
+# text = So ist sie eben, die Partei mit dem toxischen Freiheitsbegriff.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	7	advmod	_	_
+2	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	7	cop	_	_
+3	sie	sie	PRON	VVINF	VerbForm=Inf	7	nsubj	_	_
+4	eben	eben	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	mit	mit	ADP	$(	_	11	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	toxischen	toxisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	_
+11	Freiheitsbegriff	Freiheitsbegriff	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+

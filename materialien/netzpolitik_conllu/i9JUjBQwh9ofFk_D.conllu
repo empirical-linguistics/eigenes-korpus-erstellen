@@ -1,0 +1,832 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Ein Fall aus San Francisco macht anschaulich, was passieren kann, wenn automatische Bilderkennung einen falschen Verdacht hegt.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fall	fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+5	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	_
+6	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	anschaulich	anschaulich	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+10	passieren	passieren	VERB	VVINF	VerbForm=Inf	6	ccomp	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	_
+13	wenn	wenn	SCONJ	VVFIN	_	19	mark	_	_
+14	automatische	automatisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
+15	Bilderkennung	Bilderkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+16	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	falschen	falsch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	Verdacht	Verdacht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+19	hegt	hegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Die Geschichte beginnt im Februar 2021.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	beginnt	beginnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+7	2021	2021	NUM	CARD	NumType=Card	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ein Vater bemerkt, dass sein kleiner Sohn Schmerzen am Penis hat.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	bemerkt	bemerken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	13	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+6	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	_
+7	kleiner	klein	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Sohn	Sohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	obj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Penis	Penis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+13	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Wegen der Pandemie bietet der Kinderarzt eine Videosprechstunde an.
+1	Wegen	wegen	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Pandemie	Pandemie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Kinderarzt	Kinderarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Videosprechstunde	Videosprechstunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+9	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Man solle vorab ein Foto der schmerzenden Stelle schicken.
+1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	9	nsubj	_	_
+2	solle	sollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	vorab	vorab	ADV	ADJD	_	9	advmod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Foto	Foto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obj	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	schmerzenden	schmerzend	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
+8	Stelle	Stelle	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	schicken	schicken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 6
+# text = So berichtet es die New York Times.
+1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+5	New	New	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	_
+6	York	York	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nsubj	_	_
+7	Times	Times	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Was der Vater nicht ahnt: Die Fotos vom Genitalbereich seines kleinen Sohnes landen auch auf Google-Servern und werden dort automatisch gescannt.
+1	Was	was	PRON	FM	Foreign=Yes	5	nsubj	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+5	ahnt	ahnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	15	punct	_	_
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	Fotos	Foto	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	nsubj	_	_
+9-10	vom	_	_	_	_	_	_	_	_
+9	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Genitalbereich	Genitalbereich	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	seines	sein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	14	det:poss	_	_
+13	kleinen	klein	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	_
+14	Sohnes	Sohn	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+15	landen	landen	VERB	VVINF	VerbForm=Inf	5	parataxis	_	_
+16	auch	auch	ADV	ADV	_	15	advmod	_	_
+17	auf	auf	ADP	APPR	_	18	case	_	_
+18	Google	Google	PROPN	NE	Case=Dat|Number=Sing	15	obl	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Servern	Servern	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	flat	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	25	cc	_	_
+22	werden	werden	AUX	NE	Case=Acc|Number=Plur	25	aux:pass	_	_
+23	dort	dort	ADV	ADV	_	25	advmod	_	_
+24	automatisch	automatisch	ADJ	ADJD	_	25	advmod	_	_
+25	gescannt	scannen	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Die automatische Synchronisierung von Fotos lässt sich auf Android-Geräten ein- und ausschalten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	automatische	automatisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Synchronisierung	Synchronisierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	5	case	_	_
+5	Fotos	Foto	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	_
+6	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	auf	auf	ADP	APPR	_	11	case	_	_
+9	Android	Android	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Geräten	Gerät	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	xcomp	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	15	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	ausschalten	ausschalten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 9
+# text = In diesem Fall war sie eingeschaltet, und Google scannte die Fotos auf der Suche nach sexualisierter Gewalt gegen Kinder.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	_
+4	war	sein	AUX	ADV	_	6	cop	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	eingeschaltet	eingeschalten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
+9	Google	Google	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	scannte	scennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	Fotos	Foto	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
+13	auf	auf	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Suche	Suche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+16	nach	nach	ADP	CARD	NumType=Card	18	case	_	_
+17	sexualisierter	sexualisiert	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	_
+18	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+19	gegen	gegen	ADP	APPR	_	20	case	_	_
+20	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Bei mindestens einem Foto schlug die automatische Bilderkennung Alarm.
+1	Bei	bei	ADP	APPR	_	4	case	_	_
+2	mindestens	mindestens	ADV	ADV	_	4	advmod	_	_
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Foto	Foto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+5	schlug	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	automatische	automatisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	Bilderkennung	Bilderkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+9	Alarm	Alarm	PROPN	NE	_	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Mit schweren Folgen: Das Erstellen sogenannter Kinderpornografie ist auch in den USA eine schwere Straftat.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	schweren	schwer	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	3	amod	_	_
+3	Folgen	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	6	punct	_	_
+5	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Erstellen	erstellen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	appos	_	_
+7	sogenannter	sogenannt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Kinderpornografie	Kinderpornografie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+10	auch	auch	ADV	ADV	_	13	advmod	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	16	nmod	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	schwere	schwer	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Straftat	Straftat	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 12
+# text = Der Vater verlor seinen Google-Account, die Polizei wurde eingeschaltet.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	verlor	verlieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+5	Google	Google	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Account	Account	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+11	wurde	werden	AUX	ADV	_	12	aux:pass	_	_
+12	eingeschaltet	eingeschalten	VERB	VVPP	VerbForm=Part	3	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Zahlreiche US-amerikanische und deutsche Nachrichtenmedien haben inzwischen darüber berichtet.
+1	Zahlreiche	zahlreich	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	US-	US-	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	amerikanische	amerikanisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	cc	_	_
+5	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	6	amod	_	_
+6	Nachrichtenmedien	Nachrichtenmedie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	_
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	inzwischen	inzwischen	ADV	ADV	_	10	advmod	_	_
+9	darüber	darüber	ADV	PAV	_	10	advmod	_	_
+10	berichtet	berichten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = ## KI kennt keinen Kontext Hier zeigt sich das Problem von automatischer Bilderkennung, die auf Machine Learning aufbaut, auch bekannt als Künstliche Intelligenz.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	KI	KI	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	kennt	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+5	Kontext	Kontext	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\s\s
+6	Hier	Hier	ADV	ADV	_	3	advmod	_	_
+7	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+11	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	13	case	_	_
+12	automatischer	automatisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	Bilderkennung	Bilderkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	_
+16	auf	auf	ADP	APPR	_	17	case	_	_
+17	Machine	Machine	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+18	Learning	Learning	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	_
+19	aufbaut	aufbauen	VERB	VVPP	VerbForm=Part	10	acl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	_
+21	auch	auch	ADV	ADV	_	22	advmod	_	_
+22	bekannt	bekennen	ADJ	ADJD	_	10	acl	_	_
+23	als	als	ADP	KOKOM	_	24	case	_	_
+24	Künstliche	künstlich	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	25	nmod	_	_
+25	Intelligenz	Intelligenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Die Software hat an dieser Stelle wie vorgesehen gearbeitet und eine mutmaßlich kriminelle Situation erkannt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Software	Software	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Stelle	Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+7	wie	wie	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	8	case	_	_
+8	vorgesehen	vorsehen	ADJ	VVPP	VerbForm=Part	9	obl	_	_
+9	gearbeitet	arbeiten	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	mutmaßlich	mutmaßlich	ADJ	ADJD	_	13	advmod	_	_
+13	kriminelle	kriminell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	Situation	Situation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	erkannt	erkennen	VERB	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 16
+# text = Eine erwachsene Hand, der Genitalbereich eines Kindes – genau solche Bilder soll die Software erkennen.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	erwachsene	erwachsen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Hand	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Genitalbereich	Genitalbereich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Kindes	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	–	–	PUNCT	$.	_	12	punct	_	_
+10	genau	genau	ADV	ADJD	_	12	advmod	_	_
+11	solche	solch	PRON	ADJD	_	12	det	_	_
+12	Bilder	Bild	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+13	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	16	aux	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Software	Software	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 17
+# text = Doch sie versteht den Kontext nicht.
+1	Doch	doch	CCONJ	KON	_	3	cc	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	versteht	verstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Kontext	Kontext	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	nicht	nicht	PART	NN	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Für den Vater aus San Francisco endete der Fall noch glimpflich.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vater	Vater	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+4	aus	aus	ADP	APPR	_	5	case	_	_
+5	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+6	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	_
+7	endete	enden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	7	advmod	_	_
+11	glimpflich	glimpflich	ADJ	ADJD	_	7	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 19
+# text = Die Polizei kam bei ihren Ermittlungen zum Ergebnis, dass keine Straftat vorlag.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	6	det:poss	_	_
+6	Ermittlungen	Ermittlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
+7-8	zum	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Ergebnis	Ergebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+12	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	nmod	_	_
+13	Straftat	Straftat	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	vorlag	vorliegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 20
+# text = Bloß seinen Google-Account hatte der Vater verloren, samt aller privaten Daten.
+1	Bloß	bloß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Google	Google	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Account	Account	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+6	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	verloren	verlieren	ADV	VVPP	VerbForm=Part	6	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	samt	samt	ADP	APPR	_	14	case	_	_
+12	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+13	privaten	privat	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	_
+14	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Das macht den Fall zu einem Paradebeispiel für die Schwächen automatischer Bilderkennung.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Fall	fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Paradebeispiel	Paradebeispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Schwächen	Schwäche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	_
+11	automatischer	automatisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	_
+12	Bilderkennung	Bilderkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Irrtümliche Treffer, false positives, sind nicht nur eine Randnotiz in der Statistik.
+1	Irrtümliche	Irrtümlich	DET	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	det	_	_
+2	Treffer	Treffer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	false	false	ADV	NN	Case=Acc|Gender=Masc|Number=Plur	5	advmod	_	_
+5	positives	positiv	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	sind	sein	AUX	ADJD	_	11	cop	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+9	nur	nur	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Randnotiz	Randnotiz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Statistik	Statistik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 23
+# text = Sie treffen das Leben realer Menschen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	treffen	treffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	realer	realer	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
+6	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 24
+# text = Der Fall zeigt auch, wie machtlos Nutzer:innen gegenüber den Tech-Giganten sind.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auch	auch	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	8	case	_	_
+7	machtlos	machtlos	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Nutzer:innen	Nutzer:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+9	gegenüber	gegenüber	ADP	APPR	_	13	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
+11	Tech	Tech	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Giganten	Gigant	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	nmod	_	_
+14	sind	sein	VERB	ADJD	_	3	acl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 25
+# text = Trotz Beschwerden wurde die Sperre des Google-Accounts nicht aufgehoben.
+1	Trotz	trotz	ADP	APPR	_	2	case	_	_
+2	Beschwerden	Beschwerde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+3	wurde	werden	AUX	ADV	_	11	aux:pass	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Sperre	Sperre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Google	Google	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Accounts	Accounts	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	flat	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	aufgehoben	aufheben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Die deutsche Google-Pressestelle teilt auf Anfrage von netzpolitik.org mit, dass Google Verdachtsfälle händisch überprüfe, bevor ein Konto gesperrt werde.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Google	Google	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Pressestelle	Pressestelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+6	teilt	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	auf	auf	ADP	APPR	_	8	case	_	_
+8	Anfrage	Anfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	10	case	_	_
+10	netzpolitik.org	netzpolitik.org	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	mit	mit	ADP	$(	_	6	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+14	Google	Google	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	Verdachtsfälle	Verdachtsfälle	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	14	flat	_	_
+16	händisch	händisch	ADJ	ADJD	_	17	advmod	_	_
+17	überprüfe	überprüf	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	bevor	bevor	SCONJ	KOUS	_	22	mark	_	_
+20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Konto	Konto	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	22	nsubj:pass	_	_
+22	gesperrt	sperren	VERB	VVPP	VerbForm=Part	17	advcl	_	_
+23	werde	werden	AUX	NE	Case=Gen|Gender=Neut|Number=Sing	22	aux:pass	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 27
+# text = Nutzer:innen hätten die Möglichkeit, Einspruch zu erheben, und Einsprüche würden durch das Team überprüft.
+1	Nutzer:innen	Nutzer:innen	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	4	advmod	_	_
+2	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Möglichkeit	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	Einspruch	Einspruch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+8	erheben	erheben	VERB	VVFIN	VerbForm=Inf	4	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	16	cc	_	_
+11	Einsprüche	Einspruch	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	würden	werden	AUX	NN	Foreign=Yes	16	aux	_	_
+13	durch	durch	ADP	APPR	_	15	case	_	_
+14	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Team	Team	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+16	überprüft	überprüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 28
+# text = Außerdem leite Google Verdachtsfälle sexualisierter Gewalt gegen Kinder an eine zentrale Meldestelle in den USA weiter, das NCMEC.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	leite	leien	VERB	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	Google	Google	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Verdachtsfälle	Verdachtsfälle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	sexualisierter	sexualisiert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+7	gegen	gegen	ADP	APPR	_	8	case	_	_
+8	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nmod	_	_
+9	an	an	ADP	APPR	_	12	case	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	zentrale	zentral	ADJ	ADV	_	12	amod	_	_
+12	Meldestelle	Meldestelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
+16	weiter	weiter	ADV	ADV	_	2	compound:prt	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	NCMEC	NCMEC	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 29
+# text = Über die Arbeit des NCMEC haben wir hier ausführlich berichtet.
+1	Über	über	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	NCMEC	NCMEC	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	wir	wir	PRON	ADJD	_	10	nsubj	_	_
+8	hier	hier	ADV	ADV	_	10	advmod	_	_
+9	ausführlich	ausführlich	ADJ	ADJD	_	10	advmod	_	_
+10	berichtet	berichten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 30
+# text = Bei Fällen im Ausland kontaktiert das NCMEC wiederum lokale Behörden, in der EU ist es beispielsweise Europol.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	_
+6	kontaktiert	kontaktieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	NCMEC	NCMEC	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nsubj	_	_
+9	wiederum	wiederum	ADV	ADV	_	6	advmod	_	_
+10	lokale	lokal	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	11	amod	_	_
+11	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	15	det	_	_
+15	EU	EU	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+16	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	beispielsweise	beispielsweise	ADV	ADV	_	19	advmod	_	_
+19	Europol	Europol	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = ## Vorschau auf die Chatkontrolle Der Fall ist auch im Hinblick auf die sogenannte Chatkontrolle spannend.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Vorschau	Vorschau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\s\s
+6	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Fall	Fall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+9	auch	auch	ADV	ADV	_	12	advmod	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Hinblick	Hinblick	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+13	auf	auf	ADP	APPR	_	16	case	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sogenannte	sogenannt	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Chatkontrolle	Chatkontrolle	NOUN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	nmod	_	_
+17	spannend	spannend	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 32
+# text = Die Europäische Kommission plant mit diesem Gesetzesvorhaben, dass Tech-Unternehmen bekannte Darstellungen sexualisierter Gewalt gegen Kinder automatisch erkennen sollen, auch in privaten Chats.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	Europäische	europäisch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Kommission	Kommission	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	plant	planen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mit	mit	ADP	$(	_	7	case	_	_
+6	diesem	dies	PRON	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Gesetzesvorhaben	Gesetzesvorhabe	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	20	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+10	Tech	Tech	PROPN	NN	_	20	nsubj	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	flat	_	_
+13	bekannte	bekannt	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	16	amod	_	_
+14	Darstellungen	Darstellung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+15	sexualisierter	sexualisiert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+17	gegen	gegen	ADP	APPR	_	18	case	_	_
+18	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	nmod	_	_
+19	automatisch	automatisch	ADJ	ADJD	_	20	advmod	_	_
+20	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
+21	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	26	punct	_	_
+23	auch	auch	ADV	ADV	_	26	advmod	_	_
+24	in	in	ADP	APPR	_	26	case	_	_
+25	privaten	privat	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	26	amod	_	_
+26	Chats	Chat	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 33
+# text = Darüber hinaus sollen sie auch bislang unbekannte Aufnahmen erkennen.
+1	Darüber	darüber	ADV	PAV	_	2	case	_	_
+2	hinaus	hinaus	ADV	ADV	_	9	advmod	_	_
+3	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	sie	sie	PRON	VVINF	VerbForm=Inf	9	nsubj	_	_
+5	auch	auch	ADV	ADV	_	9	advmod	_	_
+6	bislang	bislang	ADV	ADV	_	7	advmod	_	_
+7	unbekannte	unbekannt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	amod	_	_
+8	Aufnahmen	Aufnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+9	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = Genau das birgt viele Fallstricke.
+1	Genau	genau	ADV	ADV	_	2	advmod	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	birgt	bergen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	viele	viel	DET	NE	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Fallstricke	Fallstrick	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 35
+# text = Vorgänge wie der aus San Francisco könnten sich wiederholen.
+1	Vorgänge	Vorgang	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	5	case	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+4	aus	aus	ADP	APPR	_	5	case	_	_
+5	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+6	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	_
+7	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+9	wiederholen	wiederholen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 36
+# text = Fotos für Kinderärzt:innen können ebenso falschen Alarm auslösen wie Chatgruppen, in den Familienmitglieder Fotos vom Baden am See posten, oder einvernehmliches Sexting unter Jugendlichen.
+1	Fotos	Foto	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	Kinderärzt:innen	Kinderärzt:innen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	1	nmod	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	ebenso	ebenso	ADV	ADV	_	8	advmod	_	_
+6	falschen	falsch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Alarm	Alarm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	auslösen	auslösen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+10	Chatgruppen	Chatgruppen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	22	punct	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
+14	Familienmitglieder	Familienmitglieder	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	22	obl	_	_
+15	Fotos	Foto	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	22	nsubj	_	_
+16-17	vom	_	_	_	_	_	_	_	_
+16	von	von	ADP	FM	Foreign=Yes	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Baden	Baden	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	_
+19-20	am	_	_	_	_	_	_	_	_
+19	an	an	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	See	See	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	_
+22	posten	posen	VERB	NN	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	_
+24	oder	oder	CCONJ	XY	_	26	cc	_	_
+25	einvernehmliches	einvernehmlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	26	amod	_	_
+26	Sexting	Sexting	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	_
+27	unter	unter	ADP	ADJD	_	28	case	_	_
+28	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 37
+# text = Schon heute ist mehr als Hälfte der Tatverdächtigen bei sogenannter Kinderpornographie selbst minderjährig.
+1	Schon	schon	ADV	ADV	_	2	advmod	_	_
+2	heute	heute	ADV	ADV	_	13	advmod	_	_
+3	ist	sein	AUX	ADJD	_	13	cop	_	_
+4	mehr	mehr	ADV	PIS	_	13	advmod	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Hälfte	Hälfte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Tatverdächtigen	Tatverdächtige	NOUN	ADJA	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	sogenannter	sogenannt	ADJ	ADJD	_	11	amod	_	_
+11	Kinderpornographie	Kinderpornographie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+12	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+13	minderjährig	minderjährig	ADJ	PTKVZ	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Dass False Positives erwartet werden, gibt die EU-Kommission selbst zu, aus technologischer Sicht sind sie unvermeidlich.
+1	Dass	daß	SCONJ	KOUS	_	4	mark	_	_
+2	False	False	PROPN	NE	Foreign=Yes	4	nsubj:pass	_	_
+3	Positives	Positiv	PROPN	NE	Foreign=Yes	2	flat	_	_
+4	erwartet	erwarten	VERB	VVPP	VerbForm=Part	7	advcl	_	_
+5	werden	werden	AUX	NE	Case=Acc|Number=Plur	4	aux:pass	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	EU	EU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	_
+12	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	compound:prt	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	aus	aus	ADP	APPR	_	17	case	_	_
+16	technologischer	technologisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
+18	sind	sein	AUX	ADJD	_	20	cop	_	_
+19	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	20	nsubj	_	_
+20	unvermeidlich	unvermeidlich	ADJ	ADJD	_	7	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 39
+# text = Auch wenn sich die Fehlerquoten durch Training der Bilderkennung senken lassen – bei Abermillionen täglich verschickten Fotos bedeuten selbst geringste Fehlerquoten, dass reihenweise unbescholtene Menschen unter Verdacht geraten können.
+1	Auch	auch	ADV	ADV	_	11	advmod	_	_
+2	wenn	wenn	SCONJ	VVFIN	_	11	mark	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Fehlerquoten	Fehlerquot	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+6	durch	durch	ADP	APPR	_	7	case	_	_
+7	Training	Training	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Bilderkennung	Bilderkennung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	senken	senken	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
+11	lassen	lassen	VERB	VVINF	VerbForm=Inf	18	advcl	_	_
+12	–	–	PUNCT	$.	_	17	punct	_	_
+13	bei	bei	ADP	APPR	_	14	case	_	_
+14	Abermillionen	Abermillion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	_
+15	täglich	täglich	ADJ	ADJD	_	16	advmod	_	_
+16	verschickten	verschickt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	17	amod	_	_
+17	Fotos	Foto	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	iobj	_	_
+18	bedeuten	bedeuten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+19	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+20	geringste	gering	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	21	amod	_	_
+21	Fehlerquoten	Fehlerquot	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	29	punct	_	_
+23	dass	dass	SCONJ	KOUS	_	29	mark	_	_
+24	reihenweise	reihenweise	ADV	ADV	_	29	advmod	_	_
+25	unbescholtene	unbescholten	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	26	amod	_	_
+26	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+27	unter	unter	ADP	ADJD	_	28	case	_	_
+28	Verdacht	Verdacht	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	_
+29	geraten	geraten|raten	VERB	VVINF	VerbForm=Inf	21	ccomp	_	_
+30	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 40
+# text = Die mögliche Folge wären teils monatelange Ungewissheit, wie Ermittlungsbehörden mit dem Verdacht umgehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mögliche	möglich	ADJ	ADJA	_	3	amod	_	_
+3	Folge	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+4	wären	sein	AUX	ADJD	_	14	aux	_	_
+5	teils	teils	ADV	ADV	_	7	advmod	_	_
+6	monatelange	monatelang	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	Ungewissheit	Ungewissheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+10	Ermittlungsbehörden	Ermittlungsbehörde	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+11	mit	mit	ADP	$(	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Verdacht	Verdacht	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
+14	umgehen	umgehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Datenschützer:innen und Bürgerrechtsorganisationen aus ganz Europa warnen seit Monaten davor, massenhaft die private Kommunikation von Internet-Nutzer:innen zu durchleuchten.
+1	Datenschützer:innen	Datenschützer:innen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+3	Bürgerrechtsorganisationen	Bürgerrechtsorganisation	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	aus	aus	ADP	APPR	_	6	case	_	_
+5	ganz	ganz	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	_
+6	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+7	warnen	warnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	9	case	_	_
+9	Monaten	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obl	_	_
+10	davor	davor	ADV	PAV	_	7	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	massenhaft	massenhafen	VERB	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	private	privat	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Kommunikation	Kommunikation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+16	von	von	ADP	FM	Foreign=Yes	17	case	_	_
+17	Internet	Internet	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	Nutzer:innen	Nutzer:innen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	flat	_	_
+20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
+21	durchleuchten	durchleuchen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 42
+# text = EU-Datenschutzbehörden haben das Vorhaben komplett auseinandergenommen.
+1	EU	EU	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+3	Datenschutzbehörden	Datenschutzbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	flat	_	_
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Vorhaben	Vorhaben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	komplett	komplett	ADJ	ADJD	_	8	advmod	_	_
+8	auseinandergenommen	auseinandergenommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 43
+# text = Es bedroht Grundrechte und birgt die Gefahr einer neuen Form von anlassloser Massenüberwachung.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	bedroht	bedrohen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	amod	_	_
+3	Grundrechte	Grundrecht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	birgt	bergen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	neuen	neu	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
+10	Form	Form	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+11	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+12	anlassloser	anlasslos	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Massenüberwachung	Massenüberwachung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 44
+# text = Als nächstes wird der Entwurf der EU-Kommission im EU-Parlament diskutiert.
+1	Als	als	ADP	KOKOM	_	2	case	_	_
+2	nächstes	nah	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Entwurf	Entwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	EU	EU	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Kommission	Kommission	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	EU	EU	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Parlament	Parlament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	flat	_	_
+15	diskutiert	diskutieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+

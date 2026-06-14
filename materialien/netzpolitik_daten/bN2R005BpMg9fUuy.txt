@@ -1,0 +1,57 @@
+---
+title: So durchleuchten Mobilfunkanbieter deine SMS
+author: Martin Schwarzbeck
+url: https://netzpolitik.org/2025/verdaechtige-links-so-durchleuchten-mobilfunkanbieter-deine-sms/
+hostname: netzpolitik.org
+description: Telekom, Vodafone, 1&1 und Telefónica wollen ihre Kund*innen vor betrügerischen Kurznachrichten schützen. Doch sie dürfen die Inhalte von SMS eigentlich nicht analysieren. Wie funktionieren die SMS-Firewalls dann?
+sitename: netzpolitik.org
+date: 2025-02-27
+license: CC BY-NC-SA 4.0
+---
+Die SMS ist lange nicht mehr so populär, wie sie mal war. Im Jahr 2012 wurden in Deutschland noch fast 60 Milliarden davon verschickt, 2023 waren es nur noch 5,3 Milliarden, so die Bundesnetzagentur. Messenger – bestenfalls mit Ende-zu-Ende-Verschlüsselung – haben dem Kommunikationsmittel den Rang abgelaufen. Dennoch sind Handy-Nutzer*innen weiterhin über ihre Telefonnummer per SMS erreichbar.
+
+Das machen sich Kriminelle zu Nutze. Sie verschicken SMS wie: „Hallo, das hier ist jetzt meine neue Nummer. LG dein lieblingskind“ Oder: „Die von Ihnen gekaufte Ware wurde versendet. Bitte überprüfen Sie die Details“ – worauf ein Link folgt. So wollen Betrüger*innen die Betroffenen etwa zur Kontaktaufnahme bringen, ihre Daten abgreifen, oder sie zu Malware-Downloads lotsen.
+
+Die Telekom kündigte kürzlich an, ab 1. April eine „SMS-Firewall“ gegen solche Betrugsversuche hochzuziehen. Die übrigen Mobilfunkprovider geben auf Anfrage von netzpolitik.org an, bereits technische Maßnahmen zur Bekämpfung von betrügerischen SMS zu nutzen.
+
+Die SMS-Kontrolle der Handy-Provider geschieht weitgehend ohne öffentlichen Aufschrei, während etwa die von der EU geplante Chatkontrolle auf breite Ablehnung stößt. In beiden Fällen geht es um die automatische Kontrolle von Nachrichten und einen potenziellen Eingriff in die Vertraulichkeit von Kommunikation. Eine Infrastruktur, die beispielsweise automatisch Links zu Phishing oder Malware erkennen soll, könnte rein technisch ebenso dafür eingesetzt werden, beliebige andere Links zu filtern.
+
+## Mobilfunkanbieter dürfen SMS-Inhalte nicht analysieren
+
+SMS sind nicht verschlüsselt, es wäre also für die Provider leicht, die Inhalte zum Beispiel mit Sprachmodellen auf verdächtige Inhalte zu analysieren. Im Rahmen von Strafverfolgung dürfen sie die SMS auch offenlegen, doch außerhalb dessen unterliegen Kurznachrichten dem Fernmeldegeheimnis und sind durch das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz geschützt. Die Mobilfunkanbieter dürfen die SMS-Inhalte also nicht einsehen. Aber wie anders soll eine SMS-Firewall denn potenziell schädliche Inhalte herausfiltern? Wir haben die Provider danach gefragt.
+
+Den deutschen Mobilfunkmarkt teilen sich vier Anbieter, die jeweils zahlreiche Marken mit Netz versorgen. Laut Statista versorgte im dritten Quartal 2024 Vodafone 83 Millionen aktive SIM-Karten mit Mobilfunknetz, die Telekom 67 Millionen, Telefónica 46 Millionen und 1&1 drei Millionen.
+
+Die SMS-Firewall der Telekom wird sich, so antwortete ein Konzernsprecher auf netzpolitik.org-Anfrage, bei der automatischen Analyse von mutmaßlich betrügerischen SMS erst einmal auf verdächtige Links konzentrieren. Bei iOS-Geräten seien vor allem Links auf Phishing-Seiten problematisch; bei Android-Geräten würden Links in SMS oft zu Malware führen.
+
+## SMS-Firewalls sind Folge eines Spyware-Angriffs
+
+Die Maßnahme sei laut Telekom-Sprecher eine Antwort auf FluBot, „seinerzeit die Malware mit dem höchsten Volumen an potenziell schädlichen Kurznachrichten“. Das Spionageprogramm FluBot wurde Mitte 2022 vom Netz genommen, aber war laut Telekom Anlass für die Provider, das Gespräch mit den Aufsichtsbehörden zu suchen. Ziel sei es gewesen, Menschen zu schützen, „die leider mit ihren Credentials, den Privacy-Einstellungen und dem Teilen persönlicher Informationen auf Social Media nicht optimal umgehen.“
+
+Aber woran erkennt die Telekom denn betrügerische Links? „In der täglichen Arbeit unserer Security-Expertinnen und ‑Experten sammeln wir als Deutsche Telekom sehr viele Erkenntnisse über Strategien, Werkzeuge und Infrastruktur von Kriminellen.“ Wichtig sei dabei vor allem das Wissen über ferngesteuerte Server, die als Verteiler von Malware, Teil eines Botnetzes oder aus der Analyse gemeldeter Schad-E-Mails bekannt sind. SMS mit Links die auf solche Server führen, sortiere die Telekom künftig aus.
+
+Zusätzlich nutze die Telekom Absende- und Empfangsinformationen, sowie Datum und Uhrzeit versendeter SMS, um so Hinweise auf Nachrichten zu finden, die in größeren Volumina oder per Skript verschickt wurden. So könnten Angriffswellen erkannt und entsprechende SMS an der Zustellung gehindert werden.
+
+## Telekom liest Links in Nachrichten aus
+
+Um die Links auszulesen muss das Unternehmen allerdings den Inhalt der SMS analysieren. So lange der genutzte Algorithmus dabei aber nicht den semantischen Wert von Worten untersuche, sondern nur Deeplinks erkenne oder gekürzte Links auflöse und das Ziel mit einer Liste vergleiche, würden die Aufsichtsbehörden dies nicht beanstanden, so der Unternehmenssprecher.
+
+Er sieht offenbar eine weitere Möglichkeit, SMS-Inhalte legal zu untersuchen, ohne mit Gesetzen in Konflikt zu geraten: „Wenn man etwa aus den Inhalten der SMS per Algorithmus Hashwerte bildet und diese vergleicht, ließe sich dadurch auch die im Text immer gleiche Hallo-Mama-Hallo-Papa-SMS mit einer Warnung markieren oder herausfiltern, so wie es zukünftig beispielsweise in Spanien Pflicht für die Provider ist“, schreibt er.
+
+Vodafone schreibt, das Unternehmen nutze eine Kombination aus systemischer und manueller Netzüberwachung und wehre damit bereits einen extrem großen Teil der Spam-Attacken ab. Die Sicherheitskonzepte würden kontinuierlich verbessert.
+
+## Vodafone und Telefónica mauern bei Frage nach SMS-Inhaltsanalyse
+
+Auf unsere Nachfrage, wie Vodafone betrügerische SMS erkennen will, ohne den Inhalt der Nachrichten zu untersuchen, schreibt das Unternehmen: „Bitte haben Sie Verständnis, dass wir keine weiteren Details zu unseren Schutzmaßnahmen veröffentlichen – auch um zu verhindern, dass die Kriminellen daraus Hinweise zur ‚Verbesserung’ ihrer Attacken entnehmen könnten.“
+
+Telefónica hat angeblich ebenfalls Prüf- und Schutzmechanismen gegen betrügerische und schädliche SMS implementiert. „Die Systeme können beispielsweise binnen kurzer Zeit massenhaft verschickte SMS identifizieren“, schreibt ein Unternehmenssprecher. Würden solche Massen-SMS identifiziert, könne das Unternehmen Maßnahmen zur Sperrung einleiten.
+
+Zudem werte es „Rückmeldungen von Kundinnen und Kunden zu möglichen Spam-Nachrichten aus“, heißt es weiter. Telefónica prüfe außerdem die Einführung einer Spam-Firewall, „die Nachrichten mit bestimmten schädlichen Inhalten noch schneller erkennt“. Auf die Frage, wie die Systeme Betrugs-SMS identifizieren sollen, ohne den Inhalt der Nachrichten zu analysieren, antwortet das Unternehmen nicht.
+
+## 1&1 hat technische Möglichkeiten zur Texterkennung
+
+1&1 setzt laut einer Unternehmenssprecherin „eine Erkennung anhand volumetrischer Merkmale ein, das heißt z.B. unsere Firewalls alarmieren zuständige Teams (intern und bei anderen Service-Providern) bei sehr hohem SMS-Aufkommen. Diese Teams entscheiden dann über die Maßnahmen (Ansprache des Kunden, Sperren, etc.) und führen sie entsprechend durch.“
+
+Das Unternehmen habe zudem „Möglichkeiten zur Texterkennung und ‑analyse“. Weitere Maßnahmen seien „bereits in inhaltlicher Abstimmung mit den zuständigen Behörden. Aktuell findet dementsprechend noch keinerlei Auswertung von Inhalten statt“, schreibt die Sprecherin.
+
+Wer trotz der Maßnahmen der Unternehmen eine verdächtige SMS erhält, kann diese übrigens bei der Verbraucherzentrale Nordrhein-Westfalen oder der Bundesnetzagentur melden.

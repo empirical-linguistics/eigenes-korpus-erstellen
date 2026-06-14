@@ -1,0 +1,695 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Gesundheit, KI und Sicherheit, das sind die Themen, die Louisa Specht-Riemenschneider in ihrer Arbeit als Bundesbeauftragte für Datenschutz und Informationsfreiheit in den Vordergrund stellen möchte.
+1	Gesundheit	Gesundheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	KI	KI	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	5	cc	_	_
+5	Sicherheit	Sicherheit	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+8	sind	sein	AUX	ADJD	_	10	cop	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+10	Themen	Them	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	13	det	_	_
+13	Louisa	Louisa	PROPN	NE	_	29	obj	_	_
+14	Specht	Specht	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	13	flat	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	13	flat	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
+19	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_
+20	als	als	ADP	KOKOM	_	21	case	_	_
+21	Bundesbeauftragte	Bundesbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nmod	_	_
+22	für	für	ADP	APPR	_	23	case	_	_
+23	Datenschutz	Datenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nmod	_	_
+24	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	cc	_	_
+25	Informationsfreiheit	Informationsfreiheit	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	23	conj	_	_
+26	in	in	ADP	APPR	_	28	case	_	_
+27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Vordergrund	Vordergrund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+29	stellen	stellen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+30	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	29	punct	_	_
+
+# sent_id = 2
+# text = Am 3. September trat sie ihr Amt an, gestern hat sie sich und ihre Positionen im Digitalausschuss des Bundestages vorgestellt.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	3.	3	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+5	trat	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Amt	Amt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+9	an	an	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	gestern	gestern	VERB	ADV	_	5	conj	_	_
+12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	sie	sie	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	_
+14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	23	cc	_	_
+16	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	17	det:poss	_	_
+17	Positionen	Position	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+18-19	im	_	_	_	_	_	_	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Digitalausschuss	Digitalausschuß	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	_
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Bundestages	Bundestag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	vorgestellt	vorstellen	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Specht-Riemenschneider sagt, der Datenschutz würde aktuell eher als Belastung denn als Schutzinstrument wahrgenommen.
+1	Specht	Specht	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+3	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	4	nsubj	_	_
+4	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	16	punct	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Datenschutz	Datenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+8	würde	werden	AUX	NE	Case=Nom|Number=Sing	16	aux	_	_
+9	aktuell	aktuell	ADV	ADJD	_	16	advmod	_	_
+10	eher	eher	ADV	ADV	_	11	advmod	_	_
+11	als	als	ADP	KOKOM	_	12	case	_	_
+12	Belastung	Belastung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	_
+13	denn	denn	CCONJ	ADV	_	15	cc	_	_
+14	als	als	ADP	KOKOM	_	15	case	_	_
+15	Schutzinstrument	Schutzinstrument	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	12	nmod	_	_
+16	wahrgenommen	wahrnehmen	VERB	VVPP	VerbForm=Part	4	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Er habe ein „Akzeptanzproblem“.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	habe	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+5	Akzeptanzproblem	Akzeptanzproblem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+6	“	“	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Der Grund: „Die Datenschutz-Grundverordnung ist noch sehr jung und enthält viele Rechtsbegriffe, die man auslegen muss.“
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	12	punct	_	_
+4	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+5	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+6	Datenschutz	Datenschutz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Grundverordnung	Grundverordnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
+11	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	12	advmod	_	_
+12	jung	jung	ADJ	ADJD	_	0	root	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+14	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	viele	viel	DET	NE	Case=Nom|Gender=Masc|Number=Sing	16	amod	_	_
+16	Rechtsbegriffe	Rechtsbegriff	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	20	obj	_	_
+19	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	20	nsubj	_	_
+20	auslegen	auslegen	VERB	VVINF	VerbForm=Inf	16	acl	_	_
+21	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+23	“	“	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 6
+# text = Es gäbe zunehmend höchstrichterliche Rechtsprechung dazu, aber noch keine umfassende.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gäbe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zunehmend	zunehmend	ADJ	ADJD	_	2	advmod	_	_
+4	höchstrichterliche	höchstrichterlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Rechtsprechung	Rechtsprechung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+6	dazu	dazu	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	aber	aber	CCONJ	KON	_	11	cc	_	_
+9	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	11	advmod	_	_
+10	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	11	nmod	_	_
+11	umfassende	umfassend	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = „Ich kann die unbestimmten Rechtsbegriffe nicht aus der DSGVO herauszaubern“, sagt sie.
+1	„	„	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	unbestimmten	unbestimmt	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Sing	6	amod	_	_
+6	Rechtsbegriffe	Rechtsbegriff	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	11	nsubj	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+8	aus	aus	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	DSGVO	DSGVO	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	herauszaubern	herauszaubern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	ccomp	_	SpaceAfter=No
+12	“	“	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	11	punct	_	_
+14	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Zudem sei die nötige Abwägung aller Einzelfallumstände untauglich für massenhafte Datenverarbeitungsvorgänge wie KI-Trainings.
+1	Zudem	zudem	ADV	PAV	_	8	advmod	_	_
+2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nötige	nötigen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Abwägung	Abwägung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	Einzelfallumstände	Einzelfallumstand	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+8	untauglich	untauglich	ADJ	ADJD	_	0	root	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	massenhafte	massenhaft	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	_
+11	Datenverarbeitungsvorgänge	Datenverarbeitungsvorgänge	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+12	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	13	case	_	_
+13	KI	KI	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Trainings	Training	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = „Der Gesetzgeber muss klar definieren, für welche Zwecke Datenverarbeitungen zulässig sein sollen“, fordert Specht-Riemenschneider.
+1	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Gesetzgeber	Gesetzgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	klar	klar	ADJ	ADJD	_	6	advmod	_	_
+6	definieren	definieren	VERB	VVINF	VerbForm=Inf	17	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	welche	welch	PRON	NN	Case=Nom|Gender=Masc|Number=Plur	10	det	_	_
+10	Zwecke	Zweck	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	Datenverarbeitungen	Datenverarbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	zulässig	zulässig	ADJ	ADJD	_	6	conj	_	_
+13	sein	sein	AUX	VAINF	VerbForm=Inf	12	cop	_	_
+14	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+15	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	6	punct	_	_
+17	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	Specht	Specht	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Riemenschneider	Riemenschneider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = ## „Bereiche, in die wir niemals gehen sollten“ Specht-Riemenschneider sagt, sie stehe für die Vereinbarkeit von Datenschutz und Digitalisierung.
+1	##	##	PUNCT	$.	_	3	punct	_	_
+2	„	„	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+3	Bereiche	Bereich	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	9	obl	_	_
+7	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+8	niemals	niemals	ADV	ADV	_	9	advmod	_	_
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	acl	_	_
+10	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	“	“	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+12	Specht	Specht	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	3	flat	_	_
+15	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
+18	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
+19	für	für	ADP	APPR	_	21	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Vereinbarkeit	Vereinbarkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+22	von	von	ADP	FM	Foreign=Yes	23	case	_	_
+23	Datenschutz	Datenschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+24	und	und	CCONJ	NE	Foreign=Yes	25	cc	_	_
+25	Digitalisierung	Digitalisierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 11
+# text = Dabei sieht sie aber rote Linien:
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	_
+2	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+4	aber	aber	ADV	ADV	_	2	advmod	_	_
+5	rote	rot	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	_
+6	Linien	Linie	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Das informationelle Selbstbestimmungsrecht müsse auf jeden Fall eingehalten werden.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	informationelle	informationell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
+3	Selbstbestimmungsrecht	Selbstbestimmungsrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj:pass	_	_
+4	müsse	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	eingehalten	einhalten	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Jede Verarbeitung personenbezogener Daten sei ein Grundrechtseingriff.
+1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Verarbeitung	Verarbeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	personenbezogener	personenbezogen	DET	ADJD	_	4	det	_	_
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nsubj	_	_
+5	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Grundrechtseingriff	Grundrechtseingriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 14
+# text = Ob der zu rechtfertigen ist, hänge davon ab, wie tief der Eingriff sei.
+1	Ob	ob	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	nsubj:pass	_	_
+3	zu	zu	PART	NN	Case=Gen|Gender=Fem|Number=Plur	4	mark	_	_
+4	rechtfertigen	rechtfertigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	hänge	hänge	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	_
+8	davon	davon	ADV	PAV	_	7	advmod	_	_
+9	ab	ab	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	wie	wie	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	12	advmod	_	_
+12	tief	tief	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	amod	_	_
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Eingriff	Eingriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+15	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Dabei bezieht sich Specht-Riemenschneider auch auf das von der Ampel-Regierung geplante Überwachungspaket.
+1	Dabei	dabei	ADV	PAV	_	2	advmod	_	_
+2	bezieht	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	Specht	Specht	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	4	flat	_	_
+7	auch	auch	ADV	ADV	_	2	advmod	_	_
+8	auf	auf	ADP	APPR	_	16	case	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+10	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	12	case	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Ampel	Ampel	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	flat	_	_
+15	geplante	geplant	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	16	amod	_	_
+16	Überwachungspaket	Überwachungspaket	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Das erlaube weitreichende Grundrechtseingriffe schon anlässlich von Wohnungseinbrüchen, greife auch die Privatsphäre von Zeugen an.
+1	Das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+2	erlaube	erlaub	ADJ	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	amod	_	_
+3	weitreichende	weitreichend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
+4	Grundrechtseingriffe	Grundrechtseingriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	schon	schon	ADV	ADV	_	6	advmod	_	_
+6	anlässlich	anlässlich	ADJ	ADJD	_	0	root	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Wohnungseinbrüchen	Wohnungseinbrüchen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	greife	greif	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+11	auch	auch	ADV	ADV	_	13	advmod	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Privatsphäre	Privatsphäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	appos	_	_
+14	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	15	case	_	_
+15	Zeugen	Zeuge	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 17
+# text = „Das sind Bereiche in die wir nicht gehen können und niemals gehen sollten“, sagt sie.
+1	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	sind	sein	AUX	ADJD	_	4	cop	_	_
+4	Bereiche	Bereich	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	17	ccomp	_	_
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+12	niemals	niemals	ADV	ADV	_	13	advmod	_	_
+13	gehen	gehen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
+14	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	“	“	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	9	punct	_	_
+17	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 18
+# text = „Niemand will den Polizeien und Sicherheitsbehörden dringend benötigte Befugnisse nehmen.
+1	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+2	Niemand	niemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	11	nsubj	_	_
+3	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	11	aux	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Polizeien	Polizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	_
+6	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	7	cc	_	_
+7	Sicherheitsbehörden	Sicherheitsbehörde	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+8	dringend	dringend	ADJ	ADJD	_	9	advmod	_	_
+9	benötigte	benötigt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	amod	_	_
+10	Befugnisse	Befugnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	obj	_	_
+11	nehmen	nehmen	VERB	CARD	NumType=Card	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 19
+# text = Aber was über die Verfassungsgrenze hinausgeht, geht einfach nicht.“
+1	Aber	aber	CCONJ	KON	_	8	cc	_	_
+2	was	was	PRON	NE	Foreign=Yes	6	nsubj	_	_
+3	über	über	ADP	FM	Foreign=Yes	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Verfassungsgrenze	Verfassungsgrenze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	hinausgeht	hinausgehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	_
+8	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	einfach	einfach	ADV	ADV	_	8	advmod	_	_
+10	nicht	nicht	PART	CARD	NumType=Card	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+12	“	“	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Zu einer möglichen Vorratsdatenspeicherung sagt Specht-Riemenschneider, dass das EuGH-Urteil aus dem April diese grundsätzlich erlaube, wenn sie verschiedene Kategorien persönlicher Daten ausreichend trenne und auf den absolut erforderlichen Zeitraum beschränkt sei.
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	case	_	_
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	möglichen	möglich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Vorratsdatenspeicherung	Vorratsdatenspeicherung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+5	sagt	sagen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Specht	Specht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	Riemenschneider	Riemenschneider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	20	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	EuGH	EuGH	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Urteil	Urteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
+15	aus	aus	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	April	April	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+18	diese	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	20	nsubj	_	_
+19	grundsätzlich	grundsätzlich	ADJ	ADJD	_	20	advmod	_	_
+20	erlaube	erlauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	25	punct	_	_
+22	wenn	wenn	SCONJ	VVFIN	_	25	mark	_	_
+23	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+24	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	25	amod	_	_
+25	Kategorien	Kategorie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	obl	_	_
+26	persönlicher	persönlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	27	amod	_	_
+27	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	25	nmod	_	_
+28	ausreichend	ausreichend	ADP	APPR	_	38	advmod	_	_
+29	trenne	trenne	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	28	conj	_	_
+30	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	36	cc	_	_
+31	auf	auf	ADP	APPR	_	35	case	_	_
+32	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	absolut	absolut	ADV	ADV	_	34	advmod	_	_
+34	erforderlichen	erforderlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	35	amod	_	_
+35	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
+36	beschränkt	beschränken	VERB	VVPP	VerbForm=Part	29	conj	_	_
+37	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	27	punct	_	_
+
+# sent_id = 21
+# text = Bei der Ausgestaltung dieses Spielraums bestünde allerdings die Gefahr, „dass man in die Verfassungsfeindlichkeit läuft.“
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ausgestaltung	Ausgestaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+4	dieses	dies	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Spielraums	Spielraums	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	bestünde	bestünd	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	allerdings	allerdings	ADV	ADV	_	6	advmod	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	_
+11	„	„	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+12	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+13	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	17	nsubj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Verfassungsfeindlichkeit	Verfassungsfeindlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+17	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+19	“	“	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 22
+# text = Die Speicherung persönlicher Daten kann laut Specht-Riemenschneider zudem „ein Dauergefühl der Überwachung in der Bevölkerung schaffen“.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Speicherung	Speicherung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+3	persönlicher	persönlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	_
+4	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+6	laut	laut	ADP	ADJD	_	9	case	_	_
+7	Specht	Specht	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	19	obl	_	_
+10	zudem	zudem	ADV	PAV	_	19	advmod	_	_
+11	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Dauergefühl	Dauergefühl	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	obj	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Überwachung	Überwachung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Bevölkerung	Bevölkerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+19	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	“	“	PUNCT	$.	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 23
+# text = Sie bittet, diese Tatsache in den politischen Dialog einzubeziehen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bittet	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Tatsache	Tatsache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	politischen	politisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	Dialog	Dialog	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+10	einzubeziehen	einzubeziehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = ## Chatkontrolle: „höchst fragwürdig“ Zudem äußert sie den Wunsch, dass ihre Behörde früher in Entscheidungsprozesse eingebunden wird.
+1	##	##	PUNCT	$.	_	2	punct	_	_
+2	Chatkontrolle	Chatkontrolle	NOUN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	9	punct	_	_
+4	„	„	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+5	höchst	hochöchst	ADV	ADV	_	6	advmod	_	_
+6	fragwürdig	fragwürdig	ADJ	ADJD	_	8	amod	_	SpaceAfter=No
+7	“	“	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\s
+8	Zudem	zudem	ADV	PAV	_	9	advmod	_	_
+9	äußert	äußern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Wunsch	Wunsch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+15	ihre	ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	16	det:poss	_	_
+16	Behörde	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
+17	früher	früher	ADJ	ADV	_	20	advmod	_	_
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Entscheidungsprozesse	Entscheidungsprozesse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+20	eingebunden	einbinden	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
+21	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	aux:pass	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 25
+# text = „Dann machen Sie Gesetze, an denen wir am Ende nicht so viel rummeckern müssen.“
+1	„	„	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+2	Dann	dann	ADV	ADV	_	3	advmod	_	_
+3	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+5	Gesetze	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	_
+7	an	an	ADP	APPR	_	8	case	_	_
+8	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	16	obl	_	_
+9	wir	wir	PRON	ADJD	_	16	nsubj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+13	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advmod	_	_
+14	so	so	ADV	NE	Case=Dat|Number=Plur	15	advmod	_	_
+15	viel	viel	ADV	NE	Foreign=Yes	16	advmod	_	_
+16	rummeckern	rummeckern	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+17	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+19	“	“	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 26
+# text = Datenschutz sei kein Innovationsverhinderer, „wenn wir ihn von Anfang an ordentlich mitdenken.“
+1	Datenschutz	Datenschutz	ADV	NN	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
+2	sei	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
+4	Innovationsverhinderer	Innovationsverhinderer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	14	punct	_	_
+6	„	„	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+7	wenn	wenn	SCONJ	VVFIN	_	14	mark	_	_
+8	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+9	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+10	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+11	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	ordentlich	ordentlich	ADJ	ADJD	_	14	amod	_	_
+14	mitdenken	mitdenken	NOUN	NN	Case=Gen|Number=Plur	2	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+16	“	“	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Ein Transparenzgesetz hielte Specht-Riemenschneider für „ein tolles Signal“.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Transparenzgesetz	Transparenzgesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	hielte	hielt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	amod	_	_
+4	Specht	Specht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+6	Riemenschneider	Riemenschneider	PROPN	NE	Case=Acc|Number=Sing	2	flat	_	_
+7	für	für	ADP	APPR	_	11	case	_	_
+8	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	tolles	toll	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
+11	Signal	Signal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+12	“	“	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 28
+# text = Die Informationsfreiheit gehöre allerdings nicht zu ihren Schwerpunkten, sagt die Bundesbeauftragte für Datenschutz und Informationsfreiheit.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Informationsfreiheit	Informationsfreiheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gehöre	gehören	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	allerdings	allerdings	ADV	ADV	_	3	advmod	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	_
+6	zu	zu	ADP	NN	Case=Nom|Number=Plur	8	case	_	_
+7	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Schwerpunkten	Schwerpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Bundesbeauftragte	Bundesbeauftragte	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Datenschutz	Datenschutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+16	Informationsfreiheit	Informationsfreiheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Bei der Chatkontrolle hält Specht-Riemenschneider es für „höchst fragwürdig“, ob diese zur Zielerreichung – den Schutz von Kindern und Jugendlichen vor sexualisierter Gewalt im Netz – überhaupt geeignet sei.
+1	Bei	bei	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Specht	Specht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	compound	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	Riemenschneider	Riemenschneider	NOUN	NE	Case=Acc|Number=Sing	4	nsubj	_	_
+8	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+9	für	für	ADP	APPR	_	4	compound:prt	_	_
+10	„	„	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+11	höchst	hochöchst	ADV	ADV	_	12	advmod	_	_
+12	fragwürdig	fragwürdig	ADJ	ADJD	_	9	amod	_	SpaceAfter=No
+13	“	“	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	35	punct	_	_
+15	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	mark	_	_
+16	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	35	nsubj	_	_
+17-18	zur	_	_	_	_	_	_	_	_
+17	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Zielerreichung	Zielerreichung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	35	nmod	_	_
+20	–	–	PUNCT	$.	_	22	punct	_	_
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Schutz	Schutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	nsubj	_	_
+23	von	von	ADP	FM	Foreign=Yes	24	case	_	_
+24	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
+25	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	26	cc	_	_
+26	Jugendlichen	Jugendliche	NOUN	NN	Case=Dat|Number=Plur	24	conj	_	_
+27	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	29	case	_	_
+28	sexualisierter	sexualisiert	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	29	amod	_	_
+29	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nmod	_	_
+30-31	im	_	_	_	_	_	_	_	_
+30	in	in	ADP	APPR	_	32	case	_	_
+31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+32	Netz	Netz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	29	nmod	_	_
+33	–	–	PUNCT	$.	_	22	punct	_	_
+34	überhaupt	überhaupt	ADV	ADV	_	35	advmod	_	_
+35	geeignet	geeignet	VERB	ADJD	_	12	ccomp	_	_
+36	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 30
+# text = Sie könne deshalb nicht ernsthaft in Erwägung gezogen werden.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+2	könne	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	deshalb	deshalb	ADV	PAV	_	8	advmod	_	_
+4	nicht	nicht	PART	TRUNC	NumType=Card	5	advmod	_	_
+5	ernsthaft	ernsthafen	VERB	ADJD	_	8	advmod	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Erwägung	Erwägung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Die Übermittlung von Standortdaten von Telefonen anhand der Werbe-ID hat Specht-Riemenschneider, so sagt sie, „in den letzten drei Monaten Tag und Nacht beschäftigt.“
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Übermittlung	Übermittlung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Standortdaten	Standortdat	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Telefonen	Telefonen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+7	anhand	anhand	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Werbe-	Werbe-	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+10	ID	ID	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+12	Specht	Specht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	Riemenschneider	Riemenschneider	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	11	punct	_	_
+16	so	so	ADV	NE	Case=Dat|Number=Plur	15	advmod	_	_
+17	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	29	punct	_	_
+20	„	„	PUNCT	$.	_	29	punct	_	SpaceAfter=No
+21	in	in	ADP	APPR	_	26	case	_	_
+22	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	det	_	_
+23	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	25	amod	_	_
+24	drei	drei	NUM	CARD	NumType=Card	25	nummod	_	_
+25	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	26	nmod	_	_
+26	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+27	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	28	cc	_	_
+28	Nacht	Nacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	conj	_	_
+29	beschäftigt	beschäftigen	VERB	VVPP	VerbForm=Part	17	ccomp	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+31	“	“	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 32
+# text = Sie fordert ein Gesetz, das Databroker adressiert, die solche Daten sammeln.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Gesetz	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	das	der	DET	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	_
+7	Databroker	Databroker	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	adressiert	adressieren	VERB	VVFIN	VerbForm=Part	4	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	_
+11	solche	solch	PRON	ADJD	_	12	det	_	_
+12	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+13	sammeln	sammeln	VERB	VVINF	VerbForm=Inf	8	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 33
+# text = Die seinen bislang nämlich datenschutzrechtlich noch nicht angreifbar.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+2	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	8	iobj	_	_
+3	bislang	bislang	ADV	ADV	_	4	advmod	_	_
+4	nämlich	nämlich	ADJ	CARD	NumType=Card	5	advmod	_	_
+5	datenschutzrechtlich	datenschutzrechtlich	ADV	ADJD	_	6	advmod	_	_
+6	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	7	advmod	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
+8	angreifbar	angreifbar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+

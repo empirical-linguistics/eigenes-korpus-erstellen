@@ -1,0 +1,393 @@
+# newdoc id = __7fD6iBofCznpmr
+# newpar
+# sent_id = 1
+# text = Seit der vorigen Folge sind viele neue Leute ins Team gekommen.
+1	Seit	seit	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vorigen	vorig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+5	sind	sein	AUX	ADJD	_	12	aux	_	_
+6	viele	viel	DET	NN	Case=Gen|Gender=Neut|Number=Plur	8	amod	_	_
+7	neue	neu	ADJ	NN	Case=Gen|Gender=Neut|Number=Plur	8	amod	_	_
+8	Leute	Leute	NOUN	NN	Case=Gen|Number=Plur	12	nsubj	_	_
+9-10	ins	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Team	Team	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Eine dieser Personen könnt ihr in diesem Podcast kennenlernen: unser neuer – und erster – Volontär Timur.
+1	Eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
+2	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	Personen	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	_
+4	könnt	können	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	kennenlernen	kennenlernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	:	:	PUNCT	$.	_	17	punct	_	_
+11	unser	unser	PRON	NN	Case=Gen|Gender=Fem|Number=Sing	17	det:poss	_	_
+12	neuer	neu	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	17	amod	_	_
+13	–	–	PUNCT	$.	_	15	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	erster	er	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+16	–	–	PUNCT	$.	_	12	punct	_	_
+17	Volontär	Volontär	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+18	Timur	Timur	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Er erzählt über sich und das, was ihn in seinen ersten Wochen bei netzpolitik.org überrascht hat.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	über	über	ADP	FM	Foreign=Yes	4	case	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
+6	das	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	16	nsubj	_	_
+9	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+10	in	in	ADP	APPR	_	13	case	_	_
+11	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	13	det:poss	_	_
+12	ersten	erst	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	13	amod	_	_
+13	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	_
+14	bei	bei	ADP	APPR	_	15	case	_	_
+15	netzpolitik.org	netzpolitik.org	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+16	überrascht	überrascht	VERB	VVPP	VerbForm=Part	6	acl	_	_
+17	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Außerdem sprechen wir über das Thema, das uns diese Woche am meisten beschäftigt hat: die Chatkontrolle.
+1	Außerdem	außerdem	ADV	PAV	_	2	advmod	_	_
+2	sprechen	sprechen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+4	über	über	ADP	NN	Foreign=Yes	6	case	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	15	punct	_	_
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	_
+9	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	obj	_	_
+10	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	nsubj	_	_
+12-13	am	_	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+15	beschäftigt	beschäftigen	VERB	VVPP	VerbForm=Part	6	acl	_	_
+16	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	:	:	PUNCT	$.	_	19	punct	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Chatkontrolle	Chatkontrolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Zwei Jahre nach der letzten Folge mit diesem Schwerpunkt berichtet Markus, wo wir heute stehen, und wie er es weiter aushält, beständig über diesen netzpolitischen Dauerbrenner zu berichten.
+1	Zwei	zwei	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	_
+3	nach	nach	ADP	ADJA	_	6	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+7	mit	mit	ADP	$(	_	9	case	_	_
+8	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Schwerpunkt	Schwerpunkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+10	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	Markus	Markus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	16	advmod	_	_
+14	wir	wir	PRON	ADJD	_	16	nsubj	_	_
+15	heute	heute	ADV	ADV	_	16	advmod	_	_
+16	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	31	cc	_	_
+19	wie	wie	CCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	23	cc	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+21	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+22	weiter	weit	ADV	ADV	_	23	advmod	_	_
+23	aushält	aushält	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	31	punct	_	_
+25	beständig	beständig	ADJ	ADJD	_	31	amod	_	_
+26	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	29	case	_	_
+27	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+28	netzpolitischen	netzpolitisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	_
+29	Dauerbrenner	Dauerbrenner	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	31	obl	_	_
+30	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	31	mark	_	_
+31	berichten	berichten	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = In dieser Folge: Timur Vorkul, Markus Reuter und Anna Biselli.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Folge	Folge	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	5	punct	_	_
+5	Timur	Timur	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	Vorkul	Vorkul	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Markus	Markus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	Reuter	Reuter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+10	und	und	CCONJ	NE	Foreign=Yes	11	cc	_	_
+11	Anna	Anna	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+12	Biselli	Biselli	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Produktion: Serafin Dinges.
+1	Produktion	Produktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	_
+3	Serafin	Serafin	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	Dinges	Ding	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Titelmusik: Trummerschlunk.
+1	Titelmusik	Titelmusik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	3	punct	_	_
+3	Trummerschlunk	Trummerschlunk	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Hier ist die MP3 zum Download.
+1	Hier	hier	ADV	ADV	_	4	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	MP3	MP3	PROPN	NN	_	0	root	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Download	Download	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Wie gewohnt gibt es den Podcast auch im offenen ogg-Format.
+1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
+2	gewohnt	wohnen	ADJ	ADJD	_	3	advmod	_	_
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	auch	auch	ADV	ADV	_	3	advmod	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	13	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+10	offenen	offen	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	13	amod	_	_
+11	ogg	ogg	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Format	Format	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ein maschinell erstelltes Transkript gibt es im txt-Format.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+2	maschinell	maschinell	ADJ	ADJD	_	4	amod	_	_
+3	erstelltes	erstellt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	Transkript	Transkript	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	11	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+9	txt	txt	ADJ	FM	Foreign=Yes	11	amod	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Format	Format	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = *Unseren Podcast könnt ihr auf vielen Wegen hören.
+1	*	*	SYM	$(	_	2	dep	_	SpaceAfter=No
+2	Unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Podcast	Podcast	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+4	könnt	können	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	amod	_	_
+8	Wegen	Weg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+9	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 13
+# text = Der einfachste: in dem Player hier auf der Seite auf Play drücken.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+2	einfachste	einfach	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	13	punct	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Player	Player	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+7	hier	hier	ADV	ADV	_	13	advmod	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+11	auf	auf	ADP	APPR	_	12	case	_	_
+12	Play	Play	PROPN	NN	Case=Dat|Number=Sing	10	nmod	_	_
+13	drücken	drücken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 14
+# text = Ihr findet uns aber ebenso bei Apple Podcasts, Spotify und Deezer oder mit dem Podcatcher eures Vertrauens, die URL lautet dann netzpolitik.org/podcast.* Wir freuen uns auch über Kritik, Lob, Ideen und Fragen entweder hier in den Kommentaren oder per E‑Mail an podcast@netzpolitik.org. ## Links und Infos **Hausmitteilungen** - Unser Instagram-Account - Erster Text unserer neuen Kollegin in Brüssel **Thema des Monats** - Die Podcast-Folge vor zwei Jahren zum „Beruf: Chatkontrolle“ - Alle unsere Texte zur Chatkontrolle - Warum ist Chatkontrolle so ein Problem?
+1	Ihr	Ihr|ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	103	csubj	_	_
+3	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	_
+4	aber	aber	ADV	ADV	_	2	advmod	_	_
+5	ebenso	ebenso	ADV	ADV	_	2	advmod	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	Apple	Apple	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+8	Podcasts	Podcast	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Spotify	Spotify	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+11	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+12	Deezer	Deezer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+13	oder	oder	CCONJ	XY	_	16	cc	_	_
+14	mit	mit	ADP	$(	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Podcatcher	Podcatcher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	_
+17	eures	euer	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	_
+18	Vertrauens	Vertrauen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	22	punct	_	_
+20	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	nsubj	_	_
+21	URL	URL	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	lautet	lautet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
+23	dann	dann	ADV	ADV	_	22	advmod	_	_
+24	netzpolitik.org/podcast.*	netzpolitik.org/podcast.*	X	$(	_	25	compound	_	SpacesAfter=\s\s
+25	Wir	wir	PRON	NN	Case=Dat|Gender=Neut|Number=Sing	2	flat	_	_
+26	freuen	freuen	VERB	ADJA	Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+27	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	26	obj	_	_
+28	auch	auch	ADV	ADV	_	26	advmod	_	_
+29	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	30	case	_	_
+30	Kritik	Kritik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	32	punct	_	_
+32	Lob	Lob	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No
+33	,	,	PUNCT	$,	_	34	punct	_	_
+34	Ideen	Idee	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	conj	_	_
+35	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	36	cc	_	_
+36	Fragen	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	conj	_	_
+37	entweder	entweder	CCONJ	KON	_	71	cc	_	_
+38	hier	hier	ADV	ADV	_	71	advmod	_	_
+39	in	in	ADP	APPR	_	41	case	_	_
+40	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	41	det	_	_
+41	Kommentaren	Kommentar	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	71	nmod	_	_
+42	oder	oder	CCONJ	XY	_	46	cc	_	_
+43	per	per	ADP	NE	Case=Dat|Number=Sing	46	case	_	_
+44	E	E	NOUN	XY	_	46	compound	_	SpaceAfter=No
+45	‑	‑	PUNCT	$.	_	44	punct	_	SpaceAfter=No
+46	Mail	Mail	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	41	conj	_	_
+47	an	an	ADP	APPR	_	51	case	_	_
+48	podcast@netzpolitik.org	podcast@netzpolitik.org	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	51	amod	_	SpaceAfter=No
+49	.	.	PUNCT	$.	_	48	punct	_	SpacesAfter=\s\s
+50	##	##	PUNCT	$.	_	48	punct	_	_
+51	Links	links	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	_
+52	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	53	cc	_	_
+53	Infos	Infos	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	51	conj	_	SpacesAfter=\s\s
+54	**	**	PUNCT	$.	_	55	punct	_	SpaceAfter=No
+55	Hausmitteilungen*	Hausmitteilungen*	X	$(	_	56	dep	_	SpaceAfter=No
+56	*	*	X	$(	_	58	compound	_	SpacesAfter=\s\s
+57	-	-	PUNCT	$(	_	58	punct	_	_
+58	Unser	unser	PROPN	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	59	nmod	_	_
+59	Instagram	Instagram	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	61	flat	_	SpaceAfter=No
+60	-	-	PUNCT	$(	_	61	punct	_	SpaceAfter=No
+61	Account	Account	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	64	flat	_	_
+62	-	-	PUNCT	$(	_	63	punct	_	_
+63	Erster	erst	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	61	flat	_	_
+64	Text	Text	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	71	nmod	_	_
+65	unserer	unser	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	67	det:poss	_	_
+66	neuen	neu	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	67	amod	_	_
+67	Kollegin	Kollegin	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	71	nmod	_	_
+68	in	in	ADP	APPR	_	69	case	_	_
+69	Brüssel	Brüssel	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	71	nmod	_	SpacesAfter=\s\s
+70	**	**	PUNCT	$.	_	69	punct	_	SpaceAfter=No
+71	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+72	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
+73	Monats*	Monats*	NOUN	$(	_	71	nmod	_	SpaceAfter=No
+74	*	*	X	$(	_	77	compound	_	SpacesAfter=\s\s
+75	-	-	PUNCT	$(	_	77	punct	_	_
+76	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	77	det	_	_
+77	Podcast	Podcast	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	73	nmod	_	SpaceAfter=No
+78	-	-	PUNCT	$(	_	79	punct	_	SpaceAfter=No
+79	Folge	Folge	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	77	flat	_	_
+80	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	82	case	_	_
+81	zwei	zwei	NUM	NN	Case=Nom|Gender=Neut|Number=Sing	82	nummod	_	_
+82	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	71	nmod	_	_
+83-84	zum	_	_	_	_	_	_	_	_
+83	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	86	case	_	_
+84	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
+85	„	„	PUNCT	$.	_	86	punct	_	SpaceAfter=No
+86	Beruf	Beruf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	82	nmod	_	SpaceAfter=No
+87	:	:	PUNCT	$.	_	88	punct	_	_
+88	Chatkontrolle	Chatkontrolle	PROPN	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	86	appos	_	SpaceAfter=No
+89	“	“	PUNCT	$.	_	91	punct	_	_
+90	-	-	PUNCT	$(	_	91	punct	_	_
+91	Alle	alle	PRON	PIAT	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	88	compound	_	_
+92	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	93	det:poss	_	_
+93	Texte	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	86	obj	_	_
+94-95	zur	_	_	_	_	_	_	_	_
+94	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	96	case	_	_
+95	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	96	det	_	_
+96	Chatkontrolle	Chatkontrolle	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	93	nmod	_	_
+97	-	-	PUNCT	$(	_	98	punct	_	_
+98	Warum	warum	PROPN	PWAV	PronType=Int	96	flat	_	_
+99	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	103	cop	_	_
+100	Chatkontrolle	Chatkontrolle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	103	nsubj	_	_
+101	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	103	advmod	_	_
+102	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	103	det	_	_
+103	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+104	?	?	PUNCT	$.	_	103	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = **Aus dem Maschinenraum** - Timurs Text zu einem vietnamesichen Exilmedium **Blattkritik** - Interview zu Charlie Kirk mit Berit Glanz - BAMF liest viel weniger Smartphones aus - Ausländerbehörden lesen dafür sehr viele Smartphones aus - Alaa Abd el-Fattah kommt endlich frei ## Schreibe eine Ergänzung!
+1	**	**	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Aus	aus	ADP	TRUNC	Case=Dat|Gender=Neut|Number=Sing	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Maschinenraum*	Maschinenraum*	NOUN	$(	_	26	obl	_	SpaceAfter=No
+5	*	*	X	$(	_	7	compound	_	SpacesAfter=\s\s
+6	-	-	PUNCT	$(	_	5	punct	_	_
+7	Timurs	Timurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	flat	_	_
+8	Text	Text	NOUN	FM	Foreign=Yes	4	flat	_	_
+9	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	case	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+11	vietnamesichen	vietnamesich	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
+12	Exilmedium	Exilmedium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpacesAfter=\s\s
+13	**	**	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+14	Blattkritik*	Blattkritik*	X	$(	_	17	compound	_	SpaceAfter=No
+15	*	*	X	$(	_	17	compound	_	SpacesAfter=\s\s
+16	-	-	PUNCT	$(	_	15	punct	_	_
+17	Interview	Interview	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	19	flat	_	_
+18	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+19	Charlie	Charlie	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+20	Kirk	Kirk	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+21	mit	mit	ADP	$(	_	22	case	_	_
+22	Berit	Berit	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+23	Glanz	Glanz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	22	flat	_	_
+24	-	-	PUNCT	$(	_	25	punct	_	_
+25	BAMF	BAMF	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	22	flat	_	_
+26	liest	lesen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	viel	viel	ADV	NE	Foreign=Yes	26	advmod	_	_
+28	weniger	wenig	DET	NE	Foreign=Yes	29	amod	_	_
+29	Smartphones	Smartphon	NOUN	NE	Foreign=Yes	26	obj	_	_
+30	aus	aus	ADP	PTKVZ	_	33	case	_	_
+31	-	-	PUNCT	$(	_	32	punct	_	_
+32	Ausländerbehörden	Ausländerbehörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	33	compound	_	_
+33	lesen	lesen	VERB	VVINF	VerbForm=Inf	26	xcomp	_	_
+34	dafür	dafür	ADV	PAV	_	33	advmod	_	_
+35	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	36	advmod	_	_
+36	viele	viel	DET	NE	Case=Nom|Gender=Fem|Number=Sing	37	amod	_	_
+37	Smartphones	Smartphon	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	45	nsubj	_	_
+38	aus	aus	ADP	APPR	_	40	case	_	_
+39	-	-	PUNCT	$(	_	38	punct	_	_
+40	Alaa	Alaa	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	37	nmod	_	_
+41	Abd	Abd	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	40	flat	_	_
+42	el	el	PROPN	NE	Case=Dat|Number=Sing	40	flat	_	SpaceAfter=No
+43	-	-	PUNCT	$(	_	44	punct	_	SpaceAfter=No
+44	Fattah	Fattah	PROPN	NE	Case=Dat|Number=Sing	40	flat	_	_
+45	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis	_	_
+46	endlich	endlich	ADV	ADV	_	45	advmod	_	_
+47	frei	frei	ADJ	ADJD	_	49	amod	_	SpacesAfter=\s\s\s
+48	##	##	PUNCT	$.	_	47	punct	_	_
+49	Schreibe	Schreibe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	45	obl	_	_
+50	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	Ergänzung	Ergänzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	45	nsubj	_	SpaceAfter=No
+52	!	!	PUNCT	$.	_	26	punct	_	SpacesAfter=\n
+
+
