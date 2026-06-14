@@ -203,3 +203,9 @@ In den obigen Beispielen wurde bei der Annotation ein eher induktiver Ansatz gew
 Ein einfacher CSV-Export ist in INCEpTION leider nicht möglich ([hier](https://stackoverflow.com/questions/64704561/exporting-text-sequences-with-labels-from-inception-annotation-engine) wird allerdings ein Workaround vorgestellt); dafür lassen sich die Annotationen am Ende im "Curation"-Tab quasi alle zusammen anschauen, was für die qualitative Auswertung auch hilfreich sein kann (um ein Dokument im "Curation"-Tab sehen zu können, muss allerdings die Annotation zunächst abgeschlossen werden - dafür muss man auf den "Toggle State"-Button klicken, der wie ein Häkchen aussieht und das Dokument in den Read-only-Modus überführt.)
 
 ![Toggle-State-Button in INCEpTION](images/inception-toggle-state.png){fig-alt="Screenshot des Toggle-State-Button in INCEpTION"}
+
+::: callout-note
+# Zitieren von Software
+
+Bei Software wie INCEption, OpenQDA oder auch anderen Programmen handelt es sich um Hilfsmittel, die im Sinne der guten wissenschaftlichen Praxis zitiert werden sollten. Textverarbeitungs- und Tabellenkalkulationsprogramme wie Word und Excel werden üblicherweise nicht zitiert; Software, die z.B. zur Erstellung von Visualisierungen oder statistischen Auswertungen substanziell beiträgt, sollte indes immer zitiert werden. Oft finden sich auf den Websites der jeweiligen Tools entsprechende Hinweise; wenn Sie R verwenden, können Sie dort über `citation()` Zitationshinweise zu einzelnen Paketen bekommen.
+:::
