@@ -116,7 +116,10 @@ hdr <- grep("---", d[1:20])
 d <- d[(hdr[2]+1):length(d)]
 
 # parsen
-spacy_parse(d)
+d_parsed <- spacy_parse(d)
+
+# Output
+head(d_parsed, 10)
 
 ```
 
@@ -190,4 +193,10 @@ for(i in 1:length(f)) {
 
 Die so entstehenden CoNLL-U-Dokumente können wir dann z.B. auch in INCEpTION zur weiteren Bearbeitung öffnen.
 
-![Öffnen von CoNLL-U-Dateien in INCEpTION](images/inception_ud.gif){fig-alt="Der Screencast zeigt, wie ein neues Projekt mit der Einstellung \"Universal Dependencies\" in INCEpTION angelegt wird. Anschließend werden die über den Code weiter oben erstellten CoNLL-U-Dateien eingelesen. Im Annotations-Interface wird das syntaktische Parsing der Dateien bereits automatisch visualisiert."}
+![Öffnen von CoNLL-U-Dateien in INCEpTION](images/inception_ud.gif){fig-alt="Der Screencast zeigt, wie in INCEpTION ein neues Projekt erstellt wird und dann CoNLL-U-Dateien eingelesen werden"}
+
+## Fazit
+
+Insgesamt zeigt sich, dass viele der "Advanced"-Methoden tatsächlich "advanced" sind und im besten Fall etwas computationales Vorwissen erfordern – und zudem ein gewisses Maß an Frustrationstoleranz, da man bei der Verwendung solcher Methoden gerade als Anfänger:in oft mit kryptischen Fehlermeldungen zu kämpfen hat. Wir sehen aber auch, dass diese Methoden kein Hexenwerk sind, und dank Hilfeseiten wie StackOverflow und neuerdings auch Sprachmodellen wie ChatGPT, die sich beim Troubleshooting als hilfreich erweisen können, können solche Methoden heutzutage auch von weniger programmiererfahrenen Personen verwendet werden.
+
+Was aus linguistischer Sicht am Ende zählt, ist die Qualität der Analyse, ob sie nun eher qualitativ oder eher quantitativ orientiert ausfällt. Hier konnten wir in diesem Tutorial natürlich nur an der Oberfläche kratzen, aber ich hoffe, gezeigt zu haben, dass die Arbeit mit selbst erstellten Korpora weniger Hürden mit sich bringt, als manche vielleicht zunächst befürchten mögen – gerade wenn man sich auf die "Quick&Dirty"-Methode beschränkt.
